@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <jsp:include page="commons/header.jsp" /> 
+    <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load('visualization', '1');
+    </script>
+    <script type="text/javascript">
+      function drawVisualization() {
+        var data = new google.visualization.DataTable();
+        data.addColumn('number', 'Date');
+        data.addColumn('number', 'N');  
+        
+        
+        var x = document.getElementById("X").value;
+        var y = document.getElementById("Y").value;
+        
+        var xx = x.split(",");
+        var yy = y.split(",");
+        
+        
+        
+        for (i=0; i<xx.length; i++) { 
+            data.addRow([parseInt(xx[i]),parseInt(yy[i])]);
+        } 
+        alert("ciao");
+        
+        new google.visualization.LineChart(document.getElementById('visualization')).
+        draw(data, {curveType: "function",
+                  width: 500, height: 400,
+                  vAxis: {maxValue: 10}}
+        );
+        
+        alert("ciao");
+        
+        
+      }
+      google.setOnLoadCallback(drawVisualization);
+    </script>
+    </head>
+    <body class="mono-pag">
+        <jsp:include page="commons/banner.jsp" />
+        <div id="wrapper">
+            <div id="flotting">
+                <input  type="hidden" id="X" name="X" value="1,2,3,4,5,6,7,8,9,10"></input>
+                <input type="hidden" id="Y" name="Y" value="1,2,3,4,5,6,7,8,9,10"></input>

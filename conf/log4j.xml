@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd"> 
+
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/" debug="false">
+
+    <appender name="CONSOLE" class="org.apache.log4j.ConsoleAppender">
+        <param name="Target" value="System.out" />
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{yyyyMMdd.HHmmss.SSS} %-5p %c{1} - %m%n" />
+        </layout>
+    </appender>
+  <appender name="CACHE" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="File" value="logs/cache.log"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{yyMMddHHmmss} %d %p %c{2} - %m%n"/>
+        </layout>
+    </appender>
+  <appender name="RANKING" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="File" value="logs/ranking.log"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{yyMMddHHmmss} %d %p %c{2} - %m%n"/>
+        </layout>
+    </appender>
+    <appender name="WEBSITE" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="File" value="logs/website.log"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{yyMMddHHmmss} %d %p %c{2} - %m%n"/>
+        </layout>
+    </appender>
+    <appender name="WEBSITE_ADMIN" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="File" value="logs/website_admin.log"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{yyMMddHHmmss} %d %p %c{2} - %m%n"/>
+        </layout>
+    </appender>
+    <appender name="EMAIL" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="File" value="logs/email.log"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{yyMMddHHmmss} %d %p %c{2} - %m%n"/>
+        </layout>
+    </appender>
+    <appender name="CONVERIONS" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="File" value="logs/conversion.log"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{yyMMddHHmmss} %d %p %c{2} - %m%n"/>
+        </layout>
+    </appender>
+    <appender name="WEBSITE_API_CALLS" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="File" value="logs/website_api_calls.log"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{yyMMddHHmmss} %d %p %c{2} - %m%n"/>
+        </layout>
+    </appender>
+    <appender name="BACKEND" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="File" value="logs/backend.log"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{yyMMddHHmmss} %d %p %c{2} - %m%n"/>
+        </layout>
+    </appender>
+    <appender name="CRON" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="File" value="logs/cron.log"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{yyMMddHHmmss} %d %p %c{2} - %m%n"/>
+        </layout>
+    </appender>
+    <appender name="CONFIGURATION" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="File" value="logs/configuration.log"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{yyMMddHHmmss} %d %p %c{2} - %m%n"/>
+        </layout>
+    </appender>
+    <appender name="NETLIMITER" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="File" value="logs/netlimiter.log"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d %p %c{2} - %m%n"/>
+        </layout>
+    </appender>
+    <appender name="API" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="File" value="logs/api.log"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{yyMMddHHmmss} %d %p %c{2} - %m%n"/>
+        </layout>
+    </appender>
+    <appender name="PERENNIAL" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="File" value="logs/perennial.log"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{yyMMddHHmmss} %d %p %c{2} - %m%n"/>
+        </layout>
+    </appender>
+    <appender name="PERENNIAL_FBACT" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="File" value="logs/perennial_fbact.log"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{yyMMddHHmmss} %d %p %c{2} - %m%n"/>
+        </layout>
+    </appender>
+    <appender name="PERENNIAL_MAIL" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="File" value="logs/perennial_mail.log"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{yyMMddHHmmss} %d %p %c{2} - %m%n"/>
+        </layout>
+    </appender>
+    <appender name="PERENNIAL_PLAYER" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="File" value="logs/perennial_player.log"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{yyMMddHHmmss} %d %p %c{2} - %m%n"/>
+        </layout>
+    </appender>
+    <appender name="PERENNIAL_USER" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="File" value="logs/perennial_user.log"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{yyMMddHHmmss} %d %p %c{2} - %m%n"/>
+        </layout>
+    </appender>
+    
+    <appender name="SDK_LOGGING" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="File" value="logs/sdk_logging.log"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d %p %c{2} - %m%n"/>
+        </layout>
+    </appender>
+    <appender name="SDK_LOGGING_ANDROID" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="File" value="logs/sdk_logging_android.log"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d %p %c{2} - %m%n"/>
+        </layout>
+    </appender>
+    <appender name="SDK_LOGGING_IOS" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="File" value="logs/sdk_logging_ios.log"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d %p %c{2} - %m%n"/>
+        </layout>
+    </appender>
+
+<!-- ======================================================================== -->
+
+    <category name="com.beintoo.api.filter.NetLimiterFilter" additivity="false">
+        <priority value="DEBUG"/>
+        <appender-ref ref="NETLIMITER"/>
+    </category>
+    <category name="SDK_LOGGING" additivity="false">
+        <priority value="DEBUG"/>
+        <appender-ref ref="SDK_LOGGING"/>
+    </category>
+    <category name="SDK_LOGGING_ANDROID" additivity="false">
+        <priority value="DEBUG"/>
+        <appender-ref ref="SDK_LOGGING_ANDROID"/>
+    </category>
+    <category name="SDK_LOGGING_IOS" additivity="false">
+        <priority value="DEBUG"/>
+        <appender-ref ref="SDK_LOGGING_IOS"/>
+    </category>
+	
+    <category name="com.beintoo.api" additivity="false">
+        <priority value="DEBUG"/>
+        <appender-ref ref="API"/>
+    </category>
+    <category name="com.beintoo.commons.solr" additivity="false">
+        <priority value="DEBUG"/>
+        <appender-ref ref="API"/>
+    </category>
+    <category name="com.beintoo.dispatcher" additivity="false">
+        <priority value="DEBUG"/>
+        <appender-ref ref="API"/>
+    </category>    
+    <category name="com.beintoo.commons.util" additivity="false">
+        <priority value="DEBUG"/>
+        <appender-ref ref="API"/>
+    </category>
+   <category name="com.beintoo.commons.helper" additivity="false">
+        <priority value="DEBUG"/>
+        <appender-ref ref="API"/>
+    </category>
+   <category name="com.beintoo.jms" additivity="false">
+        <priority value="DEBUG"/>
+        <appender-ref ref="API"/>
+    </category>
+   <category name="com.beintoo.external" additivity="false">
+        <priority value="DEBUG"/>
+        <appender-ref ref="API"/>
+    </category>
+   <category name="com.beintoo.cron" additivity="false">
+        <priority value="DEBUG"/>
+        <appender-ref ref="CRON"/>
+    </category>
+   <category name="com.beintoo.cron.updater" additivity="false">
+        <priority value="DEBUG"/>
+        <appender-ref ref="PERENNIAL"/>
+    </category>
+    <category name="com.beintoo.cron.updater.FBUpdaterTask" additivity="false">
+        <priority value="DEBUG"/>
+        <appender-ref ref="PERENNIAL_FBACT"/>
+    </category>
+       <category name="com.beintoo.cron.updater.MailTask" additivity="false">
+        <priority value="DEBUG"/>
+        <appender-ref ref="PERENNIAL_MAIL"/>
+    </category>
+    <category name="com.beintoo.cron.updater.PlayerUpdaterTask" additivity="false">
+        <priority value="DEBUG"/>
+        <appender-ref ref="PERENNIAL_PLAYER"/>
+    </category>
+    <category name="com.beintoo.cron.updater.UserUpdaterTask" additivity="false">
+        <priority value="DEBUG"/>
+        <appender-ref ref="PERENNIAL_USER"/>
+    </category>
+   
+   <category name="com.beintoo.mercurioo" additivity="false">
+        <priority value="DEBUG"/>
+        <appender-ref ref="PERENNIAL"/>
+    </category>
+
+ <category name="com.restfb" additivity="false">
+        <priority value="DEBUG"/>
+        <appender-ref ref="BACKEND"/>
+    </category>
+
+    <category name="WEBSITE" additivity="false">
+        <priority value="ERROR"/>
+        <appender-ref ref="WEBSITE"/>
+    </category>
+    <category name="WEBSITE_ADMIN" additivity="false">
+        <priority value="DEBUG"/>
+        <appender-ref ref="WEBSITE_ADMIN"/>
+    </category>
+    <category name="WEBSITE_API_CALLS" additivity="false">
+        <priority value="DEBUG"/>
+        <appender-ref ref="WEBSITE_API_CALLS"/>
+    </category>
+  <category name="RANKING" additivity="false">
+        <priority value="DEBUG"/>
+        <appender-ref ref="RANKING"/>
+    </category>
+<category name="CONVERSION" additivity="false">
+        <priority value="INFO"/>
+        <appender-ref ref="CONVERSION"/>
+    </category>
+    <category name="DELIVERY" additivity="false">
+        <priority value="DEBUG"/>
+        <appender-ref ref="BACKEND"/>
+    </category>
+    <category name="CRON" additivity="false">
+        <priority value="DEBUG"/>
+        <appender-ref ref="CRON"/>
+    </category>
+        <category name="EMAIL" additivity="false">
+        <priority value="DEBUG"/>
+        <appender-ref ref="EMAIL"/>
+    </category>
+
+    <category name="CONFIGURATION" additivity="false">
+        <priority value="INFO"/>
+        <appender-ref ref="CONFIGURATION"/>
+    </category>
+
+    <category name="com.beintoo" additivity="false">
+        <level value="DEBUG"/>
+        <appender-ref ref="CONSOLE" />
+    </category>
+
+    <category name="com.danga" additivity="false">
+        <level value="ERROR"/>
+        <appender-ref ref="CACHE" />
+    </category>
+
+    <root>
+        <priority value="INFO"/>
+        <appender-ref ref="CONSOLE"/>
+    </root>
+</log4j:configuration> 

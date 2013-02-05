@@ -1,0 +1,4 @@
+121112120652 2012-11-12 12:06:52,614 INFO DELIVERY - asking code to : https://graph.facebook.com/oauth/access_token?type=client_cred&client_id=95687611783&client_secret=b6d0364baba679d048f106cd6f781a6a&code=265cb3b39db7cfde8ee7d8f8.2-639770142%7CbdUI8UbTI387ddEXbaG4d-7KTrE&redirect_uri=http%3A%2F%2Fworking.beintoo.com%2FPhpWrapper%2Flogger.php
+121112120653 2012-11-12 12:06:53,856 DEBUG DELIVERY - getServerSideAccessToken OUTPUT: 200 : 95687611783|ZCv_BUhWgMFb6D7FarLJuFv-ULg
+121112121307 2012-11-12 12:13:07,098 INFO DELIVERY - asking code to : https://graph.facebook.com/oauth/access_token?type=client_cred&client_id=95687611783&client_secret=b6d0364baba679d048f106cd6f781a6a&code=265cb3b39db7cfde8ee7d8f8.2-639770142%7CbdUI8UbTI387ddEXbaG4d-7KTrE&redirect_uri=http%3A%2F%2Fworking.beintoo.com%2FPhpWrapper%2Flogger.php
+121112121308 2012-11-12 12:13:08,260 DEBUG DELIVERY - getServerSideAccessToken OUTPUT: 200 : 95687611783|ZCv_BUhWgMFb6D7FarLJuFv-ULg

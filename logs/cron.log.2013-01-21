@@ -1,0 +1,5 @@
+130121095406 2013-01-21 09:54:06,449 INFO CRON - java.lang.ArrayIndexOutOfBoundsException: 2
+130121095453 2013-01-21 09:54:53,685 INFO CRON - java.lang.ArrayIndexOutOfBoundsException: 2
+130121095717 2013-01-21 09:57:17,295 INFO CRON - java.lang.ArrayIndexOutOfBoundsException: 2
+130121095802 2013-01-21 09:58:02,865 INFO CRON - java.lang.ArrayIndexOutOfBoundsException: 2
+130121100003 2013-01-21 10:00:03,360 INFO CRON - java.lang.ArrayIndexOutOfBoundsException: 2

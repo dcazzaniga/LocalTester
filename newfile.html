@@ -1,0 +1,88 @@
+<!--
+You are free to copy and use this sample in accordance with the terms of the
+Apache license (http://www.apache.org/licenses/LICENSE-2.0.html)
+-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load('visualization', '1', {packages: ['corechart']});
+    </script>
+    <script type="text/javascript">
+      function drawVisualization() {
+        
+        var data = new google.visualization.DataTable();
+        data.addColumn('number', 'Date');
+        data.addColumn('number', 'a');  
+        data.addColumn('number', 'b');  
+        data.addColumn('number', 'c');
+        
+        var xx = document.getElementById('X').value.split(",");
+        var yy = document.getElementById('Y').value.split(",");
+        var y2 = document.getElementById('Y2').value.split(",");
+        var y3 = document.getElementById('Y3').value.split(",");
+        
+        for (i=0; i<xx.length; i++) { 
+            data.addRow([parseInt(xx[i]),parseInt(yy[i]),parseInt(y2[i]),parseInt(y3[i])]);
+        } 
+        
+        // Create and draw the visualization.
+        new google.visualization.AreaChart(document.getElementById('visualization')).
+            draw(data, {curveType: "function",
+                        width: 500, height: 400,
+                        vAxis: {maxValue: 10,minValue: -1}}
+                );
+      }
+      
+
+      google.setOnLoadCallback(drawVisualization);
+    </script>
+  </head>
+  <body style="font-family: Arial;border: 0 none;">
+     <input  type="hidden" id="X" name="X" value="1,2,3,4,5,6,7,8,9,10"></input>
+     <input type="hidden" id="Y" name="Y" value="1,5,3,8,5,6,5,8,3,2"></input>
+      <input type="hidden" id="Y2"  value="1,2,0,4,2,6,2,8,2,9"></input>
+      <input type="hidden" id="Y3"  value="4,2,1,1,3,5,2,7,2,9"></input>
+    <div id="visualization" style="width: 500px; height: 400px;"></div>
+  </body>
+</html>
+
+
+
+
+<!--<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load('visualization', '1', {packages: ['corechart']});
+    </script>
+    <script type="text/javascript">
+      function drawVisualization() {
+        
+        var data = new google.visualization.DataTable();
+        data.addColumn('number', 'Date');
+        data.addColumn('number', 'N');  
+        
+        var xx = document.getElementById('X').value.split(",");
+        var yy = document.getElementById('Y').value.split(",");
+        
+        alert('${results.get(0).getDate().get(0)}');
+        
+        for (i=0; i<xx.length; i++) { 
+            data.addRow([parseInt(xx[i]),parseInt(yy[i])]);
+            
+        } 
+        
+        // Create and draw the visualization.
+        new google.visualization.LineChart(document.getElementById('visualization')).
+            draw(data, {curveType: "function",
+                        width: 500, height: 400,
+                        vAxis: {maxValue: 10}}
+                );
+      }
+      
+
+      google.setOnLoadCallback(drawVisualization);
+    </script>-->
