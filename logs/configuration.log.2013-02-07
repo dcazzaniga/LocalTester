@@ -1,0 +1,1598 @@
+130207130620 2013-02-07 13:06:20,143 INFO CONFIGURATION - Current machine IP address: null
+130207130620 2013-02-07 13:06:20,187 INFO CONFIGURATION - ---------------------- SYSTEM CONFIGURATION ----------------------
+130207130620 2013-02-07 13:06:20,191 INFO CONFIGURATION - Properties: {
+developer_area = 'true'
+emailtest.placeid = '1'
+emailtest.vgoodpromotioncodeid = '1'
+emailtest.contestid = '1'
+emailtest.customerid = '1'
+emailtest.appid = '1'
+emailtest.vgoodid = '1'
+emailtest.userid = '1'
+emailtest.targetuserid = '2'
+emailtest.uvid_no_poi_code = '150'
+emailtest.uvid_no_poi_no_code = '1289'
+emailtest.uvid_poi_code = '95'
+emailtest.uvid_poi_no_code = '962'
+emailtest.uvadilityid = '1289'
+emailtest.uvid_marketplace_price_poi = '997'
+emailtest.uvid_marketplace_price_no_poi = '1'
+emailtest.uvid_marketplace_no_price_no_poi = '150'
+emailtest.uvid_marketplace_no_price_poi = '962'
+emailserver.url = 'http://localhost:8080/email'
+BannerVsVgoodRatio = '0.35'
+NoPlayerSubmitScoreForNotUser = 'false'
+BannerBannedList = 'MOJIVA;EJAM'
+BannerRange.NEXAGE = '80'
+BannerRange.MOOLAHMEDIA = '20'
+fb.app_id = '95687611783'
+fb.page_id = '288109507867236'
+fb.api_key = '03c5087607dab5f9097f71b1efa491aa'
+fb.api_secret = 'b6d0364baba679d048f106cd6f781a6a'
+profile_images_path = '/Users/Willy/glassfish3/glassfish/domains/domain1/tmp'
+profile_images_external_path = 'http://static.beintoo.com/images'
+CONVERSION_MAX_DISTANCE_METERS = '500'
+base_url = 'http://localhost:8080'
+base_url_api = 'http://sandbox.beintoo.com'
+cookies_path = 'http://localhost:8080'
+beintoo_app_api_key = '567890123456'
+beintoo_contest_invite_app_api_key = '234567890123'
+prize_add_friend_bedollars = '50'
+bedollars_vote = '1'
+bedollars_comment = '2'
+user_signup_bedollars = '100'
+USE_GEONAMES = 'false'
+developers_app_default_percentage = '0.60'
+p3p_specs = 'CP='IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT''
+admin_email = 'admin@beintoo.com'
+admin_password = 'tmct1234sftp'
+deal.adility_customer_id = '4'
+deal.adility_percentage = '0.65'
+deal.paypal_fee = '0.30'
+deal.paypal_percentage = '0.039'
+deal.user_discount = '0.1'
+deal.user_discount_min = '1'
+deal.user_discount_max = '20'
+campaign.default_bedollars = '20'
+VOUCHACHA_APIKEY = '688695db63f76594b3a62715c68ee1ea6d8d6c48'
+campaign.tracking_landing = 'http://localhost:8080/tracking/vgood'
+css_version = '1'
+EMAIL_SERVER_IPADDRESS = '127.0.0.1'
+minimum.sponsored_achievement_cpu = '0.35'
+minimum.sponsored_achievement_cpe = '0.25'
+minimum.sponsored_achievement_budget = '150'
+minimum.campaign_cpd = '0.1'
+minimum.campaign_cpua = '0.25'
+minimum.campaign_cpl = '0.51'
+minimum.campaign_cpaa = '5.00'
+minimum.vgoodpromotioncodes_number = '10'
+static.https_url = 'https://s3-eu-west-1.amazonaws.com/static.beintoo.com/'
+static.http_url = 'http://static.beintoo.com/'
+connect.exclude_china = 'true'
+retailer.supported_countries = 'IT'
+VGOODS_IT = '[1050976, 1169138]'
+VGOODS_GB = '[1169225, 873294, 23221]'
+VGOODS_US = '[1147057, 1147041, 1149722]'
+getMembasePoolURI = 'http://localhost:8091/pools'
+}
+130207130620 2013-02-07 13:06:20,192 INFO CONFIGURATION - DEVELOPER_AREA: true
+130207130620 2013-02-07 13:06:20,192 INFO CONFIGURATION - FB_APP_ID: 95687611783
+130207130620 2013-02-07 13:06:20,192 INFO CONFIGURATION - FB_API_KEY: 03c5087607dab5f9097f71b1efa491aa
+130207130620 2013-02-07 13:06:20,192 INFO CONFIGURATION - FB_API_SECRET: b6d0364baba679d048f106cd6f781a6a
+130207130620 2013-02-07 13:06:20,192 INFO CONFIGURATION - FB_FEED_DELAY: 3600000
+130207130620 2013-02-07 13:06:20,193 INFO CONFIGURATION - ACTIVITY_DELIVERY: true
+130207130620 2013-02-07 13:06:20,193 INFO CONFIGURATION - MAIL_DELAY: 86400000
+130207130620 2013-02-07 13:06:20,193 INFO CONFIGURATION - GENERATED_IMAGES_PATH: /Users/Willy/glassfish3/glassfish/domains/domain1/tmp
+130207130620 2013-02-07 13:06:20,193 INFO CONFIGURATION - GENERATED_IMAGES_EXTERNAL_PATH: http://static.beintoo.com/images
+130207130620 2013-02-07 13:06:20,193 INFO CONFIGURATION - BASE_URL: http://localhost:8080
+130207130620 2013-02-07 13:06:20,193 INFO CONFIGURATION - BASE_URL_API: http://sandbox.beintoo.com
+130207130620 2013-02-07 13:06:20,194 INFO CONFIGURATION - BEINTOO_APP_API_KEY: 567890123456
+130207130620 2013-02-07 13:06:20,194 INFO CONFIGURATION - BEINTOO_CONTEST_INVITE_APP_API_KEY: 234567890123
+130207130620 2013-02-07 13:06:20,194 INFO CONFIGURATION - APP_DEFAULT_PERCENTAGE: 0.6
+130207130620 2013-02-07 13:06:20,194 INFO CONFIGURATION - PRIZE_ADD_FRIEND_BEDOLLARS: 50
+130207130620 2013-02-07 13:06:20,194 INFO CONFIGURATION - BEDOLLARS_VOTE: 1
+130207130620 2013-02-07 13:06:20,195 INFO CONFIGURATION - BEDOLLARS_COMMENT: 2
+130207142643 2013-02-07 14:26:43,028 INFO CONFIGURATION - Current machine IP address: null
+130207142643 2013-02-07 14:26:43,047 INFO CONFIGURATION - ---------------------- SYSTEM CONFIGURATION ----------------------
+130207142643 2013-02-07 14:26:43,049 INFO CONFIGURATION - Properties: {
+developer_area = 'true'
+emailtest.placeid = '1'
+emailtest.vgoodpromotioncodeid = '1'
+emailtest.contestid = '1'
+emailtest.customerid = '1'
+emailtest.appid = '1'
+emailtest.vgoodid = '1'
+emailtest.userid = '1'
+emailtest.targetuserid = '2'
+emailtest.uvid_no_poi_code = '150'
+emailtest.uvid_no_poi_no_code = '1289'
+emailtest.uvid_poi_code = '95'
+emailtest.uvid_poi_no_code = '962'
+emailtest.uvadilityid = '1289'
+emailtest.uvid_marketplace_price_poi = '997'
+emailtest.uvid_marketplace_price_no_poi = '1'
+emailtest.uvid_marketplace_no_price_no_poi = '150'
+emailtest.uvid_marketplace_no_price_poi = '962'
+emailserver.url = 'http://localhost:8080/email'
+BannerVsVgoodRatio = '0.35'
+NoPlayerSubmitScoreForNotUser = 'false'
+BannerBannedList = 'MOJIVA;EJAM'
+BannerRange.NEXAGE = '80'
+BannerRange.MOOLAHMEDIA = '20'
+fb.app_id = '95687611783'
+fb.page_id = '288109507867236'
+fb.api_key = '03c5087607dab5f9097f71b1efa491aa'
+fb.api_secret = 'b6d0364baba679d048f106cd6f781a6a'
+profile_images_path = '/Users/Willy/glassfish3/glassfish/domains/domain1/tmp'
+profile_images_external_path = 'http://static.beintoo.com/images'
+CONVERSION_MAX_DISTANCE_METERS = '500'
+base_url = 'http://localhost:8080'
+base_url_api = 'http://sandbox.beintoo.com'
+cookies_path = 'http://localhost:8080'
+beintoo_app_api_key = '567890123456'
+beintoo_contest_invite_app_api_key = '234567890123'
+prize_add_friend_bedollars = '50'
+bedollars_vote = '1'
+bedollars_comment = '2'
+user_signup_bedollars = '100'
+USE_GEONAMES = 'false'
+developers_app_default_percentage = '0.60'
+p3p_specs = 'CP='IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT''
+admin_email = 'admin@beintoo.com'
+admin_password = 'tmct1234sftp'
+deal.adility_customer_id = '4'
+deal.adility_percentage = '0.65'
+deal.paypal_fee = '0.30'
+deal.paypal_percentage = '0.039'
+deal.user_discount = '0.1'
+deal.user_discount_min = '1'
+deal.user_discount_max = '20'
+campaign.default_bedollars = '20'
+VOUCHACHA_APIKEY = '688695db63f76594b3a62715c68ee1ea6d8d6c48'
+campaign.tracking_landing = 'http://localhost:8080/tracking/vgood'
+css_version = '1'
+EMAIL_SERVER_IPADDRESS = '127.0.0.1'
+minimum.sponsored_achievement_cpu = '0.35'
+minimum.sponsored_achievement_cpe = '0.25'
+minimum.sponsored_achievement_budget = '150'
+minimum.campaign_cpd = '0.1'
+minimum.campaign_cpua = '0.25'
+minimum.campaign_cpl = '0.51'
+minimum.campaign_cpaa = '5.00'
+minimum.vgoodpromotioncodes_number = '10'
+static.https_url = 'https://s3-eu-west-1.amazonaws.com/static.beintoo.com/'
+static.http_url = 'http://static.beintoo.com/'
+connect.exclude_china = 'true'
+retailer.supported_countries = 'IT'
+VGOODS_IT = '[1050976, 1169138]'
+VGOODS_GB = '[1169225, 873294, 23221]'
+VGOODS_US = '[1147057, 1147041, 1149722]'
+getMembasePoolURI = 'http://localhost:8091/pools'
+}
+130207142643 2013-02-07 14:26:43,050 INFO CONFIGURATION - DEVELOPER_AREA: true
+130207142643 2013-02-07 14:26:43,050 INFO CONFIGURATION - FB_APP_ID: 95687611783
+130207142643 2013-02-07 14:26:43,050 INFO CONFIGURATION - FB_API_KEY: 03c5087607dab5f9097f71b1efa491aa
+130207142643 2013-02-07 14:26:43,050 INFO CONFIGURATION - FB_API_SECRET: b6d0364baba679d048f106cd6f781a6a
+130207142643 2013-02-07 14:26:43,050 INFO CONFIGURATION - FB_FEED_DELAY: 3600000
+130207142643 2013-02-07 14:26:43,050 INFO CONFIGURATION - ACTIVITY_DELIVERY: true
+130207142643 2013-02-07 14:26:43,061 INFO CONFIGURATION - MAIL_DELAY: 86400000
+130207142643 2013-02-07 14:26:43,061 INFO CONFIGURATION - GENERATED_IMAGES_PATH: /Users/Willy/glassfish3/glassfish/domains/domain1/tmp
+130207142643 2013-02-07 14:26:43,061 INFO CONFIGURATION - GENERATED_IMAGES_EXTERNAL_PATH: http://static.beintoo.com/images
+130207142643 2013-02-07 14:26:43,061 INFO CONFIGURATION - BASE_URL: http://localhost:8080
+130207142643 2013-02-07 14:26:43,061 INFO CONFIGURATION - BASE_URL_API: http://sandbox.beintoo.com
+130207142643 2013-02-07 14:26:43,061 INFO CONFIGURATION - BEINTOO_APP_API_KEY: 567890123456
+130207142643 2013-02-07 14:26:43,061 INFO CONFIGURATION - BEINTOO_CONTEST_INVITE_APP_API_KEY: 234567890123
+130207142643 2013-02-07 14:26:43,062 INFO CONFIGURATION - APP_DEFAULT_PERCENTAGE: 0.6
+130207142643 2013-02-07 14:26:43,062 INFO CONFIGURATION - PRIZE_ADD_FRIEND_BEDOLLARS: 50
+130207142643 2013-02-07 14:26:43,062 INFO CONFIGURATION - BEDOLLARS_VOTE: 1
+130207142643 2013-02-07 14:26:43,062 INFO CONFIGURATION - BEDOLLARS_COMMENT: 2
+130207143025 2013-02-07 14:30:25,659 INFO CONFIGURATION - Current machine IP address: null
+130207143025 2013-02-07 14:30:25,659 INFO CONFIGURATION - ---------------------- SYSTEM CONFIGURATION ----------------------
+130207143025 2013-02-07 14:30:25,661 INFO CONFIGURATION - Properties: {
+developer_area = 'true'
+emailtest.placeid = '1'
+emailtest.vgoodpromotioncodeid = '1'
+emailtest.contestid = '1'
+emailtest.customerid = '1'
+emailtest.appid = '1'
+emailtest.vgoodid = '1'
+emailtest.userid = '1'
+emailtest.targetuserid = '2'
+emailtest.uvid_no_poi_code = '150'
+emailtest.uvid_no_poi_no_code = '1289'
+emailtest.uvid_poi_code = '95'
+emailtest.uvid_poi_no_code = '962'
+emailtest.uvadilityid = '1289'
+emailtest.uvid_marketplace_price_poi = '997'
+emailtest.uvid_marketplace_price_no_poi = '1'
+emailtest.uvid_marketplace_no_price_no_poi = '150'
+emailtest.uvid_marketplace_no_price_poi = '962'
+emailserver.url = 'http://localhost:8080/email'
+BannerVsVgoodRatio = '0.35'
+NoPlayerSubmitScoreForNotUser = 'false'
+BannerBannedList = 'MOJIVA;EJAM'
+BannerRange.NEXAGE = '80'
+BannerRange.MOOLAHMEDIA = '20'
+fb.app_id = '95687611783'
+fb.page_id = '288109507867236'
+fb.api_key = '03c5087607dab5f9097f71b1efa491aa'
+fb.api_secret = 'b6d0364baba679d048f106cd6f781a6a'
+profile_images_path = '/Users/Willy/glassfish3/glassfish/domains/domain1/tmp'
+profile_images_external_path = 'http://static.beintoo.com/images'
+CONVERSION_MAX_DISTANCE_METERS = '500'
+base_url = 'http://localhost:8080'
+base_url_api = 'http://sandbox.beintoo.com'
+cookies_path = 'http://localhost:8080'
+beintoo_app_api_key = '567890123456'
+beintoo_contest_invite_app_api_key = '234567890123'
+prize_add_friend_bedollars = '50'
+bedollars_vote = '1'
+bedollars_comment = '2'
+user_signup_bedollars = '100'
+USE_GEONAMES = 'false'
+developers_app_default_percentage = '0.60'
+p3p_specs = 'CP='IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT''
+admin_email = 'admin@beintoo.com'
+admin_password = 'tmct1234sftp'
+deal.adility_customer_id = '4'
+deal.adility_percentage = '0.65'
+deal.paypal_fee = '0.30'
+deal.paypal_percentage = '0.039'
+deal.user_discount = '0.1'
+deal.user_discount_min = '1'
+deal.user_discount_max = '20'
+campaign.default_bedollars = '20'
+VOUCHACHA_APIKEY = '688695db63f76594b3a62715c68ee1ea6d8d6c48'
+campaign.tracking_landing = 'http://localhost:8080/tracking/vgood'
+css_version = '1'
+EMAIL_SERVER_IPADDRESS = '127.0.0.1'
+minimum.sponsored_achievement_cpu = '0.35'
+minimum.sponsored_achievement_cpe = '0.25'
+minimum.sponsored_achievement_budget = '150'
+minimum.campaign_cpd = '0.1'
+minimum.campaign_cpua = '0.25'
+minimum.campaign_cpl = '0.51'
+minimum.campaign_cpaa = '5.00'
+minimum.vgoodpromotioncodes_number = '10'
+static.https_url = 'https://s3-eu-west-1.amazonaws.com/static.beintoo.com/'
+static.http_url = 'http://static.beintoo.com/'
+connect.exclude_china = 'true'
+retailer.supported_countries = 'IT'
+VGOODS_IT = '[1050976, 1169138]'
+VGOODS_GB = '[1169225, 873294, 23221]'
+VGOODS_US = '[1147057, 1147041, 1149722]'
+getMembasePoolURI = 'http://localhost:8091/pools'
+}
+130207143025 2013-02-07 14:30:25,662 INFO CONFIGURATION - DEVELOPER_AREA: true
+130207143025 2013-02-07 14:30:25,697 INFO CONFIGURATION - FB_APP_ID: 95687611783
+130207143025 2013-02-07 14:30:25,697 INFO CONFIGURATION - FB_API_KEY: 03c5087607dab5f9097f71b1efa491aa
+130207143025 2013-02-07 14:30:25,697 INFO CONFIGURATION - FB_API_SECRET: b6d0364baba679d048f106cd6f781a6a
+130207143025 2013-02-07 14:30:25,698 INFO CONFIGURATION - FB_FEED_DELAY: 3600000
+130207143025 2013-02-07 14:30:25,698 INFO CONFIGURATION - ACTIVITY_DELIVERY: true
+130207143025 2013-02-07 14:30:25,698 INFO CONFIGURATION - MAIL_DELAY: 86400000
+130207143025 2013-02-07 14:30:25,698 INFO CONFIGURATION - GENERATED_IMAGES_PATH: /Users/Willy/glassfish3/glassfish/domains/domain1/tmp
+130207143025 2013-02-07 14:30:25,698 INFO CONFIGURATION - GENERATED_IMAGES_EXTERNAL_PATH: http://static.beintoo.com/images
+130207143025 2013-02-07 14:30:25,698 INFO CONFIGURATION - BASE_URL: http://localhost:8080
+130207143025 2013-02-07 14:30:25,698 INFO CONFIGURATION - BASE_URL_API: http://sandbox.beintoo.com
+130207143025 2013-02-07 14:30:25,698 INFO CONFIGURATION - BEINTOO_APP_API_KEY: 567890123456
+130207143025 2013-02-07 14:30:25,699 INFO CONFIGURATION - BEINTOO_CONTEST_INVITE_APP_API_KEY: 234567890123
+130207143025 2013-02-07 14:30:25,699 INFO CONFIGURATION - APP_DEFAULT_PERCENTAGE: 0.6
+130207143025 2013-02-07 14:30:25,699 INFO CONFIGURATION - PRIZE_ADD_FRIEND_BEDOLLARS: 50
+130207143025 2013-02-07 14:30:25,699 INFO CONFIGURATION - BEDOLLARS_VOTE: 1
+130207143025 2013-02-07 14:30:25,700 INFO CONFIGURATION - BEDOLLARS_COMMENT: 2
+130207143056 2013-02-07 14:30:56,035 INFO CONFIGURATION - Current machine IP address: null
+130207143056 2013-02-07 14:30:56,035 INFO CONFIGURATION - ---------------------- SYSTEM CONFIGURATION ----------------------
+130207143056 2013-02-07 14:30:56,037 INFO CONFIGURATION - Properties: {
+developer_area = 'true'
+emailtest.placeid = '1'
+emailtest.vgoodpromotioncodeid = '1'
+emailtest.contestid = '1'
+emailtest.customerid = '1'
+emailtest.appid = '1'
+emailtest.vgoodid = '1'
+emailtest.userid = '1'
+emailtest.targetuserid = '2'
+emailtest.uvid_no_poi_code = '150'
+emailtest.uvid_no_poi_no_code = '1289'
+emailtest.uvid_poi_code = '95'
+emailtest.uvid_poi_no_code = '962'
+emailtest.uvadilityid = '1289'
+emailtest.uvid_marketplace_price_poi = '997'
+emailtest.uvid_marketplace_price_no_poi = '1'
+emailtest.uvid_marketplace_no_price_no_poi = '150'
+emailtest.uvid_marketplace_no_price_poi = '962'
+emailserver.url = 'http://localhost:8080/email'
+BannerVsVgoodRatio = '0.35'
+NoPlayerSubmitScoreForNotUser = 'false'
+BannerBannedList = 'MOJIVA;EJAM'
+BannerRange.NEXAGE = '80'
+BannerRange.MOOLAHMEDIA = '20'
+fb.app_id = '95687611783'
+fb.page_id = '288109507867236'
+fb.api_key = '03c5087607dab5f9097f71b1efa491aa'
+fb.api_secret = 'b6d0364baba679d048f106cd6f781a6a'
+profile_images_path = '/Users/Willy/glassfish3/glassfish/domains/domain1/tmp'
+profile_images_external_path = 'http://static.beintoo.com/images'
+CONVERSION_MAX_DISTANCE_METERS = '500'
+base_url = 'http://localhost:8080'
+base_url_api = 'http://sandbox.beintoo.com'
+cookies_path = 'http://localhost:8080'
+beintoo_app_api_key = '567890123456'
+beintoo_contest_invite_app_api_key = '234567890123'
+prize_add_friend_bedollars = '50'
+bedollars_vote = '1'
+bedollars_comment = '2'
+user_signup_bedollars = '100'
+USE_GEONAMES = 'false'
+developers_app_default_percentage = '0.60'
+p3p_specs = 'CP='IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT''
+admin_email = 'admin@beintoo.com'
+admin_password = 'tmct1234sftp'
+deal.adility_customer_id = '4'
+deal.adility_percentage = '0.65'
+deal.paypal_fee = '0.30'
+deal.paypal_percentage = '0.039'
+deal.user_discount = '0.1'
+deal.user_discount_min = '1'
+deal.user_discount_max = '20'
+campaign.default_bedollars = '20'
+VOUCHACHA_APIKEY = '688695db63f76594b3a62715c68ee1ea6d8d6c48'
+campaign.tracking_landing = 'http://localhost:8080/tracking/vgood'
+css_version = '1'
+EMAIL_SERVER_IPADDRESS = '127.0.0.1'
+minimum.sponsored_achievement_cpu = '0.35'
+minimum.sponsored_achievement_cpe = '0.25'
+minimum.sponsored_achievement_budget = '150'
+minimum.campaign_cpd = '0.1'
+minimum.campaign_cpua = '0.25'
+minimum.campaign_cpl = '0.51'
+minimum.campaign_cpaa = '5.00'
+minimum.vgoodpromotioncodes_number = '10'
+static.https_url = 'https://s3-eu-west-1.amazonaws.com/static.beintoo.com/'
+static.http_url = 'http://static.beintoo.com/'
+connect.exclude_china = 'true'
+retailer.supported_countries = 'IT'
+VGOODS_IT = '[1050976, 1169138]'
+VGOODS_GB = '[1169225, 873294, 23221]'
+VGOODS_US = '[1147057, 1147041, 1149722]'
+getMembasePoolURI = 'http://localhost:8091/pools'
+}
+130207143056 2013-02-07 14:30:56,038 INFO CONFIGURATION - DEVELOPER_AREA: true
+130207143056 2013-02-07 14:30:56,038 INFO CONFIGURATION - FB_APP_ID: 95687611783
+130207143056 2013-02-07 14:30:56,038 INFO CONFIGURATION - FB_API_KEY: 03c5087607dab5f9097f71b1efa491aa
+130207143056 2013-02-07 14:30:56,038 INFO CONFIGURATION - FB_API_SECRET: b6d0364baba679d048f106cd6f781a6a
+130207143056 2013-02-07 14:30:56,038 INFO CONFIGURATION - FB_FEED_DELAY: 3600000
+130207143056 2013-02-07 14:30:56,038 INFO CONFIGURATION - ACTIVITY_DELIVERY: true
+130207143056 2013-02-07 14:30:56,038 INFO CONFIGURATION - MAIL_DELAY: 86400000
+130207143056 2013-02-07 14:30:56,038 INFO CONFIGURATION - GENERATED_IMAGES_PATH: /Users/Willy/glassfish3/glassfish/domains/domain1/tmp
+130207143056 2013-02-07 14:30:56,039 INFO CONFIGURATION - GENERATED_IMAGES_EXTERNAL_PATH: http://static.beintoo.com/images
+130207143056 2013-02-07 14:30:56,039 INFO CONFIGURATION - BASE_URL: http://localhost:8080
+130207143056 2013-02-07 14:30:56,039 INFO CONFIGURATION - BASE_URL_API: http://sandbox.beintoo.com
+130207143056 2013-02-07 14:30:56,039 INFO CONFIGURATION - BEINTOO_APP_API_KEY: 567890123456
+130207143056 2013-02-07 14:30:56,039 INFO CONFIGURATION - BEINTOO_CONTEST_INVITE_APP_API_KEY: 234567890123
+130207143056 2013-02-07 14:30:56,039 INFO CONFIGURATION - APP_DEFAULT_PERCENTAGE: 0.6
+130207143056 2013-02-07 14:30:56,040 INFO CONFIGURATION - PRIZE_ADD_FRIEND_BEDOLLARS: 50
+130207143056 2013-02-07 14:30:56,040 INFO CONFIGURATION - BEDOLLARS_VOTE: 1
+130207143056 2013-02-07 14:30:56,040 INFO CONFIGURATION - BEDOLLARS_COMMENT: 2
+130207143341 2013-02-07 14:33:41,065 INFO CONFIGURATION - Current machine IP address: null
+130207143341 2013-02-07 14:33:41,065 INFO CONFIGURATION - ---------------------- SYSTEM CONFIGURATION ----------------------
+130207143341 2013-02-07 14:33:41,067 INFO CONFIGURATION - Properties: {
+developer_area = 'true'
+emailtest.placeid = '1'
+emailtest.vgoodpromotioncodeid = '1'
+emailtest.contestid = '1'
+emailtest.customerid = '1'
+emailtest.appid = '1'
+emailtest.vgoodid = '1'
+emailtest.userid = '1'
+emailtest.targetuserid = '2'
+emailtest.uvid_no_poi_code = '150'
+emailtest.uvid_no_poi_no_code = '1289'
+emailtest.uvid_poi_code = '95'
+emailtest.uvid_poi_no_code = '962'
+emailtest.uvadilityid = '1289'
+emailtest.uvid_marketplace_price_poi = '997'
+emailtest.uvid_marketplace_price_no_poi = '1'
+emailtest.uvid_marketplace_no_price_no_poi = '150'
+emailtest.uvid_marketplace_no_price_poi = '962'
+emailserver.url = 'http://localhost:8080/email'
+BannerVsVgoodRatio = '0.35'
+NoPlayerSubmitScoreForNotUser = 'false'
+BannerBannedList = 'MOJIVA;EJAM'
+BannerRange.NEXAGE = '80'
+BannerRange.MOOLAHMEDIA = '20'
+fb.app_id = '95687611783'
+fb.page_id = '288109507867236'
+fb.api_key = '03c5087607dab5f9097f71b1efa491aa'
+fb.api_secret = 'b6d0364baba679d048f106cd6f781a6a'
+profile_images_path = '/Users/Willy/glassfish3/glassfish/domains/domain1/tmp'
+profile_images_external_path = 'http://static.beintoo.com/images'
+CONVERSION_MAX_DISTANCE_METERS = '500'
+base_url = 'http://localhost:8080'
+base_url_api = 'http://sandbox.beintoo.com'
+cookies_path = 'http://localhost:8080'
+beintoo_app_api_key = '567890123456'
+beintoo_contest_invite_app_api_key = '234567890123'
+prize_add_friend_bedollars = '50'
+bedollars_vote = '1'
+bedollars_comment = '2'
+user_signup_bedollars = '100'
+USE_GEONAMES = 'false'
+developers_app_default_percentage = '0.60'
+p3p_specs = 'CP='IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT''
+admin_email = 'admin@beintoo.com'
+admin_password = 'tmct1234sftp'
+deal.adility_customer_id = '4'
+deal.adility_percentage = '0.65'
+deal.paypal_fee = '0.30'
+deal.paypal_percentage = '0.039'
+deal.user_discount = '0.1'
+deal.user_discount_min = '1'
+deal.user_discount_max = '20'
+campaign.default_bedollars = '20'
+VOUCHACHA_APIKEY = '688695db63f76594b3a62715c68ee1ea6d8d6c48'
+campaign.tracking_landing = 'http://localhost:8080/tracking/vgood'
+css_version = '1'
+EMAIL_SERVER_IPADDRESS = '127.0.0.1'
+minimum.sponsored_achievement_cpu = '0.35'
+minimum.sponsored_achievement_cpe = '0.25'
+minimum.sponsored_achievement_budget = '150'
+minimum.campaign_cpd = '0.1'
+minimum.campaign_cpua = '0.25'
+minimum.campaign_cpl = '0.51'
+minimum.campaign_cpaa = '5.00'
+minimum.vgoodpromotioncodes_number = '10'
+static.https_url = 'https://s3-eu-west-1.amazonaws.com/static.beintoo.com/'
+static.http_url = 'http://static.beintoo.com/'
+connect.exclude_china = 'true'
+retailer.supported_countries = 'IT'
+VGOODS_IT = '[1050976, 1169138]'
+VGOODS_GB = '[1169225, 873294, 23221]'
+VGOODS_US = '[1147057, 1147041, 1149722]'
+getMembasePoolURI = 'http://localhost:8091/pools'
+}
+130207143341 2013-02-07 14:33:41,086 INFO CONFIGURATION - DEVELOPER_AREA: true
+130207143341 2013-02-07 14:33:41,086 INFO CONFIGURATION - FB_APP_ID: 95687611783
+130207143341 2013-02-07 14:33:41,086 INFO CONFIGURATION - FB_API_KEY: 03c5087607dab5f9097f71b1efa491aa
+130207143341 2013-02-07 14:33:41,087 INFO CONFIGURATION - FB_API_SECRET: b6d0364baba679d048f106cd6f781a6a
+130207143341 2013-02-07 14:33:41,087 INFO CONFIGURATION - FB_FEED_DELAY: 3600000
+130207143341 2013-02-07 14:33:41,087 INFO CONFIGURATION - ACTIVITY_DELIVERY: true
+130207143341 2013-02-07 14:33:41,087 INFO CONFIGURATION - MAIL_DELAY: 86400000
+130207143341 2013-02-07 14:33:41,087 INFO CONFIGURATION - GENERATED_IMAGES_PATH: /Users/Willy/glassfish3/glassfish/domains/domain1/tmp
+130207143341 2013-02-07 14:33:41,087 INFO CONFIGURATION - GENERATED_IMAGES_EXTERNAL_PATH: http://static.beintoo.com/images
+130207143341 2013-02-07 14:33:41,087 INFO CONFIGURATION - BASE_URL: http://localhost:8080
+130207143341 2013-02-07 14:33:41,087 INFO CONFIGURATION - BASE_URL_API: http://sandbox.beintoo.com
+130207143341 2013-02-07 14:33:41,087 INFO CONFIGURATION - BEINTOO_APP_API_KEY: 567890123456
+130207143341 2013-02-07 14:33:41,088 INFO CONFIGURATION - BEINTOO_CONTEST_INVITE_APP_API_KEY: 234567890123
+130207143341 2013-02-07 14:33:41,088 INFO CONFIGURATION - APP_DEFAULT_PERCENTAGE: 0.6
+130207143341 2013-02-07 14:33:41,088 INFO CONFIGURATION - PRIZE_ADD_FRIEND_BEDOLLARS: 50
+130207143341 2013-02-07 14:33:41,088 INFO CONFIGURATION - BEDOLLARS_VOTE: 1
+130207143341 2013-02-07 14:33:41,088 INFO CONFIGURATION - BEDOLLARS_COMMENT: 2
+130207143700 2013-02-07 14:37:00,415 INFO CONFIGURATION - Current machine IP address: null
+130207143700 2013-02-07 14:37:00,415 INFO CONFIGURATION - ---------------------- SYSTEM CONFIGURATION ----------------------
+130207143700 2013-02-07 14:37:00,417 INFO CONFIGURATION - Properties: {
+developer_area = 'true'
+emailtest.placeid = '1'
+emailtest.vgoodpromotioncodeid = '1'
+emailtest.contestid = '1'
+emailtest.customerid = '1'
+emailtest.appid = '1'
+emailtest.vgoodid = '1'
+emailtest.userid = '1'
+emailtest.targetuserid = '2'
+emailtest.uvid_no_poi_code = '150'
+emailtest.uvid_no_poi_no_code = '1289'
+emailtest.uvid_poi_code = '95'
+emailtest.uvid_poi_no_code = '962'
+emailtest.uvadilityid = '1289'
+emailtest.uvid_marketplace_price_poi = '997'
+emailtest.uvid_marketplace_price_no_poi = '1'
+emailtest.uvid_marketplace_no_price_no_poi = '150'
+emailtest.uvid_marketplace_no_price_poi = '962'
+emailserver.url = 'http://localhost:8080/email'
+BannerVsVgoodRatio = '0.35'
+NoPlayerSubmitScoreForNotUser = 'false'
+BannerBannedList = 'MOJIVA;EJAM'
+BannerRange.NEXAGE = '80'
+BannerRange.MOOLAHMEDIA = '20'
+fb.app_id = '95687611783'
+fb.page_id = '288109507867236'
+fb.api_key = '03c5087607dab5f9097f71b1efa491aa'
+fb.api_secret = 'b6d0364baba679d048f106cd6f781a6a'
+profile_images_path = '/Users/Willy/glassfish3/glassfish/domains/domain1/tmp'
+profile_images_external_path = 'http://static.beintoo.com/images'
+CONVERSION_MAX_DISTANCE_METERS = '500'
+base_url = 'http://localhost:8080'
+base_url_api = 'http://sandbox.beintoo.com'
+cookies_path = 'http://localhost:8080'
+beintoo_app_api_key = '567890123456'
+beintoo_contest_invite_app_api_key = '234567890123'
+prize_add_friend_bedollars = '50'
+bedollars_vote = '1'
+bedollars_comment = '2'
+user_signup_bedollars = '100'
+USE_GEONAMES = 'false'
+developers_app_default_percentage = '0.60'
+p3p_specs = 'CP='IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT''
+admin_email = 'admin@beintoo.com'
+admin_password = 'tmct1234sftp'
+deal.adility_customer_id = '4'
+deal.adility_percentage = '0.65'
+deal.paypal_fee = '0.30'
+deal.paypal_percentage = '0.039'
+deal.user_discount = '0.1'
+deal.user_discount_min = '1'
+deal.user_discount_max = '20'
+campaign.default_bedollars = '20'
+VOUCHACHA_APIKEY = '688695db63f76594b3a62715c68ee1ea6d8d6c48'
+campaign.tracking_landing = 'http://localhost:8080/tracking/vgood'
+css_version = '1'
+EMAIL_SERVER_IPADDRESS = '127.0.0.1'
+minimum.sponsored_achievement_cpu = '0.35'
+minimum.sponsored_achievement_cpe = '0.25'
+minimum.sponsored_achievement_budget = '150'
+minimum.campaign_cpd = '0.1'
+minimum.campaign_cpua = '0.25'
+minimum.campaign_cpl = '0.51'
+minimum.campaign_cpaa = '5.00'
+minimum.vgoodpromotioncodes_number = '10'
+static.https_url = 'https://s3-eu-west-1.amazonaws.com/static.beintoo.com/'
+static.http_url = 'http://static.beintoo.com/'
+connect.exclude_china = 'true'
+retailer.supported_countries = 'IT'
+VGOODS_IT = '[1050976, 1169138]'
+VGOODS_GB = '[1169225, 873294, 23221]'
+VGOODS_US = '[1147057, 1147041, 1149722]'
+getMembasePoolURI = 'http://localhost:8091/pools'
+}
+130207143700 2013-02-07 14:37:00,417 INFO CONFIGURATION - DEVELOPER_AREA: true
+130207143700 2013-02-07 14:37:00,418 INFO CONFIGURATION - FB_APP_ID: 95687611783
+130207143700 2013-02-07 14:37:00,418 INFO CONFIGURATION - FB_API_KEY: 03c5087607dab5f9097f71b1efa491aa
+130207143700 2013-02-07 14:37:00,418 INFO CONFIGURATION - FB_API_SECRET: b6d0364baba679d048f106cd6f781a6a
+130207143700 2013-02-07 14:37:00,418 INFO CONFIGURATION - FB_FEED_DELAY: 3600000
+130207143700 2013-02-07 14:37:00,418 INFO CONFIGURATION - ACTIVITY_DELIVERY: true
+130207143700 2013-02-07 14:37:00,418 INFO CONFIGURATION - MAIL_DELAY: 86400000
+130207143700 2013-02-07 14:37:00,418 INFO CONFIGURATION - GENERATED_IMAGES_PATH: /Users/Willy/glassfish3/glassfish/domains/domain1/tmp
+130207143700 2013-02-07 14:37:00,418 INFO CONFIGURATION - GENERATED_IMAGES_EXTERNAL_PATH: http://static.beintoo.com/images
+130207143700 2013-02-07 14:37:00,419 INFO CONFIGURATION - BASE_URL: http://localhost:8080
+130207143700 2013-02-07 14:37:00,419 INFO CONFIGURATION - BASE_URL_API: http://sandbox.beintoo.com
+130207143700 2013-02-07 14:37:00,419 INFO CONFIGURATION - BEINTOO_APP_API_KEY: 567890123456
+130207143700 2013-02-07 14:37:00,419 INFO CONFIGURATION - BEINTOO_CONTEST_INVITE_APP_API_KEY: 234567890123
+130207143700 2013-02-07 14:37:00,419 INFO CONFIGURATION - APP_DEFAULT_PERCENTAGE: 0.6
+130207143700 2013-02-07 14:37:00,420 INFO CONFIGURATION - PRIZE_ADD_FRIEND_BEDOLLARS: 50
+130207143700 2013-02-07 14:37:00,420 INFO CONFIGURATION - BEDOLLARS_VOTE: 1
+130207143700 2013-02-07 14:37:00,420 INFO CONFIGURATION - BEDOLLARS_COMMENT: 2
+130207143913 2013-02-07 14:39:13,703 INFO CONFIGURATION - Current machine IP address: null
+130207143913 2013-02-07 14:39:13,703 INFO CONFIGURATION - ---------------------- SYSTEM CONFIGURATION ----------------------
+130207143913 2013-02-07 14:39:13,705 INFO CONFIGURATION - Properties: {
+developer_area = 'true'
+emailtest.placeid = '1'
+emailtest.vgoodpromotioncodeid = '1'
+emailtest.contestid = '1'
+emailtest.customerid = '1'
+emailtest.appid = '1'
+emailtest.vgoodid = '1'
+emailtest.userid = '1'
+emailtest.targetuserid = '2'
+emailtest.uvid_no_poi_code = '150'
+emailtest.uvid_no_poi_no_code = '1289'
+emailtest.uvid_poi_code = '95'
+emailtest.uvid_poi_no_code = '962'
+emailtest.uvadilityid = '1289'
+emailtest.uvid_marketplace_price_poi = '997'
+emailtest.uvid_marketplace_price_no_poi = '1'
+emailtest.uvid_marketplace_no_price_no_poi = '150'
+emailtest.uvid_marketplace_no_price_poi = '962'
+emailserver.url = 'http://localhost:8080/email'
+BannerVsVgoodRatio = '0.35'
+NoPlayerSubmitScoreForNotUser = 'false'
+BannerBannedList = 'MOJIVA;EJAM'
+BannerRange.NEXAGE = '80'
+BannerRange.MOOLAHMEDIA = '20'
+fb.app_id = '95687611783'
+fb.page_id = '288109507867236'
+fb.api_key = '03c5087607dab5f9097f71b1efa491aa'
+fb.api_secret = 'b6d0364baba679d048f106cd6f781a6a'
+profile_images_path = '/Users/Willy/glassfish3/glassfish/domains/domain1/tmp'
+profile_images_external_path = 'http://static.beintoo.com/images'
+CONVERSION_MAX_DISTANCE_METERS = '500'
+base_url = 'http://localhost:8080'
+base_url_api = 'http://sandbox.beintoo.com'
+cookies_path = 'http://localhost:8080'
+beintoo_app_api_key = '567890123456'
+beintoo_contest_invite_app_api_key = '234567890123'
+prize_add_friend_bedollars = '50'
+bedollars_vote = '1'
+bedollars_comment = '2'
+user_signup_bedollars = '100'
+USE_GEONAMES = 'false'
+developers_app_default_percentage = '0.60'
+p3p_specs = 'CP='IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT''
+admin_email = 'admin@beintoo.com'
+admin_password = 'tmct1234sftp'
+deal.adility_customer_id = '4'
+deal.adility_percentage = '0.65'
+deal.paypal_fee = '0.30'
+deal.paypal_percentage = '0.039'
+deal.user_discount = '0.1'
+deal.user_discount_min = '1'
+deal.user_discount_max = '20'
+campaign.default_bedollars = '20'
+VOUCHACHA_APIKEY = '688695db63f76594b3a62715c68ee1ea6d8d6c48'
+campaign.tracking_landing = 'http://localhost:8080/tracking/vgood'
+css_version = '1'
+EMAIL_SERVER_IPADDRESS = '127.0.0.1'
+minimum.sponsored_achievement_cpu = '0.35'
+minimum.sponsored_achievement_cpe = '0.25'
+minimum.sponsored_achievement_budget = '150'
+minimum.campaign_cpd = '0.1'
+minimum.campaign_cpua = '0.25'
+minimum.campaign_cpl = '0.51'
+minimum.campaign_cpaa = '5.00'
+minimum.vgoodpromotioncodes_number = '10'
+static.https_url = 'https://s3-eu-west-1.amazonaws.com/static.beintoo.com/'
+static.http_url = 'http://static.beintoo.com/'
+connect.exclude_china = 'true'
+retailer.supported_countries = 'IT'
+VGOODS_IT = '[1050976, 1169138]'
+VGOODS_GB = '[1169225, 873294, 23221]'
+VGOODS_US = '[1147057, 1147041, 1149722]'
+getMembasePoolURI = 'http://localhost:8091/pools'
+}
+130207143913 2013-02-07 14:39:13,705 INFO CONFIGURATION - DEVELOPER_AREA: true
+130207143913 2013-02-07 14:39:13,705 INFO CONFIGURATION - FB_APP_ID: 95687611783
+130207143913 2013-02-07 14:39:13,705 INFO CONFIGURATION - FB_API_KEY: 03c5087607dab5f9097f71b1efa491aa
+130207143913 2013-02-07 14:39:13,706 INFO CONFIGURATION - FB_API_SECRET: b6d0364baba679d048f106cd6f781a6a
+130207143913 2013-02-07 14:39:13,706 INFO CONFIGURATION - FB_FEED_DELAY: 3600000
+130207143913 2013-02-07 14:39:13,706 INFO CONFIGURATION - ACTIVITY_DELIVERY: true
+130207143913 2013-02-07 14:39:13,706 INFO CONFIGURATION - MAIL_DELAY: 86400000
+130207143913 2013-02-07 14:39:13,706 INFO CONFIGURATION - GENERATED_IMAGES_PATH: /Users/Willy/glassfish3/glassfish/domains/domain1/tmp
+130207143913 2013-02-07 14:39:13,706 INFO CONFIGURATION - GENERATED_IMAGES_EXTERNAL_PATH: http://static.beintoo.com/images
+130207143913 2013-02-07 14:39:13,706 INFO CONFIGURATION - BASE_URL: http://localhost:8080
+130207143913 2013-02-07 14:39:13,706 INFO CONFIGURATION - BASE_URL_API: http://sandbox.beintoo.com
+130207143913 2013-02-07 14:39:13,707 INFO CONFIGURATION - BEINTOO_APP_API_KEY: 567890123456
+130207143913 2013-02-07 14:39:13,707 INFO CONFIGURATION - BEINTOO_CONTEST_INVITE_APP_API_KEY: 234567890123
+130207143913 2013-02-07 14:39:13,707 INFO CONFIGURATION - APP_DEFAULT_PERCENTAGE: 0.6
+130207143913 2013-02-07 14:39:13,707 INFO CONFIGURATION - PRIZE_ADD_FRIEND_BEDOLLARS: 50
+130207143913 2013-02-07 14:39:13,707 INFO CONFIGURATION - BEDOLLARS_VOTE: 1
+130207143913 2013-02-07 14:39:13,708 INFO CONFIGURATION - BEDOLLARS_COMMENT: 2
+130207144224 2013-02-07 14:42:24,249 INFO CONFIGURATION - Current machine IP address: null
+130207144224 2013-02-07 14:42:24,265 INFO CONFIGURATION - ---------------------- SYSTEM CONFIGURATION ----------------------
+130207144224 2013-02-07 14:42:24,268 INFO CONFIGURATION - Properties: {
+developer_area = 'true'
+emailtest.placeid = '1'
+emailtest.vgoodpromotioncodeid = '1'
+emailtest.contestid = '1'
+emailtest.customerid = '1'
+emailtest.appid = '1'
+emailtest.vgoodid = '1'
+emailtest.userid = '1'
+emailtest.targetuserid = '2'
+emailtest.uvid_no_poi_code = '150'
+emailtest.uvid_no_poi_no_code = '1289'
+emailtest.uvid_poi_code = '95'
+emailtest.uvid_poi_no_code = '962'
+emailtest.uvadilityid = '1289'
+emailtest.uvid_marketplace_price_poi = '997'
+emailtest.uvid_marketplace_price_no_poi = '1'
+emailtest.uvid_marketplace_no_price_no_poi = '150'
+emailtest.uvid_marketplace_no_price_poi = '962'
+emailserver.url = 'http://localhost:8080/email'
+BannerVsVgoodRatio = '0.35'
+NoPlayerSubmitScoreForNotUser = 'false'
+BannerBannedList = 'MOJIVA;EJAM'
+BannerRange.NEXAGE = '80'
+BannerRange.MOOLAHMEDIA = '20'
+fb.app_id = '95687611783'
+fb.page_id = '288109507867236'
+fb.api_key = '03c5087607dab5f9097f71b1efa491aa'
+fb.api_secret = 'b6d0364baba679d048f106cd6f781a6a'
+profile_images_path = '/Users/Willy/glassfish3/glassfish/domains/domain1/tmp'
+profile_images_external_path = 'http://static.beintoo.com/images'
+CONVERSION_MAX_DISTANCE_METERS = '500'
+base_url = 'http://localhost:8080'
+base_url_api = 'http://sandbox.beintoo.com'
+cookies_path = 'http://localhost:8080'
+beintoo_app_api_key = '567890123456'
+beintoo_contest_invite_app_api_key = '234567890123'
+prize_add_friend_bedollars = '50'
+bedollars_vote = '1'
+bedollars_comment = '2'
+user_signup_bedollars = '100'
+USE_GEONAMES = 'false'
+developers_app_default_percentage = '0.60'
+p3p_specs = 'CP='IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT''
+admin_email = 'admin@beintoo.com'
+admin_password = 'tmct1234sftp'
+deal.adility_customer_id = '4'
+deal.adility_percentage = '0.65'
+deal.paypal_fee = '0.30'
+deal.paypal_percentage = '0.039'
+deal.user_discount = '0.1'
+deal.user_discount_min = '1'
+deal.user_discount_max = '20'
+campaign.default_bedollars = '20'
+VOUCHACHA_APIKEY = '688695db63f76594b3a62715c68ee1ea6d8d6c48'
+campaign.tracking_landing = 'http://localhost:8080/tracking/vgood'
+css_version = '1'
+EMAIL_SERVER_IPADDRESS = '127.0.0.1'
+minimum.sponsored_achievement_cpu = '0.35'
+minimum.sponsored_achievement_cpe = '0.25'
+minimum.sponsored_achievement_budget = '150'
+minimum.campaign_cpd = '0.1'
+minimum.campaign_cpua = '0.25'
+minimum.campaign_cpl = '0.51'
+minimum.campaign_cpaa = '5.00'
+minimum.vgoodpromotioncodes_number = '10'
+static.https_url = 'https://s3-eu-west-1.amazonaws.com/static.beintoo.com/'
+static.http_url = 'http://static.beintoo.com/'
+connect.exclude_china = 'true'
+retailer.supported_countries = 'IT'
+VGOODS_IT = '[1050976, 1169138]'
+VGOODS_GB = '[1169225, 873294, 23221]'
+VGOODS_US = '[1147057, 1147041, 1149722]'
+getMembasePoolURI = 'http://localhost:8091/pools'
+}
+130207144224 2013-02-07 14:42:24,279 INFO CONFIGURATION - DEVELOPER_AREA: true
+130207144224 2013-02-07 14:42:24,279 INFO CONFIGURATION - FB_APP_ID: 95687611783
+130207144224 2013-02-07 14:42:24,279 INFO CONFIGURATION - FB_API_KEY: 03c5087607dab5f9097f71b1efa491aa
+130207144224 2013-02-07 14:42:24,279 INFO CONFIGURATION - FB_API_SECRET: b6d0364baba679d048f106cd6f781a6a
+130207144224 2013-02-07 14:42:24,279 INFO CONFIGURATION - FB_FEED_DELAY: 3600000
+130207144224 2013-02-07 14:42:24,279 INFO CONFIGURATION - ACTIVITY_DELIVERY: true
+130207144224 2013-02-07 14:42:24,279 INFO CONFIGURATION - MAIL_DELAY: 86400000
+130207144224 2013-02-07 14:42:24,279 INFO CONFIGURATION - GENERATED_IMAGES_PATH: /Users/Willy/glassfish3/glassfish/domains/domain1/tmp
+130207144224 2013-02-07 14:42:24,280 INFO CONFIGURATION - GENERATED_IMAGES_EXTERNAL_PATH: http://static.beintoo.com/images
+130207144224 2013-02-07 14:42:24,280 INFO CONFIGURATION - BASE_URL: http://localhost:8080
+130207144224 2013-02-07 14:42:24,280 INFO CONFIGURATION - BASE_URL_API: http://sandbox.beintoo.com
+130207144224 2013-02-07 14:42:24,280 INFO CONFIGURATION - BEINTOO_APP_API_KEY: 567890123456
+130207144224 2013-02-07 14:42:24,280 INFO CONFIGURATION - BEINTOO_CONTEST_INVITE_APP_API_KEY: 234567890123
+130207144224 2013-02-07 14:42:24,280 INFO CONFIGURATION - APP_DEFAULT_PERCENTAGE: 0.6
+130207144224 2013-02-07 14:42:24,281 INFO CONFIGURATION - PRIZE_ADD_FRIEND_BEDOLLARS: 50
+130207144224 2013-02-07 14:42:24,281 INFO CONFIGURATION - BEDOLLARS_VOTE: 1
+130207144224 2013-02-07 14:42:24,281 INFO CONFIGURATION - BEDOLLARS_COMMENT: 2
+130207144418 2013-02-07 14:44:18,030 INFO CONFIGURATION - Current machine IP address: null
+130207144418 2013-02-07 14:44:18,067 INFO CONFIGURATION - ---------------------- SYSTEM CONFIGURATION ----------------------
+130207144418 2013-02-07 14:44:18,072 INFO CONFIGURATION - Properties: {
+developer_area = 'true'
+emailtest.placeid = '1'
+emailtest.vgoodpromotioncodeid = '1'
+emailtest.contestid = '1'
+emailtest.customerid = '1'
+emailtest.appid = '1'
+emailtest.vgoodid = '1'
+emailtest.userid = '1'
+emailtest.targetuserid = '2'
+emailtest.uvid_no_poi_code = '150'
+emailtest.uvid_no_poi_no_code = '1289'
+emailtest.uvid_poi_code = '95'
+emailtest.uvid_poi_no_code = '962'
+emailtest.uvadilityid = '1289'
+emailtest.uvid_marketplace_price_poi = '997'
+emailtest.uvid_marketplace_price_no_poi = '1'
+emailtest.uvid_marketplace_no_price_no_poi = '150'
+emailtest.uvid_marketplace_no_price_poi = '962'
+emailserver.url = 'http://localhost:8080/email'
+BannerVsVgoodRatio = '0.35'
+NoPlayerSubmitScoreForNotUser = 'false'
+BannerBannedList = 'MOJIVA;EJAM'
+BannerRange.NEXAGE = '80'
+BannerRange.MOOLAHMEDIA = '20'
+fb.app_id = '95687611783'
+fb.page_id = '288109507867236'
+fb.api_key = '03c5087607dab5f9097f71b1efa491aa'
+fb.api_secret = 'b6d0364baba679d048f106cd6f781a6a'
+profile_images_path = '/Users/Willy/glassfish3/glassfish/domains/domain1/tmp'
+profile_images_external_path = 'http://static.beintoo.com/images'
+CONVERSION_MAX_DISTANCE_METERS = '500'
+base_url = 'http://localhost:8080'
+base_url_api = 'http://sandbox.beintoo.com'
+cookies_path = 'http://localhost:8080'
+beintoo_app_api_key = '567890123456'
+beintoo_contest_invite_app_api_key = '234567890123'
+prize_add_friend_bedollars = '50'
+bedollars_vote = '1'
+bedollars_comment = '2'
+user_signup_bedollars = '100'
+USE_GEONAMES = 'false'
+developers_app_default_percentage = '0.60'
+p3p_specs = 'CP='IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT''
+admin_email = 'admin@beintoo.com'
+admin_password = 'tmct1234sftp'
+deal.adility_customer_id = '4'
+deal.adility_percentage = '0.65'
+deal.paypal_fee = '0.30'
+deal.paypal_percentage = '0.039'
+deal.user_discount = '0.1'
+deal.user_discount_min = '1'
+deal.user_discount_max = '20'
+campaign.default_bedollars = '20'
+VOUCHACHA_APIKEY = '688695db63f76594b3a62715c68ee1ea6d8d6c48'
+campaign.tracking_landing = 'http://localhost:8080/tracking/vgood'
+css_version = '1'
+EMAIL_SERVER_IPADDRESS = '127.0.0.1'
+minimum.sponsored_achievement_cpu = '0.35'
+minimum.sponsored_achievement_cpe = '0.25'
+minimum.sponsored_achievement_budget = '150'
+minimum.campaign_cpd = '0.1'
+minimum.campaign_cpua = '0.25'
+minimum.campaign_cpl = '0.51'
+minimum.campaign_cpaa = '5.00'
+minimum.vgoodpromotioncodes_number = '10'
+static.https_url = 'https://s3-eu-west-1.amazonaws.com/static.beintoo.com/'
+static.http_url = 'http://static.beintoo.com/'
+connect.exclude_china = 'true'
+retailer.supported_countries = 'IT'
+VGOODS_IT = '[1050976, 1169138]'
+VGOODS_GB = '[1169225, 873294, 23221]'
+VGOODS_US = '[1147057, 1147041, 1149722]'
+getMembasePoolURI = 'http://localhost:8091/pools'
+}
+130207144418 2013-02-07 14:44:18,072 INFO CONFIGURATION - DEVELOPER_AREA: true
+130207144418 2013-02-07 14:44:18,072 INFO CONFIGURATION - FB_APP_ID: 95687611783
+130207144418 2013-02-07 14:44:18,072 INFO CONFIGURATION - FB_API_KEY: 03c5087607dab5f9097f71b1efa491aa
+130207144418 2013-02-07 14:44:18,073 INFO CONFIGURATION - FB_API_SECRET: b6d0364baba679d048f106cd6f781a6a
+130207144418 2013-02-07 14:44:18,073 INFO CONFIGURATION - FB_FEED_DELAY: 3600000
+130207144418 2013-02-07 14:44:18,073 INFO CONFIGURATION - ACTIVITY_DELIVERY: true
+130207144418 2013-02-07 14:44:18,073 INFO CONFIGURATION - MAIL_DELAY: 86400000
+130207144418 2013-02-07 14:44:18,074 INFO CONFIGURATION - GENERATED_IMAGES_PATH: /Users/Willy/glassfish3/glassfish/domains/domain1/tmp
+130207144418 2013-02-07 14:44:18,074 INFO CONFIGURATION - GENERATED_IMAGES_EXTERNAL_PATH: http://static.beintoo.com/images
+130207144418 2013-02-07 14:44:18,074 INFO CONFIGURATION - BASE_URL: http://localhost:8080
+130207144418 2013-02-07 14:44:18,092 INFO CONFIGURATION - BASE_URL_API: http://sandbox.beintoo.com
+130207144418 2013-02-07 14:44:18,092 INFO CONFIGURATION - BEINTOO_APP_API_KEY: 567890123456
+130207144418 2013-02-07 14:44:18,092 INFO CONFIGURATION - BEINTOO_CONTEST_INVITE_APP_API_KEY: 234567890123
+130207144418 2013-02-07 14:44:18,092 INFO CONFIGURATION - APP_DEFAULT_PERCENTAGE: 0.6
+130207144418 2013-02-07 14:44:18,093 INFO CONFIGURATION - PRIZE_ADD_FRIEND_BEDOLLARS: 50
+130207144418 2013-02-07 14:44:18,093 INFO CONFIGURATION - BEDOLLARS_VOTE: 1
+130207144418 2013-02-07 14:44:18,093 INFO CONFIGURATION - BEDOLLARS_COMMENT: 2
+130207144527 2013-02-07 14:45:27,664 INFO CONFIGURATION - Current machine IP address: null
+130207144527 2013-02-07 14:45:27,675 INFO CONFIGURATION - ---------------------- SYSTEM CONFIGURATION ----------------------
+130207144527 2013-02-07 14:45:27,677 INFO CONFIGURATION - Properties: {
+developer_area = 'true'
+emailtest.placeid = '1'
+emailtest.vgoodpromotioncodeid = '1'
+emailtest.contestid = '1'
+emailtest.customerid = '1'
+emailtest.appid = '1'
+emailtest.vgoodid = '1'
+emailtest.userid = '1'
+emailtest.targetuserid = '2'
+emailtest.uvid_no_poi_code = '150'
+emailtest.uvid_no_poi_no_code = '1289'
+emailtest.uvid_poi_code = '95'
+emailtest.uvid_poi_no_code = '962'
+emailtest.uvadilityid = '1289'
+emailtest.uvid_marketplace_price_poi = '997'
+emailtest.uvid_marketplace_price_no_poi = '1'
+emailtest.uvid_marketplace_no_price_no_poi = '150'
+emailtest.uvid_marketplace_no_price_poi = '962'
+emailserver.url = 'http://localhost:8080/email'
+BannerVsVgoodRatio = '0.35'
+NoPlayerSubmitScoreForNotUser = 'false'
+BannerBannedList = 'MOJIVA;EJAM'
+BannerRange.NEXAGE = '80'
+BannerRange.MOOLAHMEDIA = '20'
+fb.app_id = '95687611783'
+fb.page_id = '288109507867236'
+fb.api_key = '03c5087607dab5f9097f71b1efa491aa'
+fb.api_secret = 'b6d0364baba679d048f106cd6f781a6a'
+profile_images_path = '/Users/Willy/glassfish3/glassfish/domains/domain1/tmp'
+profile_images_external_path = 'http://static.beintoo.com/images'
+CONVERSION_MAX_DISTANCE_METERS = '500'
+base_url = 'http://localhost:8080'
+base_url_api = 'http://sandbox.beintoo.com'
+cookies_path = 'http://localhost:8080'
+beintoo_app_api_key = '567890123456'
+beintoo_contest_invite_app_api_key = '234567890123'
+prize_add_friend_bedollars = '50'
+bedollars_vote = '1'
+bedollars_comment = '2'
+user_signup_bedollars = '100'
+USE_GEONAMES = 'false'
+developers_app_default_percentage = '0.60'
+p3p_specs = 'CP='IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT''
+admin_email = 'admin@beintoo.com'
+admin_password = 'tmct1234sftp'
+deal.adility_customer_id = '4'
+deal.adility_percentage = '0.65'
+deal.paypal_fee = '0.30'
+deal.paypal_percentage = '0.039'
+deal.user_discount = '0.1'
+deal.user_discount_min = '1'
+deal.user_discount_max = '20'
+campaign.default_bedollars = '20'
+VOUCHACHA_APIKEY = '688695db63f76594b3a62715c68ee1ea6d8d6c48'
+campaign.tracking_landing = 'http://localhost:8080/tracking/vgood'
+css_version = '1'
+EMAIL_SERVER_IPADDRESS = '127.0.0.1'
+minimum.sponsored_achievement_cpu = '0.35'
+minimum.sponsored_achievement_cpe = '0.25'
+minimum.sponsored_achievement_budget = '150'
+minimum.campaign_cpd = '0.1'
+minimum.campaign_cpua = '0.25'
+minimum.campaign_cpl = '0.51'
+minimum.campaign_cpaa = '5.00'
+minimum.vgoodpromotioncodes_number = '10'
+static.https_url = 'https://s3-eu-west-1.amazonaws.com/static.beintoo.com/'
+static.http_url = 'http://static.beintoo.com/'
+connect.exclude_china = 'true'
+retailer.supported_countries = 'IT'
+VGOODS_IT = '[1050976, 1169138]'
+VGOODS_GB = '[1169225, 873294, 23221]'
+VGOODS_US = '[1147057, 1147041, 1149722]'
+getMembasePoolURI = 'http://localhost:8091/pools'
+}
+130207144527 2013-02-07 14:45:27,677 INFO CONFIGURATION - DEVELOPER_AREA: true
+130207144527 2013-02-07 14:45:27,678 INFO CONFIGURATION - FB_APP_ID: 95687611783
+130207144527 2013-02-07 14:45:27,678 INFO CONFIGURATION - FB_API_KEY: 03c5087607dab5f9097f71b1efa491aa
+130207144527 2013-02-07 14:45:27,678 INFO CONFIGURATION - FB_API_SECRET: b6d0364baba679d048f106cd6f781a6a
+130207144527 2013-02-07 14:45:27,678 INFO CONFIGURATION - FB_FEED_DELAY: 3600000
+130207144527 2013-02-07 14:45:27,688 INFO CONFIGURATION - ACTIVITY_DELIVERY: true
+130207144527 2013-02-07 14:45:27,688 INFO CONFIGURATION - MAIL_DELAY: 86400000
+130207144527 2013-02-07 14:45:27,689 INFO CONFIGURATION - GENERATED_IMAGES_PATH: /Users/Willy/glassfish3/glassfish/domains/domain1/tmp
+130207144527 2013-02-07 14:45:27,689 INFO CONFIGURATION - GENERATED_IMAGES_EXTERNAL_PATH: http://static.beintoo.com/images
+130207144527 2013-02-07 14:45:27,689 INFO CONFIGURATION - BASE_URL: http://localhost:8080
+130207144527 2013-02-07 14:45:27,689 INFO CONFIGURATION - BASE_URL_API: http://sandbox.beintoo.com
+130207144527 2013-02-07 14:45:27,689 INFO CONFIGURATION - BEINTOO_APP_API_KEY: 567890123456
+130207144527 2013-02-07 14:45:27,689 INFO CONFIGURATION - BEINTOO_CONTEST_INVITE_APP_API_KEY: 234567890123
+130207144527 2013-02-07 14:45:27,690 INFO CONFIGURATION - APP_DEFAULT_PERCENTAGE: 0.6
+130207144527 2013-02-07 14:45:27,690 INFO CONFIGURATION - PRIZE_ADD_FRIEND_BEDOLLARS: 50
+130207144527 2013-02-07 14:45:27,690 INFO CONFIGURATION - BEDOLLARS_VOTE: 1
+130207144527 2013-02-07 14:45:27,690 INFO CONFIGURATION - BEDOLLARS_COMMENT: 2
+130207144559 2013-02-07 14:45:59,193 INFO CONFIGURATION - Current machine IP address: null
+130207144559 2013-02-07 14:45:59,193 INFO CONFIGURATION - ---------------------- SYSTEM CONFIGURATION ----------------------
+130207144559 2013-02-07 14:45:59,195 INFO CONFIGURATION - Properties: {
+developer_area = 'true'
+emailtest.placeid = '1'
+emailtest.vgoodpromotioncodeid = '1'
+emailtest.contestid = '1'
+emailtest.customerid = '1'
+emailtest.appid = '1'
+emailtest.vgoodid = '1'
+emailtest.userid = '1'
+emailtest.targetuserid = '2'
+emailtest.uvid_no_poi_code = '150'
+emailtest.uvid_no_poi_no_code = '1289'
+emailtest.uvid_poi_code = '95'
+emailtest.uvid_poi_no_code = '962'
+emailtest.uvadilityid = '1289'
+emailtest.uvid_marketplace_price_poi = '997'
+emailtest.uvid_marketplace_price_no_poi = '1'
+emailtest.uvid_marketplace_no_price_no_poi = '150'
+emailtest.uvid_marketplace_no_price_poi = '962'
+emailserver.url = 'http://localhost:8080/email'
+BannerVsVgoodRatio = '0.35'
+NoPlayerSubmitScoreForNotUser = 'false'
+BannerBannedList = 'MOJIVA;EJAM'
+BannerRange.NEXAGE = '80'
+BannerRange.MOOLAHMEDIA = '20'
+fb.app_id = '95687611783'
+fb.page_id = '288109507867236'
+fb.api_key = '03c5087607dab5f9097f71b1efa491aa'
+fb.api_secret = 'b6d0364baba679d048f106cd6f781a6a'
+profile_images_path = '/Users/Willy/glassfish3/glassfish/domains/domain1/tmp'
+profile_images_external_path = 'http://static.beintoo.com/images'
+CONVERSION_MAX_DISTANCE_METERS = '500'
+base_url = 'http://localhost:8080'
+base_url_api = 'http://sandbox.beintoo.com'
+cookies_path = 'http://localhost:8080'
+beintoo_app_api_key = '567890123456'
+beintoo_contest_invite_app_api_key = '234567890123'
+prize_add_friend_bedollars = '50'
+bedollars_vote = '1'
+bedollars_comment = '2'
+user_signup_bedollars = '100'
+USE_GEONAMES = 'false'
+developers_app_default_percentage = '0.60'
+p3p_specs = 'CP='IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT''
+admin_email = 'admin@beintoo.com'
+admin_password = 'tmct1234sftp'
+deal.adility_customer_id = '4'
+deal.adility_percentage = '0.65'
+deal.paypal_fee = '0.30'
+deal.paypal_percentage = '0.039'
+deal.user_discount = '0.1'
+deal.user_discount_min = '1'
+deal.user_discount_max = '20'
+campaign.default_bedollars = '20'
+VOUCHACHA_APIKEY = '688695db63f76594b3a62715c68ee1ea6d8d6c48'
+campaign.tracking_landing = 'http://localhost:8080/tracking/vgood'
+css_version = '1'
+EMAIL_SERVER_IPADDRESS = '127.0.0.1'
+minimum.sponsored_achievement_cpu = '0.35'
+minimum.sponsored_achievement_cpe = '0.25'
+minimum.sponsored_achievement_budget = '150'
+minimum.campaign_cpd = '0.1'
+minimum.campaign_cpua = '0.25'
+minimum.campaign_cpl = '0.51'
+minimum.campaign_cpaa = '5.00'
+minimum.vgoodpromotioncodes_number = '10'
+static.https_url = 'https://s3-eu-west-1.amazonaws.com/static.beintoo.com/'
+static.http_url = 'http://static.beintoo.com/'
+connect.exclude_china = 'true'
+retailer.supported_countries = 'IT'
+VGOODS_IT = '[1050976, 1169138]'
+VGOODS_GB = '[1169225, 873294, 23221]'
+VGOODS_US = '[1147057, 1147041, 1149722]'
+getMembasePoolURI = 'http://localhost:8091/pools'
+}
+130207144559 2013-02-07 14:45:59,195 INFO CONFIGURATION - DEVELOPER_AREA: true
+130207144559 2013-02-07 14:45:59,195 INFO CONFIGURATION - FB_APP_ID: 95687611783
+130207144559 2013-02-07 14:45:59,195 INFO CONFIGURATION - FB_API_KEY: 03c5087607dab5f9097f71b1efa491aa
+130207144559 2013-02-07 14:45:59,195 INFO CONFIGURATION - FB_API_SECRET: b6d0364baba679d048f106cd6f781a6a
+130207144559 2013-02-07 14:45:59,196 INFO CONFIGURATION - FB_FEED_DELAY: 3600000
+130207144559 2013-02-07 14:45:59,196 INFO CONFIGURATION - ACTIVITY_DELIVERY: true
+130207144559 2013-02-07 14:45:59,196 INFO CONFIGURATION - MAIL_DELAY: 86400000
+130207144559 2013-02-07 14:45:59,196 INFO CONFIGURATION - GENERATED_IMAGES_PATH: /Users/Willy/glassfish3/glassfish/domains/domain1/tmp
+130207144559 2013-02-07 14:45:59,196 INFO CONFIGURATION - GENERATED_IMAGES_EXTERNAL_PATH: http://static.beintoo.com/images
+130207144559 2013-02-07 14:45:59,196 INFO CONFIGURATION - BASE_URL: http://localhost:8080
+130207144559 2013-02-07 14:45:59,196 INFO CONFIGURATION - BASE_URL_API: http://sandbox.beintoo.com
+130207144559 2013-02-07 14:45:59,196 INFO CONFIGURATION - BEINTOO_APP_API_KEY: 567890123456
+130207144559 2013-02-07 14:45:59,196 INFO CONFIGURATION - BEINTOO_CONTEST_INVITE_APP_API_KEY: 234567890123
+130207144559 2013-02-07 14:45:59,197 INFO CONFIGURATION - APP_DEFAULT_PERCENTAGE: 0.6
+130207144559 2013-02-07 14:45:59,197 INFO CONFIGURATION - PRIZE_ADD_FRIEND_BEDOLLARS: 50
+130207144559 2013-02-07 14:45:59,197 INFO CONFIGURATION - BEDOLLARS_VOTE: 1
+130207144559 2013-02-07 14:45:59,197 INFO CONFIGURATION - BEDOLLARS_COMMENT: 2
+130207144653 2013-02-07 14:46:53,754 INFO CONFIGURATION - Current machine IP address: null
+130207144653 2013-02-07 14:46:53,755 INFO CONFIGURATION - ---------------------- SYSTEM CONFIGURATION ----------------------
+130207144653 2013-02-07 14:46:53,757 INFO CONFIGURATION - Properties: {
+developer_area = 'true'
+emailtest.placeid = '1'
+emailtest.vgoodpromotioncodeid = '1'
+emailtest.contestid = '1'
+emailtest.customerid = '1'
+emailtest.appid = '1'
+emailtest.vgoodid = '1'
+emailtest.userid = '1'
+emailtest.targetuserid = '2'
+emailtest.uvid_no_poi_code = '150'
+emailtest.uvid_no_poi_no_code = '1289'
+emailtest.uvid_poi_code = '95'
+emailtest.uvid_poi_no_code = '962'
+emailtest.uvadilityid = '1289'
+emailtest.uvid_marketplace_price_poi = '997'
+emailtest.uvid_marketplace_price_no_poi = '1'
+emailtest.uvid_marketplace_no_price_no_poi = '150'
+emailtest.uvid_marketplace_no_price_poi = '962'
+emailserver.url = 'http://localhost:8080/email'
+BannerVsVgoodRatio = '0.35'
+NoPlayerSubmitScoreForNotUser = 'false'
+BannerBannedList = 'MOJIVA;EJAM'
+BannerRange.NEXAGE = '80'
+BannerRange.MOOLAHMEDIA = '20'
+fb.app_id = '95687611783'
+fb.page_id = '288109507867236'
+fb.api_key = '03c5087607dab5f9097f71b1efa491aa'
+fb.api_secret = 'b6d0364baba679d048f106cd6f781a6a'
+profile_images_path = '/Users/Willy/glassfish3/glassfish/domains/domain1/tmp'
+profile_images_external_path = 'http://static.beintoo.com/images'
+CONVERSION_MAX_DISTANCE_METERS = '500'
+base_url = 'http://localhost:8080'
+base_url_api = 'http://sandbox.beintoo.com'
+cookies_path = 'http://localhost:8080'
+beintoo_app_api_key = '567890123456'
+beintoo_contest_invite_app_api_key = '234567890123'
+prize_add_friend_bedollars = '50'
+bedollars_vote = '1'
+bedollars_comment = '2'
+user_signup_bedollars = '100'
+USE_GEONAMES = 'false'
+developers_app_default_percentage = '0.60'
+p3p_specs = 'CP='IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT''
+admin_email = 'admin@beintoo.com'
+admin_password = 'tmct1234sftp'
+deal.adility_customer_id = '4'
+deal.adility_percentage = '0.65'
+deal.paypal_fee = '0.30'
+deal.paypal_percentage = '0.039'
+deal.user_discount = '0.1'
+deal.user_discount_min = '1'
+deal.user_discount_max = '20'
+campaign.default_bedollars = '20'
+VOUCHACHA_APIKEY = '688695db63f76594b3a62715c68ee1ea6d8d6c48'
+campaign.tracking_landing = 'http://localhost:8080/tracking/vgood'
+css_version = '1'
+EMAIL_SERVER_IPADDRESS = '127.0.0.1'
+minimum.sponsored_achievement_cpu = '0.35'
+minimum.sponsored_achievement_cpe = '0.25'
+minimum.sponsored_achievement_budget = '150'
+minimum.campaign_cpd = '0.1'
+minimum.campaign_cpua = '0.25'
+minimum.campaign_cpl = '0.51'
+minimum.campaign_cpaa = '5.00'
+minimum.vgoodpromotioncodes_number = '10'
+static.https_url = 'https://s3-eu-west-1.amazonaws.com/static.beintoo.com/'
+static.http_url = 'http://static.beintoo.com/'
+connect.exclude_china = 'true'
+retailer.supported_countries = 'IT'
+VGOODS_IT = '[1050976, 1169138]'
+VGOODS_GB = '[1169225, 873294, 23221]'
+VGOODS_US = '[1147057, 1147041, 1149722]'
+getMembasePoolURI = 'http://localhost:8091/pools'
+}
+130207144653 2013-02-07 14:46:53,757 INFO CONFIGURATION - DEVELOPER_AREA: true
+130207144653 2013-02-07 14:46:53,757 INFO CONFIGURATION - FB_APP_ID: 95687611783
+130207144653 2013-02-07 14:46:53,757 INFO CONFIGURATION - FB_API_KEY: 03c5087607dab5f9097f71b1efa491aa
+130207144653 2013-02-07 14:46:53,757 INFO CONFIGURATION - FB_API_SECRET: b6d0364baba679d048f106cd6f781a6a
+130207144653 2013-02-07 14:46:53,757 INFO CONFIGURATION - FB_FEED_DELAY: 3600000
+130207144653 2013-02-07 14:46:53,757 INFO CONFIGURATION - ACTIVITY_DELIVERY: true
+130207144653 2013-02-07 14:46:53,757 INFO CONFIGURATION - MAIL_DELAY: 86400000
+130207144653 2013-02-07 14:46:53,758 INFO CONFIGURATION - GENERATED_IMAGES_PATH: /Users/Willy/glassfish3/glassfish/domains/domain1/tmp
+130207144653 2013-02-07 14:46:53,758 INFO CONFIGURATION - GENERATED_IMAGES_EXTERNAL_PATH: http://static.beintoo.com/images
+130207144653 2013-02-07 14:46:53,758 INFO CONFIGURATION - BASE_URL: http://localhost:8080
+130207144653 2013-02-07 14:46:53,758 INFO CONFIGURATION - BASE_URL_API: http://sandbox.beintoo.com
+130207144653 2013-02-07 14:46:53,758 INFO CONFIGURATION - BEINTOO_APP_API_KEY: 567890123456
+130207144653 2013-02-07 14:46:53,758 INFO CONFIGURATION - BEINTOO_CONTEST_INVITE_APP_API_KEY: 234567890123
+130207144653 2013-02-07 14:46:53,759 INFO CONFIGURATION - APP_DEFAULT_PERCENTAGE: 0.6
+130207144653 2013-02-07 14:46:53,759 INFO CONFIGURATION - PRIZE_ADD_FRIEND_BEDOLLARS: 50
+130207144653 2013-02-07 14:46:53,759 INFO CONFIGURATION - BEDOLLARS_VOTE: 1
+130207144653 2013-02-07 14:46:53,759 INFO CONFIGURATION - BEDOLLARS_COMMENT: 2
+130207144749 2013-02-07 14:47:49,659 INFO CONFIGURATION - Current machine IP address: null
+130207144749 2013-02-07 14:47:49,660 INFO CONFIGURATION - ---------------------- SYSTEM CONFIGURATION ----------------------
+130207144749 2013-02-07 14:47:49,662 INFO CONFIGURATION - Properties: {
+developer_area = 'true'
+emailtest.placeid = '1'
+emailtest.vgoodpromotioncodeid = '1'
+emailtest.contestid = '1'
+emailtest.customerid = '1'
+emailtest.appid = '1'
+emailtest.vgoodid = '1'
+emailtest.userid = '1'
+emailtest.targetuserid = '2'
+emailtest.uvid_no_poi_code = '150'
+emailtest.uvid_no_poi_no_code = '1289'
+emailtest.uvid_poi_code = '95'
+emailtest.uvid_poi_no_code = '962'
+emailtest.uvadilityid = '1289'
+emailtest.uvid_marketplace_price_poi = '997'
+emailtest.uvid_marketplace_price_no_poi = '1'
+emailtest.uvid_marketplace_no_price_no_poi = '150'
+emailtest.uvid_marketplace_no_price_poi = '962'
+emailserver.url = 'http://localhost:8080/email'
+BannerVsVgoodRatio = '0.35'
+NoPlayerSubmitScoreForNotUser = 'false'
+BannerBannedList = 'MOJIVA;EJAM'
+BannerRange.NEXAGE = '80'
+BannerRange.MOOLAHMEDIA = '20'
+fb.app_id = '95687611783'
+fb.page_id = '288109507867236'
+fb.api_key = '03c5087607dab5f9097f71b1efa491aa'
+fb.api_secret = 'b6d0364baba679d048f106cd6f781a6a'
+profile_images_path = '/Users/Willy/glassfish3/glassfish/domains/domain1/tmp'
+profile_images_external_path = 'http://static.beintoo.com/images'
+CONVERSION_MAX_DISTANCE_METERS = '500'
+base_url = 'http://localhost:8080'
+base_url_api = 'http://sandbox.beintoo.com'
+cookies_path = 'http://localhost:8080'
+beintoo_app_api_key = '567890123456'
+beintoo_contest_invite_app_api_key = '234567890123'
+prize_add_friend_bedollars = '50'
+bedollars_vote = '1'
+bedollars_comment = '2'
+user_signup_bedollars = '100'
+USE_GEONAMES = 'false'
+developers_app_default_percentage = '0.60'
+p3p_specs = 'CP='IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT''
+admin_email = 'admin@beintoo.com'
+admin_password = 'tmct1234sftp'
+deal.adility_customer_id = '4'
+deal.adility_percentage = '0.65'
+deal.paypal_fee = '0.30'
+deal.paypal_percentage = '0.039'
+deal.user_discount = '0.1'
+deal.user_discount_min = '1'
+deal.user_discount_max = '20'
+campaign.default_bedollars = '20'
+VOUCHACHA_APIKEY = '688695db63f76594b3a62715c68ee1ea6d8d6c48'
+campaign.tracking_landing = 'http://localhost:8080/tracking/vgood'
+css_version = '1'
+EMAIL_SERVER_IPADDRESS = '127.0.0.1'
+minimum.sponsored_achievement_cpu = '0.35'
+minimum.sponsored_achievement_cpe = '0.25'
+minimum.sponsored_achievement_budget = '150'
+minimum.campaign_cpd = '0.1'
+minimum.campaign_cpua = '0.25'
+minimum.campaign_cpl = '0.51'
+minimum.campaign_cpaa = '5.00'
+minimum.vgoodpromotioncodes_number = '10'
+static.https_url = 'https://s3-eu-west-1.amazonaws.com/static.beintoo.com/'
+static.http_url = 'http://static.beintoo.com/'
+connect.exclude_china = 'true'
+retailer.supported_countries = 'IT'
+VGOODS_IT = '[1050976, 1169138]'
+VGOODS_GB = '[1169225, 873294, 23221]'
+VGOODS_US = '[1147057, 1147041, 1149722]'
+getMembasePoolURI = 'http://localhost:8091/pools'
+}
+130207144749 2013-02-07 14:47:49,662 INFO CONFIGURATION - DEVELOPER_AREA: true
+130207144749 2013-02-07 14:47:49,662 INFO CONFIGURATION - FB_APP_ID: 95687611783
+130207144749 2013-02-07 14:47:49,662 INFO CONFIGURATION - FB_API_KEY: 03c5087607dab5f9097f71b1efa491aa
+130207144749 2013-02-07 14:47:49,662 INFO CONFIGURATION - FB_API_SECRET: b6d0364baba679d048f106cd6f781a6a
+130207144749 2013-02-07 14:47:49,662 INFO CONFIGURATION - FB_FEED_DELAY: 3600000
+130207144749 2013-02-07 14:47:49,663 INFO CONFIGURATION - ACTIVITY_DELIVERY: true
+130207144749 2013-02-07 14:47:49,663 INFO CONFIGURATION - MAIL_DELAY: 86400000
+130207144749 2013-02-07 14:47:49,663 INFO CONFIGURATION - GENERATED_IMAGES_PATH: /Users/Willy/glassfish3/glassfish/domains/domain1/tmp
+130207144749 2013-02-07 14:47:49,663 INFO CONFIGURATION - GENERATED_IMAGES_EXTERNAL_PATH: http://static.beintoo.com/images
+130207144749 2013-02-07 14:47:49,663 INFO CONFIGURATION - BASE_URL: http://localhost:8080
+130207144749 2013-02-07 14:47:49,663 INFO CONFIGURATION - BASE_URL_API: http://sandbox.beintoo.com
+130207144749 2013-02-07 14:47:49,663 INFO CONFIGURATION - BEINTOO_APP_API_KEY: 567890123456
+130207144749 2013-02-07 14:47:49,664 INFO CONFIGURATION - BEINTOO_CONTEST_INVITE_APP_API_KEY: 234567890123
+130207144749 2013-02-07 14:47:49,664 INFO CONFIGURATION - APP_DEFAULT_PERCENTAGE: 0.6
+130207144749 2013-02-07 14:47:49,664 INFO CONFIGURATION - PRIZE_ADD_FRIEND_BEDOLLARS: 50
+130207144749 2013-02-07 14:47:49,664 INFO CONFIGURATION - BEDOLLARS_VOTE: 1
+130207144749 2013-02-07 14:47:49,664 INFO CONFIGURATION - BEDOLLARS_COMMENT: 2
+130207144839 2013-02-07 14:48:39,733 INFO CONFIGURATION - Current machine IP address: null
+130207144839 2013-02-07 14:48:39,733 INFO CONFIGURATION - ---------------------- SYSTEM CONFIGURATION ----------------------
+130207144839 2013-02-07 14:48:39,735 INFO CONFIGURATION - Properties: {
+developer_area = 'true'
+emailtest.placeid = '1'
+emailtest.vgoodpromotioncodeid = '1'
+emailtest.contestid = '1'
+emailtest.customerid = '1'
+emailtest.appid = '1'
+emailtest.vgoodid = '1'
+emailtest.userid = '1'
+emailtest.targetuserid = '2'
+emailtest.uvid_no_poi_code = '150'
+emailtest.uvid_no_poi_no_code = '1289'
+emailtest.uvid_poi_code = '95'
+emailtest.uvid_poi_no_code = '962'
+emailtest.uvadilityid = '1289'
+emailtest.uvid_marketplace_price_poi = '997'
+emailtest.uvid_marketplace_price_no_poi = '1'
+emailtest.uvid_marketplace_no_price_no_poi = '150'
+emailtest.uvid_marketplace_no_price_poi = '962'
+emailserver.url = 'http://localhost:8080/email'
+BannerVsVgoodRatio = '0.35'
+NoPlayerSubmitScoreForNotUser = 'false'
+BannerBannedList = 'MOJIVA;EJAM'
+BannerRange.NEXAGE = '80'
+BannerRange.MOOLAHMEDIA = '20'
+fb.app_id = '95687611783'
+fb.page_id = '288109507867236'
+fb.api_key = '03c5087607dab5f9097f71b1efa491aa'
+fb.api_secret = 'b6d0364baba679d048f106cd6f781a6a'
+profile_images_path = '/Users/Willy/glassfish3/glassfish/domains/domain1/tmp'
+profile_images_external_path = 'http://static.beintoo.com/images'
+CONVERSION_MAX_DISTANCE_METERS = '500'
+base_url = 'http://localhost:8080'
+base_url_api = 'http://sandbox.beintoo.com'
+cookies_path = 'http://localhost:8080'
+beintoo_app_api_key = '567890123456'
+beintoo_contest_invite_app_api_key = '234567890123'
+prize_add_friend_bedollars = '50'
+bedollars_vote = '1'
+bedollars_comment = '2'
+user_signup_bedollars = '100'
+USE_GEONAMES = 'false'
+developers_app_default_percentage = '0.60'
+p3p_specs = 'CP='IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT''
+admin_email = 'admin@beintoo.com'
+admin_password = 'tmct1234sftp'
+deal.adility_customer_id = '4'
+deal.adility_percentage = '0.65'
+deal.paypal_fee = '0.30'
+deal.paypal_percentage = '0.039'
+deal.user_discount = '0.1'
+deal.user_discount_min = '1'
+deal.user_discount_max = '20'
+campaign.default_bedollars = '20'
+VOUCHACHA_APIKEY = '688695db63f76594b3a62715c68ee1ea6d8d6c48'
+campaign.tracking_landing = 'http://localhost:8080/tracking/vgood'
+css_version = '1'
+EMAIL_SERVER_IPADDRESS = '127.0.0.1'
+minimum.sponsored_achievement_cpu = '0.35'
+minimum.sponsored_achievement_cpe = '0.25'
+minimum.sponsored_achievement_budget = '150'
+minimum.campaign_cpd = '0.1'
+minimum.campaign_cpua = '0.25'
+minimum.campaign_cpl = '0.51'
+minimum.campaign_cpaa = '5.00'
+minimum.vgoodpromotioncodes_number = '10'
+static.https_url = 'https://s3-eu-west-1.amazonaws.com/static.beintoo.com/'
+static.http_url = 'http://static.beintoo.com/'
+connect.exclude_china = 'true'
+retailer.supported_countries = 'IT'
+VGOODS_IT = '[1050976, 1169138]'
+VGOODS_GB = '[1169225, 873294, 23221]'
+VGOODS_US = '[1147057, 1147041, 1149722]'
+getMembasePoolURI = 'http://localhost:8091/pools'
+}
+130207144839 2013-02-07 14:48:39,735 INFO CONFIGURATION - DEVELOPER_AREA: true
+130207144839 2013-02-07 14:48:39,736 INFO CONFIGURATION - FB_APP_ID: 95687611783
+130207144839 2013-02-07 14:48:39,736 INFO CONFIGURATION - FB_API_KEY: 03c5087607dab5f9097f71b1efa491aa
+130207144839 2013-02-07 14:48:39,736 INFO CONFIGURATION - FB_API_SECRET: b6d0364baba679d048f106cd6f781a6a
+130207144839 2013-02-07 14:48:39,736 INFO CONFIGURATION - FB_FEED_DELAY: 3600000
+130207144839 2013-02-07 14:48:39,736 INFO CONFIGURATION - ACTIVITY_DELIVERY: true
+130207144839 2013-02-07 14:48:39,736 INFO CONFIGURATION - MAIL_DELAY: 86400000
+130207144839 2013-02-07 14:48:39,736 INFO CONFIGURATION - GENERATED_IMAGES_PATH: /Users/Willy/glassfish3/glassfish/domains/domain1/tmp
+130207144839 2013-02-07 14:48:39,736 INFO CONFIGURATION - GENERATED_IMAGES_EXTERNAL_PATH: http://static.beintoo.com/images
+130207144839 2013-02-07 14:48:39,737 INFO CONFIGURATION - BASE_URL: http://localhost:8080
+130207144839 2013-02-07 14:48:39,737 INFO CONFIGURATION - BASE_URL_API: http://sandbox.beintoo.com
+130207144839 2013-02-07 14:48:39,737 INFO CONFIGURATION - BEINTOO_APP_API_KEY: 567890123456
+130207144839 2013-02-07 14:48:39,737 INFO CONFIGURATION - BEINTOO_CONTEST_INVITE_APP_API_KEY: 234567890123
+130207144839 2013-02-07 14:48:39,737 INFO CONFIGURATION - APP_DEFAULT_PERCENTAGE: 0.6
+130207144839 2013-02-07 14:48:39,738 INFO CONFIGURATION - PRIZE_ADD_FRIEND_BEDOLLARS: 50
+130207144839 2013-02-07 14:48:39,738 INFO CONFIGURATION - BEDOLLARS_VOTE: 1
+130207144839 2013-02-07 14:48:39,738 INFO CONFIGURATION - BEDOLLARS_COMMENT: 2
+130207144907 2013-02-07 14:49:07,548 INFO CONFIGURATION - Current machine IP address: null
+130207144907 2013-02-07 14:49:07,548 INFO CONFIGURATION - ---------------------- SYSTEM CONFIGURATION ----------------------
+130207144907 2013-02-07 14:49:07,550 INFO CONFIGURATION - Properties: {
+developer_area = 'true'
+emailtest.placeid = '1'
+emailtest.vgoodpromotioncodeid = '1'
+emailtest.contestid = '1'
+emailtest.customerid = '1'
+emailtest.appid = '1'
+emailtest.vgoodid = '1'
+emailtest.userid = '1'
+emailtest.targetuserid = '2'
+emailtest.uvid_no_poi_code = '150'
+emailtest.uvid_no_poi_no_code = '1289'
+emailtest.uvid_poi_code = '95'
+emailtest.uvid_poi_no_code = '962'
+emailtest.uvadilityid = '1289'
+emailtest.uvid_marketplace_price_poi = '997'
+emailtest.uvid_marketplace_price_no_poi = '1'
+emailtest.uvid_marketplace_no_price_no_poi = '150'
+emailtest.uvid_marketplace_no_price_poi = '962'
+emailserver.url = 'http://localhost:8080/email'
+BannerVsVgoodRatio = '0.35'
+NoPlayerSubmitScoreForNotUser = 'false'
+BannerBannedList = 'MOJIVA;EJAM'
+BannerRange.NEXAGE = '80'
+BannerRange.MOOLAHMEDIA = '20'
+fb.app_id = '95687611783'
+fb.page_id = '288109507867236'
+fb.api_key = '03c5087607dab5f9097f71b1efa491aa'
+fb.api_secret = 'b6d0364baba679d048f106cd6f781a6a'
+profile_images_path = '/Users/Willy/glassfish3/glassfish/domains/domain1/tmp'
+profile_images_external_path = 'http://static.beintoo.com/images'
+CONVERSION_MAX_DISTANCE_METERS = '500'
+base_url = 'http://localhost:8080'
+base_url_api = 'http://sandbox.beintoo.com'
+cookies_path = 'http://localhost:8080'
+beintoo_app_api_key = '567890123456'
+beintoo_contest_invite_app_api_key = '234567890123'
+prize_add_friend_bedollars = '50'
+bedollars_vote = '1'
+bedollars_comment = '2'
+user_signup_bedollars = '100'
+USE_GEONAMES = 'false'
+developers_app_default_percentage = '0.60'
+p3p_specs = 'CP='IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT''
+admin_email = 'admin@beintoo.com'
+admin_password = 'tmct1234sftp'
+deal.adility_customer_id = '4'
+deal.adility_percentage = '0.65'
+deal.paypal_fee = '0.30'
+deal.paypal_percentage = '0.039'
+deal.user_discount = '0.1'
+deal.user_discount_min = '1'
+deal.user_discount_max = '20'
+campaign.default_bedollars = '20'
+VOUCHACHA_APIKEY = '688695db63f76594b3a62715c68ee1ea6d8d6c48'
+campaign.tracking_landing = 'http://localhost:8080/tracking/vgood'
+css_version = '1'
+EMAIL_SERVER_IPADDRESS = '127.0.0.1'
+minimum.sponsored_achievement_cpu = '0.35'
+minimum.sponsored_achievement_cpe = '0.25'
+minimum.sponsored_achievement_budget = '150'
+minimum.campaign_cpd = '0.1'
+minimum.campaign_cpua = '0.25'
+minimum.campaign_cpl = '0.51'
+minimum.campaign_cpaa = '5.00'
+minimum.vgoodpromotioncodes_number = '10'
+static.https_url = 'https://s3-eu-west-1.amazonaws.com/static.beintoo.com/'
+static.http_url = 'http://static.beintoo.com/'
+connect.exclude_china = 'true'
+retailer.supported_countries = 'IT'
+VGOODS_IT = '[1050976, 1169138]'
+VGOODS_GB = '[1169225, 873294, 23221]'
+VGOODS_US = '[1147057, 1147041, 1149722]'
+getMembasePoolURI = 'http://localhost:8091/pools'
+}
+130207144907 2013-02-07 14:49:07,550 INFO CONFIGURATION - DEVELOPER_AREA: true
+130207144907 2013-02-07 14:49:07,550 INFO CONFIGURATION - FB_APP_ID: 95687611783
+130207144907 2013-02-07 14:49:07,551 INFO CONFIGURATION - FB_API_KEY: 03c5087607dab5f9097f71b1efa491aa
+130207144907 2013-02-07 14:49:07,551 INFO CONFIGURATION - FB_API_SECRET: b6d0364baba679d048f106cd6f781a6a
+130207144907 2013-02-07 14:49:07,551 INFO CONFIGURATION - FB_FEED_DELAY: 3600000
+130207144907 2013-02-07 14:49:07,551 INFO CONFIGURATION - ACTIVITY_DELIVERY: true
+130207144907 2013-02-07 14:49:07,551 INFO CONFIGURATION - MAIL_DELAY: 86400000
+130207144907 2013-02-07 14:49:07,551 INFO CONFIGURATION - GENERATED_IMAGES_PATH: /Users/Willy/glassfish3/glassfish/domains/domain1/tmp
+130207144907 2013-02-07 14:49:07,551 INFO CONFIGURATION - GENERATED_IMAGES_EXTERNAL_PATH: http://static.beintoo.com/images
+130207144907 2013-02-07 14:49:07,551 INFO CONFIGURATION - BASE_URL: http://localhost:8080
+130207144907 2013-02-07 14:49:07,551 INFO CONFIGURATION - BASE_URL_API: http://sandbox.beintoo.com
+130207144907 2013-02-07 14:49:07,552 INFO CONFIGURATION - BEINTOO_APP_API_KEY: 567890123456
+130207144907 2013-02-07 14:49:07,552 INFO CONFIGURATION - BEINTOO_CONTEST_INVITE_APP_API_KEY: 234567890123
+130207144907 2013-02-07 14:49:07,552 INFO CONFIGURATION - APP_DEFAULT_PERCENTAGE: 0.6
+130207144907 2013-02-07 14:49:07,552 INFO CONFIGURATION - PRIZE_ADD_FRIEND_BEDOLLARS: 50
+130207144907 2013-02-07 14:49:07,553 INFO CONFIGURATION - BEDOLLARS_VOTE: 1
+130207144907 2013-02-07 14:49:07,553 INFO CONFIGURATION - BEDOLLARS_COMMENT: 2
+130207145037 2013-02-07 14:50:37,714 INFO CONFIGURATION - Current machine IP address: null
+130207145037 2013-02-07 14:50:37,714 INFO CONFIGURATION - ---------------------- SYSTEM CONFIGURATION ----------------------
+130207145037 2013-02-07 14:50:37,716 INFO CONFIGURATION - Properties: {
+developer_area = 'true'
+emailtest.placeid = '1'
+emailtest.vgoodpromotioncodeid = '1'
+emailtest.contestid = '1'
+emailtest.customerid = '1'
+emailtest.appid = '1'
+emailtest.vgoodid = '1'
+emailtest.userid = '1'
+emailtest.targetuserid = '2'
+emailtest.uvid_no_poi_code = '150'
+emailtest.uvid_no_poi_no_code = '1289'
+emailtest.uvid_poi_code = '95'
+emailtest.uvid_poi_no_code = '962'
+emailtest.uvadilityid = '1289'
+emailtest.uvid_marketplace_price_poi = '997'
+emailtest.uvid_marketplace_price_no_poi = '1'
+emailtest.uvid_marketplace_no_price_no_poi = '150'
+emailtest.uvid_marketplace_no_price_poi = '962'
+emailserver.url = 'http://localhost:8080/email'
+BannerVsVgoodRatio = '0.35'
+NoPlayerSubmitScoreForNotUser = 'false'
+BannerBannedList = 'MOJIVA;EJAM'
+BannerRange.NEXAGE = '80'
+BannerRange.MOOLAHMEDIA = '20'
+fb.app_id = '95687611783'
+fb.page_id = '288109507867236'
+fb.api_key = '03c5087607dab5f9097f71b1efa491aa'
+fb.api_secret = 'b6d0364baba679d048f106cd6f781a6a'
+profile_images_path = '/Users/Willy/glassfish3/glassfish/domains/domain1/tmp'
+profile_images_external_path = 'http://static.beintoo.com/images'
+CONVERSION_MAX_DISTANCE_METERS = '500'
+base_url = 'http://localhost:8080'
+base_url_api = 'http://sandbox.beintoo.com'
+cookies_path = 'http://localhost:8080'
+beintoo_app_api_key = '567890123456'
+beintoo_contest_invite_app_api_key = '234567890123'
+prize_add_friend_bedollars = '50'
+bedollars_vote = '1'
+bedollars_comment = '2'
+user_signup_bedollars = '100'
+USE_GEONAMES = 'false'
+developers_app_default_percentage = '0.60'
+p3p_specs = 'CP='IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT''
+admin_email = 'admin@beintoo.com'
+admin_password = 'tmct1234sftp'
+deal.adility_customer_id = '4'
+deal.adility_percentage = '0.65'
+deal.paypal_fee = '0.30'
+deal.paypal_percentage = '0.039'
+deal.user_discount = '0.1'
+deal.user_discount_min = '1'
+deal.user_discount_max = '20'
+campaign.default_bedollars = '20'
+VOUCHACHA_APIKEY = '688695db63f76594b3a62715c68ee1ea6d8d6c48'
+campaign.tracking_landing = 'http://localhost:8080/tracking/vgood'
+css_version = '1'
+EMAIL_SERVER_IPADDRESS = '127.0.0.1'
+minimum.sponsored_achievement_cpu = '0.35'
+minimum.sponsored_achievement_cpe = '0.25'
+minimum.sponsored_achievement_budget = '150'
+minimum.campaign_cpd = '0.1'
+minimum.campaign_cpua = '0.25'
+minimum.campaign_cpl = '0.51'
+minimum.campaign_cpaa = '5.00'
+minimum.vgoodpromotioncodes_number = '10'
+static.https_url = 'https://s3-eu-west-1.amazonaws.com/static.beintoo.com/'
+static.http_url = 'http://static.beintoo.com/'
+connect.exclude_china = 'true'
+retailer.supported_countries = 'IT'
+VGOODS_IT = '[1050976, 1169138]'
+VGOODS_GB = '[1169225, 873294, 23221]'
+VGOODS_US = '[1147057, 1147041, 1149722]'
+getMembasePoolURI = 'http://localhost:8091/pools'
+}
+130207145037 2013-02-07 14:50:37,717 INFO CONFIGURATION - DEVELOPER_AREA: true
+130207145037 2013-02-07 14:50:37,717 INFO CONFIGURATION - FB_APP_ID: 95687611783
+130207145037 2013-02-07 14:50:37,717 INFO CONFIGURATION - FB_API_KEY: 03c5087607dab5f9097f71b1efa491aa
+130207145037 2013-02-07 14:50:37,717 INFO CONFIGURATION - FB_API_SECRET: b6d0364baba679d048f106cd6f781a6a
+130207145037 2013-02-07 14:50:37,717 INFO CONFIGURATION - FB_FEED_DELAY: 3600000
+130207145037 2013-02-07 14:50:37,717 INFO CONFIGURATION - ACTIVITY_DELIVERY: true
+130207145037 2013-02-07 14:50:37,717 INFO CONFIGURATION - MAIL_DELAY: 86400000
+130207145037 2013-02-07 14:50:37,717 INFO CONFIGURATION - GENERATED_IMAGES_PATH: /Users/Willy/glassfish3/glassfish/domains/domain1/tmp
+130207145037 2013-02-07 14:50:37,718 INFO CONFIGURATION - GENERATED_IMAGES_EXTERNAL_PATH: http://static.beintoo.com/images
+130207145037 2013-02-07 14:50:37,718 INFO CONFIGURATION - BASE_URL: http://localhost:8080
+130207145037 2013-02-07 14:50:37,718 INFO CONFIGURATION - BASE_URL_API: http://sandbox.beintoo.com
+130207145037 2013-02-07 14:50:37,718 INFO CONFIGURATION - BEINTOO_APP_API_KEY: 567890123456
+130207145037 2013-02-07 14:50:37,718 INFO CONFIGURATION - BEINTOO_CONTEST_INVITE_APP_API_KEY: 234567890123
+130207145037 2013-02-07 14:50:37,718 INFO CONFIGURATION - APP_DEFAULT_PERCENTAGE: 0.6
+130207145037 2013-02-07 14:50:37,719 INFO CONFIGURATION - PRIZE_ADD_FRIEND_BEDOLLARS: 50
+130207145037 2013-02-07 14:50:37,719 INFO CONFIGURATION - BEDOLLARS_VOTE: 1
+130207145037 2013-02-07 14:50:37,719 INFO CONFIGURATION - BEDOLLARS_COMMENT: 2
+130207145101 2013-02-07 14:51:01,465 INFO CONFIGURATION - Current machine IP address: null
+130207145101 2013-02-07 14:51:01,466 INFO CONFIGURATION - ---------------------- SYSTEM CONFIGURATION ----------------------
+130207145101 2013-02-07 14:51:01,468 INFO CONFIGURATION - Properties: {
+developer_area = 'true'
+emailtest.placeid = '1'
+emailtest.vgoodpromotioncodeid = '1'
+emailtest.contestid = '1'
+emailtest.customerid = '1'
+emailtest.appid = '1'
+emailtest.vgoodid = '1'
+emailtest.userid = '1'
+emailtest.targetuserid = '2'
+emailtest.uvid_no_poi_code = '150'
+emailtest.uvid_no_poi_no_code = '1289'
+emailtest.uvid_poi_code = '95'
+emailtest.uvid_poi_no_code = '962'
+emailtest.uvadilityid = '1289'
+emailtest.uvid_marketplace_price_poi = '997'
+emailtest.uvid_marketplace_price_no_poi = '1'
+emailtest.uvid_marketplace_no_price_no_poi = '150'
+emailtest.uvid_marketplace_no_price_poi = '962'
+emailserver.url = 'http://localhost:8080/email'
+BannerVsVgoodRatio = '0.35'
+NoPlayerSubmitScoreForNotUser = 'false'
+BannerBannedList = 'MOJIVA;EJAM'
+BannerRange.NEXAGE = '80'
+BannerRange.MOOLAHMEDIA = '20'
+fb.app_id = '95687611783'
+fb.page_id = '288109507867236'
+fb.api_key = '03c5087607dab5f9097f71b1efa491aa'
+fb.api_secret = 'b6d0364baba679d048f106cd6f781a6a'
+profile_images_path = '/Users/Willy/glassfish3/glassfish/domains/domain1/tmp'
+profile_images_external_path = 'http://static.beintoo.com/images'
+CONVERSION_MAX_DISTANCE_METERS = '500'
+base_url = 'http://localhost:8080'
+base_url_api = 'http://sandbox.beintoo.com'
+cookies_path = 'http://localhost:8080'
+beintoo_app_api_key = '567890123456'
+beintoo_contest_invite_app_api_key = '234567890123'
+prize_add_friend_bedollars = '50'
+bedollars_vote = '1'
+bedollars_comment = '2'
+user_signup_bedollars = '100'
+USE_GEONAMES = 'false'
+developers_app_default_percentage = '0.60'
+p3p_specs = 'CP='IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT''
+admin_email = 'admin@beintoo.com'
+admin_password = 'tmct1234sftp'
+deal.adility_customer_id = '4'
+deal.adility_percentage = '0.65'
+deal.paypal_fee = '0.30'
+deal.paypal_percentage = '0.039'
+deal.user_discount = '0.1'
+deal.user_discount_min = '1'
+deal.user_discount_max = '20'
+campaign.default_bedollars = '20'
+VOUCHACHA_APIKEY = '688695db63f76594b3a62715c68ee1ea6d8d6c48'
+campaign.tracking_landing = 'http://localhost:8080/tracking/vgood'
+css_version = '1'
+EMAIL_SERVER_IPADDRESS = '127.0.0.1'
+minimum.sponsored_achievement_cpu = '0.35'
+minimum.sponsored_achievement_cpe = '0.25'
+minimum.sponsored_achievement_budget = '150'
+minimum.campaign_cpd = '0.1'
+minimum.campaign_cpua = '0.25'
+minimum.campaign_cpl = '0.51'
+minimum.campaign_cpaa = '5.00'
+minimum.vgoodpromotioncodes_number = '10'
+static.https_url = 'https://s3-eu-west-1.amazonaws.com/static.beintoo.com/'
+static.http_url = 'http://static.beintoo.com/'
+connect.exclude_china = 'true'
+retailer.supported_countries = 'IT'
+VGOODS_IT = '[1050976, 1169138]'
+VGOODS_GB = '[1169225, 873294, 23221]'
+VGOODS_US = '[1147057, 1147041, 1149722]'
+getMembasePoolURI = 'http://localhost:8091/pools'
+}
+130207145101 2013-02-07 14:51:01,468 INFO CONFIGURATION - DEVELOPER_AREA: true
+130207145101 2013-02-07 14:51:01,468 INFO CONFIGURATION - FB_APP_ID: 95687611783
+130207145101 2013-02-07 14:51:01,468 INFO CONFIGURATION - FB_API_KEY: 03c5087607dab5f9097f71b1efa491aa
+130207145101 2013-02-07 14:51:01,469 INFO CONFIGURATION - FB_API_SECRET: b6d0364baba679d048f106cd6f781a6a
+130207145101 2013-02-07 14:51:01,469 INFO CONFIGURATION - FB_FEED_DELAY: 3600000
+130207145101 2013-02-07 14:51:01,469 INFO CONFIGURATION - ACTIVITY_DELIVERY: true
+130207145101 2013-02-07 14:51:01,469 INFO CONFIGURATION - MAIL_DELAY: 86400000
+130207145101 2013-02-07 14:51:01,469 INFO CONFIGURATION - GENERATED_IMAGES_PATH: /Users/Willy/glassfish3/glassfish/domains/domain1/tmp
+130207145101 2013-02-07 14:51:01,469 INFO CONFIGURATION - GENERATED_IMAGES_EXTERNAL_PATH: http://static.beintoo.com/images
+130207145101 2013-02-07 14:51:01,469 INFO CONFIGURATION - BASE_URL: http://localhost:8080
+130207145101 2013-02-07 14:51:01,469 INFO CONFIGURATION - BASE_URL_API: http://sandbox.beintoo.com
+130207145101 2013-02-07 14:51:01,469 INFO CONFIGURATION - BEINTOO_APP_API_KEY: 567890123456
+130207145101 2013-02-07 14:51:01,470 INFO CONFIGURATION - BEINTOO_CONTEST_INVITE_APP_API_KEY: 234567890123
+130207145101 2013-02-07 14:51:01,470 INFO CONFIGURATION - APP_DEFAULT_PERCENTAGE: 0.6
+130207145101 2013-02-07 14:51:01,470 INFO CONFIGURATION - PRIZE_ADD_FRIEND_BEDOLLARS: 50
+130207145101 2013-02-07 14:51:01,470 INFO CONFIGURATION - BEDOLLARS_VOTE: 1
+130207145101 2013-02-07 14:51:01,471 INFO CONFIGURATION - BEDOLLARS_COMMENT: 2

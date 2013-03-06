@@ -8,6 +8,7 @@ import com.beintoo.api.output.Wrapper;
 import com.beintoo.commons.util.ConfigPath;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
+import com.sun.xml.internal.rngom.digested.DXMLPrinter;
 import java.io.*;
 import java.lang.reflect.Type;
 import java.security.NoSuchAlgorithmException;
@@ -34,13 +35,12 @@ public class TotalPlayerUserParser implements Serializable {
     
     private static SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
     private String isoCountryNameFile = "ISO3166_CountryCodes.csv";
-    private Date allFrom;
-    private Date from;
-    private Date to;
+    private String from;
+    private String to;
     private int totPlayers;
     private int totMaus=0;
     private int totUsers;
-    private int activePlayers;
+    private int activePlayers = 92603358;
     private int activeUsers;
     private int dailyActivePlayers;
     private int dailyActiveUsers;
@@ -55,10 +55,9 @@ public class TotalPlayerUserParser implements Serializable {
         return builder.create().toJson(this);
     }
 
-    public TotalPlayerUserParser(Date allFrom, Date from, Date to) {
-        this.allFrom = allFrom;
-        this.from = from;
-        this.to = to;
+    public TotalPlayerUserParser( Date from, Date to) {
+        this.from = sdf.format(from);
+        this.to = sdf.format(to);
         lista = new ArrayList<CountryBeanUserPlayer>(310);
     }
 
@@ -66,9 +65,8 @@ public class TotalPlayerUserParser implements Serializable {
         
         TotalPlayerUserParser tpup = null;
         try {
-            Date allFrom = null; //sdf.parse("2012-10-01");
-            Date from = sdf.parse("2013-01-10");
-            Date to = sdf.parse("2013-01-28");
+            Date from = sdf.parse("2013-01-31");
+            Date to = sdf.parse("2013-02-28");
             try{
                 FileInputStream fis = new FileInputStream(ConfigPath.getConfigPath() +
                         "/TotalPlayerUserParser"+sdf.format(new Date()));
@@ -77,8 +75,7 @@ public class TotalPlayerUserParser implements Serializable {
 
                 Type dataMapType = new TypeToken<TotalPlayerUserParser>() {
                 }.getType();
-                String line = "";
-
+                String line ;
                 while ((line = buf.readLine()) != null) {
                     tpup = new GsonBuilder().setDateFormat(Wrapper.DATE_EN_GB).create().fromJson(line, dataMapType);
                 }
@@ -87,7 +84,7 @@ public class TotalPlayerUserParser implements Serializable {
             }
             ///////
             if (tpup == null) {
-                tpup = new TotalPlayerUserParser(allFrom, from, to);
+                tpup = new TotalPlayerUserParser(from, to);
                 
                 tpup.setAppPlayers();
                 
@@ -97,14 +94,14 @@ public class TotalPlayerUserParser implements Serializable {
                 
                 tpup.setCountryUserOs();
                 tpup.setCountryImpressions();
+                tpup.setCountryBannerImpressions();
                 tpup.setCountryActiveUsers();
-                
                 tpup.setCountryPlayers();
-//
-                tpup.setTotalPlayer();
-                tpup.setTotalUser();
+                tpup.setCountryPlayersMonth();
+                
+                tpup.setTotalPlayerUser();
                 tpup.setDailyActivePlayers();
-                tpup.activePlayers = 87059455 ; // dicembre (79018229); // novembre (63578728)
+                //tpup.activePlayers = 87059455 ; // dicembre (79018229); // novembre (63578728)
                 tpup.setActiveUsers();
 //                tpup.setPercentage();
                 tpup.setDerivate();
@@ -131,56 +128,38 @@ public class TotalPlayerUserParser implements Serializable {
 
     }
 
-    private void setTotalPlayer() {
+    private void setTotalPlayerUser() {
         try {
 
             EntityManager em = Persistence.createEntityManagerFactory("BeintooEntitiesPU_LOCAL_LOCALHOST").createEntityManager();
 
-            String query = "";
-            query = " SELECT SUM(new_players) "
-                    + " FROM report_app p  ";
+            String query ;
+            query = " SELECT SUM(new_players) , SUM(users) "
+                    + " FROM report_app p "
+                    + " WHERE day <= '"+to+"' ";
             
             System.out.println("::: " + query);
             Query q = em.createNativeQuery(query);
-            totPlayers = ((Number) q.getSingleResult()).intValue();
-
+            
+            Object[] result = (Object[]) q.getSingleResult();
+            totPlayers = ((Number) result[0]).intValue();
+            totUsers = ((Number) result[1]).intValue();
 
         } catch (Exception e) {
             e.printStackTrace();
         }
-
-    }
-
-    private void setTotalUser() {
-        try {
-
-            EntityManager em = Persistence.createEntityManagerFactory("BeintooEntitiesPU_LOCAL_LOCALHOST").createEntityManager();
-
-            String query = "";
-            query = " SELECT SUM(users) "
-                    + " FROM report_app p  ";
-            
-            System.out.println("::: " + query);
-            Query q = em.createNativeQuery(query);
-            totUsers = ((Number) q.getSingleResult()).intValue();
-
-
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
 
     }
 
     private void setDailyActivePlayers() {
         try {
             EntityManager em = Persistence.createEntityManagerFactory("BeintooEntitiesPU_LOCAL_LOCALHOST").createEntityManager();
-            String query = "";
+            String query ;
             query = "SELECT app_type, MAX(active) FROM ( "
-                    + " SELECT day, a.app_type ,SUM(sessions) active "
+                    + " SELECT day, a.app_type ,SUM(active_players) active "
                     + " FROM report_app p , contest c ,app a "
                     + " WHERE p.contest_id = c.id AND c.app_id = a.id "
-                    + " AND day >= curdate() - interval 1 month "
+                    + " AND day >= '"+from+"' AND day <= '"+from+"' "
                     + " GROUP BY day, app_type ) t "
                     + " GROUP BY app_type ";
             System.out.println("::: " + query);
@@ -202,21 +181,20 @@ public class TotalPlayerUserParser implements Serializable {
             e.printStackTrace();
         }
     }
-
     private void setActiveUsers() {
         try {
             EntityManager em = Persistence.createEntityManagerFactory("BeintooEntitiesPU_LOCAL_LOCALHOST").createEntityManager();
-            String query = "";
-            query = "SELECT COUNT(DISTINCT player_id)  "
+            String query ;
+            query = "SELECT COUNT(DISTINCT player_id) "
                     + " FROM player_score p "
-                    + " WHERE p.lastupdate  >= now() - interval 1 month ";
+                    + " WHERE p.lastupdate  >= '"+from+"' AND p.lastupdate <= '"+to+"' ";
             System.out.println("::: " + query);
             Query q = em.createNativeQuery(query);
             activeUsers = ((Number) q.getSingleResult()).intValue();
 
-            query = "SELECT COUNT(DISTINCT player_id)  "
+            query = "SELECT COUNT(DISTINCT player_id) "
                     + " FROM player_score p "
-                    + " WHERE p.lastupdate  >= now() - interval 1 day ";
+                    + " WHERE lastupdate > now() - interval 1 day ";
             System.out.println("::: " + query);
             q = em.createNativeQuery(query);
             dailyActiveUsers = ((Number) q.getSingleResult()).intValue();
@@ -226,15 +204,13 @@ public class TotalPlayerUserParser implements Serializable {
             e.printStackTrace();
         }
     }
-    
     // PER COUNTRY
-    
     private void setCountryActiveUsers() {
         try {
             EntityManager em = Persistence.createEntityManagerFactory("BeintooEntitiesPU_LOCAL_LOCALHOST").createEntityManager();
             String query = "SELECT u.country , COUNT(*) "
                     + " FROM user_player up, player_score ps , user u "
-                    + " WHERE ps.lastupdate > curdate() - interval 10 day "
+                    + " WHERE ps.lastupdate > '"+to+"' - interval 10 day "
                     + " AND up.user_id = u.id AND ps.player_id = up.player_id "
                     + " GROUP BY u.country ; ";
 
@@ -269,7 +245,6 @@ public class TotalPlayerUserParser implements Serializable {
             e.printStackTrace();
         }
     }
-
     private void setCountryUser() {
 
         try {
@@ -307,7 +282,6 @@ public class TotalPlayerUserParser implements Serializable {
         }
 
     }
-
     private void setCountryUserAge() {
 
         try {
@@ -374,12 +348,11 @@ public class TotalPlayerUserParser implements Serializable {
         }
 
     }
-
     private void setCountryUserGender() {
         try {
 
             EntityManager em = Persistence.createEntityManagerFactory("BeintooEntitiesPU_LOCAL_LOCALHOST").createEntityManager();
-            String query = "";
+            String query ;
             query = " SELECT country, COUNT(*) gg, "
                     + " SUM(IF(gender=1,1,0)) 'male', "
                     + " SUM(IF(gender=2,1,0)) 'female' "
@@ -420,16 +393,16 @@ public class TotalPlayerUserParser implements Serializable {
         }
 
     }
-
     private void setCountryUserOs() {
 
         try {
 
             EntityManager em = Persistence.createEntityManagerFactory("BeintooEntitiesPU_LOCAL_LOCALHOST").createEntityManager();
-            String query = "";
+            String query ;
             query = "   SELECT ra.country, a.app_type, SUM(IFNULL(new_players,0)) "
                     + " FROM report_app_bycountry ra, app a "
                     + " WHERE ra.app_id = a.id "
+                    + " AND ra.day >= '"+from+"' AND ra.day <= '"+to+"' "
                     + " GROUP BY ra.country, a.app_type ; ";
 
             Query q = em.createNativeQuery(query);
@@ -462,22 +435,23 @@ public class TotalPlayerUserParser implements Serializable {
         }
 
     }
-
     private void setCountryImpressions() {
         try {
 
             EntityManager em = Persistence.createEntityManagerFactory("BeintooEntitiesPU_LOCAL_LOCALHOST").createEntityManager();
-            String query = "";
-            query = "  SELECT "
+            String query ;
+            query = " SELECT C , SUM(imps) , AVG(imps), MAX(imps) FROM  ( "
+                    + " SELECT "
+                    + " rv.day, "
                     + "     (SELECT group_concat(distinct p.country) FROM place p, vgood_poi vp  "
                     + "             WHERE  rv.vgood_id = vp.vgood_id AND vp.place_id = p.id "
                     + "             AND vp.status = 1 AND p.status = 1 ) C, "
-                    + "     IFNULL( SUM(assigned_vgoods)+SUM(player_assigned_vgoods),0) imp,  "
-                    + "     IFNULL( SUM(converted_vgoods)+SUM(player_converted_vgoods),0) clicks, "
-                    + "     COUNT(DISTINCT day)"
+                    + "     IFNULL( SUM(assigned_vgoods)+SUM(player_assigned_vgoods),0) imps "
+                    //+ "     ,IFNULL( SUM(converted_vgoods)+SUM(player_converted_vgoods),0)  clicks "
                     + " FROM report_vgood rv  "
-                    + " WHERE  rv.day >= curdate() - interval 1 month "
-                    + " GROUP BY C";
+                    + " WHERE  rv.day >= '"+from+"' AND rv.day <= '"+to+"' "
+                    + " GROUP BY rv.day, C ) T "
+                    + " GROUP BY C ";
             System.out.println("::: " + query);
             Query q = em.createNativeQuery(query);
             List results = q.getResultList();
@@ -489,22 +463,22 @@ public class TotalPlayerUserParser implements Serializable {
                 try {
                     String country = (String) objectArray[0];
                     int impressions = ((Number) objectArray[1]).intValue();
-                    int clicks = ((Number) objectArray[2]).intValue();
-                    int days = ((Number) objectArray[3]).intValue();
-                    if(days>0 && days < 30 ){
-                        impressions = (int) (((float)impressions )/ days * 30);
-                        clicks = (int) (((float)clicks )/ days * 30);
-                    }
+                    int avgImps = ((Number) objectArray[2]).intValue(); 
+                    int maxImps = ((Number) objectArray[3]).intValue(); 
+                    //int clicks = ((Number) objectArray[4]).intValue();
+                    
                     CountryBeanUserPlayer cb = new CountryBeanUserPlayer(country);
                     int idx = lista.indexOf(cb);
                     if (idx > -1) {
                         lista.get(idx).setImpressions(impressions);
-                        lista.get(idx).setClicks(clicks);
-                        lista.get(idx).setDays(days);
+                      //  lista.get(idx).setClicks(clicks);
+                        lista.get(idx).setAvgImpressions(avgImps);
+                        lista.get(idx).setMaxImpressions(maxImps);
                     } else {
                         cb.setImpressions(impressions);
-                        cb.setClicks(clicks);
-                        cb.setDays(days);
+                      //  cb.setClicks(clicks);
+                        cb.setAvgImpressions(avgImps);
+                        cb.setMaxImpressions(maxImps);
                         lista.add(cb);
                     }
                 } catch (Exception e) {
@@ -519,16 +493,66 @@ public class TotalPlayerUserParser implements Serializable {
         }
 
     }
+    private void setCountryBannerImpressions() {
+        try {
 
+            EntityManager em = Persistence.createEntityManagerFactory("BeintooEntitiesPU_LOCAL_LOCALHOST").createEntityManager();
+            String query ;
+            query = "  SELECT country, "
+                    + " SUM(IFNULL(imps,0)+IFNULL(ntds,0)) , "
+                    + " AVG(IFNULL(imps,0)+IFNULL(ntds,0)) , "
+                    + " MAX(IFNULL(imps,0)+IFNULL(ntds,0)) "
+                    + " FROM report_banner_bycountry "
+                    + " WHERE provider = 'BEINTOO' "
+                    + " AND day >= '"+from+"' AND day <= '"+to+"'"
+                    + " GROUP BY country ";
+            System.out.println("::: " + query);
+            Query q = em.createNativeQuery(query);
+            List results = q.getResultList();
+
+            for (int i = 0; i < results.size(); i++) {
+
+                Object obj = results.get(i);
+                Object[] objectArray = (Object[]) obj;
+                try {
+                    String country = (String) objectArray[0];
+                    int impressions = ((Number) objectArray[1]).intValue();
+                    int avgImpressions = ((Number) objectArray[2]).intValue();
+                    int maxImpressions = ((Number) objectArray[3]).intValue();
+                    
+                    CountryBeanUserPlayer cb = new CountryBeanUserPlayer(country);
+                    int idx = lista.indexOf(cb);
+                    if (idx > -1) {
+                        lista.get(idx).setBannerDisplay(impressions);
+                        lista.get(idx).setAvgBannerDisplay(avgImpressions);
+                        lista.get(idx).setMaxBannerDisplay(maxImpressions);
+                    } else {
+                        cb.setBannerDisplay(impressions);
+                        cb.setAvgBannerDisplay(avgImpressions);
+                        cb.setMaxBannerDisplay(maxImpressions);
+                        lista.add(cb);
+                    }
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+
+            }
+
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+    }
     private void setCountryPlayers(){
         
         try {
 
             EntityManager em = Persistence.createEntityManagerFactory("BeintooEntitiesPU_LOCAL_LOCALHOST").createEntityManager();
-            String query = "";
+            String query ;
             query = "  SELECT country, app_id, IFNULL(SUM(new_players),0) pp" +
                     "  FROM report_app_bycountry  " +
-                    "  WHERE  day >= '"+sdf.format(from)+"' AND day <= '"+sdf.format(to)+"' " +
+                    "  WHERE  day >= '2013-01-10' AND day <= '"+to+"' " +
                     "  GROUP BY country, app_id  ";
 
             Query q = em.createNativeQuery(query);
@@ -561,18 +585,56 @@ public class TotalPlayerUserParser implements Serializable {
         }
         
     }
-    
+    private void setCountryPlayersMonth(){
+        
+        try {
+
+            EntityManager em = Persistence.createEntityManagerFactory("BeintooEntitiesPU_LOCAL_LOCALHOST").createEntityManager();
+            String query ;
+            query = "  SELECT country, IFNULL(SUM(new_players),0) pp" +
+                    "  FROM report_app_bycountry  " +
+                    "  WHERE  day >= '"+from+"' AND day <= '"+to+"' " +
+                    "  GROUP BY country ";
+
+            Query q = em.createNativeQuery(query);
+            List results = q.getResultList();
+
+            for (int i = 0; i < results.size(); i++) {
+
+                Object obj = results.get(i);
+                Object[] objectArray = (Object[]) obj;
+                try {
+                    String country = (String) objectArray[0];
+                    int pp = ((Number) objectArray[1]).intValue();
+                    CountryBeanUserPlayer cb = new CountryBeanUserPlayer(country);
+                    int idx = lista.indexOf(cb);
+                    if (idx > -1) {
+                        lista.get(idx).setLastMonthPlayers(pp);
+                    } else {
+                        cb.setLastMonthPlayers(pp);
+                        lista.add(cb);
+                    }
+
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        
+    }
     // 
-    
     private void setAppPlayers() {
         try {
             EntityManager em = Persistence.createEntityManagerFactory("BeintooEntitiesPU_LOCAL_LOCALHOST").createEntityManager();
-            String query = "";
+            String query ;
             query = "SELECT id, name, app_type , IFNULL(MAX(active),0) , IFNULL(MAX(sub),0) FROM ( "
                     + " SELECT day, a.id, a.name , a.app_type , SUM(sessions) active, SUM(submits) sub "
                     + " FROM report_app p , contest c ,app a "
                     + " WHERE p.contest_id = c.id AND c.app_id = a.id "
-                    + " AND day >= curdate() - interval 15 day "
+                    + " AND day >= '"+to+"' - interval 15 day "
                     + " GROUP BY day, a.id ) t "
                     + " GROUP BY id ";
             System.out.println("::: " + query);
@@ -671,12 +733,12 @@ public class TotalPlayerUserParser implements Serializable {
                 }
             }
             
-            //////////////////
+            ////////////////// from 10 genuary
 
             query = "SELECT c.app_id, IFNULL(SUM(new_players),0) pp"
                     + " FROM report_app p , contest c "
                     + " WHERE p.contest_id = c.id  "
-                    + " AND day >= '"+sdf.format(from)+"' AND day <= '"+sdf.format(to)+"'"
+                    + " AND day >= '2013-01-10' AND day <= '"+to+"'"
                     + " GROUP BY c.app_id ";
             System.out.println("::: " + query);
             q = em.createNativeQuery(query);
@@ -703,89 +765,7 @@ public class TotalPlayerUserParser implements Serializable {
             e.printStackTrace();
         }
     }
-
-    /////////////////////////////////////////////////////////////////
-    ////////////// GETTER AND SETTER ////////////////////////////////
-    public int getActivePlayers() {
-        return activePlayers;
-    }
-
-    public void setActivePlayers(int activePlayers) {
-        this.activePlayers = activePlayers;
-    }
-
-    public int getActiveUsers() {
-        return activeUsers;
-    }
-
-    public void setActiveUsers(int activeUsers) {
-        this.activeUsers = activeUsers;
-    }
-
-    public Date getAllFrom() {
-        return allFrom;
-    }
-
-    public void setAllFrom(Date allFrom) {
-        this.allFrom = allFrom;
-    }
-
-    public int getDailyActivePlayers() {
-        return dailyActivePlayers;
-    }
-
-    public void setDailyActivePlayers(int dailyActivePlayers) {
-        this.dailyActivePlayers = dailyActivePlayers;
-    }
-
-    public int getDailyActiveUsers() {
-        return dailyActiveUsers;
-    }
-
-    public void setDailyActiveUsers(int dailyActiveUsers) {
-        this.dailyActiveUsers = dailyActiveUsers;
-    }
-
-    public Date getFrom() {
-        return from;
-    }
-
-    public void setFrom(Date from) {
-        this.from = from;
-    }
-
-    public List<CountryBeanUserPlayer> getLista() {
-        return lista;
-    }
-
-    public void setLista(List<CountryBeanUserPlayer> lista) {
-        this.lista = lista;
-    }
-
-    public Date getTo() {
-        return to;
-    }
-
-    public void setTo(Date to) {
-        this.to = to;
-    }
-
-    public int getTotPlayers() {
-        return totPlayers;
-    }
-
-    public void setTotPlayers(int totPlayers) {
-        this.totPlayers = totPlayers;
-    }
-
-    public int getTotUsers() {
-        return totUsers;
-    }
-
-    public void setTotUsers(int totUsers) {
-        this.totUsers = totUsers;
-    }
-
+    
     private void toCSV(String salerDataFormattedcsv) {
         try {
 
@@ -830,8 +810,8 @@ public class TotalPlayerUserParser implements Serializable {
                     + "demographic\n");
             out.write("continent,region,iso,name,"
                     + "users,"
-                    + "players,maus,daus,"
-                    + "impressions,clicks,"
+                    + "players,month players,maus,daus_10days,"
+                    + "tot imps,avg imps,max imps,tot getAd,avg getAd, max getAd,"
                     + "ANDROID,CROSS_OS,IOS,OTHER,WEB,"
                     + "male,female,10-65,20-40,15-19,20-24,25-29,30-34,35-39\n");
 
@@ -851,34 +831,37 @@ public class TotalPlayerUserParser implements Serializable {
                     row += cb.getIso() + ",";
                     row += isoMap.get(cb.getIso()).replace(",", "-") + ",";
                 } catch (Exception e) {
-                    row += ",";
-                    System.out.println(cb.getIso() + "");
+                    row += ",,";
                 }
 
                 try {
                     row += cb.getUnits() + ",";
                 } catch (Exception e) {
-                    row += ",,,";
+                    row += ",";
                 }
 
                 try {
-                    row += cb.getPlayers() + "," + cb.getMaus() + ","+  cb.getDaus() + ",";
+                    row += cb.getPlayers() + "," + cb.getLastMonthPlayers() + "," + cb.getMaus() + ","+  cb.getDaus() + ",";
                 } catch (Exception e) {
                     row += ",,,";
                 }
 
                 // impressions & clicks
                 try {
-                    row += cb.getImpressions() + ",";
+                    row += cb.getImpressions() + "," + cb.getAvgImpressions() + ","+cb.getMaxImpressions() + ",";
                 } catch (Exception e) {
-                    row += ",";
+                    row += ",,,";
                 }
+//                try {
+//                    row += cb.getClicks() + ",";
+//                } catch (Exception e) {
+//                    row += ",";
+//                }
                 try {
-                    row += cb.getClicks() + ",";
+                    row += cb.getBannerDisplay() + "," + cb.getAvgBannerDisplay() + "," + cb.getMaxBannerDisplay() + ",";
                 } catch (Exception e) {
-                    row += ",";
+                    row += ",,,";
                 }
-
                 // gender
                 String[] os = {"ANDROID", "CROSS_OS", "IOS", "OTHER", "WEB"};
                 for (String s : os) {
@@ -1043,4 +1026,79 @@ public class TotalPlayerUserParser implements Serializable {
             }
         }
     }
+    
+    /////////////////////////////////////////////////////////////////
+    ////////////// GETTER AND SETTER ////////////////////////////////
+    public int getActivePlayers() {
+        return activePlayers;
+    }
+
+    public void setActivePlayers(int activePlayers) {
+        this.activePlayers = activePlayers;
+    }
+
+    public int getActiveUsers() {
+        return activeUsers;
+    }
+
+    public void setActiveUsers(int activeUsers) {
+        this.activeUsers = activeUsers;
+    }
+
+    public int getDailyActivePlayers() {
+        return dailyActivePlayers;
+    }
+
+    public void setDailyActivePlayers(int dailyActivePlayers) {
+        this.dailyActivePlayers = dailyActivePlayers;
+    }
+
+    public int getDailyActiveUsers() {
+        return dailyActiveUsers;
+    }
+
+    public void setDailyActiveUsers(int dailyActiveUsers) {
+        this.dailyActiveUsers = dailyActiveUsers;
+    }
+
+    public String getFrom() {
+        return from;
+    }
+
+    public void setFrom(String from) {
+        this.from = from;
+    }
+
+    public List<CountryBeanUserPlayer> getLista() {
+        return lista;
+    }
+
+    public void setLista(List<CountryBeanUserPlayer> lista) {
+        this.lista = lista;
+    }
+
+    public String getTo() {
+        return to;
+    }
+
+    public void setTo(String to) {
+        this.to = to;
+    }
+
+    public int getTotPlayers() {
+        return totPlayers;
+    }
+
+    public void setTotPlayers(int totPlayers) {
+        this.totPlayers = totPlayers;
+    }
+
+    public int getTotUsers() {
+        return totUsers;
+    }
+
+    public void setTotUsers(int totUsers) {
+        this.totUsers = totUsers;
+    }
+
 }

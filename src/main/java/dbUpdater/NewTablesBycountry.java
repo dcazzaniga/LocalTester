@@ -40,21 +40,31 @@ public class NewTablesBycountry {
     private static String ACTIVE_FILENAME = "/Users/davide/comandi/ps_parser_active_output.log";
     private static String NEW_FILENAME = "/Users/davide/comandi/ps_parser_new_output.log";
     private static String UNIQUE_FILENAME = "/Users/davide/comandi/ps_parser_output.log";
-    private static String data = "2013-02-03";
+    private static String data = "2013-02-11";
 
     public static void main(String[] args) throws FileNotFoundException {
 
         System.out.println("::::: " + data);
 
         EntityManager em = Persistence.createEntityManagerFactory("BeintooEntitiesPU_LOCAL_PRODUZIONE").createEntityManager();
-        //writeNewPlayersByCountry(em, data);
-//        writeActivePlayers(em, data);
-//        writeUniquePlayers(em, data);
-        writeNewPLayers(em, data);
+        try{
+            System.out.println("WRITING NEW PLAYERS BY COUNTRY");
+            writeNewPlayersByCountry(em, data);
+            System.out.println("WRITING ACTIVE PLAYERS");
+            writeActivePlayers(em, data);
+            System.out.println("WRITING UNIQUE PLAYERS");
+            writeUniquePlayers(em, data);
+            System.out.println("WRITING NEW PLAYERS");
+            writeNewPLayers(em, data);
 
-        //loadBannerStats();
-        //writeBannerDisplayByCountry(data);
+            em.close();
+            //loadBannerStats();
+            //writeBannerDisplayByCountry(data);
 
+        }catch(Exception e){
+            em.close();
+            e.printStackTrace();
+        }
     }
 
     public static boolean writeNewPlayersByCountry(EntityManager em, String data) throws FileNotFoundException {
@@ -97,7 +107,7 @@ public class NewTablesBycountry {
                 }
             }
             entityTransaction.commit();
-            em.close();
+            
         } catch (IOException e) {
             if (entityTransaction.isActive()) {
                 entityTransaction.rollback();
@@ -159,8 +169,13 @@ public class NewTablesBycountry {
                 query.executeUpdate();
             }
             entityTransaction.commit();
-            em.close();
+            
         } catch (Exception e) {
+             if (entityTransaction.isActive()) {
+                entityTransaction.rollback();
+            }
+            
+            Logger.log(e, LogContextEnum.CRON, LogLevelEnum.INFO);
             System.out.println("Unable to calculate new player: " + e.toString());
         }
         return true;
@@ -202,7 +217,7 @@ public class NewTablesBycountry {
 
             }
             entityTransaction.commit();
-            em.close();
+            
         } catch (Exception e) {
             if (entityTransaction.isActive()) {
                 entityTransaction.rollback();
@@ -258,14 +273,22 @@ public class NewTablesBycountry {
 
             }
             entityTransaction.commit();
-            em.close();
+            
         } catch (Exception e) {
+             if (entityTransaction.isActive()) {
+                entityTransaction.rollback();
+            }
+            Logger.log(e, LogContextEnum.CRON, LogLevelEnum.INFO);
             System.out.println("Unable to calculate unique player: " + e.toString());
         }
 
         return true;
     }
 
+    
+    
+    
+    
     public static void writeBannerDisplayByCountry(String data) throws FileNotFoundException {
 
         try {

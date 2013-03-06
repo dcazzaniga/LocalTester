@@ -1,32 +1,31 @@
-
 package misc;
 
+import com.amazonaws.http.HttpResponse;
 import com.beintoo.commons.bean.CountryBean;
-import com.beintoo.commons.bean.FacebookBean;
-import com.beintoo.commons.bean.ReportBannerBean;
+import com.beintoo.commons.bean.RankingBean;
 import com.beintoo.commons.bean.UserLevelBean;
 import com.beintoo.commons.database.AdminReportEngine;
-import com.beintoo.commons.database.DatabaseConnector;
+import com.beintoo.commons.enums.AppTypeEnum;
 import com.beintoo.commons.enums.GoogleAnalyticsTrackerEnum;
+import com.beintoo.commons.enums.RankingDirectionEnum;
+import com.beintoo.commons.enums.RankingMethodEnum;
 import com.beintoo.commons.enums.UserLevelEnum;
-import com.beintoo.commons.helper.UserHelper;
-import com.beintoo.commons.helper.VgoodHelper;
-import com.beintoo.commons.setting.CommonSetting;
-import com.beintoo.commons.util.FbUserManager;
-import com.beintoo.entities.MediaPlanner;
+import com.beintoo.commons.helper.AppHelper;
+import com.beintoo.commons.util.ConfigPath;
+import com.beintoo.commons.util.GeoCountries;
+import com.beintoo.commons.util.RankingUtil;
+import com.beintoo.entities.App;
 import com.beintoo.entities.User;
-import com.beintoo.entities.UserCredit;
-import com.beintoo.entities.Vgood;
-import com.restfb.DefaultFacebookClient;
-import com.restfb.FacebookClient;
-import com.sun.org.apache.xalan.internal.xsltc.DOM;
 import java.io.*;
-import java.math.BigDecimal;
-import java.math.MathContext;
-import java.math.RoundingMode;
+import java.net.MalformedURLException;
+import java.net.URISyntaxException;
+import java.net.URL;
+import java.net.URLConnection;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 import javax.persistence.EntityManager;
 import javax.persistence.Persistence;
 import javax.persistence.Query;
@@ -34,10 +33,13 @@ import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import locator.CountryMap;
 import locator.WorldMap;
-import org.apache.commons.lang.RandomStringUtils;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.impl.client.DefaultHttpClient;
+
+
+
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
-import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
 
@@ -52,162 +54,75 @@ import org.w3c.dom.NodeList;
 public class Test {
 
     public static void main(String[] args) throws Exception {
-        
-        quarzJobXmlReader();
-        
-//        Date from = new Date();
-//        from = new Date(new Date().getTime() - 1 * 86400000);
-//        Date to = new Date(new Date().getTime() - 1 * 86400000);
-//        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
-//        
-//        from = sdf.parse("2013-01-22");
-//        to = sdf.parse("2013-01-23");
-//       
-//        ReportBannerBean a = new ReportBannerBean(to, 1, null, null, null);
-//        ReportBannerBean b = new ReportBannerBean(to, 2, null, null, null);
-//        
-//        System.out.println("--------------------------------"+a.equals(b));
-//        
-//        
-//        EntityManager em = Persistence.createEntityManagerFactory("BeintooEntitiesPU_LOCAL_LOCALHOST").createEntityManager();
-//        
-//        AdminReportEngine are = new AdminReportEngine(null);
-//        
-//        List<ReportBannerBean> results =  are.reportBanner(from, to, em);
-//        
-//        List<ReportBannerBean> out = are.getOutputFromReportBanner( results , 
-//                null, false, 
-//                "NEODATA", false, 
-//                null, true, 
-//                true);
-//        System.out.println("::::: "+out.size());
-//        for(ReportBannerBean rbb :out){
-//            System.out.println(""+rbb.toString());
-//            
-//        }
-        
-        
-//        
-//        EntityManager em = Persistence.createEntityManagerFactory("BeintooEntitiesPU_LOCAL_LOCALHOST").createEntityManager();
-//        MediaPlanner mp = em.find(MediaPlanner.class, 3 );
-//        
-//        System.out.println(" Vgood[1111111], MediaPlanner["+mp.getId()+"] : ["+mp.getStartDate()+","+mp.getEndDate()+"]\n");
-        
-//        EntityManager em = Persistence.createEntityManagerFactory("BeintooEntitiesPU_LOCAL_LOCALHOST").createEntityManager();
-//        User person = em.find(User.class, 18242);
-//        
-//        List<UserCredit> ucs = UserHelper.getUserCredit(em, person, null, 10);
-//        
-//        for (UserCredit uc : ucs) {
-//            
-//            System.out.println(""+uc.toString());
-            
-//        }
-        
-        
-//        EntityManager em = Persistence.createEntityManagerFactory("BeintooEntitiesPU_LOCAL_LOCALHOST").createEntityManager();
-//        
-//        em.getTransaction().begin();
-//        User u = em.find(User.class, 18242);
-//        
-//        updateUserLevel(u);
-//        em.getTransaction().commit();
-//        em.close();
-//        
-//        googleTest();
 
-//        String from = null;
-//        String to = null;
-//
-//        List<CountryBean> list = userCountryStats(from, to, "IT" );
-//        System.out.println("::::::::::::::::::::::::::::::::::::::::");
-//        float tot = 0.0f;
-//        long totU = 0;
-//        System.out.print(String.format("%1$-30s","city")+
-//                                   String.format("%1$-8s","users")+
-//                                   String.format("%1$10s%n","%"));
-//        for(CountryBean cb: list ){
-//            
-//            try{
-//                System.out.print(String.format("%1$-30s",cb.getIso().replaceAll(" ", "_"))+
-//                                   String.format("%1$-8s",cb.getUnits())+
-//                                   String.format("%10.2f%n",cb.getPercentage()).replace(",", "."));
-//                totU += cb.getUnits();
-//                tot += cb.getPercentage();
-//            }catch(Exception e){
-//                e.printStackTrace();
-//            }
-//            
-//        }
-//        System.out.println("::::::: "+totU);
-//        System.out.println("::::::: "+tot);
+//        getStringFromHtmlPage("http://it.wikipedia.org/wiki/Serie_A_2012-2013");
+        
+        FileOutputStream fos = new FileOutputStream(ConfigPath.getAdminPath() + "/test.html");
+        OutputStreamWriter out = new OutputStreamWriter(fos, "UTF-8");
+        out.write(graphResults());
+        out.close();
+        
+        
+//        EntityManager em = Persistence.createEntityManagerFactory("BeintooEntitiesPU_LOCAL_LOCALHOST").createEntityManager();
+//        
+//        List<RankingBean<App>> list = (List<RankingBean<App>>) RankingUtil
+//				.getTop(App.class, em, RankingMethodEnum.WEBSITE_APP_RANK,
+//						RankingDirectionEnum.DESC, 50);
+//        System.out.println("------------------ "); 
+//       for(RankingBean<App> rb : list){
+//           
+//           System.out.println(
+//           AppHelper.getDownloadUrl(rb.getItem()));
+//           
+//       }
+        
+        System.exit(1);
+        
+        //googleTest();
 
     }
 
     private static void googleTest() throws ParseException {
         ////////////////////////////////////////////////////////////////////////////////////////////////
 
-        Date from = new Date();
-        from = new Date(new Date().getTime() - 1 * 86400000);
-        Date to = new Date(new Date().getTime() - 1 * 86400000);
+        Date from;
+        Date to;
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
-        
-        from = sdf.parse("2013-01-23");
-        to = sdf.parse("2013-01-23");
-        
-        List<String[]> result = new ArrayList<String[]>();
+
+        from = sdf.parse("2013-02-23");
+        to = sdf.parse("2013-02-25");
+
+        List<String[]> result ;
         com.beintoo.commons.database.GoogleAnalyticsRequest gar = new com.beintoo.commons.database.GoogleAnalyticsRequest();
         List<String> dimensions = new ArrayList<String>();
         List<String> metrics = new ArrayList<String>();
 
-        //dimensions.add("date");
-        //dimensions.add("eventAction");
-        //dimensions.add("eventLabel");
-        //metrics.add("uniqueEvents");
-        
         String sort = null;
         String filter = null;
-        
-        
 
-        filter = "ga:eventLabel=~185\\+,ga:eventLabel=~183\\+;ga:eventAction==InAppClick,ga:eventAction==InAppPlayerEmailRequest";
-        dimensions.add("date");
+
+
+        //filter = "ga:eventLabel=~185\\+,ga:eventLabel=~183\\+;ga:eventAction==InAppClick,ga:eventAction==InAppPlayerEmailRequest";
+        //dimensions.add("date");
         dimensions.add("eventAction");
         dimensions.add("eventLabel");
         metrics.add("uniqueEvents");
-        result = gar.request(dimensions, metrics, GoogleAnalyticsTrackerEnum.MOBILE, sort, filter, from, to);
-            
-        
-        if (result.size() > 0) {
-                System.out.println("ReportVgood : GARequest result.size() = " + result.size());
-            }
 
-            boolean first = true;
-            for (String[] ss : result) {
-                if (first) {
-                    first = false;
-                    continue;
-                }
-                String action = ss[1];
-                int clicks = Integer.parseInt(ss[3]);
-                String[] campaign = ss[2].split("\\+-\\+");
-                // int customer_id = Integer.parseInt(campaign[0]);
-                int vgood_id = Integer.parseInt(campaign[1]);
-               
-                    System.out.println("ReportVgood - " + vgood_id);
-                    
-                        if (action.equals("InAppClick")) {
-                            System.out.println("   ReportVgood - " + vgood_id + " -  convertedVgoods > cus_1 ");
-                            
-                            System.out.println("   ReportVgood - InAppClick " + vgood_id + " - convertedVgoods =" + clicks);
-                            
-                        }
-                        if (action.equals("InAppPlayerEmailRequest")) {
-                            System.out.println("   ReportVgood - InAppPlayerEmailRequest " + vgood_id + " - playerConvertedVgoos =" + clicks);
-                        }
-                    
+        result = gar.request(dimensions, metrics, GoogleAnalyticsTrackerEnum.MOBILE, sort, filter, from, to);
+
+
+        if (result.size() > 0) {
+            System.out.println("GARequest result.size() = " + result.size());
+        }
+
+        for (String[] ss : result) {
+            for(String s : ss){
+                System.out.print(s+" ");
+                
             }
-            
+            System.out.println("");
+        }
+
 
 
     }
@@ -474,52 +389,287 @@ public class Test {
         }
 
     }
-    
-    private static void updateUserLevel(User u){
-            for(UserLevelBean ulb: UserLevelEnum.getValues()){
-                System.out.println("-------------- "+ulb.getName());
-                if(u.getBescore().doubleValue() <= ulb.getMax()){
-                    u.setLevel(ulb.getLevel());
-                    break;
-                }
-                u.setLevel(5);
+
+    private static void updateUserLevel(User u) {
+        for (UserLevelBean ulb : UserLevelEnum.getValues()) {
+            System.out.println("-------------- " + ulb.getName());
+            if (u.getBescore().doubleValue() <= ulb.getMax()) {
+                u.setLevel(ulb.getLevel());
+                break;
             }
-            
+            u.setLevel(5);
         }
-    
-    private static void quarzJobXmlReader(){
-        
+
+    }
+
+    private static BufferedReader getFileReader(String filenname) {
+        try {
+            FileInputStream fis = null;
+            InputStreamReader isr = null;
+            BufferedReader buf = null;
+
+            fis = new FileInputStream(filenname);
+            isr = new InputStreamReader(fis);
+            buf = new BufferedReader(isr);
+            return buf;
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+    private static void carrieFromIp() {
+        try {
+            BufferedReader buf = getFileReader("/Users/davide/NetBeansProjects/LocalTester/mx_.txt");
+            FileOutputStream fos = new FileOutputStream("/Users/davide/NetBeansProjects/LocalTester/mx_ip_carrie.txt");
+            OutputStreamWriter osw = new OutputStreamWriter(fos);
+            String line = "";
+            HashMap<String, Integer> carries = new HashMap<String, Integer>();
+            while ((line = buf.readLine()) != null) {
+
+                String c = GeoCountries.ipAddr2ISP(line);
+                if (carries.containsKey(c)) {
+                    carries.put(c, carries.get(c) + 1);
+                } else {
+                    carries.put(c, 1);
+                }
+            }
+            for (String c : carries.keySet()) {
+                osw.write(String.format("%1$50s", c) + ";" + String.format("%1$15s", carries.get(c)) + "\n");
+            }
+            osw.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    private static void netspeedFromIp() throws FileNotFoundException, IOException {
+        FileOutputStream fos = new FileOutputStream("/Users/davide/NetBeansProjects/LocalTester/netspeed_mx_ip.txt");
+        OutputStreamWriter osw = new OutputStreamWriter(fos);
+        try {
+            BufferedReader buf = getFileReader("/Users/davide/NetBeansProjects/LocalTester/mx_ip.txt");
+
+            String line = "";
+            HashMap<String, Integer> nets = new HashMap<String, Integer>();
+
+
+            String license_key = "fwA7kRKYGZ40";
+            String url_str = "http://geoip.maxmind.com/e?l=" + license_key + "&i=";
+            int i = 0;
+            while ((line = buf.readLine()) != null) {
+
+                try {
+                    i++;
+
+                    if (i > 10000) {
+                        String c = getNetspeedFromIP(url_str, line);;
+                        if (nets.containsKey(c)) {
+                            nets.put(c, nets.get(c) + 1);
+                        } else {
+                            nets.put(c, 1);
+                        }
+                    }
+                    if (i == 10001) {
+                        break;
+                    }
+                } catch (Exception e) {
+                }
+            }
+            for (String c : nets.keySet()) {
+                osw.write(String.format("%1$50s", c) + ";" + String.format("%1$15s", nets.get(c)) + "\n");
+            }
+            osw.close();
+        } catch (Exception e) {
+            osw.close();
+            e.printStackTrace();
+        }
+    }
+
+    public static String getNetspeedFromIP(String url_str, String ip_address) throws MalformedURLException, IOException {
+        URL url = new URL(url_str + ip_address);
+        BufferedReader in = new BufferedReader(new InputStreamReader(url.openStream()));
+        String inLine;
+        String netspeed = "";
+        while ((inLine = in.readLine()) != null) {
+            // Alternatively use a CSV parser here.
+            Pattern p = Pattern.compile("\"([^\"]*)\"|(?<=,|^)([^,]*)(?:,|$)");
+            Matcher m = p.matcher(inLine);
+
+            ArrayList fields = new ArrayList();
+            String f;
+            while (m.find()) {
+                f = m.group(1);
+                if (f != null) {
+                    fields.add(f);
+                } else {
+                    fields.add(m.group(2));
+                }
+            }
+
+//            String countrycode = fields.get(0);
+//            String countryname = fields.get(1);
+//            String regioncode = fields.get(2);
+//            String regionname = fields.get(3);
+//            String city = fields.get(4);
+//            String lat = fields.get(5);
+//            String lon = fields.get(6);
+//            String metrocode = fields.get(7);
+//            String areacode = fields.get(8);
+//            String timezone = fields.get(9);
+//            String continent = fields.get(10);
+//            String postalcode = fields.get(11);
+//            String isp = fields.get(12);
+//            String org = fields.get(13);
+//            String domain = fields.get(14);
+//            String asnum = fields.get(15);
+            netspeed = (String) fields.get(16);
+//            String usertype = fields.get(17);
+//            String accuracyradius = fields.get(18);
+//            String countryconf = fields.get(19);
+//            String cityconf = fields.get(20);
+//            String regionconf = fields.get(21);
+//            String postalconf = fields.get(22);
+//            String error = fields.get(23);
+
+        }
+        return netspeed;
+
+    }
+
+    private static void quarzJobXmlReader() {
+
         //String file = "/opt/software_prod/quartz/conf/quartz-job.xml";
         String file = "/Users/davide/comandi/quartz-job.xml";
-        
+
         DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
-        
+
         try {
 
-			//Using factory get an instance of document builder
-			DocumentBuilder db = dbf.newDocumentBuilder();
-                        
-                        //parse using builder to get DOM representation of the XML file
-			Document document = (Document) db.parse(file);
+            //Using factory get an instance of document builder
+            DocumentBuilder db = dbf.newDocumentBuilder();
 
-                        Element element = document.getDocumentElement();
-                        
-                        NodeList crons = element.getElementsByTagName("cron");
-                        if(crons != null && crons.getLength() > 0) {
-                                for(int i = 0 ; i < crons.getLength();i++) {
-                                    
-                                    System.out.println(""+ ((Element) (((Element) crons.item(i)).getElementsByTagName("name").item(0))).getFirstChild().getNodeValue());
-                                    System.out.println(""+ ((Element) (((Element) crons.item(i)).getElementsByTagName("cron-expression").item(0))).getFirstChild().getNodeValue());
-                                    System.out.println("");
-                                    
-                                }
-                        }
-                        
+            //parse using builder to get DOM representation of the XML file
+            Document document = (Document) db.parse(file);
 
-        }catch(Exception e){
+            Element element = document.getDocumentElement();
+
+            NodeList crons = element.getElementsByTagName("cron");
+            if (crons != null && crons.getLength() > 0) {
+                for (int i = 0; i < crons.getLength(); i++) {
+
+                    System.out.print(String.format("%1$40s", ((Element) (((Element) crons.item(i)).getElementsByTagName("name").item(0))).getFirstChild().getNodeValue()));
+                    System.out.print(": " + ((Element) (((Element) crons.item(i)).getElementsByTagName("cron-expression").item(0))).getFirstChild().getNodeValue());
+                    System.out.println("");
+
+                }
+            }
+
+
+        } catch (Exception e) {
+            e.printStackTrace();
         }
-	
+
+
+    }
+
+    private static StringBuilder getStringFromHtmlPage(String page) throws MalformedURLException, URISyntaxException, IOException {
+
         
+        
+        StringBuilder out = new StringBuilder();
+        URL url;
+
+        try {
+            // get URL content
+            url = new URL(page);
+            URLConnection conn = url.openConnection();
+
+            // open the stream and put it into BufferedReader
+            BufferedReader br = new BufferedReader(
+                    new InputStreamReader(conn.getInputStream()));
+
+            String inputLine;
+
+            //save to this filename
+                
+            //use FileWriter to write file
+            boolean print = false;
+            while ((inputLine = br.readLine()) != null) {
+                if (inputLine.contains("id=\"Classifica_in_divenire")) {
+                    print = true;
+                }
+                if (inputLine.contains("</div>")) {
+                    print = false;
+                }
+                if (print) {
+                    if(!inputLine.contains("table") && !inputLine.contains("h3") && !inputLine.contains("div") && !inputLine.contains("tr") ){
+                        out.append(inputLine);
+                    }
+                }
+            }
+
+
+            br.close();
+
+        } catch (MalformedURLException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return out;
+
     }
     
+    public static String graphResults() {
+
+        StringBuilder graph = new StringBuilder();
+        try {
+
+            graph.append("<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n");
+            graph.append("<html xmlns=\"http://www.w3.org/1999/xhtml\">\n");
+            graph.append("<head>\n");
+            graph.append("<meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\"/>\n");
+            graph.append("<script type=\"text/javascript\" src=\"http://www.google.com/jsapi\"></script>\n");
+            graph.append("<script type=\"text/javascript\">\n");
+            graph.append("google.load('visualization', '1', {packages: ['motionchart']});");
+            graph.append("</script>\n");
+            graph.append("<script type=\"text/javascript\">\n");
+            graph.append("function drawVisualization() {\n");
+            graph.append("var data = new google.visualization.DataTable();\n");
+            graph.append(" data.addColumn('string', 'team');\n");
+            graph.append(" data.addColumn('number', 'day');\n");
+            graph.append(" data.addColumn('number', 'points');\n");
+            
+            String html = getStringFromHtmlPage("http://it.wikipedia.org/wiki/Serie_A_2012-2013").toString();
+            
+            String[] trs = html.split("<th>");
+            
+            
+            for (int i =80 ; i<trs.length ; i++) {
+                String[] th = trs[i].split("<td>");
+                
+                String team = th[0].replace("</th>", "");
+                
+                for(int j=1; j<28; j++){
+                    System.out.println(team+","+j+","+th[j].replace("</td>", ""));
+                    graph.append("data.addRow(['").append(team).append("',").append(j).append(",").append(th[j].replace("</td>", "")).append("]);\n");
+                }
+            }
+
+            graph.append(" \n var motionchart = new google.visualization.MotionChart(document.getElementById('visualization'));\n");
+            graph.append(" motionchart.draw(data, {'width': 800, 'height': 400}); \n }\n ");
+                        
+            graph.append("google.setOnLoadCallback(drawVisualization);\n");
+            graph.append("</script>\n");
+            graph.append("</head>\n");
+            graph.append("<body >\n");
+            graph.append("   <div id=\"visualization\" style=\"width: 800px; height: 400px;\"></div>\n");
+            graph.append("</body>\n");
+            graph.append("</html>\n");
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return graph.toString();
+    }
 }

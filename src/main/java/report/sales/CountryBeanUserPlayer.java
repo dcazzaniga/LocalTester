@@ -29,7 +29,13 @@ public class CountryBeanUserPlayer implements Serializable, Comparable{
     
     private int days;
     private int impressions;
+    private int avgImpressions;
+    private int maxImpressions;
     private int clicks;
+    
+    private int bannerDisplay;
+    private int avgBannerDisplay;
+    private int maxBannerDisplay;
     
     private int male ;
     private int female ;
@@ -37,6 +43,7 @@ public class CountryBeanUserPlayer implements Serializable, Comparable{
     private int units ;
     private int users;
     private int players;
+    private int lastMonthPlayers;
     
     private Map<Integer, Integer> apps = new HashMap<Integer, Integer>();
     
@@ -215,6 +222,54 @@ public class CountryBeanUserPlayer implements Serializable, Comparable{
 
     public void setUsers(int users) {
         this.users = users;
+    }
+
+    public int getBannerDisplay() {
+        return bannerDisplay;
+    }
+
+    public void setBannerDisplay(int bannerDisplay) {
+        this.bannerDisplay = bannerDisplay;
+    }
+
+    public int getAvgImpressions() {
+        return avgImpressions;
+    }
+
+    public void setAvgImpressions(int avgImpressions) {
+        this.avgImpressions = avgImpressions;
+    }
+
+    public int getMaxImpressions() {
+        return maxImpressions;
+    }
+
+    public void setMaxImpressions(int maxImpressions) {
+        this.maxImpressions = maxImpressions;
+    }
+
+    public int getAvgBannerDisplay() {
+        return avgBannerDisplay;
+    }
+
+    public void setAvgBannerDisplay(int avgBannerDisplay) {
+        this.avgBannerDisplay = avgBannerDisplay;
+    }
+
+    public int getMaxBannerDisplay() {
+        return maxBannerDisplay;
+    }
+
+    public void setMaxBannerDisplay(int maxBannerDisplay) {
+        this.maxBannerDisplay = maxBannerDisplay;
+    }
+
+    public int getLastMonthPlayers() {
+        return lastMonthPlayers;
+    }
+
+    public void setLastMonthPlayers(int lastMonthPlayers) {
+        this.lastMonthPlayers = lastMonthPlayers;
     }
 
     public Map<Integer, Integer> getApps() {
