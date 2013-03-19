@@ -10,7 +10,9 @@ import com.beintoo.commons.enums.GoogleAnalyticsTrackerEnum;
 import com.beintoo.commons.enums.RankingDirectionEnum;
 import com.beintoo.commons.enums.RankingMethodEnum;
 import com.beintoo.commons.enums.UserLevelEnum;
+import com.beintoo.commons.enums.VgoodExternalProviderType;
 import com.beintoo.commons.helper.AppHelper;
+import com.beintoo.commons.helper.VgoodHelper;
 import com.beintoo.commons.util.ConfigPath;
 import com.beintoo.commons.util.GeoCountries;
 import com.beintoo.commons.util.RankingUtil;
@@ -57,10 +59,10 @@ public class Test {
 
 //        getStringFromHtmlPage("http://it.wikipedia.org/wiki/Serie_A_2012-2013");
         
-        FileOutputStream fos = new FileOutputStream(ConfigPath.getAdminPath() + "/test.html");
-        OutputStreamWriter out = new OutputStreamWriter(fos, "UTF-8");
-        out.write(graphResults());
-        out.close();
+//        FileOutputStream fos = new FileOutputStream(ConfigPath.getAdminPath() + "/test.html");
+//        OutputStreamWriter out = new OutputStreamWriter(fos, "UTF-8");
+//        out.write(graphResults());
+//        out.close();
         
         
 //        EntityManager em = Persistence.createEntityManagerFactory("BeintooEntitiesPU_LOCAL_LOCALHOST").createEntityManager();
@@ -75,13 +77,63 @@ public class Test {
 //           AppHelper.getDownloadUrl(rb.getItem()));
 //           
 //       }
+        EntityManager em = Persistence.createEntityManagerFactory("BeintooEntitiesPU_LOCAL_LOCALHOST").createEntityManager();
+        Map<Integer, Integer> mappa = VgoodHelper.getExternalProviderArchiveVgoodIds(em);
+        
+        VgoodExternalProviderType[] external = VgoodExternalProviderType.values();
+        System.out.println(external);
+        for(VgoodExternalProviderType v: external){
+            StringBuilder s = new StringBuilder();
+            s.append("INSERT INTO sandbox.vgood (vgood_id, customer_id, name, description, description_small, status, creationdate, startdate, enddate, ext_id) \n" +
+"VALUES ('");
+            s.append(mappa.get(v.getCustomerId()));
+            s.append("','");
+            s.append(v.getCustomerId());
+            s.append("', 'archive vgood', 'vgood for archive report vgood', 'vgood for archive report vgood', '100', '2013-03-14', '2012-12-01', '2015-12-31', '");
+            s.append(v.name());
+            s.append("');");
+            System.out.println(s.toString());
+            
+        }
         
         System.exit(1);
-        
+        vep();
         //googleTest();
 
     }
 
+    private static void vep(){
+        
+        EntityManager em = Persistence.createEntityManagerFactory("BeintooEntitiesPU_LOCAL_LOCALHOST").createEntityManager();
+
+        try {
+
+            
+                
+                String query = "   SELECT id, ext_id from sandbox.vgood where status = 100 ";
+
+//                System.out.println("::: " + from + " > " + to);
+                Query q = em.createNativeQuery(query);
+                List results = new ArrayList<Object>();
+                results = q.getResultList();
+
+                for (int i = 0; i < results.size(); i++) {
+
+                    Object obj = results.get(i);
+                    Object[] objectArray = (Object[]) obj;
+
+                    long id = ((Long) objectArray[0]).longValue();
+                    String s = (String) objectArray[1];
+                    
+                    System.out.println("INSERT INTO sandbox.vgood_external_provider (vgood_id, provider) VALUES ("+id+",'"+s+"'); ");
+                    
+                }
+
+
+        } catch (Exception e) {
+        }
+    }
+    
     private static void googleTest() throws ParseException {
         ////////////////////////////////////////////////////////////////////////////////////////////////
 

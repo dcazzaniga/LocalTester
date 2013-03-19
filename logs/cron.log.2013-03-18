@@ -1,0 +1,952 @@
+130318103619 2013-03-18 10:36:19,413 INFO CRON - java.io.FileNotFoundException: /Users/davide/comandi/method_method.log (No such file or directory)
+130318103726 2013-03-18 10:37:26,399 INFO CRON - java.io.FileNotFoundException: /Users/davide/comandi/method_method.log.2013-03-14 (No such file or directory)
+130318103747 2013-03-18 10:37:47,270 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_BANNER_PLAYER	36	SMARTMAD
+130318103747 2013-03-18 10:37:47,271 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	146	BE	null
+130318103747 2013-03-18 10:37:47,271 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	146	CH	null
+130318103747 2013-03-18 10:37:47,271 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	146	CN	null
+130318103747 2013-03-18 10:37:47,272 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	146	DE	null
+130318103747 2013-03-18 10:37:47,272 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	146	FR	null
+130318103747 2013-03-18 10:37:47,272 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	146	GB	null
+130318103747 2013-03-18 10:37:47,273 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	146	IE	null
+130318103747 2013-03-18 10:37:47,274 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	146	IT	null
+130318103747 2013-03-18 10:37:47,274 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	146	MX	null
+130318103747 2013-03-18 10:37:47,274 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	146	NL	null
+130318103747 2013-03-18 10:37:47,275 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	146	SE	CITYDEAL
+130318103747 2013-03-18 10:37:47,275 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	146	US	AARKI
+130318103747 2013-03-18 10:37:47,275 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	146	US	MPHORIA
+130318103747 2013-03-18 10:37:47,275 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	146	US	SPOTZOT
+130318103747 2013-03-18 10:37:47,276 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	146	US	null
+130318103747 2013-03-18 10:37:47,276 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	147	BE	null
+130318103747 2013-03-18 10:37:47,276 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	147	CH	null
+130318103747 2013-03-18 10:37:47,277 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	147	CN	null
+130318103747 2013-03-18 10:37:47,277 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	147	DE	null
+130318103747 2013-03-18 10:37:47,277 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	147	FR	null
+130318103747 2013-03-18 10:37:47,278 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	147	GB	null
+130318103747 2013-03-18 10:37:47,278 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	147	IE	null
+130318103747 2013-03-18 10:37:47,278 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	147	IT	null
+130318103747 2013-03-18 10:37:47,279 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	147	MX	null
+130318103747 2013-03-18 10:37:47,279 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	147	NL	null
+130318103747 2013-03-18 10:37:47,280 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	147	SE	CITYDEAL
+130318103747 2013-03-18 10:37:47,280 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	147	US	AARKI
+130318103747 2013-03-18 10:37:47,280 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	147	US	MPHORIA
+130318103747 2013-03-18 10:37:47,542 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	147	US	null
+130318103747 2013-03-18 10:37:47,542 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	202	CH	null
+130318103747 2013-03-18 10:37:47,543 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	202	CN	null
+130318103747 2013-03-18 10:37:47,543 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	202	US	SPOTZOT
+130318103747 2013-03-18 10:37:47,543 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	202	US	null
+130318103747 2013-03-18 10:37:47,544 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	221	BE	null
+130318103747 2013-03-18 10:37:47,544 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	221	CN	null
+130318103747 2013-03-18 10:37:47,545 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	221	DE	null
+130318103747 2013-03-18 10:37:47,545 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	221	FR	null
+130318103747 2013-03-18 10:37:47,545 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	221	GB	null
+130318103747 2013-03-18 10:37:47,545 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	221	IT	null
+130318103747 2013-03-18 10:37:47,546 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	221	NL	null
+130318103747 2013-03-18 10:37:47,546 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	221	US	SPOTZOT
+130318103747 2013-03-18 10:37:47,547 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	221	US	null
+130318103747 2013-03-18 10:37:47,547 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	335	CN	null
+130318103747 2013-03-18 10:37:47,547 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	335	IT	null
+130318103747 2013-03-18 10:37:47,548 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	335	US	null
+130318103747 2013-03-18 10:37:47,548 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	36	CN	null
+130318103747 2013-03-18 10:37:47,548 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	36	GB	null
+130318103747 2013-03-18 10:37:47,549 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	36	IT	null
+130318103747 2013-03-18 10:37:47,629 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	36	SE	CITYDEAL
+130318103747 2013-03-18 10:37:47,630 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	36	US	AARKI
+130318103747 2013-03-18 10:37:47,630 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	36	US	MPHORIA
+130318103747 2013-03-18 10:37:47,630 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	36	US	SPOTZOT
+130318103747 2013-03-18 10:37:47,631 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	36	US	null
+130318103747 2013-03-18 10:37:47,631 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	419	CN	null
+130318103747 2013-03-18 10:37:47,631 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	419	GB	null
+130318103747 2013-03-18 10:37:47,632 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	419	IT	null
+130318103747 2013-03-18 10:37:47,632 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	419	US	AARKI
+130318103747 2013-03-18 10:37:47,632 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	419	US	MPHORIA
+130318103747 2013-03-18 10:37:47,632 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	419	US	SPOTZOT
+130318103747 2013-03-18 10:37:47,633 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	419	US	null
+130318103747 2013-03-18 10:37:47,633 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	486	IT	null
+130318103747 2013-03-18 10:37:47,633 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	510	BE	null
+130318103747 2013-03-18 10:37:47,633 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	510	CH	null
+130318103747 2013-03-18 10:37:47,634 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	510	CN	null
+130318103747 2013-03-18 10:37:47,634 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	510	DE	null
+130318103747 2013-03-18 10:37:47,634 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	510	FR	null
+130318103747 2013-03-18 10:37:47,635 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	510	GB	null
+130318103747 2013-03-18 10:37:47,635 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	510	IT	null
+130318103747 2013-03-18 10:37:47,750 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	510	MX	null
+130318103747 2013-03-18 10:37:47,750 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	510	NL	null
+130318103747 2013-03-18 10:37:47,751 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	510	SE	CITYDEAL
+130318103747 2013-03-18 10:37:47,751 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	510	US	SPOTZOT
+130318103747 2013-03-18 10:37:47,751 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	536	CN	null
+130318103747 2013-03-18 10:37:47,752 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	536	IT	null
+130318103747 2013-03-18 10:37:47,752 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	536	US	SPOTZOT
+130318103747 2013-03-18 10:37:47,752 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	538	CN	null
+130318103747 2013-03-18 10:37:47,753 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	538	GB	null
+130318103747 2013-03-18 10:37:47,753 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	538	IT	null
+130318103747 2013-03-18 10:37:47,753 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	538	US	SPOTZOT
+130318103747 2013-03-18 10:37:47,754 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	538	US	null
+130318103747 2013-03-18 10:37:47,754 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	569	BE	null
+130318103747 2013-03-18 10:37:47,754 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	569	CN	null
+130318103747 2013-03-18 10:37:47,754 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	569	FR	null
+130318103747 2013-03-18 10:37:47,755 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	569	GB	null
+130318103747 2013-03-18 10:37:47,755 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	569	US	SPOTZOT
+130318103747 2013-03-18 10:37:47,756 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	638	US	SPOTZOT
+130318103747 2013-03-18 10:37:47,756 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	73	CN	null
+130318103747 2013-03-18 10:37:47,756 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	73	GB	null
+130318103747 2013-03-18 10:37:47,881 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	73	IT	null
+130318103747 2013-03-18 10:37:47,882 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	73	SE	CITYDEAL
+130318103747 2013-03-18 10:37:47,882 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	73	US	AARKI
+130318103747 2013-03-18 10:37:47,882 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	73	US	MPHORIA
+130318103747 2013-03-18 10:37:47,883 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	73	US	SPOTZOT
+130318103747 2013-03-18 10:37:47,883 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_PLAYER	73	US	null
+130318103747 2013-03-18 10:37:47,883 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	146	CH	null
+130318103747 2013-03-18 10:37:47,884 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	146	CN	null
+130318103747 2013-03-18 10:37:47,884 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	146	DE	null
+130318103747 2013-03-18 10:37:47,884 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	146	FR	null
+130318103747 2013-03-18 10:37:47,885 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	146	GB	null
+130318103747 2013-03-18 10:37:47,885 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	146	IE	null
+130318103747 2013-03-18 10:37:47,885 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	146	IT	null
+130318103747 2013-03-18 10:37:47,886 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	146	MX	null
+130318103747 2013-03-18 10:37:47,886 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	146	NL	null
+130318103747 2013-03-18 10:37:47,887 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	146	SE	CITYDEAL
+130318103747 2013-03-18 10:37:47,887 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	146	US	AARKI
+130318103747 2013-03-18 10:37:47,887 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	146	US	MPHORIA
+130318103747 2013-03-18 10:37:47,888 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	146	US	SPOTZOT
+130318103747 2013-03-18 10:37:47,889 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	146	US	null
+130318103747 2013-03-18 10:37:47,889 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	147	CN	null
+130318103748 2013-03-18 10:37:48,018 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	147	DE	null
+130318103748 2013-03-18 10:37:48,019 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	147	FR	null
+130318103748 2013-03-18 10:37:48,019 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	147	GB	null
+130318103748 2013-03-18 10:37:48,019 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	147	IT	null
+130318103748 2013-03-18 10:37:48,020 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	147	MX	null
+130318103748 2013-03-18 10:37:48,020 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	147	NL	null
+130318103748 2013-03-18 10:37:48,021 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	147	SE	CITYDEAL
+130318103748 2013-03-18 10:37:48,021 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	147	US	AARKI
+130318103748 2013-03-18 10:37:48,022 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	147	US	MPHORIA
+130318103748 2013-03-18 10:37:48,022 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	147	US	null
+130318103748 2013-03-18 10:37:48,023 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	31	IT	null
+130318103748 2013-03-18 10:37:48,023 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	36	US	SPOTZOT
+130318103748 2013-03-18 10:37:48,024 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	419	CN	null
+130318103748 2013-03-18 10:37:48,024 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	419	GB	null
+130318103748 2013-03-18 10:37:48,025 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	419	IT	null
+130318103748 2013-03-18 10:37:48,025 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	419	US	SPOTZOT
+130318103748 2013-03-18 10:37:48,025 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	419	US	null
+130318103748 2013-03-18 10:37:48,026 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	450	CH	null
+130318103748 2013-03-18 10:37:48,026 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	450	CN	null
+130318103748 2013-03-18 10:37:48,027 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	450	DE	null
+130318103748 2013-03-18 10:37:48,141 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	450	FR	null
+130318103748 2013-03-18 10:37:48,141 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	450	GB	null
+130318103748 2013-03-18 10:37:48,142 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	450	IT	null
+130318103748 2013-03-18 10:37:48,142 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	450	MX	null
+130318103748 2013-03-18 10:37:48,142 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	450	NL	null
+130318103748 2013-03-18 10:37:48,143 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	450	SE	CITYDEAL
+130318103748 2013-03-18 10:37:48,143 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	450	US	AARKI
+130318103748 2013-03-18 10:37:48,144 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	450	US	MPHORIA
+130318103748 2013-03-18 10:37:48,144 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	450	US	SPOTZOT
+130318103748 2013-03-18 10:37:48,144 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	450	US	null
+130318103748 2013-03-18 10:37:48,145 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	451	CH	null
+130318103748 2013-03-18 10:37:48,145 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	451	CN	null
+130318103748 2013-03-18 10:37:48,146 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	451	DE	null
+130318103748 2013-03-18 10:37:48,146 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	451	FR	null
+130318103748 2013-03-18 10:37:48,147 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	451	GB	null
+130318103748 2013-03-18 10:37:48,147 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	451	IT	null
+130318103748 2013-03-18 10:37:48,148 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	451	MX	null
+130318103748 2013-03-18 10:37:48,148 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	451	US	MPHORIA
+130318103748 2013-03-18 10:37:48,148 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	451	US	null
+130318103748 2013-03-18 10:37:48,149 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	510	DE	null
+130318103748 2013-03-18 10:37:48,149 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	536	CN	null
+130318103748 2013-03-18 10:37:48,267 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	569	US	null
+130318103748 2013-03-18 10:37:48,267 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	73	CN	null
+130318103748 2013-03-18 10:37:48,268 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	73	GB	null
+130318103748 2013-03-18 10:37:48,268 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	73	IT	null
+130318103748 2013-03-18 10:37:48,268 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	73	SE	CITYDEAL
+130318103748 2013-03-18 10:37:48,269 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	73	US	AARKI
+130318103748 2013-03-18 10:37:48,269 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	73	US	MPHORIA
+130318103748 2013-03-18 10:37:48,270 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	73	US	SPOTZOT
+130318103748 2013-03-18 10:37:48,270 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.DELIVERY_VGOOD_USER	73	US	null
+130318103748 2013-03-18 10:37:48,270 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	AD
+130318103748 2013-03-18 10:37:48,271 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	AE
+130318103748 2013-03-18 10:37:48,271 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	AF
+130318103748 2013-03-18 10:37:48,272 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	AG
+130318103748 2013-03-18 10:37:48,272 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	AI
+130318103748 2013-03-18 10:37:48,272 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	AL
+130318103748 2013-03-18 10:37:48,273 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	AM
+130318103748 2013-03-18 10:37:48,273 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	AN
+130318103748 2013-03-18 10:37:48,273 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	AO
+130318103748 2013-03-18 10:37:48,274 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	AR
+130318103748 2013-03-18 10:37:48,274 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	AS
+130318103748 2013-03-18 10:37:48,394 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	AT
+130318103748 2013-03-18 10:37:48,395 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	AU
+130318103748 2013-03-18 10:37:48,395 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	AW
+130318103748 2013-03-18 10:37:48,395 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	AX
+130318103748 2013-03-18 10:37:48,396 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	AZ
+130318103748 2013-03-18 10:37:48,396 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	BA
+130318103748 2013-03-18 10:37:48,396 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	BB
+130318103748 2013-03-18 10:37:48,397 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	BD
+130318103748 2013-03-18 10:37:48,397 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	BE
+130318103748 2013-03-18 10:37:48,398 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	BG
+130318103748 2013-03-18 10:37:48,398 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	BH
+130318103748 2013-03-18 10:37:48,399 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	BJ
+130318103748 2013-03-18 10:37:48,399 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	BM
+130318103748 2013-03-18 10:37:48,400 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	BN
+130318103748 2013-03-18 10:37:48,400 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	BO
+130318103748 2013-03-18 10:37:48,400 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	BR
+130318103748 2013-03-18 10:37:48,401 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	BS
+130318103748 2013-03-18 10:37:48,401 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	BT
+130318103748 2013-03-18 10:37:48,402 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	BW
+130318103748 2013-03-18 10:37:48,402 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	BY
+130318103748 2013-03-18 10:37:48,402 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	BZ
+130318103748 2013-03-18 10:37:48,520 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	CA
+130318103748 2013-03-18 10:37:48,520 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	CD
+130318103748 2013-03-18 10:37:48,521 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	CG
+130318103748 2013-03-18 10:37:48,521 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	CH
+130318103748 2013-03-18 10:37:48,521 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	CI
+130318103748 2013-03-18 10:37:48,522 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	CL
+130318103748 2013-03-18 10:37:48,522 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	CM
+130318103748 2013-03-18 10:37:48,523 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	CN
+130318103748 2013-03-18 10:37:48,523 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	CO
+130318103748 2013-03-18 10:37:48,523 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	CR
+130318103748 2013-03-18 10:37:48,524 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	CV
+130318103748 2013-03-18 10:37:48,524 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	CW
+130318103748 2013-03-18 10:37:48,525 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	CY
+130318103748 2013-03-18 10:37:48,525 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	CZ
+130318103748 2013-03-18 10:37:48,525 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	DE
+130318103748 2013-03-18 10:37:48,526 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	DJ
+130318103748 2013-03-18 10:37:48,526 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	DK
+130318103748 2013-03-18 10:37:48,527 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	DO
+130318103748 2013-03-18 10:37:48,527 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	DZ
+130318103748 2013-03-18 10:37:48,528 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	EC
+130318103748 2013-03-18 10:37:48,650 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	EE
+130318103748 2013-03-18 10:37:48,650 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	EG
+130318103748 2013-03-18 10:37:48,651 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	EH
+130318103748 2013-03-18 10:37:48,651 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	ES
+130318103748 2013-03-18 10:37:48,652 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	ET
+130318103748 2013-03-18 10:37:48,652 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	FI
+130318103748 2013-03-18 10:37:48,652 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	FJ
+130318103748 2013-03-18 10:37:48,653 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	FO
+130318103748 2013-03-18 10:37:48,653 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	FR
+130318103748 2013-03-18 10:37:48,653 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	GA
+130318103748 2013-03-18 10:37:48,654 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	GD
+130318103748 2013-03-18 10:37:48,654 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	GE
+130318103748 2013-03-18 10:37:48,655 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	GF
+130318103748 2013-03-18 10:37:48,655 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	GG
+130318103748 2013-03-18 10:37:48,657 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	GH
+130318103748 2013-03-18 10:37:48,657 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	GI
+130318103748 2013-03-18 10:37:48,657 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	GL
+130318103748 2013-03-18 10:37:48,658 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	GM
+130318103748 2013-03-18 10:37:48,658 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	GN
+130318103748 2013-03-18 10:37:48,658 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	GP
+130318103748 2013-03-18 10:37:48,799 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	GQ
+130318103748 2013-03-18 10:37:48,799 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	GR
+130318103748 2013-03-18 10:37:48,800 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	GT
+130318103748 2013-03-18 10:37:48,800 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	GU
+130318103748 2013-03-18 10:37:48,800 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	GY
+130318103748 2013-03-18 10:37:48,801 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	HK
+130318103748 2013-03-18 10:37:48,801 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	HN
+130318103748 2013-03-18 10:37:48,801 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	HR
+130318103748 2013-03-18 10:37:48,802 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	HT
+130318103748 2013-03-18 10:37:48,802 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	HU
+130318103748 2013-03-18 10:37:48,802 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	ID
+130318103748 2013-03-18 10:37:48,803 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	IE
+130318103748 2013-03-18 10:37:48,803 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	IL
+130318103748 2013-03-18 10:37:48,804 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	IM
+130318103748 2013-03-18 10:37:48,804 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	IN
+130318103748 2013-03-18 10:37:48,805 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	IQ
+130318103748 2013-03-18 10:37:48,805 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	IR
+130318103748 2013-03-18 10:37:48,805 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	IS
+130318103748 2013-03-18 10:37:48,806 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	JE
+130318103748 2013-03-18 10:37:48,806 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	JM
+130318103748 2013-03-18 10:37:48,806 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	JO
+130318103748 2013-03-18 10:37:48,923 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	JP
+130318103748 2013-03-18 10:37:48,924 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	KE
+130318103748 2013-03-18 10:37:48,924 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	KG
+130318103748 2013-03-18 10:37:48,924 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	KH
+130318103748 2013-03-18 10:37:48,925 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	KN
+130318103748 2013-03-18 10:37:48,925 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	KP
+130318103748 2013-03-18 10:37:48,926 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	KR
+130318103748 2013-03-18 10:37:48,926 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	KW
+130318103748 2013-03-18 10:37:48,926 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	KY
+130318103748 2013-03-18 10:37:48,927 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	KZ
+130318103748 2013-03-18 10:37:48,927 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	LA
+130318103748 2013-03-18 10:37:48,928 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	LB
+130318103748 2013-03-18 10:37:48,928 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	LC
+130318103748 2013-03-18 10:37:48,928 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	LI
+130318103748 2013-03-18 10:37:48,929 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	LK
+130318103748 2013-03-18 10:37:48,929 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	LR
+130318103748 2013-03-18 10:37:48,929 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	LS
+130318103748 2013-03-18 10:37:48,930 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	LT
+130318103748 2013-03-18 10:37:48,930 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	LU
+130318103748 2013-03-18 10:37:48,931 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	LV
+130318103749 2013-03-18 10:37:49,039 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	LY
+130318103749 2013-03-18 10:37:49,040 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	MA
+130318103749 2013-03-18 10:37:49,040 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	MC
+130318103749 2013-03-18 10:37:49,040 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	MD
+130318103749 2013-03-18 10:37:49,041 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	ME
+130318103749 2013-03-18 10:37:49,041 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	MF
+130318103749 2013-03-18 10:37:49,042 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	MG
+130318103749 2013-03-18 10:37:49,042 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	MK
+130318103749 2013-03-18 10:37:49,042 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	ML
+130318103749 2013-03-18 10:37:49,043 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	MM
+130318103749 2013-03-18 10:37:49,043 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	MN
+130318103749 2013-03-18 10:37:49,044 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	MO
+130318103749 2013-03-18 10:37:49,044 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	MP
+130318103749 2013-03-18 10:37:49,045 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	MQ
+130318103749 2013-03-18 10:37:49,045 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	MR
+130318103749 2013-03-18 10:37:49,045 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	MT
+130318103749 2013-03-18 10:37:49,046 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	MU
+130318103749 2013-03-18 10:37:49,046 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	MV
+130318103749 2013-03-18 10:37:49,046 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	MW
+130318103749 2013-03-18 10:37:49,047 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	MX
+130318103749 2013-03-18 10:37:49,047 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	MY
+130318103749 2013-03-18 10:37:49,158 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	MZ
+130318103749 2013-03-18 10:37:49,159 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	NA
+130318103749 2013-03-18 10:37:49,159 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	NC
+130318103749 2013-03-18 10:37:49,159 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	NE
+130318103749 2013-03-18 10:37:49,160 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	NG
+130318103749 2013-03-18 10:37:49,160 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	NI
+130318103749 2013-03-18 10:37:49,161 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	NL
+130318103749 2013-03-18 10:37:49,161 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	NO
+130318103749 2013-03-18 10:37:49,161 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	NP
+130318103749 2013-03-18 10:37:49,162 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	NZ
+130318103749 2013-03-18 10:37:49,162 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	OM
+130318103749 2013-03-18 10:37:49,162 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	PA
+130318103749 2013-03-18 10:37:49,163 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	PE
+130318103749 2013-03-18 10:37:49,163 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	PF
+130318103749 2013-03-18 10:37:49,163 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	PG
+130318103749 2013-03-18 10:37:49,164 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	PH
+130318103749 2013-03-18 10:37:49,164 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	PK
+130318103749 2013-03-18 10:37:49,164 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	PL
+130318103749 2013-03-18 10:37:49,165 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	PM
+130318103749 2013-03-18 10:37:49,165 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	PR
+130318103749 2013-03-18 10:37:49,283 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	PS
+130318103749 2013-03-18 10:37:49,283 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	PT
+130318103749 2013-03-18 10:37:49,284 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	PY
+130318103749 2013-03-18 10:37:49,284 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	QA
+130318103749 2013-03-18 10:37:49,284 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	RE
+130318103749 2013-03-18 10:37:49,285 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	RO
+130318103749 2013-03-18 10:37:49,285 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	RS
+130318103749 2013-03-18 10:37:49,286 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	RU
+130318103749 2013-03-18 10:37:49,286 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	RW
+130318103749 2013-03-18 10:37:49,286 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	SA
+130318103749 2013-03-18 10:37:49,287 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	SD
+130318103749 2013-03-18 10:37:49,287 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	SE
+130318103749 2013-03-18 10:37:49,287 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	SG
+130318103749 2013-03-18 10:37:49,288 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	SI
+130318103749 2013-03-18 10:37:49,288 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	SK
+130318103749 2013-03-18 10:37:49,289 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	SL
+130318103749 2013-03-18 10:37:49,289 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	SM
+130318103749 2013-03-18 10:37:49,290 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	SN
+130318103749 2013-03-18 10:37:49,290 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	SR
+130318103749 2013-03-18 10:37:49,291 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	SV
+130318103749 2013-03-18 10:37:49,408 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	SX
+130318103749 2013-03-18 10:37:49,408 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	SY
+130318103749 2013-03-18 10:37:49,409 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	TC
+130318103749 2013-03-18 10:37:49,409 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	TG
+130318103749 2013-03-18 10:37:49,409 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	TH
+130318103749 2013-03-18 10:37:49,410 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	TJ
+130318103749 2013-03-18 10:37:49,410 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	TL
+130318103749 2013-03-18 10:37:49,410 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	TM
+130318103749 2013-03-18 10:37:49,411 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	TN
+130318103749 2013-03-18 10:37:49,412 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	TR
+130318103749 2013-03-18 10:37:49,412 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	TT
+130318103749 2013-03-18 10:37:49,413 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	TW
+130318103749 2013-03-18 10:37:49,413 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	TZ
+130318103749 2013-03-18 10:37:49,414 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	UA
+130318103749 2013-03-18 10:37:49,414 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	UG
+130318103749 2013-03-18 10:37:49,414 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	UY
+130318103749 2013-03-18 10:37:49,415 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	UZ
+130318103749 2013-03-18 10:37:49,415 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	VC
+130318103749 2013-03-18 10:37:49,416 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	VE
+130318103749 2013-03-18 10:37:49,416 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	VG
+130318103749 2013-03-18 10:37:49,417 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	VI
+130318103749 2013-03-18 10:37:49,529 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	VN
+130318103749 2013-03-18 10:37:49,529 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	VU
+130318103749 2013-03-18 10:37:49,529 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	WS
+130318103749 2013-03-18 10:37:49,529 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	XK
+130318103749 2013-03-18 10:37:49,530 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	YE
+130318103749 2013-03-18 10:37:49,530 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	ZA
+130318103749 2013-03-18 10:37:49,530 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	ZM
+130318103749 2013-03-18 10:37:49,531 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	ZW
+130318103749 2013-03-18 10:37:49,531 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	146	null
+130318103749 2013-03-18 10:37:49,531 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	AD
+130318103749 2013-03-18 10:37:49,532 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	AE
+130318103749 2013-03-18 10:37:49,532 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	AF
+130318103749 2013-03-18 10:37:49,532 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	AG
+130318103749 2013-03-18 10:37:49,533 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	AI
+130318103749 2013-03-18 10:37:49,533 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	AL
+130318103749 2013-03-18 10:37:49,533 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	AM
+130318103749 2013-03-18 10:37:49,534 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	AN
+130318103749 2013-03-18 10:37:49,534 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	AO
+130318103749 2013-03-18 10:37:49,534 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	AR
+130318103749 2013-03-18 10:37:49,535 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	AS
+130318103749 2013-03-18 10:37:49,654 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	AT
+130318103749 2013-03-18 10:37:49,654 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	AU
+130318103749 2013-03-18 10:37:49,655 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	AW
+130318103749 2013-03-18 10:37:49,655 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	AX
+130318103749 2013-03-18 10:37:49,655 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	AZ
+130318103749 2013-03-18 10:37:49,656 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	BA
+130318103749 2013-03-18 10:37:49,656 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	BB
+130318103749 2013-03-18 10:37:49,663 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	BD
+130318103749 2013-03-18 10:37:49,666 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	BE
+130318103749 2013-03-18 10:37:49,672 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	BG
+130318103749 2013-03-18 10:37:49,673 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	BH
+130318103749 2013-03-18 10:37:49,673 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	BI
+130318103749 2013-03-18 10:37:49,673 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	BM
+130318103749 2013-03-18 10:37:49,674 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	BN
+130318103749 2013-03-18 10:37:49,674 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	BO
+130318103749 2013-03-18 10:37:49,674 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	BR
+130318103749 2013-03-18 10:37:49,674 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	BS
+130318103749 2013-03-18 10:37:49,675 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	BW
+130318103749 2013-03-18 10:37:49,675 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	BY
+130318103749 2013-03-18 10:37:49,675 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	BZ
+130318103749 2013-03-18 10:37:49,676 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	CA
+130318103749 2013-03-18 10:37:49,676 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	CD
+130318103749 2013-03-18 10:37:49,676 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	CF
+130318103749 2013-03-18 10:37:49,795 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	CG
+130318103749 2013-03-18 10:37:49,796 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	CH
+130318103749 2013-03-18 10:37:49,796 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	CI
+130318103749 2013-03-18 10:37:49,796 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	CL
+130318103749 2013-03-18 10:37:49,797 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	CM
+130318103749 2013-03-18 10:37:49,797 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	CN
+130318103749 2013-03-18 10:37:49,798 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	CO
+130318103749 2013-03-18 10:37:49,798 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	CR
+130318103749 2013-03-18 10:37:49,799 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	CV
+130318103749 2013-03-18 10:37:49,799 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	CW
+130318103749 2013-03-18 10:37:49,799 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	CY
+130318103749 2013-03-18 10:37:49,800 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	CZ
+130318103749 2013-03-18 10:37:49,800 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	DE
+130318103749 2013-03-18 10:37:49,800 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	DJ
+130318103749 2013-03-18 10:37:49,801 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	DK
+130318103749 2013-03-18 10:37:49,801 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	DM
+130318103749 2013-03-18 10:37:49,801 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	DO
+130318103749 2013-03-18 10:37:49,802 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	DZ
+130318103749 2013-03-18 10:37:49,802 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	EC
+130318103749 2013-03-18 10:37:49,803 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	EE
+130318103749 2013-03-18 10:37:49,803 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	EG
+130318103749 2013-03-18 10:37:49,907 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	ES
+130318103749 2013-03-18 10:37:49,907 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	ET
+130318103749 2013-03-18 10:37:49,907 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	FI
+130318103749 2013-03-18 10:37:49,908 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	FJ
+130318103749 2013-03-18 10:37:49,909 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	FO
+130318103749 2013-03-18 10:37:49,909 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	FR
+130318103749 2013-03-18 10:37:49,910 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	GA
+130318103749 2013-03-18 10:37:49,910 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	GD
+130318103749 2013-03-18 10:37:49,910 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	GE
+130318103749 2013-03-18 10:37:49,911 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	GF
+130318103749 2013-03-18 10:37:49,911 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	GG
+130318103749 2013-03-18 10:37:49,911 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	GH
+130318103749 2013-03-18 10:37:49,912 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	GI
+130318103749 2013-03-18 10:37:49,912 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	GL
+130318103749 2013-03-18 10:37:49,912 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	GM
+130318103749 2013-03-18 10:37:49,913 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	GN
+130318103749 2013-03-18 10:37:49,914 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	GP
+130318103749 2013-03-18 10:37:49,914 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	GQ
+130318103749 2013-03-18 10:37:49,914 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	GR
+130318103750 2013-03-18 10:37:50,023 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	GT
+130318103750 2013-03-18 10:37:50,024 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	GU
+130318103750 2013-03-18 10:37:50,024 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	GY
+130318103750 2013-03-18 10:37:50,024 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	HK
+130318103750 2013-03-18 10:37:50,025 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	HN
+130318103750 2013-03-18 10:37:50,025 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	HR
+130318103750 2013-03-18 10:37:50,026 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	HT
+130318103750 2013-03-18 10:37:50,026 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	HU
+130318103750 2013-03-18 10:37:50,026 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	ID
+130318103750 2013-03-18 10:37:50,027 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	IE
+130318103750 2013-03-18 10:37:50,027 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	IL
+130318103750 2013-03-18 10:37:50,028 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	IM
+130318103750 2013-03-18 10:37:50,028 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	IN
+130318103750 2013-03-18 10:37:50,029 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	IQ
+130318103750 2013-03-18 10:37:50,029 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	IR
+130318103750 2013-03-18 10:37:50,029 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	IS
+130318103750 2013-03-18 10:37:50,030 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	JE
+130318103750 2013-03-18 10:37:50,030 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	JM
+130318103750 2013-03-18 10:37:50,030 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	JO
+130318103750 2013-03-18 10:37:50,030 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	JP
+130318103750 2013-03-18 10:37:50,031 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	KE
+130318103750 2013-03-18 10:37:50,142 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	KG
+130318103750 2013-03-18 10:37:50,143 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	KH
+130318103750 2013-03-18 10:37:50,143 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	KM
+130318103750 2013-03-18 10:37:50,144 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	KN
+130318103750 2013-03-18 10:37:50,144 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	KP
+130318103750 2013-03-18 10:37:50,144 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	KR
+130318103750 2013-03-18 10:37:50,145 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	KW
+130318103750 2013-03-18 10:37:50,145 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	KY
+130318103750 2013-03-18 10:37:50,145 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	KZ
+130318103750 2013-03-18 10:37:50,146 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	LA
+130318103750 2013-03-18 10:37:50,146 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	LB
+130318103750 2013-03-18 10:37:50,146 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	LC
+130318103750 2013-03-18 10:37:50,147 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	LI
+130318103750 2013-03-18 10:37:50,147 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	LK
+130318103750 2013-03-18 10:37:50,148 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	LS
+130318103750 2013-03-18 10:37:50,149 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	LT
+130318103750 2013-03-18 10:37:50,150 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	LU
+130318103750 2013-03-18 10:37:50,150 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	LV
+130318103750 2013-03-18 10:37:50,151 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	LY
+130318103750 2013-03-18 10:37:50,151 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	MA
+130318103750 2013-03-18 10:37:50,151 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	MC
+130318103750 2013-03-18 10:37:50,259 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	MD
+130318103750 2013-03-18 10:37:50,259 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	ME
+130318103750 2013-03-18 10:37:50,260 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	MF
+130318103750 2013-03-18 10:37:50,260 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	MG
+130318103750 2013-03-18 10:37:50,260 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	MH
+130318103750 2013-03-18 10:37:50,261 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	MK
+130318103750 2013-03-18 10:37:50,261 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	ML
+130318103750 2013-03-18 10:37:50,261 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	MM
+130318103750 2013-03-18 10:37:50,261 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	MN
+130318103750 2013-03-18 10:37:50,262 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	MO
+130318103750 2013-03-18 10:37:50,262 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	MP
+130318103750 2013-03-18 10:37:50,262 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	MQ
+130318103750 2013-03-18 10:37:50,262 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	MT
+130318103750 2013-03-18 10:37:50,262 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	MU
+130318103750 2013-03-18 10:37:50,263 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	MV
+130318103750 2013-03-18 10:37:50,263 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	MW
+130318103750 2013-03-18 10:37:50,263 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	MX
+130318103750 2013-03-18 10:37:50,264 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	MY
+130318103750 2013-03-18 10:37:50,264 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	MZ
+130318103750 2013-03-18 10:37:50,264 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	NA
+130318103750 2013-03-18 10:37:50,368 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	NC
+130318103750 2013-03-18 10:37:50,368 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	NE
+130318103750 2013-03-18 10:37:50,368 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	NG
+130318103750 2013-03-18 10:37:50,369 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	NI
+130318103750 2013-03-18 10:37:50,369 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	NL
+130318103750 2013-03-18 10:37:50,369 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	NO
+130318103750 2013-03-18 10:37:50,370 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	NP
+130318103750 2013-03-18 10:37:50,370 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	NZ
+130318103750 2013-03-18 10:37:50,370 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	OM
+130318103750 2013-03-18 10:37:50,371 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	PA
+130318103750 2013-03-18 10:37:50,371 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	PE
+130318103750 2013-03-18 10:37:50,372 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	PF
+130318103750 2013-03-18 10:37:50,372 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	PG
+130318103750 2013-03-18 10:37:50,372 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	PH
+130318103750 2013-03-18 10:37:50,373 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	PK
+130318103750 2013-03-18 10:37:50,373 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	PL
+130318103750 2013-03-18 10:37:50,373 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	PR
+130318103750 2013-03-18 10:37:50,374 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	PS
+130318103750 2013-03-18 10:37:50,374 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	PT
+130318103750 2013-03-18 10:37:50,374 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	PY
+130318103750 2013-03-18 10:37:50,375 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	QA
+130318103750 2013-03-18 10:37:50,488 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	RE
+130318103750 2013-03-18 10:37:50,488 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	RO
+130318103750 2013-03-18 10:37:50,488 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	RS
+130318103750 2013-03-18 10:37:50,489 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	RU
+130318103750 2013-03-18 10:37:50,489 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	SA
+130318103750 2013-03-18 10:37:50,489 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	SC
+130318103750 2013-03-18 10:37:50,490 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	SD
+130318103750 2013-03-18 10:37:50,490 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	SE
+130318103750 2013-03-18 10:37:50,490 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	SG
+130318103750 2013-03-18 10:37:50,491 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	SI
+130318103750 2013-03-18 10:37:50,491 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	SK
+130318103750 2013-03-18 10:37:50,491 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	SM
+130318103750 2013-03-18 10:37:50,492 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	SN
+130318103750 2013-03-18 10:37:50,492 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	SR
+130318103750 2013-03-18 10:37:50,493 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	SV
+130318103750 2013-03-18 10:37:50,493 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	SX
+130318103750 2013-03-18 10:37:50,494 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	SY
+130318103750 2013-03-18 10:37:50,494 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	SZ
+130318103750 2013-03-18 10:37:50,494 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	TC
+130318103750 2013-03-18 10:37:50,495 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	TH
+130318103750 2013-03-18 10:37:50,495 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	TJ
+130318103750 2013-03-18 10:37:50,594 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	TL
+130318103750 2013-03-18 10:37:50,595 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	TM
+130318103750 2013-03-18 10:37:50,595 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	TN
+130318103750 2013-03-18 10:37:50,595 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	TR
+130318103750 2013-03-18 10:37:50,596 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	TT
+130318103750 2013-03-18 10:37:50,596 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	TW
+130318103750 2013-03-18 10:37:50,596 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	TZ
+130318103750 2013-03-18 10:37:50,596 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	UA
+130318103750 2013-03-18 10:37:50,597 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	UG
+130318103750 2013-03-18 10:37:50,597 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	UY
+130318103750 2013-03-18 10:37:50,597 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	UZ
+130318103750 2013-03-18 10:37:50,598 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	VC
+130318103750 2013-03-18 10:37:50,598 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	VE
+130318103750 2013-03-18 10:37:50,598 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	VG
+130318103750 2013-03-18 10:37:50,599 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	VI
+130318103750 2013-03-18 10:37:50,599 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	VN
+130318103750 2013-03-18 10:37:50,599 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	VU
+130318103750 2013-03-18 10:37:50,600 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	XK
+130318103750 2013-03-18 10:37:50,600 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	YE
+130318103750 2013-03-18 10:37:50,600 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	YT
+130318103750 2013-03-18 10:37:50,702 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	ZA
+130318103750 2013-03-18 10:37:50,703 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	ZM
+130318103750 2013-03-18 10:37:50,703 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	ZW
+130318103750 2013-03-18 10:37:50,703 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	147	null
+130318103750 2013-03-18 10:37:50,704 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	221	AE
+130318103750 2013-03-18 10:37:50,704 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	221	AU
+130318103750 2013-03-18 10:37:50,704 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	221	BA
+130318103750 2013-03-18 10:37:50,705 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	221	BE
+130318103750 2013-03-18 10:37:50,705 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	221	CN
+130318103750 2013-03-18 10:37:50,706 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	221	DE
+130318103750 2013-03-18 10:37:50,706 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	221	DZ
+130318103750 2013-03-18 10:37:50,706 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	221	EE
+130318103750 2013-03-18 10:37:50,707 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	221	EG
+130318103750 2013-03-18 10:37:50,707 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	221	FR
+130318103750 2013-03-18 10:37:50,707 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	221	GE
+130318103750 2013-03-18 10:37:50,708 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	221	GR
+130318103750 2013-03-18 10:37:50,708 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	221	ID
+130318103750 2013-03-18 10:37:50,709 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	221	IN
+130318103750 2013-03-18 10:37:50,709 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	221	IR
+130318103750 2013-03-18 10:37:50,710 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	221	JP
+130318103750 2013-03-18 10:37:50,710 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	221	KG
+130318103750 2013-03-18 10:37:50,814 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	221	KW
+130318103750 2013-03-18 10:37:50,815 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	221	KZ
+130318103750 2013-03-18 10:37:50,815 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	221	LT
+130318103750 2013-03-18 10:37:50,815 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	221	LY
+130318103750 2013-03-18 10:37:50,816 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	221	MD
+130318103750 2013-03-18 10:37:50,816 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	221	MK
+130318103750 2013-03-18 10:37:50,816 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	221	MM
+130318103750 2013-03-18 10:37:50,817 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	221	MO
+130318103750 2013-03-18 10:37:50,817 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	221	MY
+130318103750 2013-03-18 10:37:50,817 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	221	NP
+130318103750 2013-03-18 10:37:50,817 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	221	OM
+130318103750 2013-03-18 10:37:50,818 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	221	PK
+130318103750 2013-03-18 10:37:50,818 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	221	PL
+130318103750 2013-03-18 10:37:50,818 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	221	QA
+130318103750 2013-03-18 10:37:50,819 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	221	RO
+130318103750 2013-03-18 10:37:50,819 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	221	RU
+130318103750 2013-03-18 10:37:50,820 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	221	SA
+130318103750 2013-03-18 10:37:50,820 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	221	TH
+130318103750 2013-03-18 10:37:50,820 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	221	TR
+130318103750 2013-03-18 10:37:50,821 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	221	UA
+130318103750 2013-03-18 10:37:50,821 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	221	null
+130318103750 2013-03-18 10:37:50,919 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	335	AT
+130318103750 2013-03-18 10:37:50,920 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	335	CH
+130318103750 2013-03-18 10:37:50,920 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	335	CL
+130318103750 2013-03-18 10:37:50,920 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	335	CN
+130318103750 2013-03-18 10:37:50,921 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	335	DE
+130318103750 2013-03-18 10:37:50,921 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	335	FR
+130318103750 2013-03-18 10:37:50,921 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	335	IR
+130318103750 2013-03-18 10:37:50,922 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	335	KW
+130318103750 2013-03-18 10:37:50,922 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	335	MX
+130318103750 2013-03-18 10:37:50,922 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	335	PL
+130318103750 2013-03-18 10:37:50,923 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	335	RE
+130318103750 2013-03-18 10:37:50,923 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	335	RU
+130318103750 2013-03-18 10:37:50,923 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	335	SA
+130318103750 2013-03-18 10:37:50,923 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	335	UY
+130318103750 2013-03-18 10:37:50,924 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	36	AR
+130318103750 2013-03-18 10:37:50,924 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	36	AT
+130318103750 2013-03-18 10:37:50,924 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	36	AU
+130318103750 2013-03-18 10:37:50,925 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	36	BE
+130318103750 2013-03-18 10:37:50,925 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	36	BG
+130318103750 2013-03-18 10:37:50,925 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	36	BR
+130318103751 2013-03-18 10:37:51,025 INFO CRON - java.lang.IllegalArgumentException: No enum const class com.beintoo.commons.enums.VgoodLogProcessorEnum.NOTHING_TO_DISPATCH	36	BY
+130318104205 2013-03-18 10:42:05,927 INFO CRON - java.lang.ArrayIndexOutOfBoundsException: 3
+130318104205 2013-03-18 10:42:05,999 INFO CRON - java.lang.NullPointerException
+130318104206 2013-03-18 10:42:06,230 INFO CRON - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.0.0.v20091127-r5931): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'imps' in 'field list'
+Error Code: 1054
+Call: INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;
+	bind => [146, NEW_METHOD, BE, 549, 0, 0, 549, 0, 0]
+Query: DataModifyQuery(sql="INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;")
+130318104206 2013-03-18 10:42:06,330 INFO CRON - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.0.0.v20091127-r5931): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'imps' in 'field list'
+Error Code: 1054
+Call: INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;
+	bind => [146, NEW_METHOD, CH, 395, 0, 0, 395, 0, 0]
+Query: DataModifyQuery(sql="INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;")
+130318104206 2013-03-18 10:42:06,416 INFO CRON - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.0.0.v20091127-r5931): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'imps' in 'field list'
+Error Code: 1054
+Call: INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;
+	bind => [146, NEW_METHOD, CN, 62515, 0, 0, 62515, 0, 0]
+Query: DataModifyQuery(sql="INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;")
+130318104206 2013-03-18 10:42:06,545 INFO CRON - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.0.0.v20091127-r5931): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'imps' in 'field list'
+Error Code: 1054
+Call: INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;
+	bind => [146, NEW_METHOD, DE, 2273, 0, 0, 2273, 0, 0]
+Query: DataModifyQuery(sql="INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;")
+130318104206 2013-03-18 10:42:06,642 INFO CRON - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.0.0.v20091127-r5931): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'imps' in 'field list'
+Error Code: 1054
+Call: INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;
+	bind => [146, NEW_METHOD, FR, 4851, 0, 0, 4851, 0, 0]
+Query: DataModifyQuery(sql="INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;")
+130318104206 2013-03-18 10:42:06,746 INFO CRON - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.0.0.v20091127-r5931): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'imps' in 'field list'
+Error Code: 1054
+Call: INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;
+	bind => [146, NEW_METHOD, GB, 6101, 0, 0, 6101, 0, 0]
+Query: DataModifyQuery(sql="INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;")
+130318104206 2013-03-18 10:42:06,832 INFO CRON - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.0.0.v20091127-r5931): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'imps' in 'field list'
+Error Code: 1054
+Call: INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;
+	bind => [146, NEW_METHOD, IE, 144, 0, 0, 144, 0, 0]
+Query: DataModifyQuery(sql="INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;")
+130318104206 2013-03-18 10:42:06,931 INFO CRON - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.0.0.v20091127-r5931): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'imps' in 'field list'
+Error Code: 1054
+Call: INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;
+	bind => [146, NEW_METHOD, IT, 5906, 0, 0, 5906, 0, 0]
+Query: DataModifyQuery(sql="INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;")
+130318104207 2013-03-18 10:42:07,016 INFO CRON - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.0.0.v20091127-r5931): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'imps' in 'field list'
+Error Code: 1054
+Call: INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;
+	bind => [146, NEW_METHOD, MX, 1638, 0, 0, 1638, 0, 0]
+Query: DataModifyQuery(sql="INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;")
+130318104207 2013-03-18 10:42:07,110 INFO CRON - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.0.0.v20091127-r5931): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'imps' in 'field list'
+Error Code: 1054
+Call: INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;
+	bind => [146, NEW_METHOD, NL, 548, 0, 0, 548, 0, 0]
+Query: DataModifyQuery(sql="INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;")
+130318104207 2013-03-18 10:42:07,199 INFO CRON - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.0.0.v20091127-r5931): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'imps' in 'field list'
+Error Code: 1054
+Call: INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;
+	bind => [146, CITYDEAL, SE, 680, 0, 0, 680, 0, 0]
+Query: DataModifyQuery(sql="INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;")
+130318104207 2013-03-18 10:42:07,284 INFO CRON - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.0.0.v20091127-r5931): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'imps' in 'field list'
+Error Code: 1054
+Call: INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;
+	bind => [146, AARKI, US, 10, 0, 0, 10, 0, 0]
+Query: DataModifyQuery(sql="INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;")
+130318104207 2013-03-18 10:42:07,380 INFO CRON - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.0.0.v20091127-r5931): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'imps' in 'field list'
+Error Code: 1054
+Call: INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;
+	bind => [146, MPHORIA, US, 94, 0, 0, 94, 0, 0]
+Query: DataModifyQuery(sql="INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;")
+130318104207 2013-03-18 10:42:07,465 INFO CRON - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.0.0.v20091127-r5931): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'imps' in 'field list'
+Error Code: 1054
+Call: INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;
+	bind => [146, SPOTZOT, US, 35455, 0, 0, 35455, 0, 0]
+Query: DataModifyQuery(sql="INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;")
+130318104207 2013-03-18 10:42:07,550 INFO CRON - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.0.0.v20091127-r5931): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'imps' in 'field list'
+Error Code: 1054
+Call: INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;
+	bind => [146, NEW_METHOD, US, 7671, 0, 0, 7671, 0, 0]
+Query: DataModifyQuery(sql="INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;")
+130318104207 2013-03-18 10:42:07,647 INFO CRON - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.0.0.v20091127-r5931): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'imps' in 'field list'
+Error Code: 1054
+Call: INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;
+	bind => [147, NEW_METHOD, BE, 536, 0, 0, 536, 0, 0]
+Query: DataModifyQuery(sql="INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;")
+130318104207 2013-03-18 10:42:07,736 INFO CRON - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.0.0.v20091127-r5931): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'imps' in 'field list'
+Error Code: 1054
+Call: INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;
+	bind => [147, NEW_METHOD, CH, 217, 0, 0, 217, 0, 0]
+Query: DataModifyQuery(sql="INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;")
+130318104207 2013-03-18 10:42:07,847 INFO CRON - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.0.0.v20091127-r5931): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'imps' in 'field list'
+Error Code: 1054
+Call: INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;
+	bind => [147, NEW_METHOD, CN, 18397, 0, 0, 18397, 0, 0]
+Query: DataModifyQuery(sql="INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;")
+130318104207 2013-03-18 10:42:07,937 INFO CRON - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.0.0.v20091127-r5931): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'imps' in 'field list'
+Error Code: 1054
+Call: INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;
+	bind => [147, NEW_METHOD, DE, 1012, 0, 0, 1012, 0, 0]
+Query: DataModifyQuery(sql="INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;")
+130318104208 2013-03-18 10:42:08,023 INFO CRON - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.0.0.v20091127-r5931): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'imps' in 'field list'
+Error Code: 1054
+Call: INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;
+	bind => [147, NEW_METHOD, FR, 2986, 0, 0, 2986, 0, 0]
+Query: DataModifyQuery(sql="INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;")
+130318104208 2013-03-18 10:42:08,130 INFO CRON - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.0.0.v20091127-r5931): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'imps' in 'field list'
+Error Code: 1054
+Call: INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;
+	bind => [147, NEW_METHOD, GB, 4435, 0, 0, 4435, 0, 0]
+Query: DataModifyQuery(sql="INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;")
+130318104208 2013-03-18 10:42:08,232 INFO CRON - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.0.0.v20091127-r5931): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'imps' in 'field list'
+Error Code: 1054
+Call: INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;
+	bind => [147, NEW_METHOD, IE, 98, 0, 0, 98, 0, 0]
+Query: DataModifyQuery(sql="INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;")
+130318104208 2013-03-18 10:42:08,328 INFO CRON - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.0.0.v20091127-r5931): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'imps' in 'field list'
+Error Code: 1054
+Call: INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;
+	bind => [147, NEW_METHOD, IT, 4670, 0, 0, 4670, 0, 0]
+Query: DataModifyQuery(sql="INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;")
+130318104208 2013-03-18 10:42:08,418 INFO CRON - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.0.0.v20091127-r5931): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'imps' in 'field list'
+Error Code: 1054
+Call: INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;
+	bind => [147, NEW_METHOD, MX, 1475, 0, 0, 1475, 0, 0]
+Query: DataModifyQuery(sql="INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;")
+130318104208 2013-03-18 10:42:08,526 INFO CRON - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.0.0.v20091127-r5931): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'imps' in 'field list'
+Error Code: 1054
+Call: INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;
+	bind => [147, NEW_METHOD, NL, 665, 0, 0, 665, 0, 0]
+Query: DataModifyQuery(sql="INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;")
+130318104208 2013-03-18 10:42:08,625 INFO CRON - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.0.0.v20091127-r5931): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'imps' in 'field list'
+Error Code: 1054
+Call: INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;
+	bind => [147, CITYDEAL, SE, 527, 0, 0, 527, 0, 0]
+Query: DataModifyQuery(sql="INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;")
+130318104208 2013-03-18 10:42:08,726 INFO CRON - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.0.0.v20091127-r5931): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'imps' in 'field list'
+Error Code: 1054
+Call: INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;
+	bind => [147, AARKI, US, 24, 0, 0, 24, 0, 0]
+Query: DataModifyQuery(sql="INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;")
+130318104208 2013-03-18 10:42:08,823 INFO CRON - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.0.0.v20091127-r5931): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'imps' in 'field list'
+Error Code: 1054
+Call: INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;
+	bind => [147, MPHORIA, US, 317, 0, 0, 317, 0, 0]
+Query: DataModifyQuery(sql="INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;")
+130318104208 2013-03-18 10:42:08,932 INFO CRON - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.0.0.v20091127-r5931): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'imps' in 'field list'
+Error Code: 1054
+Call: INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;
+	bind => [147, NEW_METHOD, US, 21243, 0, 0, 21243, 0, 0]
+Query: DataModifyQuery(sql="INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;")
+130318104209 2013-03-18 10:42:09,019 INFO CRON - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.0.0.v20091127-r5931): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'imps' in 'field list'
+Error Code: 1054
+Call: INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;
+	bind => [202, NEW_METHOD, CH, 1, 0, 0, 1, 0, 0]
+Query: DataModifyQuery(sql="INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;")
+130318104209 2013-03-18 10:42:09,107 INFO CRON - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.0.0.v20091127-r5931): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'imps' in 'field list'
+Error Code: 1054
+Call: INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;
+	bind => [202, NEW_METHOD, CN, 2, 0, 0, 2, 0, 0]
+Query: DataModifyQuery(sql="INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;")
+130318104209 2013-03-18 10:42:09,212 INFO CRON - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.0.0.v20091127-r5931): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'imps' in 'field list'
+Error Code: 1054
+Call: INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;
+	bind => [202, SPOTZOT, US, 3, 0, 0, 3, 0, 0]
+Query: DataModifyQuery(sql="INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;")
+130318104209 2013-03-18 10:42:09,316 INFO CRON - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.0.0.v20091127-r5931): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'imps' in 'field list'
+Error Code: 1054
+Call: INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;
+	bind => [202, NEW_METHOD, US, 1, 0, 0, 1, 0, 0]
+Query: DataModifyQuery(sql="INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;")
+130318104209 2013-03-18 10:42:09,418 INFO CRON - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.0.0.v20091127-r5931): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'imps' in 'field list'
+Error Code: 1054
+Call: INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;
+	bind => [221, NEW_METHOD, BE, 1, 0, 0, 1, 0, 0]
+Query: DataModifyQuery(sql="INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;")
+130318104209 2013-03-18 10:42:09,508 INFO CRON - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.0.0.v20091127-r5931): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'imps' in 'field list'
+Error Code: 1054
+Call: INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;
+	bind => [221, NEW_METHOD, CN, 154, 0, 0, 154, 0, 0]
+Query: DataModifyQuery(sql="INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;")
+130318104209 2013-03-18 10:42:09,622 INFO CRON - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.0.0.v20091127-r5931): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'imps' in 'field list'
+Error Code: 1054
+Call: INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;
+	bind => [221, NEW_METHOD, DE, 4, 0, 0, 4, 0, 0]
+Query: DataModifyQuery(sql="INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;")
+130318104209 2013-03-18 10:42:09,759 INFO CRON - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.0.0.v20091127-r5931): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'imps' in 'field list'
+Error Code: 1054
+Call: INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;
+	bind => [221, NEW_METHOD, FR, 25, 0, 0, 25, 0, 0]
+Query: DataModifyQuery(sql="INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;")
+130318104209 2013-03-18 10:42:09,873 INFO CRON - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.0.0.v20091127-r5931): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'imps' in 'field list'
+Error Code: 1054
+Call: INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;
+	bind => [221, NEW_METHOD, GB, 3, 0, 0, 3, 0, 0]
+Query: DataModifyQuery(sql="INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;")
+130318104209 2013-03-18 10:42:09,984 INFO CRON - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.0.0.v20091127-r5931): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'imps' in 'field list'
+Error Code: 1054
+Call: INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;
+	bind => [221, NEW_METHOD, IT, 4, 0, 0, 4, 0, 0]
+Query: DataModifyQuery(sql="INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;")
+130318104210 2013-03-18 10:42:10,099 INFO CRON - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.0.0.v20091127-r5931): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'imps' in 'field list'
+Error Code: 1054
+Call: INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;
+	bind => [221, NEW_METHOD, NL, 1, 0, 0, 1, 0, 0]
+Query: DataModifyQuery(sql="INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;")
+130318104210 2013-03-18 10:42:10,200 INFO CRON - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.0.0.v20091127-r5931): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'imps' in 'field list'
+Error Code: 1054
+Call: INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;
+	bind => [221, SPOTZOT, US, 14, 0, 0, 14, 0, 0]
+Query: DataModifyQuery(sql="INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;")
+130318104210 2013-03-18 10:42:10,285 INFO CRON - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.0.0.v20091127-r5931): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'imps' in 'field list'
+Error Code: 1054
+Call: INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;
+	bind => [221, NEW_METHOD, US, 1, 0, 0, 1, 0, 0]
+Query: DataModifyQuery(sql="INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;")
+130318104210 2013-03-18 10:42:10,404 INFO CRON - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.0.0.v20091127-r5931): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'imps' in 'field list'
+Error Code: 1054
+Call: INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;
+	bind => [335, NEW_METHOD, CN, 5, 0, 0, 5, 0, 0]
+Query: DataModifyQuery(sql="INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;")
+130318104210 2013-03-18 10:42:10,537 INFO CRON - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.0.0.v20091127-r5931): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'imps' in 'field list'
+Error Code: 1054
+Call: INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;
+	bind => [335, NEW_METHOD, IT, 3, 0, 0, 3, 0, 0]
+Query: DataModifyQuery(sql="INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;")
+130318104210 2013-03-18 10:42:10,654 INFO CRON - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.0.0.v20091127-r5931): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'imps' in 'field list'
+Error Code: 1054
+Call: INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;
+	bind => [335, NEW_METHOD, US, 1, 0, 0, 1, 0, 0]
+Query: DataModifyQuery(sql="INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;")
+130318104210 2013-03-18 10:42:10,762 INFO CRON - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.0.0.v20091127-r5931): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'imps' in 'field list'
+Error Code: 1054
+Call: INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;
+	bind => [36, NEW_METHOD, CN, 15, 0, 0, 15, 0, 0]
+Query: DataModifyQuery(sql="INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;")
+130318104210 2013-03-18 10:42:10,870 INFO CRON - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.0.0.v20091127-r5931): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'imps' in 'field list'
+Error Code: 1054
+Call: INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;
+	bind => [36, NEW_METHOD, GB, 27, 0, 0, 27, 0, 0]
+Query: DataModifyQuery(sql="INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;")
+130318104211 2013-03-18 10:42:11,042 INFO CRON - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.0.0.v20091127-r5931): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'imps' in 'field list'
+Error Code: 1054
+Call: INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;
+	bind => [36, NEW_METHOD, IT, 26, 0, 0, 26, 0, 0]
+Query: DataModifyQuery(sql="INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;")
+130318104211 2013-03-18 10:42:11,147 INFO CRON - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.0.0.v20091127-r5931): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'imps' in 'field list'
+Error Code: 1054
+Call: INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;
+	bind => [36, CITYDEAL, SE, 1, 0, 0, 1, 0, 0]
+Query: DataModifyQuery(sql="INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;")
+130318104211 2013-03-18 10:42:11,257 INFO CRON - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.0.0.v20091127-r5931): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'imps' in 'field list'
+Error Code: 1054
+Call: INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;
+	bind => [36, AARKI, US, 3, 0, 0, 3, 0, 0]
+Query: DataModifyQuery(sql="INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;")
+130318104211 2013-03-18 10:42:11,397 INFO CRON - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.0.0.v20091127-r5931): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'imps' in 'field list'
+Error Code: 1054
+Call: INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;
+	bind => [36, MPHORIA, US, 7, 0, 0, 7, 0, 0]
+Query: DataModifyQuery(sql="INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;")
+130318104211 2013-03-18 10:42:11,551 INFO CRON - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.0.0.v20091127-r5931): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'imps' in 'field list'
+Error Code: 1054
+Call: INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;
+	bind => [36, SPOTZOT, US, 396, 0, 0, 396, 0, 0]
+Query: DataModifyQuery(sql="INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;")
+130318104211 2013-03-18 10:42:11,638 INFO CRON - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.0.0.v20091127-r5931): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'imps' in 'field list'
+Error Code: 1054
+Call: INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;
+	bind => [36, NEW_METHOD, US, 188, 0, 0, 188, 0, 0]
+Query: DataModifyQuery(sql="INSERT INTO report_method_bycountry(app_id,day,provider,country,p_imps,u_imps,ntds) VALUES (?,'2013-03-14',?,?,?,?,?) ON DUPLICATE KEY UPDATE  p_imps = coalesce(imps,0) + ? ,  u_imps = coalesce(u_imps,0) + ? , ntds = coalesce(ntds,0) + ? ;")
+130318104231 2013-03-18 10:42:31,011 INFO CRON - java.lang.ArrayIndexOutOfBoundsException: 3
+130318104231 2013-03-18 10:42:31,047 INFO CRON - java.lang.NullPointerException
+130318104449 2013-03-18 10:44:49,148 INFO CRON - java.lang.ArrayIndexOutOfBoundsException: 3
+130318104449 2013-03-18 10:44:49,192 INFO CRON - java.lang.NullPointerException
+130318104952 2013-03-18 10:49:52,930 INFO CRON - java.lang.ArrayIndexOutOfBoundsException: 3

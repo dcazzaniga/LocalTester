@@ -1,5 +1,0 @@
-                                         Corporate;              5
-                                          Cellular;             32
-                                           Unknown;             22
-                                         Cable/DSL;            211
-                                            Dialup;             30

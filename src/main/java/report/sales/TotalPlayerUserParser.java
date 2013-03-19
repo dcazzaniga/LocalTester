@@ -440,14 +440,14 @@ public class TotalPlayerUserParser implements Serializable {
 
             EntityManager em = Persistence.createEntityManagerFactory("BeintooEntitiesPU_LOCAL_LOCALHOST").createEntityManager();
             String query ;
-            query = " SELECT C , SUM(imps) , AVG(imps), MAX(imps) FROM  ( "
+            query = " SELECT C , SUM(imps) , AVG(imps), MAX(imps), SUM(clicks)  FROM  ( "
                     + " SELECT "
                     + " rv.day, "
                     + "     (SELECT group_concat(distinct p.country) FROM place p, vgood_poi vp  "
                     + "             WHERE  rv.vgood_id = vp.vgood_id AND vp.place_id = p.id "
-                    + "             AND vp.status = 1 AND p.status = 1 ) C, "
+                    + "             AND vp.status != 4 AND p.status = 1 ) C, "
                     + "     IFNULL( SUM(assigned_vgoods)+SUM(player_assigned_vgoods),0) imps "
-                    //+ "     ,IFNULL( SUM(converted_vgoods)+SUM(player_converted_vgoods),0)  clicks "
+                    + "     ,IFNULL( SUM(converted_vgoods)+SUM(player_converted_vgoods),0)  clicks "
                     + " FROM report_vgood rv  "
                     + " WHERE  rv.day >= '"+from+"' AND rv.day <= '"+to+"' "
                     + " GROUP BY rv.day, C ) T "
@@ -465,18 +465,18 @@ public class TotalPlayerUserParser implements Serializable {
                     int impressions = ((Number) objectArray[1]).intValue();
                     int avgImps = ((Number) objectArray[2]).intValue(); 
                     int maxImps = ((Number) objectArray[3]).intValue(); 
-                    //int clicks = ((Number) objectArray[4]).intValue();
+                    int clicks = ((Number) objectArray[4]).intValue();
                     
                     CountryBeanUserPlayer cb = new CountryBeanUserPlayer(country);
                     int idx = lista.indexOf(cb);
                     if (idx > -1) {
                         lista.get(idx).setImpressions(impressions);
-                      //  lista.get(idx).setClicks(clicks);
+                        lista.get(idx).setClicks(clicks);
                         lista.get(idx).setAvgImpressions(avgImps);
                         lista.get(idx).setMaxImpressions(maxImps);
                     } else {
                         cb.setImpressions(impressions);
-                      //  cb.setClicks(clicks);
+                        cb.setClicks(clicks);
                         cb.setAvgImpressions(avgImps);
                         cb.setMaxImpressions(maxImps);
                         lista.add(cb);
