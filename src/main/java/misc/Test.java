@@ -57,6 +57,9 @@ public class Test {
 
     public static void main(String[] args) throws Exception {
 
+        System.out.println("--------"+ConfigPath.getConfigPath() + "/beintoo.properties");
+        
+        
 //        getStringFromHtmlPage("http://it.wikipedia.org/wiki/Serie_A_2012-2013");
         
 //        FileOutputStream fos = new FileOutputStream(ConfigPath.getAdminPath() + "/test.html");
@@ -64,6 +67,8 @@ public class Test {
 //        out.write(graphResults());
 //        out.close();
         
+        
+        //reafFile();
         
 //        EntityManager em = Persistence.createEntityManagerFactory("BeintooEntitiesPU_LOCAL_LOCALHOST").createEntityManager();
 //        
@@ -77,28 +82,7 @@ public class Test {
 //           AppHelper.getDownloadUrl(rb.getItem()));
 //           
 //       }
-        EntityManager em = Persistence.createEntityManagerFactory("BeintooEntitiesPU_LOCAL_LOCALHOST").createEntityManager();
-        Map<Integer, Integer> mappa = VgoodHelper.getExternalProviderArchiveVgoodIds(em);
         
-        VgoodExternalProviderType[] external = VgoodExternalProviderType.values();
-        System.out.println(external);
-        for(VgoodExternalProviderType v: external){
-            StringBuilder s = new StringBuilder();
-            s.append("INSERT INTO sandbox.vgood (vgood_id, customer_id, name, description, description_small, status, creationdate, startdate, enddate, ext_id) \n" +
-"VALUES ('");
-            s.append(mappa.get(v.getCustomerId()));
-            s.append("','");
-            s.append(v.getCustomerId());
-            s.append("', 'archive vgood', 'vgood for archive report vgood', 'vgood for archive report vgood', '100', '2013-03-14', '2012-12-01', '2015-12-31', '");
-            s.append(v.name());
-            s.append("');");
-            System.out.println(s.toString());
-            
-        }
-        
-        System.exit(1);
-        vep();
-        //googleTest();
 
     }
 
@@ -182,42 +166,47 @@ public class Test {
     private static void reafFile() {
 
         try {
+            
+            Map<String,String[]> isoPhone = new HashMap<String, String[]>();
+            Map<String,String[]> isoNumeric = new HashMap<String, String[]>();
+            
+            FileOutputStream fos = new FileOutputStream("/Users/dcazzaniga/Dropbox/BEINTOO/vodafone.def.csv",true);
+            
+            OutputStreamWriter osw = new OutputStreamWriter(fos);
+            
             FileInputStream fis = null;
             InputStreamReader isr = null;
             BufferedReader buf = null;
 
-            FileOutputStream fos = new FileOutputStream("C:/Users/davide/Desktop/beintoo_test.sql");
-            OutputStreamWriter osw = new OutputStreamWriter(fos);
 
             try {
 
-                fis = new FileInputStream("C:/Users/davide/Desktop/beintoo_prod.201108051648.sql");
+                fis = new FileInputStream("/Users/dcazzaniga/Dropbox/BEINTOO/vodafone.country.iso.csv");
                 isr = new InputStreamReader(fis);
                 buf = new BufferedReader(isr);
                 String line = "";
-                int i = 0;
-
-
                 while ((line = buf.readLine()) != null) {
-
-                    if (i > 2500 && i < 2618) {
-
-
-                        osw.write(line + "\n");
-
-                        System.out.println("" + line);
-
-                    }
-                    i++;
-
+                    String[] s = line.split(";");
+                    isoPhone.put(s[3], s);
+                    
                 }
-                osw.close();
+                
+                fis = new FileInputStream("/Users/dcazzaniga/Dropbox/BEINTOO/countries.iso.numeric.csv");
+                isr = new InputStreamReader(fis);
+                buf = new BufferedReader(isr);
+                while ((line = buf.readLine()) != null) {
+                    String[] s = line.split(",");
+                    isoNumeric.put(s[0], s);
+                    
+                }
+                
+                
+                
+                
             } catch (Exception e) {
                 e.printStackTrace();
             } finally {
-                if (fos != null) {
-                    fos.close();
-                }
+                
                 if (buf != null) {
                     buf.close();
                 }
@@ -228,6 +217,26 @@ public class Test {
                     fis.close();
                 }
             }
+            
+            
+            for(String s: isoPhone.keySet()){
+                if(isoNumeric.containsKey(s)){
+                    String out = s
+                            +";"+isoNumeric.get(s)[2]
+                            +";"+isoPhone.get(s)[4]+";"
+                            +isoPhone.get(s)[5]+";"
+                            +isoPhone.get(s)[6]+";"
+                            +isoPhone.get(s)[7].trim()+";"
+                            +isoPhone.get(s)[8]+"\n";
+                    System.out.println(out);
+                    osw.write(out);
+                    
+                }
+                
+            }
+            osw.close();
+            
+            
         } catch (Exception e) {
             e.printStackTrace();
         }
