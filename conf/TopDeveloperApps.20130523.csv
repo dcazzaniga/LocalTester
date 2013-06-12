@@ -1,0 +1,39 @@
+segment,id,name,email,creationdate
+,id,os,name,creationdate,status
+
+9,47,Halfbrick Studios,halfbrick@halfbrick.com,2011-03-21
+,73,ANDROID,Fruit Ninja Free,2011-03-31,3
+,146,IOS,Fruit Ninja Lite,2011-11-24,3
+,147,IOS,Fruit Ninja HD Lite,2011-11-24,3
+,450,IOS,Fruit Ninja,2012-08-23,3
+,451,IOS,Fruit Ninja HD,2012-08-23,3
+,641,ANDROID,Fruit Ninja (China Free),2013-02-11,3
+,640,ANDROID,Fruit Ninja (China Paid),2013-02-11,3
+,638,ANDROID,Fruit Ninja (Google Play),2013-02-11,3
+,639,ANDROID,Fruit Ninja (Amazon Free),2013-02-11,3
+,684,ANDROID,Fruit Ninja (Amazon Paid),2013-04-29,3
+,91,IOS,Fruit Ninja Free,2011-08-12,6
+
+7,628,Gamelion Studios,grzegorz.tarczynski@game-lion.com,2012-03-09
+,221,IOS,I Must Run! Reloaded,2012-03-09,3
+
+7,1199,Tylted,wonny@tylted.com,2012-10-04
+,505,WEB,Tylted Beintoo Pandora Cubugs,2012-10-04,3
+,597,WEB,Nav Me,2012-12-12,3
+,546,WEB,Tylted Website,2012-10-23,3
+,553,WEB,Tylted Beintoo Pando camPain2012,2012-10-26,3
+
+7,858,Jason Kim,jason.kim@adnapp.com,2012-05-24
+,461,ANDROID,GameVil_FishingMaster,2012-09-03,3
+,420,ANDROID,Com2US_EscapeTheApp,2012-08-02,3
+,303,ANDROID,JC_Test,2012-05-29,6
+,471,OTHER,Webus_Lina_Insurance,2012-09-07,3
+,460,ANDROID,GameVil_FishingMaster,2012-09-03,6
+,521,IOS,JUSTICE LEAGUE : Earth's Final Defense,2012-10-10,3
+
+6,811,musiXmatch,adv@musixmatch.com,2012-05-09
+,290,ANDROID,musixmatch player,2012-05-09,3
+,291,IOS,musixmatch - lyrics + player,2012-05-09,3
+,623,WEB,musixmatch - banner display,2013-01-24,3
+,292,WEB,musixmatch spotify,2012-05-09,3
+

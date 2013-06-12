@@ -57,8 +57,9 @@ public class Test {
 
     public static void main(String[] args) throws Exception {
 
-        System.out.println("--------"+ConfigPath.getConfigPath() + "/beintoo.properties");
+       // System.out.println("--------"+ConfigPath.getConfigPath() + "/beintoo.properties");
         
+//        IsoDialCsv();
         
 //        getStringFromHtmlPage("http://it.wikipedia.org/wiki/Serie_A_2012-2013");
         
@@ -70,8 +71,8 @@ public class Test {
         
         //reafFile();
         
-//        EntityManager em = Persistence.createEntityManagerFactory("BeintooEntitiesPU_LOCAL_LOCALHOST").createEntityManager();
-//        
+        EntityManager em = Persistence.createEntityManagerFactory("BeintooEntitiesPU_LOCAL_LOCALHOST").createEntityManager();
+        
 //        List<RankingBean<App>> list = (List<RankingBean<App>>) RankingUtil
 //				.getTop(App.class, em, RankingMethodEnum.WEBSITE_APP_RANK,
 //						RankingDirectionEnum.DESC, 50);
@@ -86,6 +87,7 @@ public class Test {
 
     }
 
+ 
     private static void vep(){
         
         EntityManager em = Persistence.createEntityManagerFactory("BeintooEntitiesPU_LOCAL_LOCALHOST").createEntityManager();
@@ -163,14 +165,17 @@ public class Test {
 
     }
 
-    private static void reafFile() {
+    private static void IsoDialCsv() {
 
         try {
             
-            Map<String,String[]> isoPhone = new HashMap<String, String[]>();
-            Map<String,String[]> isoNumeric = new HashMap<String, String[]>();
+            Map<String,String[]> ITU = new HashMap<String, String[]>();
+            Map<String,String> iso = new HashMap<String, String>();
+            Map<String,String> isoNumeric = new HashMap<String, String>();
             
-            FileOutputStream fos = new FileOutputStream("/Users/dcazzaniga/Dropbox/BEINTOO/vodafone.def.csv",true);
+            Map<String, String> isoName = new HashMap<String, String>();
+            
+            FileOutputStream fos = new FileOutputStream("/Users/dcazzaniga/Dropbox/BEINTOO/IsoDialing.csv",true);
             
             OutputStreamWriter osw = new OutputStreamWriter(fos);
             
@@ -181,27 +186,31 @@ public class Test {
 
             try {
 
-                fis = new FileInputStream("/Users/dcazzaniga/Dropbox/BEINTOO/vodafone.country.iso.csv");
+                fis = new FileInputStream("/Users/dcazzaniga/Documents/ITU.2.csv");
                 isr = new InputStreamReader(fis);
                 buf = new BufferedReader(isr);
                 String line = "";
                 while ((line = buf.readLine()) != null) {
                     String[] s = line.split(";");
-                    isoPhone.put(s[3], s);
-                    
+                    ITU.put(s[0], s);
                 }
                 
-                fis = new FileInputStream("/Users/dcazzaniga/Dropbox/BEINTOO/countries.iso.numeric.csv");
+                fis = new FileInputStream("/Users/dcazzaniga/NetBeansProjects/git/xone/vodafone.country.iso.csv");
                 isr = new InputStreamReader(fis);
                 buf = new BufferedReader(isr);
                 while ((line = buf.readLine()) != null) {
-                    String[] s = line.split(",");
-                    isoNumeric.put(s[0], s);
-                    
+                    String[] s = line.split("\t");
+                    iso.put(s[4].replaceAll("\"", ""), line);
+                    isoName.put(s[4].replaceAll("\"", ""), s[0].replaceAll("\"", ""));
                 }
                 
-                
-                
+                fis = new FileInputStream("/Users/dcazzaniga/NetBeansProjects/git/xone/countries.iso.numeric.csv");
+                isr = new InputStreamReader(fis);
+                buf = new BufferedReader(isr);
+                while ((line = buf.readLine()) != null) {
+                    String[] s = line.split(";");
+                    isoNumeric.put(s[0], s[2]);
+                }
                 
             } catch (Exception e) {
                 e.printStackTrace();
@@ -219,18 +228,43 @@ public class Test {
             }
             
             
-            for(String s: isoPhone.keySet()){
-                if(isoNumeric.containsKey(s)){
-                    String out = s
-                            +";"+isoNumeric.get(s)[2]
-                            +";"+isoPhone.get(s)[4]+";"
-                            +isoPhone.get(s)[5]+";"
-                            +isoPhone.get(s)[6]+";"
-                            +isoPhone.get(s)[7].trim()+";"
-                            +isoPhone.get(s)[8]+"\n";
-                    System.out.println(out);
-                    osw.write(out);
+            for(String s: iso.keySet()){
+                
+                if(ITU.containsKey(s)){
                     
+                    StringBuilder out = new StringBuilder();
+                    
+                    
+                    out.append("\""+s+"\"");
+                    out.append("\t");
+                    out.append(iso.get(s));
+                    out.append("\t");
+                    
+                    if(ITU.get(s)[4].contains("(")){
+                        
+                        String sub = ITU.get(s)[4];
+                        sub = sub.substring(sub.indexOf("(")+1);
+                        sub = sub.substring(0, sub.indexOf(")"));
+                        out.append("\"").append(sub).append("\"");
+                        
+                    }else{
+                        out.append("\" \"");
+                    }
+                    out.append("\t");
+                    
+                    if(isoNumeric.containsKey(isoName.get(s))){
+                        System.out.println("--");
+                        out.append("\"").append(isoNumeric.get(isoName.get(s))).append("\"");
+                    }else{
+                        out.append("\" \"");
+                    }
+                    
+                    
+                    out.append("\n");
+                    osw.write(out.toString());
+                    
+                }else{
+                    System.out.println(s);
                 }
                 
             }

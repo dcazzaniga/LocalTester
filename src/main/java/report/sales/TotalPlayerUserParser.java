@@ -8,7 +8,6 @@ import com.beintoo.api.output.Wrapper;
 import com.beintoo.commons.util.ConfigPath;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
-import com.sun.xml.internal.rngom.digested.DXMLPrinter;
 import java.io.*;
 import java.lang.reflect.Type;
 import java.security.NoSuchAlgorithmException;
@@ -40,7 +39,7 @@ public class TotalPlayerUserParser implements Serializable {
     private int totPlayers;
     private int totMaus=0;
     private int totUsers;
-    private int activePlayers = 92603358;
+    private int activePlayers = 74701983;
     private int activeUsers;
     private int dailyActivePlayers;
     private int dailyActiveUsers;
@@ -65,8 +64,8 @@ public class TotalPlayerUserParser implements Serializable {
         
         TotalPlayerUserParser tpup = null;
         try {
-            Date from = sdf.parse("2013-01-31");
-            Date to = sdf.parse("2013-02-28");
+            Date from = sdf.parse("2013-04-30");
+            Date to = sdf.parse("2013-05-31");
             try{
                 FileInputStream fis = new FileInputStream(ConfigPath.getConfigPath() +
                         "/TotalPlayerUserParser"+sdf.format(new Date()));
@@ -440,18 +439,18 @@ public class TotalPlayerUserParser implements Serializable {
 
             EntityManager em = Persistence.createEntityManagerFactory("BeintooEntitiesPU_LOCAL_LOCALHOST").createEntityManager();
             String query ;
-            query = " SELECT C , SUM(imps) , AVG(imps), MAX(imps), SUM(clicks)  FROM  ( "
-                    + " SELECT "
-                    + " rv.day, "
-                    + "     (SELECT group_concat(distinct p.country) FROM place p, vgood_poi vp  "
-                    + "             WHERE  rv.vgood_id = vp.vgood_id AND vp.place_id = p.id "
-                    + "             AND vp.status != 4 AND p.status = 1 ) C, "
-                    + "     IFNULL( SUM(assigned_vgoods)+SUM(player_assigned_vgoods),0) imps "
-                    + "     ,IFNULL( SUM(converted_vgoods)+SUM(player_converted_vgoods),0)  clicks "
-                    + " FROM report_vgood rv  "
-                    + " WHERE  rv.day >= '"+from+"' AND rv.day <= '"+to+"' "
-                    + " GROUP BY rv.day, C ) T "
-                    + " GROUP BY C ";
+            query =   " SELECT country , SUM(imps) , AVG(imps), MAX(imps), SUM(ntds) "
+                    + " FROM ( "
+                    + "  SELECT "
+                    + "     rv.day, "
+                    + "     country, "
+                    + "     IFNULL( SUM(p_imps+u_imps),0) imps ,"
+                    + "     IFNULL( SUM(ntds),0) ntds "
+                    + "  FROM report_method_bycountry rv  "
+                    + "  WHERE  rv.day >= '"+from+"' AND rv.day <= '"+to+"' "
+                    + "  GROUP BY rv.day, country "
+                    + " ) T "
+                    + " GROUP BY country ";
             System.out.println("::: " + query);
             Query q = em.createNativeQuery(query);
             List results = q.getResultList();
@@ -811,7 +810,7 @@ public class TotalPlayerUserParser implements Serializable {
             out.write("continent,region,iso,name,"
                     + "users,"
                     + "players,month players,maus,daus_10days,"
-                    + "tot imps,avg imps,max imps,tot getAd,avg getAd, max getAd,"
+                    + "tot imps,avg imps,max imps,ntds,tot getAd,avg getAd, max getAd,"
                     + "ANDROID,CROSS_OS,IOS,OTHER,WEB,"
                     + "male,female,10-65,20-40,15-19,20-24,25-29,30-34,35-39\n");
 
@@ -848,9 +847,9 @@ public class TotalPlayerUserParser implements Serializable {
 
                 // impressions & clicks
                 try {
-                    row += cb.getImpressions() + "," + cb.getAvgImpressions() + ","+cb.getMaxImpressions() + ",";
+                    row += cb.getImpressions() + "," + cb.getAvgImpressions() + ","+cb.getMaxImpressions() + ","+cb.getClicks()+",";
                 } catch (Exception e) {
-                    row += ",,,";
+                    row += ",,,,";
                 }
 //                try {
 //                    row += cb.getClicks() + ",";

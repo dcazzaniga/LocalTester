@@ -12,6 +12,7 @@ public class AppString {
     
     private Integer id ;
     private String appString;
+    
     private String infos;
     private String lastWeekInfos;
     
@@ -40,6 +41,10 @@ public class AppString {
         this.infos = infos;
     }
 
+    public void addInfos(String info){
+        this.infos = this.infos.substring(0, this.infos.length()-2) + info;
+    }
+    
     public String getLastWeekInfos() {
         return lastWeekInfos;
     }
@@ -48,6 +53,10 @@ public class AppString {
         this.lastWeekInfos = lastWeekInfos;
     }
 
+    public void addLastWeekInfo(String info){
+        this.lastWeekInfos = this.lastWeekInfos.substring(0, this.lastWeekInfos.length()-2) + info;
+    }
+    
     public String getAppString() {
         return appString;
     }

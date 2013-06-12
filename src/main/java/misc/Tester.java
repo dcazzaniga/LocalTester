@@ -6,10 +6,6 @@
 package misc;
 
 
-import com.beintoo.commons.enums.LogContextEnum;
-import com.beintoo.commons.enums.LogLevelEnum;
-
-import com.beintoo.commons.util.Logger;
 import java.util.UUID;
 import org.apache.commons.lang.RandomStringUtils;
 
@@ -32,6 +28,13 @@ public class Tester {
         
         
         System.out.println(""+RandomStringUtils.randomAlphanumeric(40));
+        
+        int[] test = {0,0};
+        
+        test[0] ++;
+        
+        System.out.println(""+ ++test[0] );
+        
 //        Lca lca = new Lca();
 //
 //        int[] votes = {4,5,5};

@@ -1,0 +1,1133 @@
+segment,id,name,email,creationdate
+,id,os,name,creationdate,status
+
+9,47,Halfbrick Studios,halfbrick@halfbrick.com,2011-03-21
+,73,ANDROID,Fruit Ninja Free,2011-03-31,3
+,146,IOS,Fruit Ninja Lite,2011-11-24,3
+,147,IOS,Fruit Ninja HD Lite,2011-11-24,3
+,450,IOS,Fruit Ninja,2012-08-23,3
+,451,IOS,Fruit Ninja HD,2012-08-23,3
+,641,ANDROID,Fruit Ninja (China Free),2013-02-11,3
+,640,ANDROID,Fruit Ninja (China Paid),2013-02-11,3
+,638,ANDROID,Fruit Ninja (Google Play),2013-02-11,3
+,639,ANDROID,Fruit Ninja (Amazon Free),2013-02-11,3
+,684,ANDROID,Fruit Ninja (Amazon Paid),2013-04-29,3
+,91,IOS,Fruit Ninja Free,2011-08-12,6
+
+9,743,Joseph Geraghty,joe@talkwheel.com,2012-04-17
+,273,WEB,Twitwheel,2012-04-17,3
+
+9,7,Emanuele Padula,e.padula@gmail.com,2011-01-29
+,36,ANDROID,Angry Frogs,2011-01-29,3
+
+8,1206,Smuttlewerk Interactive,giaco@smuttlewerk.de,2012-10-05
+,538,ANDROID,Nosferatu - Twilight,2012-10-19,3
+,536,ANDROID,Nosferatu - Run from the Sun,2012-10-17,3
+,510,IOS,Nosferatu - Run from the Sun,2012-10-05,3
+,569,CROSS_OS,Max & Mia,2012-11-14,3
+,556,ANDROID,노스페라투 - 태양을 피하는 방법,2012-11-02,3
+
+8,500,Groupalia España,groupaliaes.mobile@elogia.net,2012-02-21
+,205,IOS,Groupalia_iOs,2012-02-21,3
+,206,ANDROID,Groupalia_Android,2012-02-21,3
+
+8,68,Deonn Games,sales@deonn.com,2011-06-27
+,83,ANDROID,Asteroid Defense,2011-06-27,3
+,94,ANDROID,Asteroid Defense 2,2011-09-20,3
+
+7,628,Gamelion Studios,grzegorz.tarczynski@game-lion.com,2012-03-09
+,221,IOS,I Must Run! Reloaded,2012-03-09,3
+
+7,39,Zodiak Active S.R.L.,beintoo@zodiakactive.com,2011-02-23
+,125,CROSS_OS,FlirtMaps,2011-10-24,3
+,54,WEB,FlirtMaps,2011-02-23,6
+,55,ANDROID,FlirtMaps,2011-02-23,6
+,56,IOS,FlirtMaps,2011-02-23,6
+
+7,1199,Tylted,wonny@tylted.com,2012-10-04
+,505,WEB,Tylted Beintoo Pandora Cubugs,2012-10-04,3
+,597,WEB,Nav Me,2012-12-12,3
+,546,WEB,Tylted Website,2012-10-23,3
+,553,WEB,Tylted Beintoo Pando camPain2012,2012-10-26,3
+
+7,858,Jason Kim,jason.kim@adnapp.com,2012-05-24
+,461,ANDROID,GameVil_FishingMaster,2012-09-03,3
+,420,ANDROID,Com2US_EscapeTheApp,2012-08-02,3
+,303,ANDROID,JC_Test,2012-05-29,6
+,471,OTHER,Webus_Lina_Insurance,2012-09-07,3
+,460,ANDROID,GameVil_FishingMaster,2012-09-03,6
+,521,IOS,JUSTICE LEAGUE : Earth's Final Defense,2012-10-10,3
+
+7,1166,TAESUN YOO,tsyoo@m2ment.co.kr,2012-09-20
+,492,ANDROID,런닝고-서브웨이서퍼,2012-09-20,3
+,498,ANDROID,프리스비2,2012-09-28,3
+
+7,8,Santo Seegugio,seegugio@gmail.com,2011-01-31
+,34,WEB,Seegugio,2011-01-24,3
+
+7,1036,Wildbit Studios,david.rey@wildbitstudios.com,2012-07-30
+,419,ANDROID,Paper Zombie,2012-08-01,3
+
+7,924,Pixowl,seb@pixowl.com,2012-06-13
+,335,ANDROID,Doodle Grub,2012-06-13,3
+
+7,684,alessio ricco,alessio.ricco@gmail.com,2012-03-28
+,241,IOS,TwinsMatcher,2012-03-28,3
+,645,CROSS_OS,TitaniumBeintoo,2013-02-19,3
+,240,IOS,TwinsMatcher,2012-03-28,6
+
+7,32,Ignazio Motisi,ali@outofthebit.com,2011-02-15
+,51,IOS,La Briscola With Prizes,2011-02-15,3
+,64,IOS,La Scopa,2011-02-28,3
+,63,IOS,La Briscola,2011-02-28,3
+,65,IOS,Ace Wins All,2011-02-28,3
+
+6,993,Brisk Mobile,aoleynik@briskmobile.com,2012-07-17
+,427,IOS,Black Water,2012-08-08,3
+,400,IOS,Test app,2012-07-17,1
+
+6,905,Zodiak Mondadori,zodiak.mondadori@beintoo.com,2012-06-06
+,319,IOS,Eugenius,2012-06-07,3
+
+6,1058,Brad Mills,brad@slightlysocial.com,2012-08-12
+,430,IOS,Steampunk Death Race,2012-08-12,3
+
+6,1010,Callsome Solutions  Inc,eran@mobilityzone.net,2012-07-24
+,413,ANDROID,CallFlakes,2012-07-24,3
+
+6,5,Stefano Moi,smoi@beintoo.com,2011-01-26
+,32,IOS,Guida delle città,2011-01-20,3
+,45,IOS,SiteToPdf + File Manager,2011-02-06,3
+,71,ANDROID,Deals of the day,2011-03-17,3
+,75,IOS,Touch the City,2011-04-26,3
+
+6,811,musiXmatch,adv@musixmatch.com,2012-05-09
+,290,ANDROID,musixmatch player,2012-05-09,3
+,291,IOS,musixmatch - lyrics + player,2012-05-09,3
+,623,WEB,musixmatch - banner display,2013-01-24,3
+,292,WEB,musixmatch spotify,2012-05-09,3
+
+6,136,Luca,prade10@gmail.com,2011-09-26
+,107,IOS,iTalian News,2011-09-26,3
+
+5,1083,Kim hoy sang,mobine.ent@gmail.com,2012-08-20
+,478,ANDROID,카운트붐붐,2012-09-12,3
+,473,ANDROID,깨부수자! 격파산,2012-09-07,3
+,446,ANDROID,Defeated,2012-08-20,3
+,472,ANDROID,바다이야기맞고2,2012-09-07,3
+
+5,42,Fabrizio,f.parzanese@gmail.com,2011-03-02
+,82,WEB,7 e Mezzo,2011-06-24,3
+,74,WEB,MyoPlay,2011-04-20,3
+,399,CROSS_OS,Celebrity Finder,2012-07-17,3
+,84,CROSS_OS,Friends Battle,2011-07-19,3
+,396,IOS,Celebrity,2012-07-16,6
+
+5,335,stevenwang,gstevenmail@gmail.com,2011-12-18
+,202,IOS,Kung Fu Fox HD,2012-02-19,3
+,482,WEB,Kung Fu Fox Html5,2012-09-13,3
+,481,ANDROID,Kung Fu Fox Android,2012-09-13,3
+
+4,454,AgorastartupIdol.com,andrew.prell@agoratechinc.com,2012-02-10
+,189,WEB,Agora Startup Idol,2012-02-10,3
+
+4,1149,Kunerango,giulio.grillanda@gmail.com,2012-09-14
+,486,WEB,Kunerango,2012-09-14,3
+
+4,1656,jashentertainment,jashentertainment@gmail.com,2013-02-25
+,664,IOS,TinBall2,2013-03-24,3
+,654,IOS,Jumping On Sky HD LITE,2013-03-06,3
+,667,IOS,Wall Breaker!,2013-03-29,6
+,666,IOS,Egg Catcher LITE,2013-03-29,6
+,650,IOS,Jumping On Sky HD LITE,2013-02-25,6
+
+4,695,Fabrizio Mirabito,fabrizio@mirabito.it,2012-04-01
+,307,WEB,Ansquare,2012-05-31,3
+,247,WEB,Ansquare,2012-04-01,6
+
+4,1339,Liilak,dev@liilak.com,2012-11-19
+,575,IOS,Good vs. Bad,2012-11-19,3
+
+3,1880,Musaddiq Durrani,durranilab@gmail.com,2013-04-23
+,678,ANDROID,Extreme Moto,2013-04-23,3
+
+3,407,Pick1,enrico@doochoo.com,2012-01-24
+,175,WEB,Pick1,2012-01-24,3
+,179,WEB,Pick1 Test,2012-02-01,3
+,195,WEB,Pick1  Development,2012-02-13,3
+
+3,1408,Enrico Angelini,info@spirales.it,2012-12-17
+,602,IOS,AppTapTap,2012-12-19,3
+
+3,989,iLyngo  LLC,paypal@ilyngo.net,2012-07-15
+,394,WEB,iLyngo SMS+,2012-07-15,3
+
+3,166,terrapages,terry.collins@terrapages.com,2011-10-09
+,353,ANDROID,MokbeeAndroid,2012-06-25,3
+
+2,1192,Jorge Mata,jmata@fdicorp.com,2012-10-02
+,502,WEB,ClippingBook,2012-10-02,3
+
+2,525,Giuseppe Piazzese,gpiazzese@beintoo.com,2012-02-28
+,663,CROSS_OS,Pandora,2013-03-20,3
+,213,WEB,Js Test App,2012-02-28,3
+,362,IOS,My App,2012-06-27,3
+,670,CROSS_OS,Fruit Killer DS Effects,2013-04-10,3
+,692,CROSS_OS,Wheel Of Fortune Gamedrop,2013-05-14,3
+
+2,157,Neodata,neodata@beintoo.com,2011-10-06
+,115,WEB,Game News,2011-10-06,3
+
+2,84,Tapstic,vincent@tapstic.com,2011-08-10
+,89,IOS,Heroes Battle,2011-08-10,3
+,90,IOS,Vampire Stories,2011-08-11,3
+
+2,509,Johannes Berg,johannes@lumimobile.com,2012-02-23
+,220,CROSS_OS,STV Live QA,2012-03-06,3
+,209,ANDROID,LumiLive QA,2012-02-23,3
+
+2,1234,Josh Brown,contact@bulletlike.com,2012-10-15
+,539,ANDROID,Dog Pile,2012-10-19,3
+
+2,503,Eitan,eitan.koren@sap.com,2012-02-22
+,208,WEB,EcoPlanet,2012-02-23,3
+
+2,1545,Name,nehal.m@xercestechnologies.com,2013-01-28
+,628,IOS,PunkyPets,2013-01-28,3
+
+2,879,Chateau,jpchateau@mediastay.com,2012-05-30
+,306,WEB,Kingoloto,2012-05-30,3
+
+2,26,Alberto Dal Dosso,daldosso@gmail.com,2011-02-05
+,43,OTHER,HackGame,2011-02-05,3
+
+1,1485,giveo2,contact@giveo2.com,2013-01-11
+,621,IOS,giveO2,2013-01-23,3
+,680,ANDROID,GiveO2,2013-04-25,3
+
+1,23,HackItaly Federico,federico@cloudify.me,2011-02-05
+,41,WEB,hackitaly2011,2011-02-05,3
+
+1,1369,Vinil,Vinil.bhandari@gmail.com,2012-11-29
+,590,IOS,LearnSmart,2012-11-29,3
+
+1,1091,Ariel Pentzke,ariel@awiserweb.com,2012-08-22
+,480,WEB,Syntraveler,2012-09-13,3
+
+1,1357,Andrea,kaildio@gmail.com,2012-11-24
+,583,CROSS_OS,Cashyx,2012-11-24,3
+
+1,1346,Filip,filip_s@absolutok.net,2012-11-20
+,629,ANDROID,com.plugin.beintoo,2013-01-31,3
+,578,ANDROID,Muve The Muzzy,2012-11-20,3
+,630,IOS,com.kokakiki.movethemuzzy,2013-02-02,3
+
+1,1377,Developer,appsdev@applizards.com,2012-12-06
+,598,OTHER,Latin Angles,2012-12-12,3
+
+1,1354,blvprasad,prashaad@gmail.com,2012-11-23
+,582,WEB,goCampus,2012-11-23,3
+,587,WEB,goCampus,2012-11-28,6
+,585,WEB,gcmobile,2012-11-27,6
+,593,WEB,TestApp,2012-12-04,1
+
+1,375,Felipe Silvestre,fsilvestremorais@gmail.com,2012-01-11
+,166,ANDROID,Multiplicação,2012-01-11,3
+
+1,1383,John Meng,john.meng@idreamsky.com,2012-12-11
+,595,ANDROID,training app,2012-12-11,3
+
+1,339,Pislar,johnny_hellboy@yahoo.com,2011-12-19
+,153,OTHER,BeintooTest,2011-12-19,1
+
+1,876,Andy Gilbertson,andygilbertson@perblue.com,2012-05-29
+,336,ANDROID,Parallel Kingdom,2012-06-13,3
+
+1,658,Fabrizio,fabrizio.mirabito@gmail.com,2012-03-21
+,280,WEB,Ansquare.com,2012-04-18,6
+,282,WEB,Ansquare.com,2012-04-21,6
+,283,ANDROID,prova,2012-04-21,6
+
+1,96,TestApikey,ferdinando@beintooo.com,2011-08-26
+,92,CROSS_OS,Test APP,2011-08-26,3
+
+1,51,Lumi Mobile,marcus@lumimobile.com,2011-04-01
+,78,ANDROID,TestApp,2011-06-10,1
+,300,IOS,Pete Sampras App,2012-05-22,3
+
+1,1114,jon kunay,band_kepri@yahoo.co.id,2012-08-31
+,494,WEB,wapid,2012-09-24,3
+,497,IOS,GoToMeeting,2012-09-26,3
+
+1,1241,Luciano,luciano.leotta@a-tono.com,2012-10-17
+,586,IOS,BingoNinja,2012-11-27,3
+
+1,502,Filippo,fprivitera+sap@beintoo.com,2012-02-22
+,207,ANDROID,innojam demo,2012-02-22,3
+
+1,894,pankaj,pankaj_indoria@mahindrasatyam.com,2012-06-05
+,334,ANDROID,intent,2012-06-12,3
+,317,ANDROID,racing,2012-06-05,3
+,332,ANDROID,KMC,2012-06-11,3
+,366,ANDROID,intent,2012-06-28,6
+
+1,646,Kris,kris.lau@sap.com,2012-03-15
+,228,WEB,iRecordTestPro,2012-03-15,3
+
+1,1142,testuser,crapcan@mailinator.com,2012-09-10
+,477,IOS,test,2012-09-10,6
+,600,IOS,GiveO2 Test,2012-12-17,3
+
+1,473,Tu Yimin,yimin.tu@dianping.com,2012-02-15
+,200,ANDROID,Dianping,2012-02-15,3
+
+1,351,SportyPlayer,info@sportyplayer.com,2011-12-27
+,156,WEB,SportyPlayer.com,2011-12-27,3
+
+1,217,Gianni,gianni.gaso@hotmail.com,2011-10-24
+,126,WEB,MyFirstApp,2011-10-24,3
+
+1,1362,prasad,lakshmivaraprasadb@hexaware.com,2012-11-26
+,588,WEB,goCampus,2012-11-28,3
+
+1,1713,Bobie,bobie@herxun.co,2013-03-12
+,661,IOS,Bikerxun,2013-03-12,3
+
+1,1122,Tobia,tobia.ghiraldini@ninjabit.com,2012-09-03
+,469,IOS,WhereIsJack iOS,2012-09-06,3
+,470,WEB,WhereIsJack Web,2012-09-06,3
+
+1,1311,Alessandro Zanfardino,alessandro.zanfardino@gmail.com,2012-11-08
+,566,ANDROID,MicroReaction,2012-11-08,3
+
+1,1086,Alexander,salo86@rmabler.ru,2012-08-21
+,448,ANDROID,Demo App,2012-08-21,3
+
+1,1030,Park Jong Gu,pjg012@gmail.com,2012-07-30
+,466,IOS,ios Test,2012-09-06,1
+,417,ANDROID,Test,2012-07-30,3
+
+1,1440,Kong Yu Jian,meohmylabs@gmail.com,2012-12-31
+,609,ANDROID,Rollicking,2012-12-31,3
+
+1,1852,vrushali,vrushali.jadhav@mobisoft-infotech.com,2013-04-18
+,673,IOS,sampleApp,2013-04-18,3
+
+1,725,wilton,diggers_test@126.com,2012-04-12
+,257,IOS,bookfun,2012-04-12,3
+
+1,547,tomasz_szubin,polishman83@gmail.com,2012-03-06
+,219,IOS,GL_TestApp1,2012-03-06,3
+
+1,11,GOODSGAME,a.barbetti@artematica.com,2011-02-03
+,62,OTHER,Cardstown Scopa,2011-02-25,3
+,60,OTHER,Quiz Quiiiz Sanremo,2011-02-25,3
+,59,OTHER,Quiz Quiiiz Music,2011-02-25,3
+,39,WEB,Poker texas test,2011-02-03,3
+,57,OTHER,Poker Texas Hold'em Cardstown,2011-02-25,3
+,58,OTHER,Quiz Quiiiz Soccer,2011-02-25,3
+,61,OTHER,Cardstown Briscola,2011-02-25,3
+
+1,38,Carlo Marinangeli,carlom.android@gmail.com,2011-02-22
+,70,IOS,sdsadfasdf,2011-03-06,3
+,69,ANDROID,Wpa Tester,2011-03-03,3
+
+1,922,VoThink.Us,info@VoThink.Us,2012-06-12
+,333,WEB,VoThink.Us,2012-06-12,3
+
+1,995,Roberto Nocera,roberto.nocera@gmail.com,2012-07-18
+,401,WEB,Gamify Sales Force,2012-07-18,3
+
+1,254,pislar.ionut,pislar.ionut@yahoo.com,2011-11-10
+,192,CROSS_OS,Sky Full Tilt,2012-02-12,3
+
+1,1201,Paul Leska,pleskajr@sapphireonline.com,2012-10-05
+,506,OTHER,Sudoku Savant to go,2012-10-05,3
+
+1,911,steckhcsmartman,stec_khc@hotmail.com,2012-06-07
+,321,IOS,Ear trainner for perfect pitch,2012-06-08,3
+,322,IOS,Janggi Master Pro,2012-06-08,3
+,323,IOS,Janggi Master Konwhow,2012-06-08,3
+,324,ANDROID,Ear trainner for perfect pitch,2012-06-08,3
+,325,ANDROID,Janggi Master Pro,2012-06-08,3
+,326,ANDROID,Janggi Master Knowhow,2012-06-08,3
+
+1,1221,Populissw,it.software@populis.com,2012-10-10
+,523,WEB,testgame,2012-10-11,1
+
+1,838,Kamal,kamalshaik@gmail.com,2012-05-18
+,298,IOS,ENSTCARE,2012-05-18,3
+
+1,426,Best Apps Market,bestapps@beintoo.com,2012-02-03
+,180,ANDROID,Best Apps Market,2012-02-03,3
+
+1,1006,Matteo Bonora,matteo@bonora.eu,2012-07-22
+,406,ANDROID,PlantCare,2012-07-22,3
+
+1,505,Marcel's Company,marcel@afterimage.nl,2012-02-22
+,314,CROSS_OS,Katy Perry Quiz,2012-06-03,6
+
+1,465,Zapp,zapmobilegames@gmail.com,2012-02-14
+,197,ANDROID,Italians Do It Better (Woman),2012-02-14,3
+
+1,1606,Dave Ingle,Dave@orangep.co,2013-02-14
+,643,IOS,TestApplication,2013-02-14,3
+
+1,1005,Giovanni,giovanni.lodi@risingbits.com,2012-07-21
+,405,IOS,PlantCare iOS,2012-07-21,3
+
+1,1207,sdmdev,sergio.demattia.it@gmail.com,2012-10-06
+,513,ANDROID,testBeintoo,2012-10-07,1
+
+1,461,Ronak,xyz@gmail.com,2012-02-14
+,196,IOS,ITA,2012-02-14,6
+
+1,196,Petras,pbieliauskas@gmail.com,2011-10-15
+,120,WEB,Eskimi,2011-10-15,3
+
+1,949,Martin Dobes,m_dobes@hotmail.com,2012-06-23
+,349,IOS,COPTAR,2012-06-23,3
+
+1,1500,Cassio,cassiotc@gmail.com,2013-01-16
+,617,ANDROID,Beintoo Sample,2013-01-16,3
+
+1,1246,Lidia Thomas,jacajily@gmail.com,2012-10-19
+,541,ANDROID,BeQuick for Android,2012-10-21,3
+
+1,1025,Pislar Ionut,pionut@beintoo.com,2012-07-28
+,416,ANDROID,Checker Wars,2012-07-28,3
+
+1,1997,XtremeLabs,shanjeef.satchi@xtremelabs.com,2013-05-22
+,694,IOS,SampleApp,2013-05-22,3
+
+1,986,Kandi,Kandi@beintoo.com,2012-07-12
+,392,WEB,Freegamewall,2012-07-12,3
+
+1,1200,Yong,phonics123@naver.com,2012-10-05
+,508,ANDROID,AdTest,2012-10-05,1
+
+1,194,Clint Stevenson III,iamspammed@yahoo.com,2011-10-15
+,119,IOS,Sharky,2011-10-15,3
+
+1,1198,Rex Ma,rex.ma@kylinwork.com,2012-10-04
+,504,IOS,40 Snakes,2012-10-04,3
+
+1,1259,Vodafone,Vodafone@beintoo.com,2012-10-22
+,665,OTHER,xone,2013-03-26,3
+
+1,1470,Predrag Orlic,predrag@kokakiki.com,2013-01-06
+,613,ANDROID,Move The Muzzy!,2013-01-06,3
+
+1,782,Nyan,nyanlh@streammed.com,2012-05-03
+,284,ANDROID,jigloo,2012-05-03,3
+
+1,1113,Com2uS,grabthespoon@com2us.com,2012-08-31
+,455,IOS,Escape the ape,2012-08-31,3
+
+1,1415,vinray,15250277@qq.com,2012-12-20
+,603,ANDROID,idreamskyTest,2012-12-20,3
+
+1,1342,subbareddy,subba.info@gmail.com,2012-11-20
+,576,ANDROID,subbareddy,2012-11-20,3
+,577,ANDROID,kakumani,2012-11-20,3
+
+1,856,Jason Kim,jason.kim@digitalcoolio.com,2012-05-24
+,376,ANDROID,TrackingTestApp,2012-07-02,3
+
+1,1134,Vadim,kidga.com@gmail.com,2012-09-07
+,474,ANDROID,Pentas,2012-09-07,3
+
+1,456,Joe Calabrese,Joe@ceruleangames.com,2012-02-12
+,194,IOS,TestApp1,2012-02-12,3
+
+1,24,Claudio Ludovico Malorgio,malorgio.claudio@gmail.com,2011-02-05
+,44,WEB,BePolled,2011-02-05,3
+
+1,1126,harryzzp,harryzzp@gmail.com,2012-09-04
+,463,IOS,test,2012-09-04,3
+
+1,783,Stream Media,streammediasg@gmail.com,2012-05-03
+,285,ANDROID,Doodle Grub,2012-05-03,3
+
+1,1462,soso,soso.zeus@gmail.com,2013-01-04
+,610,ANDROID,linefollow,2013-01-04,3
+
+1,128,Roberto Navarro,contacto@estudioalfa.com,2011-09-22
+,659,IOS,Buscando al Toro,2013-03-10,3
+,96,IOS,Feria de Albacete,2011-09-22,3
+
+1,1368,Brian Murray,metalpiegames@gmail.com,2012-11-28
+,604,ANDROID,Test,2012-12-24,3
+
+1,327,Fred van Rijswijk,fred@attiq.nl,2011-12-14
+,151,IOS,Luxerious,2011-12-14,3
+
+1,713,swagsoft,info@swagsoft.com,2012-04-06
+,530,IOS,Pop Rockz World,2012-10-14,3
+,297,IOS,Castle Kingdoms,2012-05-17,3
+
+1,1106,Rafael Maya,mayarafa@gmail.com,2012-08-29
+,454,ANDROID,NearConnect,2012-08-29,3
+
+1,1215,Fred,billnye6372@yahoo.com,2012-10-09
+,516,ANDROID,TestApi,2012-10-09,3
+,522,IOS,http://www.test.com/,2012-10-10,3
+
+1,1927,Gowri Shankar,vvlngsr@gmail.com,2013-05-03
+,687,WEB,Gowri Shankar,2013-05-03,3
+,686,ANDROID,Gowri Shankar,2013-05-03,3
+
+1,1385,Ricardo Duarte,r.duarte@ydigitalmedia.com,2012-12-11
+,596,IOS,Appy Day,2012-12-11,3
+
+1,252,Kevin Cole,cole2music@yahoo.com,2011-11-09
+,136,WEB,gourdes virtuelles,2011-11-09,3
+
+1,1291,Jorge,caxirulo@gmail.com,2012-11-04
+,561,ANDROID,test,2012-11-04,3
+
+1,670,alessio ricco,p.experience@gmail.com,2012-03-24
+,237,IOS,TwinsMatcher,2012-03-24,3
+
+1,1127,alberto,alberto.montanari@ninjabit.com,2012-09-04
+,594,WEB,primaapp,2012-12-04,3
+
+1,1257,saeedsam7,saeedsam7@yahoo.com,2012-10-22
+,543,ANDROID,test1,2012-10-22,3
+
+1,1155,Byron Noriega,byron.noriega@gmail.com,2012-09-17
+,501,CROSS_OS,Escape From Abidon,2012-10-02,3
+,487,ANDROID,Escape From Abidon,2012-09-17,6
+
+1,1360,Alexey,aleksey191295@gmail.com,2012-11-25
+,584,ANDROID,Selexy Benchmark,2012-11-25,3
+
+1,1125,mateuszp,mateusz.polrola@vividgames.com,2012-09-04
+,462,CROSS_OS,testgame,2012-09-04,3
+
+1,1157,bloodxia,bloodxia@gmail.com,2012-09-17
+,488,ANDROID,Super Rewards,2012-09-17,3
+
+1,1747,Omar's Company,maghrabi.omar@gmail.com,2013-03-21
+,688,CROSS_OS,Undertaker Fan,2013-05-06,3
+
+1,1305,Jack Wasserstrom,jackowasser@googlemail.com,2012-11-06
+,564,OTHER,City,2012-11-06,3
+
+1,1885,Rakesh,akash.akaro@gmail.com,2013-04-25
+,679,IOS,aArt,2013-04-25,3
+
+1,1193,Grzegorz Zwolinski,ad@t-bull.com,2012-10-02
+,509,CROSS_OS,Bongo Trip,2012-10-05,3
+
+1,954,Amr,aelsehemy@gmail.com,2012-06-25
+,357,IOS,Amr,2012-06-25,3
+
+1,1069,Krel,tapjoy.exchange@googlemail.com,2012-08-15
+,440,ANDROID,Second Life Exchange,2012-08-15,3
+
+1,1195,Dore Nguyen,dorevn@gmail.com,2012-10-02
+,507,IOS,Kingdom of Slots,2012-10-05,3
+
+1,25,Samuele Reghenzi,sammyrulez@gmail.com,2011-02-05
+,42,ANDROID,Contestr,2011-02-05,3
+
+1,1017,Ivan,ivan.zhf@gmail.com,2012-07-26
+,432,ANDROID,开卷又益,2012-08-13,3
+
+1,1262,Tylted Site,philip@tylted.com,2012-10-23
+,545,WEB,Tylted Website,2012-10-23,3
+
+0,630,Miguel Morales,therevoltingx@gmail.com,2012-03-09
+,279,ANDROID,SolRPG,2012-04-18,3
+,272,ANDROID,SolomonRPG,2012-04-17,6
+
+0,74,Thiago Jackiw,tjackiw@gmail.com,2011-07-28
+,85,WEB,Tester,2011-07-28,3
+
+0,65,Mike Rowehl,mikerowehl@gmail.com,2011-06-20
+,80,ANDROID,Mikers Test App,2011-06-22,3
+,79,ANDROID,Mikers Test App,2011-06-22,3
+
+0,964,Manabu Tsuchimoto,m-tsuchimoto@iid.co.jp,2012-06-27
+,364,WEB,INSIDE,2012-06-27,3
+
+0,871,funluiji,funluiji@gmail.com,2012-05-28
+,445,ANDROID,Test Android App,2012-08-19,3
+,341,IOS,GamificationTestApp,2012-06-18,6
+
+0,57,Francesco Simoneschi,fra@domainsbot.com,2011-05-16
+,76,WEB,DomainsBot,2011-05-16,3
+
+0,1274,Evan,evan@atl.us,2012-10-28
+,554,IOS,Atlus,2012-10-28,3
+
+0,1063,dassen,dassen@gmail.com,2012-08-14
+,434,ANDROID,vegtable ninja,2012-08-14,3
+
+0,445,Giorgio,giorgio.zoja@gmail.com,2012-02-07
+,184,IOS,Trivia Football Lite,2012-02-07,6
+
+0,127,Sebastien's Company,sebastien.pastor@gmx.com,2011-09-22
+,95,IOS,MeeTicket,2011-09-22,3
+
+0,43,barletta,mimmoby@libero.it,2011-03-03
+,67,ANDROID,CeglieInCucina.Com Feed Rss,2011-03-03,3
+,66,WEB,Ricette ceglieincucina,2011-03-03,3
+,68,ANDROID,Link Directory ceglieIncucina,2011-03-03,3
+
+0,893,training inc,training@beintoo.com,2012-06-05
+,316,WEB,Web app,2012-06-05,3
+
+0,322,Raoul van Wijk,raoul.van.wijk@qinqo.com,2011-12-14
+,150,WEB,QINQO Website,2011-12-14,3
+
+0,1101,Cristian Ronzio,cristian.ronzio@gmail.com,2012-08-26
+,453,WEB,Pics Contest,2012-08-26,3
+
+0,36,Luca,figoliluca@gmail.com,2011-02-22
+,53,ANDROID,Arrotino,2011-02-22,3
+
+0,875,Francesco Giartosio,francesco@contipronti.it,2012-05-29
+,304,ANDROID,Agendina,2012-05-29,3
+
+0,28,Mauro Vanetti,mauro@rossonerd.com,2011-02-07
+,46,WEB,Shoutbook,2011-02-07,3
+
+0,872,john,john@kngfu.com,2012-05-28
+,302,WEB,tset,2012-05-28,3
+
+0,1370,Dmitriy Prikhodko,bojlahg@gmail.com,2012-11-29
+,591,ANDROID,MahJah,2012-11-29,3
+
+null,1482,populis,fprivitera+populis@beintoo.com,2013-01-09
+,615,WEB,populis,2013-01-09,3
+
+null,66,Deonn Games,deonn.games@gmail.com,2011-06-23
+,81,CROSS_OS,Asteroid Defense,2011-06-23,3
+
+null,133,Cyril Vrillaud,cyril.vrillaud@gmail.com,2011-09-24
+,102,IOS,Urbanaxy Gallery,2011-09-24,3
+
+null,35,beintoo,fprivitera@beintoo.com,2011-02-22
+,108,ANDROID,Free Chatter,2011-09-27,3
+
+null,144,Yibish,mvg210@gmail.com,2011-09-28
+,109,IOS,Yibish,2011-09-28,3
+
+null,155,Zach's Company,zach@oollo.com,2011-10-06
+,114,IOS,Local,2011-10-06,6
+
+null,192,hostdude,signupalexg@hotmail.com,2011-10-15
+,118,ANDROID,dsadasdsa,2011-10-15,3
+
+null,163,Fred Radford,beintoo@FredRadford.com,2011-10-08
+,121,WEB,Meet Up Prize Drawing,2011-10-15,3
+
+null,193,Plamen Petrov,plamen@mobipe.com,2011-10-15
+,123,IOS,Halloween Colors,2011-10-16,3
+
+null,211,kumaril's Company,kumarilb@gmail.com,2011-10-21
+,124,CROSS_OS,DiabetesLiving,2011-10-21,3
+
+null,226,Kevin Cole,colemusic@hotmail.com,2011-10-28
+,127,WEB,TL-WN422G FOR  TP-LINK  54Mbps,2011-10-28,6
+,128,WEB,Kcri-Jeux,2011-10-28,3
+
+null,233,Marcin's Company,marcin.sawaryn@tiger-net.pl,2011-11-01
+,132,IOS,TREFL SOPOT,2011-11-01,3
+
+null,258,Greg McCormick,jgregmccormick@crushmedia.net,2011-11-15
+,138,CROSS_OS,MainsiteTrack,2011-11-15,3
+
+null,268,UPONStudio,uponstudio@gmail.com,2011-11-22
+,144,ANDROID,Heroes Fight,2011-11-22,3
+,145,ANDROID,Duty of Heroes,2011-11-22,3
+
+null,281,ian's Company,ian@frugalshare.com,2011-11-27
+,148,CROSS_OS,FS,2011-11-27,3
+
+null,297,MeeTicket,sebastien.pastor@meeticket.com,2011-12-08
+,149,WEB,MeeTicket,2011-12-08,3
+
+null,332,Christian Ortega,kaleemsagard@gmail.com,2011-12-16
+,152,WEB,Canoa IT - test,2011-12-16,3
+
+null,344,walar,walar13@gmail.com,2011-12-22
+,154,ANDROID,Box Destroyer,2011-12-22,3
+
+null,362,Chinthaka's Company,kumarasiri@gmail.com,2012-01-04
+,162,CROSS_OS,Test,2012-01-04,3
+
+null,381,Ridvan's Company,ridvankantarci@googlemail.com,2012-01-14
+,170,ANDROID,ridvan,2012-01-14,3
+
+null,409,dasean howard,l3ads@ymail.com,2012-01-25
+,176,ANDROID,FunNight,2012-01-25,3
+
+null,410,Animoca,animoca@beintoo.com,2012-01-25
+,177,ANDROID,Animoca Test: pet cafe,2012-01-25,3
+
+null,412,John's Company,phillyim@verizon.net,2012-01-26
+,178,ANDROID,gamify1,2012-01-26,3
+
+null,444,Jill,jillyjallen@gmail.com,2012-02-07
+,183,ANDROID,Kromium,2012-02-07,3
+
+null,446,paolo,duearance@iol.it,2012-02-07
+,185,ANDROID,TOP ELEVEN,2012-02-07,3
+,186,ANDROID,SLOT HOUSE OF FUN,2012-02-07,3
+,187,WEB,TORNEI PER GLI AMANTI DEL BURRACO,2012-02-07,3
+,188,WEB,MY BRISCOLA,2012-02-07,3
+
+null,472,Leandro,leandro.puca@gmail.com,2012-02-15
+,198,ANDROID,iBoatGarda,2012-02-15,3
+,199,IOS,iBoatGarda,2012-02-15,3
+
+null,483,fedecan1,fedecan1@libero.it,2012-02-17
+,201,IOS,Ultra Football,2012-02-17,3
+
+null,494,titanhope,titanhope@gmail.com,2012-02-20
+,204,IOS,test,2012-02-20,3
+
+null,524,Brady Thomas,thomasbrad1@gmail.com,2012-02-28
+,212,IOS,test,2012-02-28,3
+
+null,527,wolf,271624351@qq.com,2012-02-29
+,214,IOS,Sexy Girl,2012-02-29,3
+
+null,468,Luigi Fazio,gigifazio@libero.it,2012-02-14
+,217,IOS,iMeteoSoveria,2012-03-02,3
+
+null,537,Sergio Rotondo,sergio.rotondo@libero.it,2012-03-02
+,218,IOS,Iplay,2012-03-02,6
+
+null,668,lahar123,llahar51@yahoo.com,2012-03-23
+,234,ANDROID,ANIME WALLPAPERS,2012-03-23,3
+
+null,673,alkarana,aldevampz@yahoo.com,2012-03-25
+,238,ANDROID,Ozmoby,2012-03-25,3
+
+null,697,ag,anfernee.guan@gmail.com,2012-04-01
+,248,ANDROID,test,2012-04-01,3
+
+null,701,Francisco rojas,francisco.rojas@iguanabee.com,2012-04-02
+,250,CROSS_OS,BeintoTest,2012-04-04,3
+
+null,737,Paul Henry,paul@thesandbox.me,2012-04-16
+,270,CROSS_OS,The Sandbox,2012-04-16,3
+
+null,738,shaxiaoding,450483992@qq.com,2012-04-17
+,271,ANDROID,123,2012-04-17,3
+
+null,724,dewanto,dewanto@gmail.com,2012-04-10
+,274,WEB,ShipBum,2012-04-18,3
+
+null,789,juloot Co.,hq@juloot.co,2012-05-04
+,286,CROSS_OS,gamification world,2012-05-04,3
+
+null,797,Jordan Gensler,jordangens@gmail.com,2012-05-06
+,287,WEB,Darts for Villo,2012-05-06,3
+
+null,807,lior ginsberg,lginsberg9@gmail.com,2012-05-08
+,288,WEB,pizza run,2012-05-08,3
+
+null,810,Philip's Company,philip.652@gmail.com,2012-05-09
+,289,ANDROID,First Game,2012-05-09,3
+
+null,814,mario,mario@mc3design.com,2012-05-10
+,293,IOS,MarioProva,2012-05-11,3
+
+null,823,Dan Chen,dan@collingmedia.com,2012-05-14
+,296,IOS,Ron Paul,2012-05-14,3
+
+null,877,muhammad ilham,ilhams4@yahoo.com,2012-05-29
+,305,ANDROID,+Okezona Softnews Media Group,2012-05-29,3
+
+null,891,prashant,app@orizin.net,2012-06-04
+,315,ANDROID,Sales champ,2012-06-04,3
+
+null,895,Rahul,rahul@balar.net,2012-06-05
+,320,ANDROID,Test,2012-06-07,3
+
+null,913,tatyana.zinovyeva,tatyana.zinovyeva@ximad.com,2012-06-08
+,327,OTHER,BB Bubble,2012-06-08,3
+
+null,914,Michael's Company,info@kyodee.com,2012-06-08
+,329,IOS,Bet With Mates,2012-06-08,3
+
+null,916,atmTest,atm@test.com,2012-06-08
+,330,CROSS_OS,Giromondo,2012-06-08,3
+
+null,889,Tan,tan@scalenutz.com,2012-06-03
+,331,WEB,Mobile Kopitiam,2012-06-09,3
+
+null,925,Patrizia,patriziavinale@live.it,2012-06-13
+,337,WEB,Sopoins,2012-06-13,3
+
+null,933,Marcin,mpancewicz@gmail.com,2012-06-17
+,340,ANDROID,Push Morty Push Free,2012-06-17,3
+
+null,938,mario,enricopiovesan@gmail.com,2012-06-20
+,344,ANDROID,test,2012-06-20,3
+
+null,939,Douglas Bolm,douglas_bolm@dabsquared.com,2012-06-21
+,347,IOS,Curveu,2012-06-21,3
+
+null,946,Raghunath,jrcbangalore@gmail.com,2012-06-22
+,348,WEB,App 1,2012-06-22,3
+
+null,952,Lukasz,lukaszprokopiuk@gmail.com,2012-06-24
+,351,ANDROID,Fruit ninja,2012-06-24,3
+
+null,951,Vincent Edwards,vince@vindi.co.nz,2012-06-24
+,352,WEB,BadgePix,2012-06-24,3
+
+null,955,robert vayner,info@paidinstyle.com,2012-06-26
+,358,WEB,paidINstyle,2012-06-26,3
+
+null,957,Antonio Parisi,m3nTeZ@gmail.com,2012-06-26
+,359,IOS,test,2012-06-26,1
+
+null,958,Bryce Bayens,xbrahaxz@gmail.com,2012-06-27
+,360,IOS,Bro Facts,2012-06-27,3
+
+null,966,luca,lucaweb01@gmail.com,2012-06-28
+,367,ANDROID,test,2012-06-28,3
+
+null,973,Subramanian,subramanian.bsv@gmail.com,2012-07-04
+,377,IOS,test app,2012-07-04,1
+
+null,977,David Gonen,david@brandbounty.com,2012-07-06
+,380,IOS,BrandBounty,2012-07-06,3
+
+null,984,swetha,swetha.pimmi@gmail.com,2012-07-12
+,389,WEB,MR,2012-07-12,3
+
+null,991,Bryan,bryan.c.dickson@gmail.com,2012-07-16
+,398,IOS,BryansBusiness,2012-07-16,3
+
+null,994,igsan,nacho-sabater@hotmail.com,2012-07-17
+,403,ANDROID,Igsan,2012-07-20,3
+
+null,1008,Chris Boyd,cboyd_sf@yahoo.com,2012-07-23
+,411,WEB,Pointshound,2012-07-23,3
+
+null,1035,YG WareNinja,yg@wareninja.com,2012-07-30
+,418,ANDROID,LOCO8,2012-07-30,3
+
+null,674,Alberto Alvarez,alvarez.a@gogetit.com.pa,2012-03-26
+,421,WEB,Startup Idol contest,2012-08-04,3
+
+null,1047,charleigh,charliigh@hotmail.com,2012-08-06
+,425,ANDROID,loveey,2012-08-06,3
+
+null,1048,Anuj Tenani,anujtenani@gmail.com,2012-08-06
+,426,ANDROID,Anuj Tenani,2012-08-06,3
+
+null,1059,Sergio's Company,sergio.88medina@gmail.com,2012-08-13
+,431,IOS,RutaNL,2012-08-13,3
+
+null,228,RadiumOne,radiumone@beintoo.com,2011-10-28
+,433,ANDROID,testsdk,2012-08-13,3
+
+null,1071,watermark,augerst1023@163.com,2012-08-16
+,441,IOS,map,2012-08-16,3
+,442,ANDROID,weather,2012-08-16,3
+,563,ANDROID,weather2,2012-11-06,3
+
+null,1092,Jose Antonio,jatejedor@gmail.com,2012-08-22
+,449,IOS,Un Juego Gratis al Dia,2012-08-22,3
+
+null,1099,veramb97,veramb97@hotmail.com,2012-08-24
+,452,ANDROID,Fruit Ninja,2012-08-24,3
+
+null,1115,Jani Hartikainen,jani.hartikainen@wantlet.com,2012-08-31
+,456,OTHER,Test,2012-08-31,3
+
+null,1121,Frappella,frappella@live.it,2012-09-02
+,459,ANDROID,Frabilon,2012-09-02,3
+
+null,1132,gina s,7702412@gmail.com,2012-09-06
+,467,WEB,gol,2012-09-06,3
+,468,IOS,Game of life,2012-09-06,3
+
+null,1129,igin yusuf,iginyusuf@gmail.com,2012-09-05
+,479,WEB,appbrain,2012-09-12,3
+
+null,1147,Steven Wang,admin@gamehive.com,2012-09-13
+,483,ANDROID,Kick the Boss,2012-09-13,3
+
+null,1148,RisingBits,giulio.grillanda@risingbits,2012-09-14
+,485,WEB,Kunerango,2012-09-14,3
+
+null,1160,Orla Mitchell,orla.mitchell@superfunplay.com,2012-09-18
+,489,IOS,Bubble-Dreams,2012-09-18,3
+
+null,1161,Michael De Coninck,mdc@satmarin.com,2012-09-18
+,490,ANDROID,test001,2012-09-18,1
+
+null,533,Gabriele Barlocci,gbarlocci@ngi.it,2012-03-01
+,491,IOS,Burraco&Pinelle Online,2012-09-19,3
+
+null,1171,Lisa Gaybe,lisa2.gaybe@gmail.com,2012-09-21
+,493,ANDROID,divefun,2012-09-21,3
+
+null,1188,blueFire,jason@bluefiregames.com,2012-09-30
+,499,ANDROID,Free Sudoku,2012-09-30,3
+
+null,1172,bagas yusuf,bagasyusuf@gmail.com,2012-09-21
+,500,WEB,wapdam,2012-10-01,3
+
+null,1197,sk8er123,sk8er123@naver.com,2012-10-04
+,503,ANDROID,test app,2012-10-04,1
+
+null,1208,Ma,irishdancer400.mam3496@yahoo.com,2012-10-06
+,511,IOS,Fruit Ninja,2012-10-06,3
+
+null,1211,Pablo,pablo.borbon@nivel7.net,2012-10-06
+,512,WEB,Pasajeros,2012-10-06,3
+
+null,1214,Anna,anna.salomone@akamon.me,2012-10-08
+,514,WEB,Mundi Bingo,2012-10-08,3
+
+null,104,Rich Curtis,rich@sessionm.com,2011-09-15
+,517,ANDROID,My First App,2012-10-09,3
+
+null,1220,klaliya,klaliya@gmail.com,2012-10-10
+,520,IOS,123 Fun: Write & Learn Numbers (Lite Version),2012-10-10,3
+
+null,1224,Yauhen Kazadayeu,bigwhiteplanet.online@gmail.com,2012-10-12
+,526,ANDROID,Easy WiFi Tethering,2012-10-12,3
+
+null,1228,Leonardo Pellicciotta,leonardo.pellicciotta@gmail.com,2012-10-14
+,531,IOS,IstantTranslator,2012-10-14,3
+
+null,1227,Angelika,angelochkakiss@list.ru,2012-10-14
+,532,ANDROID,Fifa 12,2012-10-16,6
+,537,ANDROID,Fifa 12,2012-10-17,3
+
+null,1237,Никита,yasha.cheredow99@mail.ru,2012-10-16
+,533,ANDROID,Тоннельные Серферы (Subway Surfers),2012-10-16,3
+
+null,1248,Giovanni Cortese,g.cortese@ipsoft.it,2012-10-20
+,540,IOS,iStreetVideo,2012-10-20,3
+
+null,1256,Name,gracisalvatore7@gmail.com,2012-10-21
+,542,ANDROID,FIFA 12 ANDROID HD.apk,2012-10-21,3
+
+null,1261,Jeff Brown,finalmirage1@gmail.com,2012-10-23
+,544,CROSS_OS,Math Buster 2,2012-10-23,3
+
+null,1278,Teri,vera-teri@yandex.ru,2012-10-31
+,555,ANDROID,Fruit Ninja HD Free,2012-10-31,3
+
+null,1283,Luca,ilucamicheli@gmail.com,2012-11-02
+,557,IOS,QuizPatente!,2012-11-02,3
+
+null,1276,chris's Company,xmas@chrischristmas.com,2012-10-29
+,558,ANDROID,Trakkin,2012-11-04,3
+
+null,1289,Francesco Cricchio,rgbsound@gmail.com,2012-11-04
+,559,IOS,The Famous Game,2012-11-04,3
+
+null,1290,Romeo Ordos,romeo.ordos@gmail.com,2012-11-04
+,560,ANDROID,Tanktastic,2012-11-04,6
+
+null,1295,nicola.sgrenza,Nicola.sgrenza@gmail.com,2012-11-05
+,562,IOS,Mass,2012-11-06,3
+
+null,1308,juan torres,juan.torres@alleluu.com,2012-11-07
+,565,WEB,alleluu.com,2012-11-07,3
+
+null,1320,lderiu,lderiu@vivido.it,2012-11-13
+,567,OTHER,Follorep,2012-11-13,3
+
+null,1322,Idan,idan.kfir@winner.com,2012-11-14
+,568,IOS,Slots Farm,2012-11-14,3
+
+null,1323,Chaya,advertisers@tokenads.com,2012-11-14
+,570,ANDROID,TookenAds,2012-11-14,3
+
+null,1327,shani,shanifoster4me@yahoo.com,2012-11-14
+,571,IOS,Drag Dream,2012-11-14,3
+
+null,1328,Gamer,gamerdude2012rx@yahoo.com,2012-11-15
+,572,ANDROID,my new app,2012-11-15,3
+
+null,1333,Jonathan Brown,jonbthree@gmail.com,2012-11-16
+,573,ANDROID,Recent Call Log,2012-11-17,3
+
+null,1100,heydari hassan,das_licht@live.de,2012-08-25
+,574,ANDROID,Ufo jumper,2012-11-18,3
+
+null,1347,Alejandra,ale_mrd15@hotmail.com,2012-11-20
+,579,CROSS_OS,Testing App,2012-11-20,3
+
+null,1350,kiza,zaki552011@live.fr,2012-11-22
+,580,WEB,life,2012-11-22,3
+
+null,1352,Alessandro,averlato@gmail.com,2012-11-23
+,581,IOS,Memento_dev,2012-11-23,3
+
+null,1367,Chad,info@productofself.com,2012-11-28
+,589,IOS,Product of Self,2012-11-28,3
+
+null,1242,Shane Schweiger,InnovativeInventions@live.com,2012-10-17
+,592,ANDROID,Long Shot,2012-11-29,3
+
+null,1396,Jose Alberto,josebetomex@gmail.com,2012-12-14
+,599,IOS,Taximetro,2012-12-14,3
+
+null,1411,Svitrigaile,svgaile@gmail.com,2012-12-18
+,601,ANDROID,Fruit Ninja,2012-12-18,6
+
+null,1431,Lucas Friedman,dogdude1248@gmail.com,2012-12-27
+,605,IOS,Subway Surfers,2012-12-27,3
+
+null,1433,Gabriele,gabriele.costamagna@gmail.com,2012-12-28
+,606,WEB,SoccerSquare,2012-12-28,3
+
+null,1437,cooper,flemings@frontier.com,2012-12-29
+,607,IOS,fruit ninja,2012-12-30,3
+,608,ANDROID,subway surfer,2012-12-30,3
+
+null,1466,Jaspal,singh.jaspal1212@gmailcom,2013-01-05
+,611,ANDROID,Owl task,2013-01-05,3
+
+null,1467,pimmelmaus,thiphise@wegwerfemail.de,2013-01-05
+,612,ANDROID,hsdhsd,2013-01-05,3
+
+null,1471,Beth,irelandbeth@hotmail.com,2013-01-06
+,614,ANDROID,Fruit Ninja,2013-01-06,3
+
+null,1488,Alonzo Machiraju,machthree@gmail.com,2013-01-12
+,616,WEB,Penguin Jetpack Adventure! (Demo),2013-01-12,3
+
+null,1504,gioacchino,gioadin62@gmail.com,2013-01-17
+,618,ANDROID,Agatha Christie™ Death on the Nile,2013-01-20,3
+
+null,1512,Kris Koti,kotpal@vienaworks.com,2013-01-20
+,619,OTHER,TestApp,2013-01-20,3
+
+null,1523,VFedin,kwakin1@ya.ru,2013-01-23
+,622,WEB,vselen-u,2013-01-23,3
+
+null,1529,Mobile Joomla,miikka@mobilejoomla.com,2013-01-25
+,624,WEB,Mobile Joomla,2013-01-25,3
+
+null,1530,Gabriel,gabs@imshi.co.uk,2013-01-25
+,625,ANDROID,Test,2013-01-25,3
+
+null,1536,Jackson,jacko226226@gmail.com,2013-01-27
+,626,ANDROID,doodle buddy,2013-01-27,3
+
+null,1544,kamal,unity6d@gmail.com,2013-01-28
+,627,WEB,kvn,2013-01-28,3
+
+null,1561,calvin,gigiupup6@gmail.com,2013-02-03
+,631,IOS,Freefall1o,2013-02-03,3
+
+null,1564,Antoine,a_desparois@hotmail.com,2013-02-03
+,632,IOS,Real Scooter,2013-02-03,3
+
+null,1566,Will,whendricso@gmail.com,2013-02-03
+,633,OTHER,Theories of Elemental Magi,2013-02-03,3
+
+null,1573,Arjun Haobijam,arjun@haobijam.com,2013-02-05
+,634,WEB,Haobijam,2013-02-05,3
+
+null,1577,Rigoberto Alvarez,rigoberto.alvarez@gmail.com,2013-02-06
+,635,ANDROID,SoyMejenguero,2013-02-06,3
+
+null,1579,zTrojan,ztrojan@gmail.com,2013-02-06
+,636,ANDROID,Test Game,2013-02-06,3
+
+null,1591,Mate Cziner,mate.cziner@gmail.com,2013-02-10
+,637,ANDROID,Doot,2013-02-10,3
+
+null,1599,Herman de Keyperling,hrhfar7@aol.com,2013-02-12
+,642,ANDROID,Herman de Keyperling,2013-02-12,3
+
+null,1612,anhduc0204,dtony.pro0204@yahoo.com,2013-02-16
+,644,ANDROID,etgdf,2013-02-16,6
+
+null,1603,Prikshit,prikshit@fareportal.com,2013-02-13
+,647,ANDROID,Cheapoair,2013-02-21,3
+
+null,1639,TEG,teg.games@gmail.com,2013-02-21
+,648,ANDROID,Cubik,2013-02-21,3
+
+null,1654,Rob,robert.a.boles@gmail.com,2013-02-25
+,649,IOS,SMED Test iOS App,2013-02-25,3
+
+null,1669,Elias Bachour,ebachour@gmail.com,2013-02-28
+,651,ANDROID,Sal,2013-02-28,3
+
+null,1673,Dj_Kami,jhanfernando2009@hotmail.com,2013-03-01
+,652,ANDROID,fruit ninja,2013-03-01,3
+
+null,1687,reco garrett,recogarrett@gmail.com,2013-03-05
+,653,ANDROID,temple run 2,2013-03-05,3
+
+null,1693,Sarah Burgan,burgansarah@yahoo.com,2013-03-07
+,655,ANDROID,recycling is better,2013-03-07,3
+
+null,1696,wisam,wisam@viralstate.co.uk,2013-03-07
+,656,ANDROID,Paramour,2013-03-07,3
+
+null,1697,Alex Wong,alex@targa.com,2013-03-07
+,657,IOS,Bingo Bango - FREE BINGO GAME,2013-03-07,3
+
+null,1701,Graham Dean,mail@mobiacs.com,2013-03-09
+,658,ANDROID,Picranium Picross,2013-03-09,3
+
+null,1729,taryn daniels,SmileImHighRS@gmail.com,2013-03-16
+,662,ANDROID,fruit ninja,2013-03-17,3
+
+null,1784,kalyani kandpile,kalyanikandpile5@gmail.com,2013-04-03
+,668,IOS,Solitarie,2013-04-03,3
+
+null,1794,Rex,Rex.ma@kylinworks.com,2013-04-05
+,669,IOS,Guess the Word with Friends,2013-04-05,3
+
+null,1827,shreedhara ananth,shreedhara.ca@gmail.com,2013-04-13
+,671,ANDROID,TestAir,2013-04-13,6
+,681,IOS,Marathon L.A,2013-04-26,3
+
+null,1830,aaa,aa@gmail.com,2013-04-13
+,672,ANDROID,test,2013-04-13,3
+
+null,1860,richard  emmanuel,technologypluswireless@yahoo.com,2013-04-19
+,674,ANDROID,shoppo,2013-04-19,3
+
+null,1875,living legend,daltray5@mocospace.com,2013-04-23
+,675,ANDROID,slice and dice,2013-04-23,3
+
+null,1877,Ananda Gupta,admin@onemeninteractive.com,2013-04-23
+,676,ANDROID,Universal Fighter,2013-04-23,3
+
+null,1879,Patryk,patryk_ziem@hotmail.com,2013-04-23
+,677,WEB,Testapp,2013-04-23,3
+
+null,1892,isa can,www.isacan.com@gmail.com,2013-04-26
+,682,ANDROID,Car City Parking 3D,2013-04-26,3
+
+null,1905,camden,bryantcamden@yahoo.com,2013-04-28
+,683,OTHER,zombie road trip,2013-04-28,3
+
+null,1921,Jessenapayton,paytonfamily3@gmail.com,2013-05-02
+,685,OTHER,Fruit Ninja,2013-05-02,3
+
+null,1964,sfiore+1305,sfiore+1305@beintoo.com,2013-05-13
+,689,ANDROID,Test delfino curioso,2013-05-13,3
+
+null,1966,Eugene,myagkiy@gmail.com,2013-05-13
+,690,ANDROID,Quote Garden,2013-05-13,3
+
+null,1970,rahul,rahuljain153001@gmail.com,2013-05-14
+,691,ANDROID,fruit ninja,2013-05-14,3
+
+null,1996,eibel,eibel2703648@gmail.com,2013-05-22
+,693,ANDROID,sam,2013-05-22,3
+
