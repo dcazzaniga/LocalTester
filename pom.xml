@@ -65,5 +65,10 @@
 	<artifactId>com.google.gdata-calendar</artifactId>
 	<version>1.41.5.w1</version>
 </dependency>
+        <dependency>
+            <groupId>com.beintoo</groupId>
+            <artifactId>xone</artifactId>
+            <version>1.1-SNAPSHOT</version>
+        </dependency>
     </dependencies>    
 </project>

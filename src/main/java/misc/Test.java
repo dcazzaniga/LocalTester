@@ -1,22 +1,9 @@
 package misc;
 
-import com.amazonaws.http.HttpResponse;
-import com.beintoo.commons.bean.CountryBean;
-import com.beintoo.commons.bean.RankingBean;
 import com.beintoo.commons.bean.UserLevelBean;
-import com.beintoo.commons.database.AdminReportEngine;
-import com.beintoo.commons.enums.AppTypeEnum;
 import com.beintoo.commons.enums.GoogleAnalyticsTrackerEnum;
-import com.beintoo.commons.enums.RankingDirectionEnum;
-import com.beintoo.commons.enums.RankingMethodEnum;
 import com.beintoo.commons.enums.UserLevelEnum;
-import com.beintoo.commons.enums.VgoodExternalProviderType;
-import com.beintoo.commons.helper.AppHelper;
-import com.beintoo.commons.helper.VgoodHelper;
-import com.beintoo.commons.util.ConfigPath;
 import com.beintoo.commons.util.GeoCountries;
-import com.beintoo.commons.util.RankingUtil;
-import com.beintoo.entities.App;
 import com.beintoo.entities.User;
 import java.io.*;
 import java.net.MalformedURLException;
@@ -33,10 +20,7 @@ import javax.persistence.Persistence;
 import javax.persistence.Query;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
-import locator.CountryMap;
 import locator.WorldMap;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.impl.client.DefaultHttpClient;
 
 
 
@@ -277,78 +261,6 @@ public class Test {
 
     }
 
-    private static List<CountryBean> userCountryStats(String from, String to, String country) {
-
-        List<CountryBean> geos = new ArrayList<CountryBean>();
-
-        try {
-
-            String query = "";
-
-            query = "   SELECT u.latitude lat , u.longitude lon, 1 c "
-                    + " FROM  user u  "
-                    + " WHERE u.latitude IS NOT NULL   "
-                    + " AND u.country = '" + country + "' ";
-
-            if (from != null) {
-                query += " AND u.creationdate >= '" + from + "'";
-            }
-            if (to != null) {
-                query += " AND u.creationdate < '" + to + "'  ";
-            }
-
-            //query   += " GROUP BY lat, lon ";
-
-            System.out.println("" + query);
-            EntityManager em = Persistence.createEntityManagerFactory("BeintooEntitiesPU_LOCAL_LOCALHOST").createEntityManager();
-            Query q = em.createNativeQuery(query);
-            List results = q.getResultList();
-
-            CountryMap cm = new CountryMap(country, 50000l);
-            long total = 0L;
-            for (int i = 0; i < results.size(); i++) {
-
-                Object obj = results.get(i);
-                Object[] objectArray = (Object[]) obj;
-
-                try {
-
-                    float lat = ((Number) objectArray[0]).floatValue() + 90;
-                    float lon = ((Number) objectArray[1]).floatValue() + 180;
-
-                    long unit = ((Number) objectArray[2]).longValue();
-
-                    total += unit;
-                    String city = "--";
-                    city = cm.getCountry(lat, lon);
-
-                    CountryBean cb = new CountryBean(city);
-                    int j = geos.indexOf(cb);
-                    if (j > -1) {
-                        geos.get(j).addUnits(unit);
-                    } else {
-                        cb.setUnits(unit);
-                        geos.add(cb);
-                    }
-
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
-
-            }
-            System.out.println(" ::::::: TOTAL " + total);
-            if (total > 0) {
-                for (CountryBean cb : geos) {
-                    cb.setPercentage(total);
-                }
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
-        Collections.sort(geos);
-        return geos;
-    }
 
     private static void correctorISOCOUNTRY_2() {
 

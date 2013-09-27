@@ -39,7 +39,7 @@ public class TotalPlayerUserParser implements Serializable {
     private int totPlayers;
     private int totMaus=0;
     private int totUsers;
-    private int activePlayers = 74701983;
+    private int activePlayers = 79475365;
     private int activeUsers;
     private int dailyActivePlayers;
     private int dailyActiveUsers;
@@ -64,8 +64,8 @@ public class TotalPlayerUserParser implements Serializable {
         
         TotalPlayerUserParser tpup = null;
         try {
-            Date from = sdf.parse("2013-04-30");
-            Date to = sdf.parse("2013-05-31");
+            Date from = sdf.parse("2013-06-30");
+            Date to = sdf.parse("2013-07-31");
             try{
                 FileInputStream fis = new FileInputStream(ConfigPath.getConfigPath() +
                         "/TotalPlayerUserParser"+sdf.format(new Date()));

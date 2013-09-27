@@ -1,0 +1,1788 @@
+2013-09-21 00:00:00,013 INFO job.CallBeanProcessorJob - Reading CallBean: 0
+2013-09-21 00:00:00,014 INFO job.CallBeanProcessorJob - took: 1
+2013-09-21 00:00:00,014 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 00:00:00,014 INFO job.CallBeanProcessorJob - Writing in mongo took: 0
+2013-09-21 00:00:00,022 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 00:00:30,036 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 00:00:30,037 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 00:05:00,026 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 00:05:30,032 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 00:05:30,032 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 00:10:00,014 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 00:10:30,021 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 00:10:30,021 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 00:12:00,012 INFO job.CallBeanProcessorJob - Reading CallBean: 22
+2013-09-21 00:12:03,499 INFO job.CallBeanProcessorJob - took: 3487
+2013-09-21 00:12:03,499 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 00:12:03,642 INFO job.CallBeanProcessorJob - Writing in mongo took: 143
+2013-09-21 00:15:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 00:15:30,021 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 00:15:30,022 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 00:20:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 00:20:30,022 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 00:20:30,022 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 00:24:00,013 INFO job.CallBeanProcessorJob - Reading CallBean: 18
+2013-09-21 00:24:00,063 INFO job.CallBeanProcessorJob - took: 50
+2013-09-21 00:24:00,063 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 00:24:00,168 INFO job.CallBeanProcessorJob - Writing in mongo took: 105
+2013-09-21 00:25:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 00:25:30,023 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 00:25:30,023 INFO job.NewbieUnlockedProcessorJob - took: 30008
+2013-09-21 00:30:00,018 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 00:30:30,025 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 00:30:30,026 INFO job.NewbieUnlockedProcessorJob - took: 30008
+2013-09-21 00:35:00,014 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 00:35:30,021 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 00:35:30,021 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 00:36:00,011 INFO job.CallBeanProcessorJob - Reading CallBean: 11
+2013-09-21 00:36:00,047 INFO job.CallBeanProcessorJob - took: 36
+2013-09-21 00:36:00,047 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 00:36:00,155 INFO job.CallBeanProcessorJob - Writing in mongo took: 108
+2013-09-21 00:40:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 00:40:30,021 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 00:40:30,021 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 00:45:00,016 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 00:45:30,022 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 00:45:30,023 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 00:48:00,008 INFO job.CallBeanProcessorJob - Reading CallBean: 7
+2013-09-21 00:48:00,027 INFO job.CallBeanProcessorJob - took: 19
+2013-09-21 00:48:00,027 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 00:48:00,069 INFO job.CallBeanProcessorJob - Writing in mongo took: 42
+2013-09-21 00:50:00,017 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 00:50:30,023 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 00:50:30,023 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 00:55:00,016 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 00:55:30,023 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 00:55:30,023 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 01:00:00,010 INFO job.CallBeanProcessorJob - Reading CallBean: 0
+2013-09-21 01:00:00,010 INFO job.CallBeanProcessorJob - took: 0
+2013-09-21 01:00:00,010 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 01:00:00,013 INFO job.CallBeanProcessorJob - Writing in mongo took: 3
+2013-09-21 01:00:00,015 INFO job.SmsBeanProcessorJob - Reading SmsBean: 0
+2013-09-21 01:00:00,015 INFO job.SmsBeanProcessorJob - took: 0
+2013-09-21 01:00:00,015 INFO job.SmsBeanProcessorJob - Flush cache in mongo
+2013-09-21 01:00:00,016 INFO job.SmsBeanProcessorJob - Writing in mongo took: 1
+2013-09-21 01:00:00,017 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 01:00:30,023 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 01:00:30,023 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 01:05:00,019 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 01:05:30,025 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 01:05:30,026 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 01:10:00,016 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 01:10:30,024 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 01:10:30,024 INFO job.NewbieUnlockedProcessorJob - took: 30008
+2013-09-21 01:12:00,010 INFO job.CallBeanProcessorJob - Reading CallBean: 12
+2013-09-21 01:12:00,046 INFO job.CallBeanProcessorJob - took: 36
+2013-09-21 01:12:00,046 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 01:12:00,102 INFO job.CallBeanProcessorJob - Writing in mongo took: 56
+2013-09-21 01:15:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 01:15:30,022 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 01:15:30,022 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 01:20:00,016 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 01:20:30,023 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 01:20:30,023 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 01:24:00,010 INFO job.CallBeanProcessorJob - Reading CallBean: 8
+2013-09-21 01:24:00,034 INFO job.CallBeanProcessorJob - took: 24
+2013-09-21 01:24:00,034 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 01:24:00,056 INFO job.CallBeanProcessorJob - Writing in mongo took: 22
+2013-09-21 01:25:00,017 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 01:25:30,023 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 01:25:30,023 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 01:30:00,018 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 01:30:30,025 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 01:30:30,025 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 01:35:00,013 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 01:35:30,020 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 01:35:30,020 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 01:36:00,010 INFO job.CallBeanProcessorJob - Reading CallBean: 6
+2013-09-21 01:36:00,027 INFO job.CallBeanProcessorJob - took: 17
+2013-09-21 01:36:00,028 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 01:36:00,062 INFO job.CallBeanProcessorJob - Writing in mongo took: 35
+2013-09-21 01:40:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 01:40:30,019 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 01:40:30,020 INFO job.NewbieUnlockedProcessorJob - took: 30005
+2013-09-21 01:45:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 3
+2013-09-21 01:45:01,335 INFO job.NewbieUnlockedProcessorJob - SMS to: zw58dkPCvbBhcsiPPPWG+SWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge NEWBIE. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/9t24cn
+2013-09-21 01:45:02,173 INFO job.NewbieUnlockedProcessorJob - SMS to: jQ01Ynto4uAQaQbl+fYJAiWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge NEWBIE. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/3euwy3
+2013-09-21 01:45:03,388 INFO job.NewbieUnlockedProcessorJob - SMS to: fY8mz6CvExExBEVsbXfwJiWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge NEWBIE. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/48h1uo
+2013-09-21 01:45:33,394 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 01:45:33,394 INFO job.NewbieUnlockedProcessorJob - took: 33379
+2013-09-21 01:48:00,007 INFO job.CallBeanProcessorJob - Reading CallBean: 4
+2013-09-21 01:48:00,034 INFO job.CallBeanProcessorJob - took: 27
+2013-09-21 01:48:00,034 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 01:48:00,037 INFO job.CallBeanProcessorJob - Writing in mongo took: 3
+2013-09-21 01:50:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 01:50:30,022 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 01:50:30,022 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 01:55:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 01:55:30,021 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 01:55:30,022 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 02:00:00,008 INFO job.CallBeanProcessorJob - Reading CallBean: 0
+2013-09-21 02:00:00,009 INFO job.CallBeanProcessorJob - took: 0
+2013-09-21 02:00:00,009 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 02:00:00,009 INFO job.CallBeanProcessorJob - Writing in mongo took: 0
+2013-09-21 02:00:00,012 INFO job.SmsBeanProcessorJob - Reading SmsBean: 0
+2013-09-21 02:00:00,012 INFO job.SmsBeanProcessorJob - took: 0
+2013-09-21 02:00:00,012 INFO job.SmsBeanProcessorJob - Flush cache in mongo
+2013-09-21 02:00:00,012 INFO job.SmsBeanProcessorJob - Writing in mongo took: 0
+2013-09-21 02:00:00,018 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 02:00:30,025 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 02:00:30,025 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 02:05:00,014 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 02:05:30,020 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 02:05:30,020 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 02:10:00,016 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 02:10:30,023 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 02:10:30,023 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 02:12:00,006 INFO job.CallBeanProcessorJob - Reading CallBean: 3
+2013-09-21 02:12:00,016 INFO job.CallBeanProcessorJob - took: 9
+2013-09-21 02:12:00,016 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 02:12:00,031 INFO job.CallBeanProcessorJob - Writing in mongo took: 15
+2013-09-21 02:15:00,017 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 02:15:30,023 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 02:15:30,024 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 02:20:00,013 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 02:20:30,020 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 02:20:30,020 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 02:24:00,010 INFO job.CallBeanProcessorJob - Reading CallBean: 8
+2013-09-21 02:24:00,044 INFO job.CallBeanProcessorJob - took: 34
+2013-09-21 02:24:00,044 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 02:24:00,084 INFO job.CallBeanProcessorJob - Writing in mongo took: 40
+2013-09-21 02:25:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 02:25:30,020 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 02:25:30,020 INFO job.NewbieUnlockedProcessorJob - took: 30005
+2013-09-21 02:30:00,018 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 02:30:30,023 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 02:30:30,024 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 02:35:00,017 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 02:35:30,023 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 02:35:30,023 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 02:36:00,011 INFO job.CallBeanProcessorJob - Reading CallBean: 6
+2013-09-21 02:36:00,026 INFO job.CallBeanProcessorJob - took: 15
+2013-09-21 02:36:00,026 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 02:36:00,042 INFO job.CallBeanProcessorJob - Writing in mongo took: 16
+2013-09-21 02:40:00,050 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 02:40:30,057 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 02:40:30,057 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 02:45:00,017 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 02:45:30,023 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 02:45:30,023 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 02:48:00,010 INFO job.CallBeanProcessorJob - Reading CallBean: 9
+2013-09-21 02:48:00,060 INFO job.CallBeanProcessorJob - took: 50
+2013-09-21 02:48:00,060 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 02:48:00,099 INFO job.CallBeanProcessorJob - Writing in mongo took: 38
+2013-09-21 02:50:00,014 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 02:50:30,019 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 02:50:30,020 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 02:55:00,016 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 02:55:30,022 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 02:55:30,022 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 03:00:00,014 INFO job.CallBeanProcessorJob - Reading CallBean: 0
+2013-09-21 03:00:00,014 INFO job.CallBeanProcessorJob - took: 0
+2013-09-21 03:00:00,014 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 03:00:00,015 INFO job.CallBeanProcessorJob - Writing in mongo took: 0
+2013-09-21 03:00:00,016 INFO job.SmsBeanProcessorJob - Reading SmsBean: 0
+2013-09-21 03:00:00,016 INFO job.SmsBeanProcessorJob - took: 0
+2013-09-21 03:00:00,016 INFO job.SmsBeanProcessorJob - Flush cache in mongo
+2013-09-21 03:00:00,016 INFO job.SmsBeanProcessorJob - Writing in mongo took: 0
+2013-09-21 03:00:00,018 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 03:00:30,025 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 03:00:30,025 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 03:05:00,016 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 03:05:30,023 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 03:05:30,023 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 03:10:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 03:10:30,022 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 03:10:30,022 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 03:12:00,010 INFO job.CallBeanProcessorJob - Reading CallBean: 7
+2013-09-21 03:12:00,034 INFO job.CallBeanProcessorJob - took: 24
+2013-09-21 03:12:00,034 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 03:12:00,064 INFO job.CallBeanProcessorJob - Writing in mongo took: 30
+2013-09-21 03:15:00,018 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 03:15:30,024 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 03:15:30,024 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 03:20:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 03:20:30,023 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 03:20:30,023 INFO job.NewbieUnlockedProcessorJob - took: 30008
+2013-09-21 03:24:00,009 INFO job.CallBeanProcessorJob - Reading CallBean: 6
+2013-09-21 03:24:03,230 INFO job.CallBeanProcessorJob - took: 3221
+2013-09-21 03:24:03,230 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 03:24:03,255 INFO job.CallBeanProcessorJob - Writing in mongo took: 25
+2013-09-21 03:25:00,016 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 03:25:30,023 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 03:25:30,023 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 03:30:00,014 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 03:30:30,020 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 03:30:30,020 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 03:35:00,017 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 03:35:30,023 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 03:35:30,023 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 03:36:00,009 INFO job.CallBeanProcessorJob - Reading CallBean: 2
+2013-09-21 03:36:00,016 INFO job.CallBeanProcessorJob - took: 7
+2013-09-21 03:36:00,016 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 03:36:00,018 INFO job.CallBeanProcessorJob - Writing in mongo took: 2
+2013-09-21 03:40:00,019 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 03:40:30,025 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 03:40:30,026 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 03:45:00,014 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 2
+2013-09-21 03:45:17,533 INFO job.NewbieUnlockedProcessorJob - SMS to: V+VUizcWKNertSdzg9dCMyWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge NEWBIE. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/jhv931
+2013-09-21 03:45:18,901 INFO job.NewbieUnlockedProcessorJob - SMS to: TbEi/mMt9/mM4umUmY6PIiWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge NEWBIE. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/gyhgii
+2013-09-21 03:45:48,907 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 03:45:48,907 INFO job.NewbieUnlockedProcessorJob - took: 48893
+2013-09-21 03:48:00,007 INFO job.CallBeanProcessorJob - Reading CallBean: 1
+2013-09-21 03:48:00,009 INFO job.CallBeanProcessorJob - took: 2
+2013-09-21 03:48:00,009 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 03:48:00,012 INFO job.CallBeanProcessorJob - Writing in mongo took: 3
+2013-09-21 03:50:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 03:50:30,021 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 03:50:30,021 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 03:55:00,016 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 03:55:30,023 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 03:55:30,023 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 04:00:00,013 INFO job.CallBeanProcessorJob - Reading CallBean: 0
+2013-09-21 04:00:00,013 INFO job.CallBeanProcessorJob - took: 0
+2013-09-21 04:00:00,013 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 04:00:00,014 INFO job.CallBeanProcessorJob - Writing in mongo took: 1
+2013-09-21 04:00:00,014 INFO job.SmsBeanProcessorJob - Reading SmsBean: 0
+2013-09-21 04:00:00,014 INFO job.SmsBeanProcessorJob - took: 0
+2013-09-21 04:00:00,014 INFO job.SmsBeanProcessorJob - Flush cache in mongo
+2013-09-21 04:00:00,014 INFO job.SmsBeanProcessorJob - Writing in mongo took: 0
+2013-09-21 04:00:00,023 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 04:00:30,029 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 04:00:30,030 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 04:05:00,016 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 04:05:30,022 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 04:05:30,022 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 04:10:00,016 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 04:10:30,028 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 04:10:30,028 INFO job.NewbieUnlockedProcessorJob - took: 30012
+2013-09-21 04:12:00,008 INFO job.CallBeanProcessorJob - Reading CallBean: 1
+2013-09-21 04:12:00,010 INFO job.CallBeanProcessorJob - took: 2
+2013-09-21 04:12:00,010 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 04:12:00,011 INFO job.CallBeanProcessorJob - Writing in mongo took: 1
+2013-09-21 04:15:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 04:15:30,021 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 04:15:30,022 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 04:20:00,016 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 04:20:30,021 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 04:20:30,022 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 04:24:00,007 INFO job.CallBeanProcessorJob - Reading CallBean: 2
+2013-09-21 04:24:00,026 INFO job.CallBeanProcessorJob - took: 18
+2013-09-21 04:24:00,026 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 04:24:00,027 INFO job.CallBeanProcessorJob - Writing in mongo took: 1
+2013-09-21 04:25:00,017 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 04:25:30,022 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 04:25:30,022 INFO job.NewbieUnlockedProcessorJob - took: 30005
+2013-09-21 04:30:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 04:30:30,022 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 04:30:30,023 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 04:35:00,016 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 04:35:30,022 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 04:35:30,022 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 04:36:00,008 INFO job.CallBeanProcessorJob - Reading CallBean: 2
+2013-09-21 04:36:00,014 INFO job.CallBeanProcessorJob - took: 6
+2013-09-21 04:36:00,014 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 04:36:00,015 INFO job.CallBeanProcessorJob - Writing in mongo took: 1
+2013-09-21 04:40:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 04:40:30,021 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 04:40:30,021 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 04:45:00,014 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 04:45:30,020 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 04:45:30,021 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 04:48:00,009 INFO job.CallBeanProcessorJob - Reading CallBean: 7
+2013-09-21 04:48:00,051 INFO job.CallBeanProcessorJob - took: 41
+2013-09-21 04:48:00,051 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 04:48:00,080 INFO job.CallBeanProcessorJob - Writing in mongo took: 29
+2013-09-21 04:50:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 04:50:30,022 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 04:50:30,022 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 04:55:00,016 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 04:55:30,023 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 04:55:30,023 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 05:00:00,008 INFO job.CallBeanProcessorJob - Reading CallBean: 0
+2013-09-21 05:00:00,008 INFO job.CallBeanProcessorJob - took: 0
+2013-09-21 05:00:00,008 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 05:00:00,009 INFO job.CallBeanProcessorJob - Writing in mongo took: 0
+2013-09-21 05:00:00,012 INFO job.SmsBeanProcessorJob - Reading SmsBean: 0
+2013-09-21 05:00:00,012 INFO job.SmsBeanProcessorJob - took: 0
+2013-09-21 05:00:00,012 INFO job.SmsBeanProcessorJob - Flush cache in mongo
+2013-09-21 05:00:00,012 INFO job.SmsBeanProcessorJob - Writing in mongo took: 0
+2013-09-21 05:00:00,018 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 05:00:30,024 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 05:00:30,024 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 05:05:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 05:05:30,021 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 05:05:30,021 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 05:10:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 05:10:30,021 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 05:10:30,022 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 05:12:00,008 INFO job.CallBeanProcessorJob - Reading CallBean: 2
+2013-09-21 05:12:00,014 INFO job.CallBeanProcessorJob - took: 6
+2013-09-21 05:12:00,014 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 05:12:00,015 INFO job.CallBeanProcessorJob - Writing in mongo took: 1
+2013-09-21 05:15:00,016 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 05:15:30,023 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 05:15:30,023 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 05:20:00,016 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 05:20:30,022 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 05:20:30,022 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 05:24:00,009 INFO job.CallBeanProcessorJob - Reading CallBean: 4
+2013-09-21 05:24:00,025 INFO job.CallBeanProcessorJob - took: 16
+2013-09-21 05:24:00,025 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 05:24:00,029 INFO job.CallBeanProcessorJob - Writing in mongo took: 4
+2013-09-21 05:25:00,016 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 05:25:30,023 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 05:25:30,023 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 05:30:00,017 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 05:30:30,023 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 05:30:30,024 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 05:35:00,014 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 05:35:30,022 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 05:35:30,023 INFO job.NewbieUnlockedProcessorJob - took: 30009
+2013-09-21 05:36:00,006 INFO job.CallBeanProcessorJob - Reading CallBean: 1
+2013-09-21 05:36:00,009 INFO job.CallBeanProcessorJob - took: 2
+2013-09-21 05:36:00,009 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 05:36:00,010 INFO job.CallBeanProcessorJob - Writing in mongo took: 1
+2013-09-21 05:40:00,023 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 05:40:30,029 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 05:40:30,030 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 05:45:00,016 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 05:45:30,022 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 05:45:30,022 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 05:48:00,008 INFO job.CallBeanProcessorJob - Reading CallBean: 1
+2013-09-21 05:48:00,022 INFO job.CallBeanProcessorJob - took: 14
+2013-09-21 05:48:00,022 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 05:48:00,023 INFO job.CallBeanProcessorJob - Writing in mongo took: 1
+2013-09-21 05:50:00,016 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 05:50:30,022 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 05:50:30,022 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 05:55:00,014 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 05:55:30,021 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 05:55:30,022 INFO job.NewbieUnlockedProcessorJob - took: 30008
+2013-09-21 06:00:00,008 INFO job.CallBeanProcessorJob - Reading CallBean: 0
+2013-09-21 06:00:00,008 INFO job.CallBeanProcessorJob - took: 0
+2013-09-21 06:00:00,008 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 06:00:00,008 INFO job.CallBeanProcessorJob - Writing in mongo took: 0
+2013-09-21 06:00:00,010 INFO job.SmsBeanProcessorJob - Reading SmsBean: 0
+2013-09-21 06:00:00,010 INFO job.SmsBeanProcessorJob - took: 0
+2013-09-21 06:00:00,010 INFO job.SmsBeanProcessorJob - Flush cache in mongo
+2013-09-21 06:00:00,010 INFO job.SmsBeanProcessorJob - Writing in mongo took: 0
+2013-09-21 06:00:00,016 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 06:00:30,023 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 06:00:30,023 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 06:05:00,016 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 06:05:30,023 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 06:05:30,023 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 06:10:00,016 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 06:10:30,022 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 06:10:30,022 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 06:12:00,007 INFO job.CallBeanProcessorJob - Reading CallBean: 2
+2013-09-21 06:12:00,017 INFO job.CallBeanProcessorJob - took: 10
+2013-09-21 06:12:00,017 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 06:12:00,021 INFO job.CallBeanProcessorJob - Writing in mongo took: 4
+2013-09-21 06:15:00,020 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 06:15:30,027 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 06:15:30,027 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 06:20:00,014 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 06:20:30,022 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 06:20:30,022 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 06:24:00,009 INFO job.CallBeanProcessorJob - Reading CallBean: 3
+2013-09-21 06:24:00,022 INFO job.CallBeanProcessorJob - took: 13
+2013-09-21 06:24:00,022 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 06:24:00,025 INFO job.CallBeanProcessorJob - Writing in mongo took: 3
+2013-09-21 06:25:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 06:25:30,021 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 06:25:30,021 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 06:30:00,014 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 06:30:30,020 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 06:30:30,021 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 06:35:00,018 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 06:35:30,023 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 06:35:30,023 INFO job.NewbieUnlockedProcessorJob - took: 30005
+2013-09-21 06:36:00,008 INFO job.CallBeanProcessorJob - Reading CallBean: 4
+2013-09-21 06:36:03,536 INFO job.CallBeanProcessorJob - took: 3527
+2013-09-21 06:36:03,537 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 06:36:03,547 INFO job.CallBeanProcessorJob - Writing in mongo took: 4
+2013-09-21 06:40:00,014 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 06:40:30,021 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 06:40:30,021 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 06:45:00,014 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 06:45:30,019 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 06:45:30,020 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 06:48:00,007 INFO job.CallBeanProcessorJob - Reading CallBean: 1
+2013-09-21 06:48:00,010 INFO job.CallBeanProcessorJob - took: 2
+2013-09-21 06:48:00,010 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 06:48:00,011 INFO job.CallBeanProcessorJob - Writing in mongo took: 1
+2013-09-21 06:50:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 06:50:30,021 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 06:50:30,022 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 06:55:00,014 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 06:55:30,020 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 06:55:30,020 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 07:00:00,010 INFO job.CallBeanProcessorJob - Reading CallBean: 0
+2013-09-21 07:00:00,010 INFO job.CallBeanProcessorJob - took: 0
+2013-09-21 07:00:00,010 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 07:00:00,010 INFO job.CallBeanProcessorJob - Writing in mongo took: 0
+2013-09-21 07:00:00,014 INFO job.SmsBeanProcessorJob - Reading SmsBean: 0
+2013-09-21 07:00:00,014 INFO job.SmsBeanProcessorJob - took: 0
+2013-09-21 07:00:00,014 INFO job.SmsBeanProcessorJob - Flush cache in mongo
+2013-09-21 07:00:00,015 INFO job.SmsBeanProcessorJob - Writing in mongo took: 1
+2013-09-21 07:00:00,018 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 07:00:30,023 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 07:00:30,024 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 07:05:00,018 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 07:05:30,025 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 07:05:30,025 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 07:10:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 07:10:30,022 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 07:10:30,022 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 07:12:00,008 INFO job.CallBeanProcessorJob - Reading CallBean: 1
+2013-09-21 07:12:00,012 INFO job.CallBeanProcessorJob - took: 4
+2013-09-21 07:12:00,013 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 07:12:00,021 INFO job.CallBeanProcessorJob - Writing in mongo took: 9
+2013-09-21 07:15:00,016 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 07:15:30,021 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 07:15:30,022 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 07:20:00,019 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 07:20:30,025 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 07:20:30,025 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 07:24:00,009 INFO job.CallBeanProcessorJob - Reading CallBean: 1
+2013-09-21 07:24:00,018 INFO job.CallBeanProcessorJob - took: 9
+2013-09-21 07:24:00,018 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 07:24:00,019 INFO job.CallBeanProcessorJob - Writing in mongo took: 1
+2013-09-21 07:25:00,019 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 07:25:30,026 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 07:25:30,026 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 07:30:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 07:30:30,020 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 07:30:30,021 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 07:35:00,016 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 07:35:30,021 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 07:35:30,021 INFO job.NewbieUnlockedProcessorJob - took: 30005
+2013-09-21 07:36:00,009 INFO job.CallBeanProcessorJob - Reading CallBean: 3
+2013-09-21 07:36:00,020 INFO job.CallBeanProcessorJob - took: 11
+2013-09-21 07:36:00,020 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 07:36:00,022 INFO job.CallBeanProcessorJob - Writing in mongo took: 2
+2013-09-21 07:40:00,018 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 07:40:30,025 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 07:40:30,025 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 07:45:00,014 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 07:45:30,021 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 07:45:30,022 INFO job.NewbieUnlockedProcessorJob - took: 30008
+2013-09-21 07:48:00,008 INFO job.CallBeanProcessorJob - Reading CallBean: 1
+2013-09-21 07:48:00,024 INFO job.CallBeanProcessorJob - took: 16
+2013-09-21 07:48:00,024 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 07:48:00,025 INFO job.CallBeanProcessorJob - Writing in mongo took: 1
+2013-09-21 07:50:00,014 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 07:50:30,021 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 07:50:30,021 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 07:55:00,014 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 07:55:30,020 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 07:55:30,020 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 08:00:00,009 INFO job.CallBeanProcessorJob - Reading CallBean: 0
+2013-09-21 08:00:00,009 INFO job.CallBeanProcessorJob - took: 0
+2013-09-21 08:00:00,009 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 08:00:00,010 INFO job.CallBeanProcessorJob - Writing in mongo took: 1
+2013-09-21 08:00:00,021 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 08:00:01,545 INFO job.SmsBeanProcessorJob - Reading SmsBean: 6106
+2013-09-21 08:00:04,833 INFO job.SmsBeanProcessorJob - took: 3287
+2013-09-21 08:00:04,833 INFO job.SmsBeanProcessorJob - Flush cache in mongo
+2013-09-21 08:00:04,990 INFO job.SmsBeanProcessorJob - Writing in mongo took: 157
+2013-09-21 08:00:30,027 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 08:00:30,028 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 08:05:00,018 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 08:05:30,026 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 08:05:30,027 INFO job.NewbieUnlockedProcessorJob - took: 30009
+2013-09-21 08:10:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 08:10:30,021 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 08:10:30,021 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 08:12:00,007 INFO job.CallBeanProcessorJob - Reading CallBean: 2
+2013-09-21 08:12:00,017 INFO job.CallBeanProcessorJob - took: 10
+2013-09-21 08:12:00,017 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 08:12:00,024 INFO job.CallBeanProcessorJob - Writing in mongo took: 7
+2013-09-21 08:15:00,018 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 08:15:30,023 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 08:15:30,024 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 08:20:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 08:20:30,021 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 08:20:30,021 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 08:24:00,008 INFO job.CallBeanProcessorJob - Reading CallBean: 6
+2013-09-21 08:24:00,025 INFO job.CallBeanProcessorJob - took: 17
+2013-09-21 08:24:00,025 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 08:24:00,053 INFO job.CallBeanProcessorJob - Writing in mongo took: 28
+2013-09-21 08:25:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 08:25:30,021 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 08:25:30,021 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 08:30:00,014 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 08:30:30,022 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 08:30:30,022 INFO job.NewbieUnlockedProcessorJob - took: 30008
+2013-09-21 08:35:00,018 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 08:35:30,024 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 08:35:30,024 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 08:36:00,008 INFO job.CallBeanProcessorJob - Reading CallBean: 5
+2013-09-21 08:36:00,025 INFO job.CallBeanProcessorJob - took: 17
+2013-09-21 08:36:00,025 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 08:36:00,059 INFO job.CallBeanProcessorJob - Writing in mongo took: 25
+2013-09-21 08:40:00,020 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 08:40:30,027 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 08:40:30,027 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 08:45:00,020 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 08:45:30,026 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 08:45:30,027 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 08:48:00,009 INFO job.CallBeanProcessorJob - Reading CallBean: 7
+2013-09-21 08:48:00,025 INFO job.CallBeanProcessorJob - took: 16
+2013-09-21 08:48:00,025 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 08:48:00,053 INFO job.CallBeanProcessorJob - Writing in mongo took: 28
+2013-09-21 08:50:00,013 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 08:50:30,020 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 08:50:30,021 INFO job.NewbieUnlockedProcessorJob - took: 30008
+2013-09-21 08:55:00,014 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 08:55:30,021 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 08:55:30,021 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 09:00:00,007 INFO job.CallBeanProcessorJob - Reading CallBean: 0
+2013-09-21 09:00:00,008 INFO job.CallBeanProcessorJob - took: 1
+2013-09-21 09:00:00,008 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 09:00:00,008 INFO job.CallBeanProcessorJob - Writing in mongo took: 0
+2013-09-21 09:00:00,011 INFO job.SmsBeanProcessorJob - Reading SmsBean: 0
+2013-09-21 09:00:00,011 INFO job.SmsBeanProcessorJob - took: 0
+2013-09-21 09:00:00,011 INFO job.SmsBeanProcessorJob - Flush cache in mongo
+2013-09-21 09:00:00,011 INFO job.SmsBeanProcessorJob - Writing in mongo took: 0
+2013-09-21 09:00:00,017 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 09:00:30,024 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 09:00:30,024 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 09:05:00,018 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 09:05:30,024 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 09:05:30,025 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 09:10:00,017 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 09:10:30,025 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 09:10:30,025 INFO job.NewbieUnlockedProcessorJob - took: 30008
+2013-09-21 09:12:00,009 INFO job.CallBeanProcessorJob - Reading CallBean: 12
+2013-09-21 09:12:00,051 INFO job.CallBeanProcessorJob - took: 42
+2013-09-21 09:12:00,052 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 09:12:00,085 INFO job.CallBeanProcessorJob - Writing in mongo took: 34
+2013-09-21 09:15:00,012 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 09:15:30,020 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 09:15:30,020 INFO job.NewbieUnlockedProcessorJob - took: 30008
+2013-09-21 09:20:00,016 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 09:20:30,022 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 09:20:30,023 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 09:24:00,008 INFO job.CallBeanProcessorJob - Reading CallBean: 8
+2013-09-21 09:24:00,041 INFO job.CallBeanProcessorJob - took: 33
+2013-09-21 09:24:00,041 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 09:24:00,186 INFO job.CallBeanProcessorJob - Writing in mongo took: 145
+2013-09-21 09:25:00,013 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 09:25:30,019 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 09:25:30,019 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 09:30:00,012 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 09:30:30,018 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 09:30:30,018 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 09:35:00,013 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 09:35:30,020 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 09:35:30,021 INFO job.NewbieUnlockedProcessorJob - took: 30008
+2013-09-21 09:36:00,008 INFO job.CallBeanProcessorJob - Reading CallBean: 11
+2013-09-21 09:36:00,032 INFO job.CallBeanProcessorJob - took: 24
+2013-09-21 09:36:00,032 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 09:36:00,106 INFO job.CallBeanProcessorJob - Writing in mongo took: 74
+2013-09-21 09:40:00,017 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 09:40:30,023 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 09:40:30,023 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 09:45:00,013 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 09:45:30,019 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 09:45:30,019 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 09:48:00,008 INFO job.CallBeanProcessorJob - Reading CallBean: 6
+2013-09-21 09:48:00,052 INFO job.CallBeanProcessorJob - took: 43
+2013-09-21 09:48:00,052 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 09:48:00,092 INFO job.CallBeanProcessorJob - Writing in mongo took: 40
+2013-09-21 09:50:00,016 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 09:50:30,023 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 09:50:30,023 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 09:55:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 09:55:30,022 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 09:55:30,023 INFO job.NewbieUnlockedProcessorJob - took: 30008
+2013-09-21 10:00:00,009 INFO job.CallBeanProcessorJob - Reading CallBean: 0
+2013-09-21 10:00:00,009 INFO job.CallBeanProcessorJob - took: 0
+2013-09-21 10:00:00,009 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 10:00:00,009 INFO job.CallBeanProcessorJob - Writing in mongo took: 0
+2013-09-21 10:00:00,014 INFO job.SmsBeanProcessorJob - Reading SmsBean: 0
+2013-09-21 10:00:00,014 INFO job.SmsBeanProcessorJob - took: 0
+2013-09-21 10:00:00,014 INFO job.SmsBeanProcessorJob - Flush cache in mongo
+2013-09-21 10:00:00,014 INFO job.SmsBeanProcessorJob - Writing in mongo took: 0
+2013-09-21 10:00:00,017 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 10:00:30,024 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 10:00:30,024 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 10:05:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 10:05:30,020 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 10:05:30,020 INFO job.NewbieUnlockedProcessorJob - took: 30005
+2013-09-21 10:10:00,019 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 10:10:30,025 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 10:10:30,025 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 10:12:00,012 INFO job.CallBeanProcessorJob - Reading CallBean: 14
+2013-09-21 10:12:03,884 INFO job.CallBeanProcessorJob - took: 3872
+2013-09-21 10:12:03,884 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 10:12:03,922 INFO job.CallBeanProcessorJob - Writing in mongo took: 38
+2013-09-21 10:15:00,017 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 10:15:30,022 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 10:15:30,023 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 10:20:00,014 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 10:20:30,020 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 10:20:30,021 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 10:24:00,011 INFO job.CallBeanProcessorJob - Reading CallBean: 15
+2013-09-21 10:24:00,059 INFO job.CallBeanProcessorJob - took: 48
+2013-09-21 10:24:00,059 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 10:24:00,114 INFO job.CallBeanProcessorJob - Writing in mongo took: 55
+2013-09-21 10:25:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 10:25:30,021 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 10:25:30,021 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 10:30:00,013 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 10:30:00,037 INFO job.UnlockedAchievementProcessorJob - Reading UnlockedAchievementBean: 271
+2013-09-21 10:30:00,037 INFO job.UnlockedAchievementProcessorJob - Process: ufFSNiN8CghUoXyo1u5AHyWNjoQU7dDZmlcMTJ4WeJ8=,be2094dfeee1420313f952c19b64175d
+2013-09-21 10:30:00,038 INFO job.UnlockedAchievementProcessorJob - Process: NhCE7UaLpjU/ZCHcHl9CuiWNjoQU7dDZmlcMTJ4WeJ8=,91a314c5184a347d9447d35f025f4283
+2013-09-21 10:30:00,040 INFO job.UnlockedAchievementProcessorJob - Process: NhCE7UaLpjU/ZCHcHl9CuiWNjoQU7dDZmlcMTJ4WeJ8=,ef810bed96dba1e9fda46daedd06c062
+2013-09-21 10:30:00,040 INFO job.UnlockedAchievementProcessorJob - Process: USaPpGH5sVo1wXhyRWm5sSWNjoQU7dDZmlcMTJ4WeJ8=,be2094dfeee1420313f952c19b64175d
+2013-09-21 10:30:00,041 INFO job.UnlockedAchievementProcessorJob - Process: USaPpGH5sVo1wXhyRWm5sSWNjoQU7dDZmlcMTJ4WeJ8=,a316425a97fbb6ce14460c637da1f251
+2013-09-21 10:30:00,042 INFO job.UnlockedAchievementProcessorJob - Process: USaPpGH5sVo1wXhyRWm5sSWNjoQU7dDZmlcMTJ4WeJ8=,cc4787d2777904f8ed0f63f13d923af5
+2013-09-21 10:30:00,043 INFO job.UnlockedAchievementProcessorJob - Process: 8qLN7rsg+PNj4DbFd7tSLyWNjoQU7dDZmlcMTJ4WeJ8=,a316425a97fbb6ce14460c637da1f251
+2013-09-21 10:30:00,044 INFO job.UnlockedAchievementProcessorJob - Process: 8qLN7rsg+PNj4DbFd7tSLyWNjoQU7dDZmlcMTJ4WeJ8=,cc4787d2777904f8ed0f63f13d923af5
+2013-09-21 10:30:00,045 INFO job.UnlockedAchievementProcessorJob - Process: 8qLN7rsg+PNj4DbFd7tSLyWNjoQU7dDZmlcMTJ4WeJ8=,33d3f8c25285463630920854e65d4dd4
+2013-09-21 10:30:00,045 INFO job.UnlockedAchievementProcessorJob - Process: 8qLN7rsg+PNj4DbFd7tSLyWNjoQU7dDZmlcMTJ4WeJ8=,a316425a97fbb6ce14460c637da1f251
+2013-09-21 10:30:00,046 INFO job.UnlockedAchievementProcessorJob - Process: 8qLN7rsg+PNj4DbFd7tSLyWNjoQU7dDZmlcMTJ4WeJ8=,cc4787d2777904f8ed0f63f13d923af5
+2013-09-21 10:30:00,046 INFO job.UnlockedAchievementProcessorJob - Process: 8qLN7rsg+PNj4DbFd7tSLyWNjoQU7dDZmlcMTJ4WeJ8=,33d3f8c25285463630920854e65d4dd4
+2013-09-21 10:30:00,046 INFO job.UnlockedAchievementProcessorJob - Process: 8talc8p10U0aIqTg0tGi1CWNjoQU7dDZmlcMTJ4WeJ8=,a316425a97fbb6ce14460c637da1f251
+2013-09-21 10:30:00,046 INFO job.UnlockedAchievementProcessorJob - Process: 8talc8p10U0aIqTg0tGi1CWNjoQU7dDZmlcMTJ4WeJ8=,cc4787d2777904f8ed0f63f13d923af5
+2013-09-21 10:30:00,046 INFO job.UnlockedAchievementProcessorJob - Process: 2OZWVHOvaEVLIUIyClpGBiWNjoQU7dDZmlcMTJ4WeJ8=,5c6c0d80b80a82cb227b139089fff403
+2013-09-21 10:30:00,046 INFO job.UnlockedAchievementProcessorJob - Process: 2OZWVHOvaEVLIUIyClpGBiWNjoQU7dDZmlcMTJ4WeJ8=,a316425a97fbb6ce14460c637da1f251
+2013-09-21 10:30:00,046 INFO job.UnlockedAchievementProcessorJob - Process: 8talc8p10U0aIqTg0tGi1CWNjoQU7dDZmlcMTJ4WeJ8=,a316425a97fbb6ce14460c637da1f251
+2013-09-21 10:30:00,046 INFO job.UnlockedAchievementProcessorJob - Process: 8talc8p10U0aIqTg0tGi1CWNjoQU7dDZmlcMTJ4WeJ8=,cc4787d2777904f8ed0f63f13d923af5
+2013-09-21 10:30:00,046 INFO job.UnlockedAchievementProcessorJob - Process: Ch2b/BQNEwZ86N8F0INYzSWNjoQU7dDZmlcMTJ4WeJ8=,a316425a97fbb6ce14460c637da1f251
+2013-09-21 10:30:00,046 INFO job.UnlockedAchievementProcessorJob - Process: Ch2b/BQNEwZ86N8F0INYzSWNjoQU7dDZmlcMTJ4WeJ8=,cc4787d2777904f8ed0f63f13d923af5
+2013-09-21 10:30:00,047 INFO job.UnlockedAchievementProcessorJob - Process: 8qLN7rsg+PNj4DbFd7tSLyWNjoQU7dDZmlcMTJ4WeJ8=,a316425a97fbb6ce14460c637da1f251
+2013-09-21 10:30:00,047 INFO job.UnlockedAchievementProcessorJob - Process: 8qLN7rsg+PNj4DbFd7tSLyWNjoQU7dDZmlcMTJ4WeJ8=,cc4787d2777904f8ed0f63f13d923af5
+2013-09-21 10:30:00,047 INFO job.UnlockedAchievementProcessorJob - Process: 8qLN7rsg+PNj4DbFd7tSLyWNjoQU7dDZmlcMTJ4WeJ8=,33d3f8c25285463630920854e65d4dd4
+2013-09-21 10:30:00,047 INFO job.UnlockedAchievementProcessorJob - Process: oSgl+hZwsdKBKwuvPKfwKiWNjoQU7dDZmlcMTJ4WeJ8=,5c6c0d80b80a82cb227b139089fff403
+2013-09-21 10:30:00,047 INFO job.UnlockedAchievementProcessorJob - Process: bzPK1nMVa7KauInCWB/U9SWNjoQU7dDZmlcMTJ4WeJ8=,5c6c0d80b80a82cb227b139089fff403
+2013-09-21 10:30:00,047 INFO job.UnlockedAchievementProcessorJob - Process: MagnFoFck5JWGztI6Q3M/yWNjoQU7dDZmlcMTJ4WeJ8=,ae143e46f57b71f4b2ab5a35be6a1fbb
+2013-09-21 10:30:00,047 INFO job.UnlockedAchievementProcessorJob - Process: MagnFoFck5JWGztI6Q3M/yWNjoQU7dDZmlcMTJ4WeJ8=,c82545918170b4957ef7297d1f3a30e6
+2013-09-21 10:30:00,047 INFO job.UnlockedAchievementProcessorJob - Process: LQ1imIA6/o6UUTBHdf49tyWNjoQU7dDZmlcMTJ4WeJ8=,c82545918170b4957ef7297d1f3a30e6
+2013-09-21 10:30:00,047 INFO job.UnlockedAchievementProcessorJob - Process: L+PeuPWWmWknIoRlQpH0YyWNjoQU7dDZmlcMTJ4WeJ8=,c82545918170b4957ef7297d1f3a30e6
+2013-09-21 10:30:00,047 INFO job.UnlockedAchievementProcessorJob - Process: JyzL/HAoMy45SBmZCIVUqiWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,048 INFO job.UnlockedAchievementProcessorJob - Process: Jq4Xh8r+EEf9mX5D0KkJlCWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,048 INFO job.UnlockedAchievementProcessorJob - Process: J5aHu22z9uLu5ASx87V8+SWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,048 INFO job.UnlockedAchievementProcessorJob - Process: G3ATE7exvDl8que3+8nCNiWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,048 INFO job.UnlockedAchievementProcessorJob - Process: G3ATE7exvDl8que3+8nCNiWNjoQU7dDZmlcMTJ4WeJ8=,c82545918170b4957ef7297d1f3a30e6
+2013-09-21 10:30:00,048 INFO job.UnlockedAchievementProcessorJob - Process: Fb+4i+cNvirfk9pf1A8jJiWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,048 INFO job.UnlockedAchievementProcessorJob - Process: 7N26ow06m7/t91Cx6h4cUSWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,048 INFO job.UnlockedAchievementProcessorJob - Process: 2qT7YfVwkz9cc2e018ZPCCWNjoQU7dDZmlcMTJ4WeJ8=,cc4787d2777904f8ed0f63f13d923af5
+2013-09-21 10:30:00,048 INFO job.UnlockedAchievementProcessorJob - Process: wTvAH0BeBlSiu+VrbRsOSyWNjoQU7dDZmlcMTJ4WeJ8=,5c6c0d80b80a82cb227b139089fff403
+2013-09-21 10:30:00,048 INFO job.UnlockedAchievementProcessorJob - Process: xTM8NV9WVEOEek68s0dRsiWNjoQU7dDZmlcMTJ4WeJ8=,a316425a97fbb6ce14460c637da1f251
+2013-09-21 10:30:00,048 INFO job.UnlockedAchievementProcessorJob - Process: xTM8NV9WVEOEek68s0dRsiWNjoQU7dDZmlcMTJ4WeJ8=,cc4787d2777904f8ed0f63f13d923af5
+2013-09-21 10:30:00,048 INFO job.UnlockedAchievementProcessorJob - Process: xTM8NV9WVEOEek68s0dRsiWNjoQU7dDZmlcMTJ4WeJ8=,33d3f8c25285463630920854e65d4dd4
+2013-09-21 10:30:00,049 INFO job.UnlockedAchievementProcessorJob - Process: Jq4Xh8r+EEf9mX5D0KkJlCWNjoQU7dDZmlcMTJ4WeJ8=,91a314c5184a347d9447d35f025f4283
+2013-09-21 10:30:00,049 INFO job.UnlockedAchievementProcessorJob - Process: RpkbDQL8bpuCnA/6Z1SsxSWNjoQU7dDZmlcMTJ4WeJ8=,a316425a97fbb6ce14460c637da1f251
+2013-09-21 10:30:00,049 INFO job.UnlockedAchievementProcessorJob - Process: RpkbDQL8bpuCnA/6Z1SsxSWNjoQU7dDZmlcMTJ4WeJ8=,cc4787d2777904f8ed0f63f13d923af5
+2013-09-21 10:30:00,049 INFO job.UnlockedAchievementProcessorJob - Process: RpkbDQL8bpuCnA/6Z1SsxSWNjoQU7dDZmlcMTJ4WeJ8=,a316425a97fbb6ce14460c637da1f251
+2013-09-21 10:30:00,049 INFO job.UnlockedAchievementProcessorJob - Process: RpkbDQL8bpuCnA/6Z1SsxSWNjoQU7dDZmlcMTJ4WeJ8=,cc4787d2777904f8ed0f63f13d923af5
+2013-09-21 10:30:00,049 INFO job.UnlockedAchievementProcessorJob - Process: FSz64fGqSaKtnjkiPK6VfyWNjoQU7dDZmlcMTJ4WeJ8=,cc4787d2777904f8ed0f63f13d923af5
+2013-09-21 10:30:00,049 INFO job.UnlockedAchievementProcessorJob - Process: wTvAH0BeBlSiu+VrbRsOSyWNjoQU7dDZmlcMTJ4WeJ8=,be2094dfeee1420313f952c19b64175d
+2013-09-21 10:30:00,049 INFO job.UnlockedAchievementProcessorJob - Process: wTvAH0BeBlSiu+VrbRsOSyWNjoQU7dDZmlcMTJ4WeJ8=,a316425a97fbb6ce14460c637da1f251
+2013-09-21 10:30:00,049 INFO job.UnlockedAchievementProcessorJob - Process: wTvAH0BeBlSiu+VrbRsOSyWNjoQU7dDZmlcMTJ4WeJ8=,cc4787d2777904f8ed0f63f13d923af5
+2013-09-21 10:30:00,049 INFO job.UnlockedAchievementProcessorJob - Process: wTvAH0BeBlSiu+VrbRsOSyWNjoQU7dDZmlcMTJ4WeJ8=,33d3f8c25285463630920854e65d4dd4
+2013-09-21 10:30:00,049 INFO job.UnlockedAchievementProcessorJob - Process: bWmd6U4TIygpON5Dy/M4CyWNjoQU7dDZmlcMTJ4WeJ8=,5c6c0d80b80a82cb227b139089fff403
+2013-09-21 10:30:00,049 INFO job.UnlockedAchievementProcessorJob - Process: bWmd6U4TIygpON5Dy/M4CyWNjoQU7dDZmlcMTJ4WeJ8=,be2094dfeee1420313f952c19b64175d
+2013-09-21 10:30:00,050 INFO job.UnlockedAchievementProcessorJob - Process: LgWCZVb5QRN9geyrbMc49iWNjoQU7dDZmlcMTJ4WeJ8=,91a314c5184a347d9447d35f025f4283
+2013-09-21 10:30:00,050 INFO job.UnlockedAchievementProcessorJob - Process: LgWCZVb5QRN9geyrbMc49iWNjoQU7dDZmlcMTJ4WeJ8=,a316425a97fbb6ce14460c637da1f251
+2013-09-21 10:30:00,050 INFO job.UnlockedAchievementProcessorJob - Process: ufFSNiN8CghUoXyo1u5AHyWNjoQU7dDZmlcMTJ4WeJ8=,5c6c0d80b80a82cb227b139089fff403
+2013-09-21 10:30:00,050 INFO job.UnlockedAchievementProcessorJob - Process: TBfe1PReFWM06dYwIxx9vCWNjoQU7dDZmlcMTJ4WeJ8=,5c6c0d80b80a82cb227b139089fff403
+2013-09-21 10:30:00,050 INFO job.UnlockedAchievementProcessorJob - Process: TBfe1PReFWM06dYwIxx9vCWNjoQU7dDZmlcMTJ4WeJ8=,be2094dfeee1420313f952c19b64175d
+2013-09-21 10:30:00,050 INFO job.UnlockedAchievementProcessorJob - Process: xTM8NV9WVEOEek68s0dRsiWNjoQU7dDZmlcMTJ4WeJ8=,a316425a97fbb6ce14460c637da1f251
+2013-09-21 10:30:00,050 INFO job.UnlockedAchievementProcessorJob - Process: qaMbvSdTD2PADhp9P81LjSWNjoQU7dDZmlcMTJ4WeJ8=,a316425a97fbb6ce14460c637da1f251
+2013-09-21 10:30:00,050 INFO job.UnlockedAchievementProcessorJob - Process: qaMbvSdTD2PADhp9P81LjSWNjoQU7dDZmlcMTJ4WeJ8=,cc4787d2777904f8ed0f63f13d923af5
+2013-09-21 10:30:00,050 INFO job.UnlockedAchievementProcessorJob - Process: LL2qVzydjXHBNt2ph14G9yWNjoQU7dDZmlcMTJ4WeJ8=,a316425a97fbb6ce14460c637da1f251
+2013-09-21 10:30:00,050 INFO job.UnlockedAchievementProcessorJob - Process: dWBD3PunRkolW6fXsHPcgyWNjoQU7dDZmlcMTJ4WeJ8=,a316425a97fbb6ce14460c637da1f251
+2013-09-21 10:30:00,050 INFO job.UnlockedAchievementProcessorJob - Process: dWBD3PunRkolW6fXsHPcgyWNjoQU7dDZmlcMTJ4WeJ8=,cc4787d2777904f8ed0f63f13d923af5
+2013-09-21 10:30:00,051 INFO job.UnlockedAchievementProcessorJob - Process: dWBD3PunRkolW6fXsHPcgyWNjoQU7dDZmlcMTJ4WeJ8=,33d3f8c25285463630920854e65d4dd4
+2013-09-21 10:30:00,051 INFO job.UnlockedAchievementProcessorJob - Process: dnEnwhpldeYirqkIKYqyTCWNjoQU7dDZmlcMTJ4WeJ8=,91a314c5184a347d9447d35f025f4283
+2013-09-21 10:30:00,051 INFO job.UnlockedAchievementProcessorJob - Process: sDVpc2WB6stBflUIiqSUZyWNjoQU7dDZmlcMTJ4WeJ8=,5c6c0d80b80a82cb227b139089fff403
+2013-09-21 10:30:00,051 INFO job.UnlockedAchievementProcessorJob - Process: sDVpc2WB6stBflUIiqSUZyWNjoQU7dDZmlcMTJ4WeJ8=,be2094dfeee1420313f952c19b64175d
+2013-09-21 10:30:00,051 INFO job.UnlockedAchievementProcessorJob - Process: YfxTnN9tfzYy5YupRKwXSyWNjoQU7dDZmlcMTJ4WeJ8=,5c6c0d80b80a82cb227b139089fff403
+2013-09-21 10:30:00,051 INFO job.UnlockedAchievementProcessorJob - Process: YfxTnN9tfzYy5YupRKwXSyWNjoQU7dDZmlcMTJ4WeJ8=,be2094dfeee1420313f952c19b64175d
+2013-09-21 10:30:00,051 INFO job.UnlockedAchievementProcessorJob - Process: USaPpGH5sVo1wXhyRWm5sSWNjoQU7dDZmlcMTJ4WeJ8=,91a314c5184a347d9447d35f025f4283
+2013-09-21 10:30:00,051 INFO job.UnlockedAchievementProcessorJob - Process: 8qLN7rsg+PNj4DbFd7tSLyWNjoQU7dDZmlcMTJ4WeJ8=,a316425a97fbb6ce14460c637da1f251
+2013-09-21 10:30:00,051 INFO job.UnlockedAchievementProcessorJob - Process: 8qLN7rsg+PNj4DbFd7tSLyWNjoQU7dDZmlcMTJ4WeJ8=,cc4787d2777904f8ed0f63f13d923af5
+2013-09-21 10:30:00,051 INFO job.UnlockedAchievementProcessorJob - Process: 8qLN7rsg+PNj4DbFd7tSLyWNjoQU7dDZmlcMTJ4WeJ8=,33d3f8c25285463630920854e65d4dd4
+2013-09-21 10:30:00,051 INFO job.UnlockedAchievementProcessorJob - Process: uwX2b4D4wQap56XfhAh5ySWNjoQU7dDZmlcMTJ4WeJ8=,91a314c5184a347d9447d35f025f4283
+2013-09-21 10:30:00,051 INFO job.UnlockedAchievementProcessorJob - Process: 8qLN7rsg+PNj4DbFd7tSLyWNjoQU7dDZmlcMTJ4WeJ8=,a316425a97fbb6ce14460c637da1f251
+2013-09-21 10:30:00,051 INFO job.UnlockedAchievementProcessorJob - Process: 8qLN7rsg+PNj4DbFd7tSLyWNjoQU7dDZmlcMTJ4WeJ8=,cc4787d2777904f8ed0f63f13d923af5
+2013-09-21 10:30:00,051 INFO job.UnlockedAchievementProcessorJob - Process: 8qLN7rsg+PNj4DbFd7tSLyWNjoQU7dDZmlcMTJ4WeJ8=,33d3f8c25285463630920854e65d4dd4
+2013-09-21 10:30:00,052 INFO job.UnlockedAchievementProcessorJob - Process: fkSWWWF5Urbo0mOer9iWrCWNjoQU7dDZmlcMTJ4WeJ8=,5c6c0d80b80a82cb227b139089fff403
+2013-09-21 10:30:00,052 INFO job.UnlockedAchievementProcessorJob - Process: 8qLN7rsg+PNj4DbFd7tSLyWNjoQU7dDZmlcMTJ4WeJ8=,a316425a97fbb6ce14460c637da1f251
+2013-09-21 10:30:00,052 INFO job.UnlockedAchievementProcessorJob - Process: 8qLN7rsg+PNj4DbFd7tSLyWNjoQU7dDZmlcMTJ4WeJ8=,cc4787d2777904f8ed0f63f13d923af5
+2013-09-21 10:30:00,052 INFO job.UnlockedAchievementProcessorJob - Process: 8qLN7rsg+PNj4DbFd7tSLyWNjoQU7dDZmlcMTJ4WeJ8=,33d3f8c25285463630920854e65d4dd4
+2013-09-21 10:30:00,052 INFO job.UnlockedAchievementProcessorJob - Process: Ch2b/BQNEwZ86N8F0INYzSWNjoQU7dDZmlcMTJ4WeJ8=,a316425a97fbb6ce14460c637da1f251
+2013-09-21 10:30:00,052 INFO job.UnlockedAchievementProcessorJob - Process: Ch2b/BQNEwZ86N8F0INYzSWNjoQU7dDZmlcMTJ4WeJ8=,cc4787d2777904f8ed0f63f13d923af5
+2013-09-21 10:30:00,052 INFO job.UnlockedAchievementProcessorJob - Process: 5ryO218Fx1D6ZQ0966MVKCWNjoQU7dDZmlcMTJ4WeJ8=,a316425a97fbb6ce14460c637da1f251
+2013-09-21 10:30:00,052 INFO job.UnlockedAchievementProcessorJob - Process: A7vojKPy5Beq6jNBGurPMSWNjoQU7dDZmlcMTJ4WeJ8=,5c6c0d80b80a82cb227b139089fff403
+2013-09-21 10:30:00,052 INFO job.UnlockedAchievementProcessorJob - Process: SeCfHEAwPas8OGRQXOaQlyWNjoQU7dDZmlcMTJ4WeJ8=,5c6c0d80b80a82cb227b139089fff403
+2013-09-21 10:30:00,052 INFO job.UnlockedAchievementProcessorJob - Process: 7N26ow06m7/t91Cx6h4cUSWNjoQU7dDZmlcMTJ4WeJ8=,a316425a97fbb6ce14460c637da1f251
+2013-09-21 10:30:00,052 INFO job.UnlockedAchievementProcessorJob - Process: USaPpGH5sVo1wXhyRWm5sSWNjoQU7dDZmlcMTJ4WeJ8=,a316425a97fbb6ce14460c637da1f251
+2013-09-21 10:30:00,052 INFO job.UnlockedAchievementProcessorJob - Process: USaPpGH5sVo1wXhyRWm5sSWNjoQU7dDZmlcMTJ4WeJ8=,cc4787d2777904f8ed0f63f13d923af5
+2013-09-21 10:30:00,052 INFO job.UnlockedAchievementProcessorJob - Process: OCMEMOsuJ5RXkYAiY+nDnCWNjoQU7dDZmlcMTJ4WeJ8=,1b5360c6857bcfb847357bf347288f5a
+2013-09-21 10:30:00,052 INFO job.UnlockedAchievementProcessorJob - Process: fTVNxgGPZNB57qABgPOhUCWNjoQU7dDZmlcMTJ4WeJ8=,a316425a97fbb6ce14460c637da1f251
+2013-09-21 10:30:00,052 INFO job.UnlockedAchievementProcessorJob - Process: Jq4Xh8r+EEf9mX5D0KkJlCWNjoQU7dDZmlcMTJ4WeJ8=,a316425a97fbb6ce14460c637da1f251
+2013-09-21 10:30:00,053 INFO job.UnlockedAchievementProcessorJob - Process: Jq4Xh8r+EEf9mX5D0KkJlCWNjoQU7dDZmlcMTJ4WeJ8=,cc4787d2777904f8ed0f63f13d923af5
+2013-09-21 10:30:00,053 INFO job.UnlockedAchievementProcessorJob - Process: Jq4Xh8r+EEf9mX5D0KkJlCWNjoQU7dDZmlcMTJ4WeJ8=,33d3f8c25285463630920854e65d4dd4
+2013-09-21 10:30:00,053 INFO job.UnlockedAchievementProcessorJob - Process: Jq4Xh8r+EEf9mX5D0KkJlCWNjoQU7dDZmlcMTJ4WeJ8=,1c353fa4204b87f6120e657890fbe815
+2013-09-21 10:30:00,053 INFO job.UnlockedAchievementProcessorJob - Process: cGY30U0nF9q4XIN2DpoHMyWNjoQU7dDZmlcMTJ4WeJ8=,a316425a97fbb6ce14460c637da1f251
+2013-09-21 10:30:00,053 INFO job.UnlockedAchievementProcessorJob - Process: cGY30U0nF9q4XIN2DpoHMyWNjoQU7dDZmlcMTJ4WeJ8=,cc4787d2777904f8ed0f63f13d923af5
+2013-09-21 10:30:00,053 INFO job.UnlockedAchievementProcessorJob - Process: fTVNxgGPZNB57qABgPOhUCWNjoQU7dDZmlcMTJ4WeJ8=,5c6c0d80b80a82cb227b139089fff403
+2013-09-21 10:30:00,053 INFO job.UnlockedAchievementProcessorJob - Process: fTVNxgGPZNB57qABgPOhUCWNjoQU7dDZmlcMTJ4WeJ8=,a316425a97fbb6ce14460c637da1f251
+2013-09-21 10:30:00,053 INFO job.UnlockedAchievementProcessorJob - Process: CXRjKXV2frWYwM+kfhvdcyWNjoQU7dDZmlcMTJ4WeJ8=,91a314c5184a347d9447d35f025f4283
+2013-09-21 10:30:00,053 INFO job.UnlockedAchievementProcessorJob - Process: Fb+4i+cNvirfk9pf1A8jJiWNjoQU7dDZmlcMTJ4WeJ8=,5c6c0d80b80a82cb227b139089fff403
+2013-09-21 10:30:00,053 INFO job.UnlockedAchievementProcessorJob - Process: cGY30U0nF9q4XIN2DpoHMyWNjoQU7dDZmlcMTJ4WeJ8=,5c6c0d80b80a82cb227b139089fff403
+2013-09-21 10:30:00,053 INFO job.UnlockedAchievementProcessorJob - Process: cGY30U0nF9q4XIN2DpoHMyWNjoQU7dDZmlcMTJ4WeJ8=,a316425a97fbb6ce14460c637da1f251
+2013-09-21 10:30:00,053 INFO job.UnlockedAchievementProcessorJob - Process: cGY30U0nF9q4XIN2DpoHMyWNjoQU7dDZmlcMTJ4WeJ8=,cc4787d2777904f8ed0f63f13d923af5
+2013-09-21 10:30:00,053 INFO job.UnlockedAchievementProcessorJob - Process: cGY30U0nF9q4XIN2DpoHMyWNjoQU7dDZmlcMTJ4WeJ8=,33d3f8c25285463630920854e65d4dd4
+2013-09-21 10:30:00,053 INFO job.UnlockedAchievementProcessorJob - Process: uwX2b4D4wQap56XfhAh5ySWNjoQU7dDZmlcMTJ4WeJ8=,a6ed5459a9833af498a652b888ae459f
+2013-09-21 10:30:00,054 INFO job.UnlockedAchievementProcessorJob - Process: Ch2b/BQNEwZ86N8F0INYzSWNjoQU7dDZmlcMTJ4WeJ8=,a316425a97fbb6ce14460c637da1f251
+2013-09-21 10:30:00,054 INFO job.UnlockedAchievementProcessorJob - Process: Ch2b/BQNEwZ86N8F0INYzSWNjoQU7dDZmlcMTJ4WeJ8=,cc4787d2777904f8ed0f63f13d923af5
+2013-09-21 10:30:00,054 INFO job.UnlockedAchievementProcessorJob - Process: USaPpGH5sVo1wXhyRWm5sSWNjoQU7dDZmlcMTJ4WeJ8=,a316425a97fbb6ce14460c637da1f251
+2013-09-21 10:30:00,054 INFO job.UnlockedAchievementProcessorJob - Process: USaPpGH5sVo1wXhyRWm5sSWNjoQU7dDZmlcMTJ4WeJ8=,a316425a97fbb6ce14460c637da1f251
+2013-09-21 10:30:00,054 INFO job.UnlockedAchievementProcessorJob - Process: USaPpGH5sVo1wXhyRWm5sSWNjoQU7dDZmlcMTJ4WeJ8=,cc4787d2777904f8ed0f63f13d923af5
+2013-09-21 10:30:00,054 INFO job.UnlockedAchievementProcessorJob - Process: RpkbDQL8bpuCnA/6Z1SsxSWNjoQU7dDZmlcMTJ4WeJ8=,a316425a97fbb6ce14460c637da1f251
+2013-09-21 10:30:00,054 INFO job.UnlockedAchievementProcessorJob - Process: RpkbDQL8bpuCnA/6Z1SsxSWNjoQU7dDZmlcMTJ4WeJ8=,cc4787d2777904f8ed0f63f13d923af5
+2013-09-21 10:30:00,054 INFO job.UnlockedAchievementProcessorJob - Process: oSgl+hZwsdKBKwuvPKfwKiWNjoQU7dDZmlcMTJ4WeJ8=,91a314c5184a347d9447d35f025f4283
+2013-09-21 10:30:00,054 INFO job.UnlockedAchievementProcessorJob - Process: JyzL/HAoMy45SBmZCIVUqiWNjoQU7dDZmlcMTJ4WeJ8=,91a314c5184a347d9447d35f025f4283
+2013-09-21 10:30:00,054 INFO job.UnlockedAchievementProcessorJob - Process: hmP52Kl1VvzdqYL8dHHQsCWNjoQU7dDZmlcMTJ4WeJ8=,5c6c0d80b80a82cb227b139089fff403
+2013-09-21 10:30:00,054 INFO job.UnlockedAchievementProcessorJob - Process: 2OZWVHOvaEVLIUIyClpGBiWNjoQU7dDZmlcMTJ4WeJ8=,91a314c5184a347d9447d35f025f4283
+2013-09-21 10:30:00,054 INFO job.UnlockedAchievementProcessorJob - Process: 2OZWVHOvaEVLIUIyClpGBiWNjoQU7dDZmlcMTJ4WeJ8=,a316425a97fbb6ce14460c637da1f251
+2013-09-21 10:30:00,054 INFO job.UnlockedAchievementProcessorJob - Process: GrBrY4a1bs7hms3wP4RiHyWNjoQU7dDZmlcMTJ4WeJ8=,5c6c0d80b80a82cb227b139089fff403
+2013-09-21 10:30:00,054 INFO job.UnlockedAchievementProcessorJob - Process: 3MpxMzGZY621gxsXAjz1TiWNjoQU7dDZmlcMTJ4WeJ8=,5c6c0d80b80a82cb227b139089fff403
+2013-09-21 10:30:00,054 INFO job.UnlockedAchievementProcessorJob - Process: hB4nBNYBxSmJn0IWxHXviiWNjoQU7dDZmlcMTJ4WeJ8=,91a314c5184a347d9447d35f025f4283
+2013-09-21 10:30:00,055 INFO job.UnlockedAchievementProcessorJob - Process: 8qLN7rsg+PNj4DbFd7tSLyWNjoQU7dDZmlcMTJ4WeJ8=,a316425a97fbb6ce14460c637da1f251
+2013-09-21 10:30:00,055 INFO job.UnlockedAchievementProcessorJob - Process: 8qLN7rsg+PNj4DbFd7tSLyWNjoQU7dDZmlcMTJ4WeJ8=,cc4787d2777904f8ed0f63f13d923af5
+2013-09-21 10:30:00,055 INFO job.UnlockedAchievementProcessorJob - Process: 8qLN7rsg+PNj4DbFd7tSLyWNjoQU7dDZmlcMTJ4WeJ8=,33d3f8c25285463630920854e65d4dd4
+2013-09-21 10:30:00,055 INFO job.UnlockedAchievementProcessorJob - Process: USaPpGH5sVo1wXhyRWm5sSWNjoQU7dDZmlcMTJ4WeJ8=,5c6c0d80b80a82cb227b139089fff403
+2013-09-21 10:30:00,055 INFO job.UnlockedAchievementProcessorJob - Process: USaPpGH5sVo1wXhyRWm5sSWNjoQU7dDZmlcMTJ4WeJ8=,a316425a97fbb6ce14460c637da1f251
+2013-09-21 10:30:00,055 INFO job.UnlockedAchievementProcessorJob - Process: USaPpGH5sVo1wXhyRWm5sSWNjoQU7dDZmlcMTJ4WeJ8=,cc4787d2777904f8ed0f63f13d923af5
+2013-09-21 10:30:00,055 INFO job.UnlockedAchievementProcessorJob - Process: SeCfHEAwPas8OGRQXOaQlyWNjoQU7dDZmlcMTJ4WeJ8=,91a314c5184a347d9447d35f025f4283
+2013-09-21 10:30:00,055 INFO job.UnlockedAchievementProcessorJob - Process: BIEnK2tikY7EgcG5PksudyWNjoQU7dDZmlcMTJ4WeJ8=,5c6c0d80b80a82cb227b139089fff403
+2013-09-21 10:30:00,055 INFO job.UnlockedAchievementProcessorJob - Process: A7vojKPy5Beq6jNBGurPMSWNjoQU7dDZmlcMTJ4WeJ8=,a316425a97fbb6ce14460c637da1f251
+2013-09-21 10:30:00,055 INFO job.UnlockedAchievementProcessorJob - Process: A7vojKPy5Beq6jNBGurPMSWNjoQU7dDZmlcMTJ4WeJ8=,91a314c5184a347d9447d35f025f4283
+2013-09-21 10:30:00,055 INFO job.UnlockedAchievementProcessorJob - Process: A7vojKPy5Beq6jNBGurPMSWNjoQU7dDZmlcMTJ4WeJ8=,a316425a97fbb6ce14460c637da1f251
+2013-09-21 10:30:00,055 INFO job.UnlockedAchievementProcessorJob - Process: TBfe1PReFWM06dYwIxx9vCWNjoQU7dDZmlcMTJ4WeJ8=,a316425a97fbb6ce14460c637da1f251
+2013-09-21 10:30:00,055 INFO job.UnlockedAchievementProcessorJob - Process: qaMbvSdTD2PADhp9P81LjSWNjoQU7dDZmlcMTJ4WeJ8=,a316425a97fbb6ce14460c637da1f251
+2013-09-21 10:30:00,055 INFO job.UnlockedAchievementProcessorJob - Process: qaMbvSdTD2PADhp9P81LjSWNjoQU7dDZmlcMTJ4WeJ8=,cc4787d2777904f8ed0f63f13d923af5
+2013-09-21 10:30:00,056 INFO job.UnlockedAchievementProcessorJob - Process: Ch2b/BQNEwZ86N8F0INYzSWNjoQU7dDZmlcMTJ4WeJ8=,a316425a97fbb6ce14460c637da1f251
+2013-09-21 10:30:00,056 INFO job.UnlockedAchievementProcessorJob - Process: Ch2b/BQNEwZ86N8F0INYzSWNjoQU7dDZmlcMTJ4WeJ8=,cc4787d2777904f8ed0f63f13d923af5
+2013-09-21 10:30:00,056 INFO job.UnlockedAchievementProcessorJob - Process: CXRjKXV2frWYwM+kfhvdcyWNjoQU7dDZmlcMTJ4WeJ8=,be2094dfeee1420313f952c19b64175d
+2013-09-21 10:30:00,056 INFO job.UnlockedAchievementProcessorJob - Process: Ch2b/BQNEwZ86N8F0INYzSWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,056 INFO job.UnlockedAchievementProcessorJob - Process: 8qLN7rsg+PNj4DbFd7tSLyWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,056 INFO job.UnlockedAchievementProcessorJob - Process: 2x/Q8RB40htW0QP4hmnAPiWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,056 INFO job.UnlockedAchievementProcessorJob - Process: 2qT7YfVwkz9cc2e018ZPCCWNjoQU7dDZmlcMTJ4WeJ8=,cc4787d2777904f8ed0f63f13d923af5
+2013-09-21 10:30:00,056 INFO job.UnlockedAchievementProcessorJob - Process: 2qT7YfVwkz9cc2e018ZPCCWNjoQU7dDZmlcMTJ4WeJ8=,33d3f8c25285463630920854e65d4dd4
+2013-09-21 10:30:00,056 INFO job.UnlockedAchievementProcessorJob - Process: W+ZpeUCExlzHh5Ne3ki90iWNjoQU7dDZmlcMTJ4WeJ8=,b37eee398d09048f50bc15eaf992ddf9
+2013-09-21 10:30:00,056 INFO job.UnlockedAchievementProcessorJob - Process: OCMEMOsuJ5RXkYAiY+nDnCWNjoQU7dDZmlcMTJ4WeJ8=,5c6c0d80b80a82cb227b139089fff403
+2013-09-21 10:30:00,056 INFO job.UnlockedAchievementProcessorJob - Process: OCMEMOsuJ5RXkYAiY+nDnCWNjoQU7dDZmlcMTJ4WeJ8=,33d3f8c25285463630920854e65d4dd4
+2013-09-21 10:30:00,056 INFO job.UnlockedAchievementProcessorJob - Process: A7vojKPy5Beq6jNBGurPMSWNjoQU7dDZmlcMTJ4WeJ8=,b56906bed7f1a76bf2265115888d3758
+2013-09-21 10:30:00,056 INFO job.UnlockedAchievementProcessorJob - Process: 1Kuzw90VzfSVCToyZziyiCWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,056 INFO job.UnlockedAchievementProcessorJob - Process: 1kx7FmY5pgCLoLLYE6FClCWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,057 INFO job.UnlockedAchievementProcessorJob - Process: 2OZWVHOvaEVLIUIyClpGBiWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,057 INFO job.UnlockedAchievementProcessorJob - Process: 2OZWVHOvaEVLIUIyClpGBiWNjoQU7dDZmlcMTJ4WeJ8=,c82545918170b4957ef7297d1f3a30e6
+2013-09-21 10:30:00,057 INFO job.UnlockedAchievementProcessorJob - Process: 2qT7YfVwkz9cc2e018ZPCCWNjoQU7dDZmlcMTJ4WeJ8=,c82545918170b4957ef7297d1f3a30e6
+2013-09-21 10:30:00,057 INFO job.UnlockedAchievementProcessorJob - Process: 3MpxMzGZY621gxsXAjz1TiWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,057 INFO job.UnlockedAchievementProcessorJob - Process: 53Oizn5MwMkruYLPOSGUaiWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,057 INFO job.UnlockedAchievementProcessorJob - Process: 5ryO218Fx1D6ZQ0966MVKCWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,057 INFO job.UnlockedAchievementProcessorJob - Process: 8zgMkrk50lyCYhhPJ7AQ9CWNjoQU7dDZmlcMTJ4WeJ8=,c82545918170b4957ef7297d1f3a30e6
+2013-09-21 10:30:00,057 INFO job.UnlockedAchievementProcessorJob - Process: 9seTHTbpaoMUQf6tsDWyMyWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,057 INFO job.UnlockedAchievementProcessorJob - Process: 9seTHTbpaoMUQf6tsDWyMyWNjoQU7dDZmlcMTJ4WeJ8=,c82545918170b4957ef7297d1f3a30e6
+2013-09-21 10:30:00,057 INFO job.UnlockedAchievementProcessorJob - Process: A7vojKPy5Beq6jNBGurPMSWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,057 INFO job.UnlockedAchievementProcessorJob - Process: A7vojKPy5Beq6jNBGurPMSWNjoQU7dDZmlcMTJ4WeJ8=,c82545918170b4957ef7297d1f3a30e6
+2013-09-21 10:30:00,057 INFO job.UnlockedAchievementProcessorJob - Process: BIEnK2tikY7EgcG5PksudyWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,057 INFO job.UnlockedAchievementProcessorJob - Process: BIEnK2tikY7EgcG5PksudyWNjoQU7dDZmlcMTJ4WeJ8=,c82545918170b4957ef7297d1f3a30e6
+2013-09-21 10:30:00,057 INFO job.UnlockedAchievementProcessorJob - Process: Byins0Vu8wQFKafQacQo3yWNjoQU7dDZmlcMTJ4WeJ8=,c82545918170b4957ef7297d1f3a30e6
+2013-09-21 10:30:00,057 INFO job.UnlockedAchievementProcessorJob - Process: FqmZ8h8P7g93IxNdz3wD7iWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,058 INFO job.UnlockedAchievementProcessorJob - Process: GhzVoQS99oGFz211Or4RayWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,058 INFO job.UnlockedAchievementProcessorJob - Process: GjIx3DfWPRSmMNQNQnrViSWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,058 INFO job.UnlockedAchievementProcessorJob - Process: GrBrY4a1bs7hms3wP4RiHyWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,058 INFO job.UnlockedAchievementProcessorJob - Process: KFUENT7fivQvBF5WhuXBPCWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,058 INFO job.UnlockedAchievementProcessorJob - Process: LL2qVzydjXHBNt2ph14G9yWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,058 INFO job.UnlockedAchievementProcessorJob - Process: LgWCZVb5QRN9geyrbMc49iWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,058 INFO job.UnlockedAchievementProcessorJob - Process: MagnFoFck5JWGztI6Q3M/yWNjoQU7dDZmlcMTJ4WeJ8=,4ca55d46b15d68427e30f1fc5bd47a12
+2013-09-21 10:30:00,058 INFO job.UnlockedAchievementProcessorJob - Process: NcF94HtvgAasCl1K0yJ6piWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,058 INFO job.UnlockedAchievementProcessorJob - Process: Ogrn10ph6UncQBIJwx72RSWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,058 INFO job.UnlockedAchievementProcessorJob - Process: Ogrn10ph6UncQBIJwx72RSWNjoQU7dDZmlcMTJ4WeJ8=,89aeaaa81da1cdd3318fcf0a3878cd94
+2013-09-21 10:30:00,058 INFO job.UnlockedAchievementProcessorJob - Process: PD0Cgt2sPsm6fiCSijmRgCWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,058 INFO job.UnlockedAchievementProcessorJob - Process: /PiB5DHXz/hipw2zY/FkeiWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,058 INFO job.UnlockedAchievementProcessorJob - Process: PvMxAqLb28EhTQQK9QmBGCWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,058 INFO job.UnlockedAchievementProcessorJob - Process: Qgci52hstBnz+JHgE6vPjSWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,059 INFO job.UnlockedAchievementProcessorJob - Process: R7lrixQKL92nDT0RFMp6HyWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,059 INFO job.UnlockedAchievementProcessorJob - Process: RpkbDQL8bpuCnA/6Z1SsxSWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,059 INFO job.UnlockedAchievementProcessorJob - Process: +Sc5PnqQgk2ArbCh4RGcpSWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,059 INFO job.UnlockedAchievementProcessorJob - Process: +Sc5PnqQgk2ArbCh4RGcpSWNjoQU7dDZmlcMTJ4WeJ8=,c82545918170b4957ef7297d1f3a30e6
+2013-09-21 10:30:00,059 INFO job.UnlockedAchievementProcessorJob - Process: TBfe1PReFWM06dYwIxx9vCWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,059 INFO job.UnlockedAchievementProcessorJob - Process: Tb5rHdAV4beiOkKju98FhSWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,059 INFO job.UnlockedAchievementProcessorJob - Process: Tb5rHdAV4beiOkKju98FhSWNjoQU7dDZmlcMTJ4WeJ8=,c82545918170b4957ef7297d1f3a30e6
+2013-09-21 10:30:00,059 INFO job.UnlockedAchievementProcessorJob - Process: TbEi/mMt9/mM4umUmY6PIiWNjoQU7dDZmlcMTJ4WeJ8=,ae143e46f57b71f4b2ab5a35be6a1fbb
+2013-09-21 10:30:00,059 INFO job.UnlockedAchievementProcessorJob - Process: TbEi/mMt9/mM4umUmY6PIiWNjoQU7dDZmlcMTJ4WeJ8=,c82545918170b4957ef7297d1f3a30e6
+2013-09-21 10:30:00,059 INFO job.UnlockedAchievementProcessorJob - Process: TbEi/mMt9/mM4umUmY6PIiWNjoQU7dDZmlcMTJ4WeJ8=,4ca55d46b15d68427e30f1fc5bd47a12
+2013-09-21 10:30:00,059 INFO job.UnlockedAchievementProcessorJob - Process: TbEi/mMt9/mM4umUmY6PIiWNjoQU7dDZmlcMTJ4WeJ8=,71b1bccb1b174846182b5e32a0015a04
+2013-09-21 10:30:00,059 INFO job.UnlockedAchievementProcessorJob - Process: TbEi/mMt9/mM4umUmY6PIiWNjoQU7dDZmlcMTJ4WeJ8=,2bda4eb94ffab1cbf43718708f408c4a
+2013-09-21 10:30:00,059 INFO job.UnlockedAchievementProcessorJob - Process: TbEi/mMt9/mM4umUmY6PIiWNjoQU7dDZmlcMTJ4WeJ8=,3d1553dcc0c7f1a5a2d9e884167a68bd
+2013-09-21 10:30:00,059 INFO job.UnlockedAchievementProcessorJob - Process: USaPpGH5sVo1wXhyRWm5sSWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,060 INFO job.UnlockedAchievementProcessorJob - Process: XD3UypjzfkpCZYIGzYinJCWNjoQU7dDZmlcMTJ4WeJ8=,c82545918170b4957ef7297d1f3a30e6
+2013-09-21 10:30:00,060 INFO job.UnlockedAchievementProcessorJob - Process: XD3UypjzfkpCZYIGzYinJCWNjoQU7dDZmlcMTJ4WeJ8=,4ca55d46b15d68427e30f1fc5bd47a12
+2013-09-21 10:30:00,060 INFO job.UnlockedAchievementProcessorJob - Process: Zo4lfw2XrIS875/rJu+K7iWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,060 INFO job.UnlockedAchievementProcessorJob - Process: Zo4lfw2XrIS875/rJu+K7iWNjoQU7dDZmlcMTJ4WeJ8=,c82545918170b4957ef7297d1f3a30e6
+2013-09-21 10:30:00,060 INFO job.UnlockedAchievementProcessorJob - Process: Zo4lfw2XrIS875/rJu+K7iWNjoQU7dDZmlcMTJ4WeJ8=,4ca55d46b15d68427e30f1fc5bd47a12
+2013-09-21 10:30:00,060 INFO job.UnlockedAchievementProcessorJob - Process: Zo4lfw2XrIS875/rJu+K7iWNjoQU7dDZmlcMTJ4WeJ8=,71b1bccb1b174846182b5e32a0015a04
+2013-09-21 10:30:00,060 INFO job.UnlockedAchievementProcessorJob - Process: bWmd6U4TIygpON5Dy/M4CyWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,060 INFO job.UnlockedAchievementProcessorJob - Process: bzPK1nMVa7KauInCWB/U9SWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,060 INFO job.UnlockedAchievementProcessorJob - Process: cGY30U0nF9q4XIN2DpoHMyWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,060 INFO job.UnlockedAchievementProcessorJob - Process: cGY30U0nF9q4XIN2DpoHMyWNjoQU7dDZmlcMTJ4WeJ8=,c82545918170b4957ef7297d1f3a30e6
+2013-09-21 10:30:00,060 INFO job.UnlockedAchievementProcessorJob - Process: cGY30U0nF9q4XIN2DpoHMyWNjoQU7dDZmlcMTJ4WeJ8=,4ca55d46b15d68427e30f1fc5bd47a12
+2013-09-21 10:30:00,060 INFO job.UnlockedAchievementProcessorJob - Process: d2yeU01L8BbdAYE9J98KbCWNjoQU7dDZmlcMTJ4WeJ8=,c82545918170b4957ef7297d1f3a30e6
+2013-09-21 10:30:00,060 INFO job.UnlockedAchievementProcessorJob - Process: d2yeU01L8BbdAYE9J98KbCWNjoQU7dDZmlcMTJ4WeJ8=,4ca55d46b15d68427e30f1fc5bd47a12
+2013-09-21 10:30:00,060 INFO job.UnlockedAchievementProcessorJob - Process: d2yeU01L8BbdAYE9J98KbCWNjoQU7dDZmlcMTJ4WeJ8=,71b1bccb1b174846182b5e32a0015a04
+2013-09-21 10:30:00,061 INFO job.UnlockedAchievementProcessorJob - Process: dnEnwhpldeYirqkIKYqyTCWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,061 INFO job.UnlockedAchievementProcessorJob - Process: fTVNxgGPZNB57qABgPOhUCWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,061 INFO job.UnlockedAchievementProcessorJob - Process: fY8mz6CvExExBEVsbXfwJiWNjoQU7dDZmlcMTJ4WeJ8=,89aeaaa81da1cdd3318fcf0a3878cd94
+2013-09-21 10:30:00,061 INFO job.UnlockedAchievementProcessorJob - Process: fY8mz6CvExExBEVsbXfwJiWNjoQU7dDZmlcMTJ4WeJ8=,c82545918170b4957ef7297d1f3a30e6
+2013-09-21 10:30:00,061 INFO job.UnlockedAchievementProcessorJob - Process: g4dGcLGGWuXHtTN37lgvFyWNjoQU7dDZmlcMTJ4WeJ8=,c82545918170b4957ef7297d1f3a30e6
+2013-09-21 10:30:00,061 INFO job.UnlockedAchievementProcessorJob - Process: g4dGcLGGWuXHtTN37lgvFyWNjoQU7dDZmlcMTJ4WeJ8=,4ca55d46b15d68427e30f1fc5bd47a12
+2013-09-21 10:30:00,061 INFO job.UnlockedAchievementProcessorJob - Process: gp4fPHLiahbc2cxLUZGV3yWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,061 INFO job.UnlockedAchievementProcessorJob - Process: gp4fPHLiahbc2cxLUZGV3yWNjoQU7dDZmlcMTJ4WeJ8=,c82545918170b4957ef7297d1f3a30e6
+2013-09-21 10:30:00,061 INFO job.UnlockedAchievementProcessorJob - Process: gp4fPHLiahbc2cxLUZGV3yWNjoQU7dDZmlcMTJ4WeJ8=,4ca55d46b15d68427e30f1fc5bd47a12
+2013-09-21 10:30:00,061 INFO job.UnlockedAchievementProcessorJob - Process: gp4fPHLiahbc2cxLUZGV3yWNjoQU7dDZmlcMTJ4WeJ8=,71b1bccb1b174846182b5e32a0015a04
+2013-09-21 10:30:00,061 INFO job.UnlockedAchievementProcessorJob - Process: hB4nBNYBxSmJn0IWxHXviiWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,061 INFO job.UnlockedAchievementProcessorJob - Process: hmP52Kl1VvzdqYL8dHHQsCWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,061 INFO job.UnlockedAchievementProcessorJob - Process: iZYup6ur9ATZZBYSLVI0FSWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,061 INFO job.UnlockedAchievementProcessorJob - Process: jOkIaNovpbQGH4mIv1fdDyWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,061 INFO job.UnlockedAchievementProcessorJob - Process: kgCF9SuY452KEyJ3sfI6LCWNjoQU7dDZmlcMTJ4WeJ8=,c82545918170b4957ef7297d1f3a30e6
+2013-09-21 10:30:00,062 INFO job.UnlockedAchievementProcessorJob - Process: kgCF9SuY452KEyJ3sfI6LCWNjoQU7dDZmlcMTJ4WeJ8=,4ca55d46b15d68427e30f1fc5bd47a12
+2013-09-21 10:30:00,062 INFO job.UnlockedAchievementProcessorJob - Process: kkOn4vXNemir7K6jdF0Y5yWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,062 INFO job.UnlockedAchievementProcessorJob - Process: mjNr1R5TsY7+BphuSL5HBSWNjoQU7dDZmlcMTJ4WeJ8=,c82545918170b4957ef7297d1f3a30e6
+2013-09-21 10:30:00,062 INFO job.UnlockedAchievementProcessorJob - Process: mqMIZfFKC1NSNZKCRSczuiWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,062 INFO job.UnlockedAchievementProcessorJob - Process: nVNeBDhhwiTF9RVRPSG1KSWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,062 INFO job.UnlockedAchievementProcessorJob - Process: ny7utCBNWUJU8piLztDFVyWNjoQU7dDZmlcMTJ4WeJ8=,c82545918170b4957ef7297d1f3a30e6
+2013-09-21 10:30:00,062 INFO job.UnlockedAchievementProcessorJob - Process: oSgl+hZwsdKBKwuvPKfwKiWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,062 INFO job.UnlockedAchievementProcessorJob - Process: oz74/hIRQuEAdpMCWRXE2yWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,062 INFO job.UnlockedAchievementProcessorJob - Process: pKvlPevPU4wnf3+XQy/M6CWNjoQU7dDZmlcMTJ4WeJ8=,c82545918170b4957ef7297d1f3a30e6
+2013-09-21 10:30:00,062 INFO job.UnlockedAchievementProcessorJob - Process: pKvlPevPU4wnf3+XQy/M6CWNjoQU7dDZmlcMTJ4WeJ8=,4ca55d46b15d68427e30f1fc5bd47a12
+2013-09-21 10:30:00,062 INFO job.UnlockedAchievementProcessorJob - Process: pKvlPevPU4wnf3+XQy/M6CWNjoQU7dDZmlcMTJ4WeJ8=,71b1bccb1b174846182b5e32a0015a04
+2013-09-21 10:30:00,062 INFO job.UnlockedAchievementProcessorJob - Process: pKvlPevPU4wnf3+XQy/M6CWNjoQU7dDZmlcMTJ4WeJ8=,2bda4eb94ffab1cbf43718708f408c4a
+2013-09-21 10:30:00,062 INFO job.UnlockedAchievementProcessorJob - Process: pOUleyZiMU6aoljK2AfqHyWNjoQU7dDZmlcMTJ4WeJ8=,c82545918170b4957ef7297d1f3a30e6
+2013-09-21 10:30:00,063 INFO job.UnlockedAchievementProcessorJob - Process: pOUleyZiMU6aoljK2AfqHyWNjoQU7dDZmlcMTJ4WeJ8=,4ca55d46b15d68427e30f1fc5bd47a12
+2013-09-21 10:30:00,063 INFO job.UnlockedAchievementProcessorJob - Process: pOUleyZiMU6aoljK2AfqHyWNjoQU7dDZmlcMTJ4WeJ8=,71b1bccb1b174846182b5e32a0015a04
+2013-09-21 10:30:00,063 INFO job.UnlockedAchievementProcessorJob - Process: pSG1Z2L2TpUbUGBa+UQ4pCWNjoQU7dDZmlcMTJ4WeJ8=,89aeaaa81da1cdd3318fcf0a3878cd94
+2013-09-21 10:30:00,063 INFO job.UnlockedAchievementProcessorJob - Process: pSG1Z2L2TpUbUGBa+UQ4pCWNjoQU7dDZmlcMTJ4WeJ8=,c82545918170b4957ef7297d1f3a30e6
+2013-09-21 10:30:00,063 INFO job.UnlockedAchievementProcessorJob - Process: pSG1Z2L2TpUbUGBa+UQ4pCWNjoQU7dDZmlcMTJ4WeJ8=,4ca55d46b15d68427e30f1fc5bd47a12
+2013-09-21 10:30:00,063 INFO job.UnlockedAchievementProcessorJob - Process: pSG1Z2L2TpUbUGBa+UQ4pCWNjoQU7dDZmlcMTJ4WeJ8=,71b1bccb1b174846182b5e32a0015a04
+2013-09-21 10:30:00,063 INFO job.UnlockedAchievementProcessorJob - Process: pSG1Z2L2TpUbUGBa+UQ4pCWNjoQU7dDZmlcMTJ4WeJ8=,2bda4eb94ffab1cbf43718708f408c4a
+2013-09-21 10:30:00,063 INFO job.UnlockedAchievementProcessorJob - Process: pSG1Z2L2TpUbUGBa+UQ4pCWNjoQU7dDZmlcMTJ4WeJ8=,3d1553dcc0c7f1a5a2d9e884167a68bd
+2013-09-21 10:30:00,063 INFO job.UnlockedAchievementProcessorJob - Process: pU1KwcDnJ1Z9/p0q4+Tq5CWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,063 INFO job.UnlockedAchievementProcessorJob - Process: qaMbvSdTD2PADhp9P81LjSWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,063 INFO job.UnlockedAchievementProcessorJob - Process: rMXCk4nKn8IiBWtfzQoweCWNjoQU7dDZmlcMTJ4WeJ8=,ae143e46f57b71f4b2ab5a35be6a1fbb
+2013-09-21 10:30:00,063 INFO job.UnlockedAchievementProcessorJob - Process: rMXCk4nKn8IiBWtfzQoweCWNjoQU7dDZmlcMTJ4WeJ8=,89aeaaa81da1cdd3318fcf0a3878cd94
+2013-09-21 10:30:00,063 INFO job.UnlockedAchievementProcessorJob - Process: rMXCk4nKn8IiBWtfzQoweCWNjoQU7dDZmlcMTJ4WeJ8=,c82545918170b4957ef7297d1f3a30e6
+2013-09-21 10:30:00,063 INFO job.UnlockedAchievementProcessorJob - Process: rbZsjXQTZZRFTizxpl+SbiWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,063 INFO job.UnlockedAchievementProcessorJob - Process: s9JEu/tQuhtOvSb4/CGSkiWNjoQU7dDZmlcMTJ4WeJ8=,c82545918170b4957ef7297d1f3a30e6
+2013-09-21 10:30:00,064 INFO job.UnlockedAchievementProcessorJob - Process: s9JEu/tQuhtOvSb4/CGSkiWNjoQU7dDZmlcMTJ4WeJ8=,4ca55d46b15d68427e30f1fc5bd47a12
+2013-09-21 10:30:00,064 INFO job.UnlockedAchievementProcessorJob - Process: s9JEu/tQuhtOvSb4/CGSkiWNjoQU7dDZmlcMTJ4WeJ8=,71b1bccb1b174846182b5e32a0015a04
+2013-09-21 10:30:00,064 INFO job.UnlockedAchievementProcessorJob - Process: s9JEu/tQuhtOvSb4/CGSkiWNjoQU7dDZmlcMTJ4WeJ8=,2bda4eb94ffab1cbf43718708f408c4a
+2013-09-21 10:30:00,064 INFO job.UnlockedAchievementProcessorJob - Process: s9JEu/tQuhtOvSb4/CGSkiWNjoQU7dDZmlcMTJ4WeJ8=,3d1553dcc0c7f1a5a2d9e884167a68bd
+2013-09-21 10:30:00,064 INFO job.UnlockedAchievementProcessorJob - Process: sDVpc2WB6stBflUIiqSUZyWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,064 INFO job.UnlockedAchievementProcessorJob - Process: u5aiRnuD/KZ2uMhDqRQ4gyWNjoQU7dDZmlcMTJ4WeJ8=,c82545918170b4957ef7297d1f3a30e6
+2013-09-21 10:30:00,064 INFO job.UnlockedAchievementProcessorJob - Process: ufFSNiN8CghUoXyo1u5AHyWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,064 INFO job.UnlockedAchievementProcessorJob - Process: ufFSNiN8CghUoXyo1u5AHyWNjoQU7dDZmlcMTJ4WeJ8=,c82545918170b4957ef7297d1f3a30e6
+2013-09-21 10:30:00,064 INFO job.UnlockedAchievementProcessorJob - Process: uwX2b4D4wQap56XfhAh5ySWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,064 INFO job.UnlockedAchievementProcessorJob - Process: vgAvAz2w0+USilBMDEZGpyWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,064 INFO job.UnlockedAchievementProcessorJob - Process: wFQXUBzbczURCwo1QDd24SWNjoQU7dDZmlcMTJ4WeJ8=,c82545918170b4957ef7297d1f3a30e6
+2013-09-21 10:30:00,064 INFO job.UnlockedAchievementProcessorJob - Process: wFken36EIihgz2l6n10MzSWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,064 INFO job.UnlockedAchievementProcessorJob - Process: wFken36EIihgz2l6n10MzSWNjoQU7dDZmlcMTJ4WeJ8=,c82545918170b4957ef7297d1f3a30e6
+2013-09-21 10:30:00,064 INFO job.UnlockedAchievementProcessorJob - Process: wSFPm1sK3xoDf8dyS2QKNCWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,065 INFO job.UnlockedAchievementProcessorJob - Process: wSFPm1sK3xoDf8dyS2QKNCWNjoQU7dDZmlcMTJ4WeJ8=,89aeaaa81da1cdd3318fcf0a3878cd94
+2013-09-21 10:30:00,065 INFO job.UnlockedAchievementProcessorJob - Process: xrneF7odR1g5tXHLTHR7vCWNjoQU7dDZmlcMTJ4WeJ8=,2fd5e3d3ecd3ca162227d5551c073803
+2013-09-21 10:30:00,065 INFO job.UnlockedAchievementProcessorJob - Process: xrneF7odR1g5tXHLTHR7vCWNjoQU7dDZmlcMTJ4WeJ8=,c82545918170b4957ef7297d1f3a30e6
+2013-09-21 10:30:00,065 INFO job.UnlockedAchievementProcessorJob - Process: xrneF7odR1g5tXHLTHR7vCWNjoQU7dDZmlcMTJ4WeJ8=,4ca55d46b15d68427e30f1fc5bd47a12
+2013-09-21 10:30:00,065 INFO job.UnlockedAchievementProcessorJob - Process: xrneF7odR1g5tXHLTHR7vCWNjoQU7dDZmlcMTJ4WeJ8=,71b1bccb1b174846182b5e32a0015a04
+2013-09-21 10:30:00,065 INFO job.UnlockedAchievementProcessorJob - Process: xrneF7odR1g5tXHLTHR7vCWNjoQU7dDZmlcMTJ4WeJ8=,2bda4eb94ffab1cbf43718708f408c4a
+2013-09-21 10:30:00,065 INFO job.UnlockedAchievementProcessorJob - Process: yGeWdMJhwbKW/9hs4FUcZSWNjoQU7dDZmlcMTJ4WeJ8=,c82545918170b4957ef7297d1f3a30e6
+2013-09-21 10:30:05,068 INFO job.UnlockedAchievementProcessorJob - awaiting termination, false
+2013-09-21 10:30:10,077 INFO job.UnlockedAchievementProcessorJob - awaiting send email termination, false
+2013-09-21 10:30:11,431 INFO job.UnlockedAchievementProcessorJob - SMS to: rbZsjXQTZZRFTizxpl+SbiWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge STARTER. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/6mn8d8
+2013-09-21 10:30:12,154 INFO job.UnlockedAchievementProcessorJob - SMS to: GhzVoQS99oGFz211Or4RayWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge STARTER. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/r6gyom
+2013-09-21 10:30:12,862 INFO job.UnlockedAchievementProcessorJob - SMS to: xrneF7odR1g5tXHLTHR7vCWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato 5 badge ieri con il tuo Smartphone. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/iv9yac
+2013-09-21 10:30:13,592 INFO job.UnlockedAchievementProcessorJob - SMS to: LgWCZVb5QRN9geyrbMc49iWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato 3 badge ieri con il tuo Smartphone. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/pgg3bk
+2013-09-21 10:30:14,660 INFO job.UnlockedAchievementProcessorJob - SMS to: nVNeBDhhwiTF9RVRPSG1KSWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge STARTER. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/wfzuqj
+2013-09-21 10:30:15,370 INFO job.UnlockedAchievementProcessorJob - SMS to: Tb5rHdAV4beiOkKju98FhSWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato 2 badge ieri con il tuo Smartphone. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/4nqd7m
+2013-09-21 10:30:16,127 INFO job.UnlockedAchievementProcessorJob - SMS to: Zo4lfw2XrIS875/rJu+K7iWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato 4 badge ieri con il tuo Smartphone. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/e1tmmx
+2013-09-21 10:30:16,886 INFO job.UnlockedAchievementProcessorJob - SMS to: PD0Cgt2sPsm6fiCSijmRgCWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge STARTER. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/uq6z22
+2013-09-21 10:30:17,808 INFO job.UnlockedAchievementProcessorJob - SMS to: 5ryO218Fx1D6ZQ0966MVKCWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato 2 badge ieri con il tuo Smartphone. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/3kxjmr
+2013-09-21 10:30:18,443 INFO job.UnlockedAchievementProcessorJob - SMS to: 8qLN7rsg+PNj4DbFd7tSLyWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato 22 badge ieri con il tuo Smartphone. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/18skcm
+2013-09-21 10:30:19,339 INFO job.UnlockedAchievementProcessorJob - SMS to: d2yeU01L8BbdAYE9J98KbCWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato 3 badge ieri con il tuo Smartphone. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/umhgpq
+2013-09-21 10:30:20,044 INFO job.UnlockedAchievementProcessorJob - SMS to: W+ZpeUCExlzHh5Ne3ki90iWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge HOME SWEET HOME. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/fny58a
+2013-09-21 10:30:20,727 INFO job.UnlockedAchievementProcessorJob - SMS to: rMXCk4nKn8IiBWtfzQoweCWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato 3 badge ieri con il tuo Smartphone. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/6ab7w8
+2013-09-21 10:30:21,427 INFO job.UnlockedAchievementProcessorJob - SMS to: /PiB5DHXz/hipw2zY/FkeiWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge STARTER. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/hhl7pg
+2013-09-21 10:30:22,053 INFO job.UnlockedAchievementProcessorJob - SMS to: pKvlPevPU4wnf3+XQy/M6CWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato 4 badge ieri con il tuo Smartphone. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/3jlchq
+2013-09-21 10:30:22,673 INFO job.UnlockedAchievementProcessorJob - SMS to: 1Kuzw90VzfSVCToyZziyiCWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge STARTER. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/aa10if
+2013-09-21 10:30:23,392 INFO job.UnlockedAchievementProcessorJob - SMS to: MagnFoFck5JWGztI6Q3M/yWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato 3 badge ieri con il tuo Smartphone. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/bajni1
+2013-09-21 10:30:24,137 INFO job.UnlockedAchievementProcessorJob - SMS to: fY8mz6CvExExBEVsbXfwJiWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato 2 badge ieri con il tuo Smartphone. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/48h1uo
+2013-09-21 10:30:25,057 INFO job.UnlockedAchievementProcessorJob - SMS to: pU1KwcDnJ1Z9/p0q4+Tq5CWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge STARTER. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/9e9exd
+2013-09-21 10:30:25,622 INFO job.UnlockedAchievementProcessorJob - SMS to: Ogrn10ph6UncQBIJwx72RSWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato 2 badge ieri con il tuo Smartphone. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/epziwm
+2013-09-21 10:30:26,531 INFO job.UnlockedAchievementProcessorJob - SMS to: bzPK1nMVa7KauInCWB/U9SWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato 2 badge ieri con il tuo Smartphone. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/hoq1zx
+2013-09-21 10:30:27,426 INFO job.UnlockedAchievementProcessorJob - SMS to: kkOn4vXNemir7K6jdF0Y5yWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge STARTER. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/iidywp
+2013-09-21 10:30:28,144 INFO job.UnlockedAchievementProcessorJob - SMS to: pOUleyZiMU6aoljK2AfqHyWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato 3 badge ieri con il tuo Smartphone. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/6acx89
+2013-09-21 10:30:28,772 INFO job.UnlockedAchievementProcessorJob - SMS to: qaMbvSdTD2PADhp9P81LjSWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato 5 badge ieri con il tuo Smartphone. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/k7c5pp
+2013-09-21 10:30:29,420 INFO job.UnlockedAchievementProcessorJob - SMS to: sDVpc2WB6stBflUIiqSUZyWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato 3 badge ieri con il tuo Smartphone. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/ciynz7
+2013-09-21 10:30:30,022 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 10:30:30,022 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 10:30:30,060 INFO job.UnlockedAchievementProcessorJob - SMS to: hB4nBNYBxSmJn0IWxHXviiWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato 2 badge ieri con il tuo Smartphone. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/1o5kzn
+2013-09-21 10:30:30,782 INFO job.UnlockedAchievementProcessorJob - SMS to: wFQXUBzbczURCwo1QDd24SWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge WRITER I. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/spllpb
+2013-09-21 10:30:31,406 INFO job.UnlockedAchievementProcessorJob - SMS to: Jq4Xh8r+EEf9mX5D0KkJlCWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato 6 badge ieri con il tuo Smartphone. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/9nwlhj
+2013-09-21 10:30:32,081 INFO job.UnlockedAchievementProcessorJob - SMS to: cGY30U0nF9q4XIN2DpoHMyWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato 9 badge ieri con il tuo Smartphone. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/hglc2d
+2013-09-21 10:30:32,898 INFO job.UnlockedAchievementProcessorJob - SMS to: 2qT7YfVwkz9cc2e018ZPCCWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato 4 badge ieri con il tuo Smartphone. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/g1pvll
+2013-09-21 10:30:33,902 INFO job.UnlockedAchievementProcessorJob - SMS to: dnEnwhpldeYirqkIKYqyTCWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato 2 badge ieri con il tuo Smartphone. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/qi4f0d
+2013-09-21 10:30:34,720 INFO job.UnlockedAchievementProcessorJob - SMS to: u5aiRnuD/KZ2uMhDqRQ4gyWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge WRITER I. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/cn4r4l
+2013-09-21 10:30:35,398 INFO job.UnlockedAchievementProcessorJob - SMS to: 53Oizn5MwMkruYLPOSGUaiWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge STARTER. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/t7dvm2
+2013-09-21 10:30:36,080 INFO job.UnlockedAchievementProcessorJob - SMS to: wFken36EIihgz2l6n10MzSWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato 2 badge ieri con il tuo Smartphone. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/nputzh
+2013-09-21 10:30:36,851 INFO job.UnlockedAchievementProcessorJob - SMS to: TBfe1PReFWM06dYwIxx9vCWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato 4 badge ieri con il tuo Smartphone. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/eutntn
+2013-09-21 10:30:37,487 INFO job.UnlockedAchievementProcessorJob - SMS to: dWBD3PunRkolW6fXsHPcgyWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato 3 badge ieri con il tuo Smartphone. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/kzsm8d
+2013-09-21 10:30:38,089 INFO job.UnlockedAchievementProcessorJob - SMS to: pSG1Z2L2TpUbUGBa+UQ4pCWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato 6 badge ieri con il tuo Smartphone. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/jkjqb7
+2013-09-21 10:30:38,700 INFO job.UnlockedAchievementProcessorJob - SMS to: R7lrixQKL92nDT0RFMp6HyWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge STARTER. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/xhicm0
+2013-09-21 10:30:39,402 INFO job.UnlockedAchievementProcessorJob - SMS to: 8zgMkrk50lyCYhhPJ7AQ9CWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge WRITER I. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/n6jnpx
+2013-09-21 10:30:40,026 INFO job.UnlockedAchievementProcessorJob - SMS to: wSFPm1sK3xoDf8dyS2QKNCWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato 2 badge ieri con il tuo Smartphone. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/kxmlv0
+2013-09-21 10:30:40,904 INFO job.UnlockedAchievementProcessorJob - SMS to: Fb+4i+cNvirfk9pf1A8jJiWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato 2 badge ieri con il tuo Smartphone. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/ghobbp
+2013-09-21 10:30:41,563 INFO job.UnlockedAchievementProcessorJob - SMS to: KFUENT7fivQvBF5WhuXBPCWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge STARTER. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/pxcx67
+2013-09-21 10:30:42,311 INFO job.UnlockedAchievementProcessorJob - SMS to: FSz64fGqSaKtnjkiPK6VfyWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge MEUCCI II. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/wg4wdi
+2013-09-21 10:30:43,099 INFO job.UnlockedAchievementProcessorJob - SMS to: xTM8NV9WVEOEek68s0dRsiWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato 4 badge ieri con il tuo Smartphone. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/amw68z
+2013-09-21 10:30:43,757 INFO job.UnlockedAchievementProcessorJob - SMS to: +Sc5PnqQgk2ArbCh4RGcpSWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato 2 badge ieri con il tuo Smartphone. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/ezog3a
+2013-09-21 10:30:44,506 INFO job.UnlockedAchievementProcessorJob - SMS to: L+PeuPWWmWknIoRlQpH0YyWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge WRITER I. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/i3wltr
+2013-09-21 10:31:02,063 INFO job.UnlockedAchievementProcessorJob - SMS to: FqmZ8h8P7g93IxNdz3wD7iWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge STARTER. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/vvh5be
+2013-09-21 10:31:03,495 INFO job.UnlockedAchievementProcessorJob - SMS to: 2x/Q8RB40htW0QP4hmnAPiWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge STARTER. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/1udq05
+2013-09-21 10:31:04,292 INFO job.UnlockedAchievementProcessorJob - SMS to: wTvAH0BeBlSiu+VrbRsOSyWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato 5 badge ieri con il tuo Smartphone. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/h25cnx
+2013-09-21 10:31:05,237 INFO job.UnlockedAchievementProcessorJob - SMS to: ufFSNiN8CghUoXyo1u5AHyWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato 4 badge ieri con il tuo Smartphone. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/7vqgaw
+2013-09-21 10:31:05,871 INFO job.UnlockedAchievementProcessorJob - SMS to: 3MpxMzGZY621gxsXAjz1TiWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato 2 badge ieri con il tuo Smartphone. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/81paol
+2013-09-21 10:31:06,469 INFO job.UnlockedAchievementProcessorJob - SMS to: G3ATE7exvDl8que3+8nCNiWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato 2 badge ieri con il tuo Smartphone. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/apsbnk
+2013-09-21 10:31:07,119 INFO job.UnlockedAchievementProcessorJob - SMS to: GjIx3DfWPRSmMNQNQnrViSWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge STARTER. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/llbg49
+2013-09-21 10:31:07,729 INFO job.UnlockedAchievementProcessorJob - SMS to: BIEnK2tikY7EgcG5PksudyWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato 3 badge ieri con il tuo Smartphone. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/8c4z6v
+2013-09-21 10:31:08,505 INFO job.UnlockedAchievementProcessorJob - SMS to: jOkIaNovpbQGH4mIv1fdDyWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge STARTER. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/7spnzz
+2013-09-21 10:31:09,108 INFO job.UnlockedAchievementProcessorJob - SMS to: bWmd6U4TIygpON5Dy/M4CyWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato 3 badge ieri con il tuo Smartphone. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/kk6oz4
+2013-09-21 10:31:09,920 INFO job.UnlockedAchievementProcessorJob - SMS to: J5aHu22z9uLu5ASx87V8+SWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge STARTER. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/snujhn
+2013-09-21 10:31:10,828 INFO job.UnlockedAchievementProcessorJob - SMS to: PvMxAqLb28EhTQQK9QmBGCWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge STARTER. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/q7a016
+2013-09-21 10:31:11,458 INFO job.UnlockedAchievementProcessorJob - SMS to: hmP52Kl1VvzdqYL8dHHQsCWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato 2 badge ieri con il tuo Smartphone. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/wu5t5c
+2013-09-21 10:31:12,120 INFO job.UnlockedAchievementProcessorJob - SMS to: JyzL/HAoMy45SBmZCIVUqiWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato 2 badge ieri con il tuo Smartphone. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/dl7eq1
+2013-09-21 10:31:12,769 INFO job.UnlockedAchievementProcessorJob - SMS to: fkSWWWF5Urbo0mOer9iWrCWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge CHATTER I. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/ijp12n
+2013-09-21 10:31:13,569 INFO job.UnlockedAchievementProcessorJob - SMS to: GrBrY4a1bs7hms3wP4RiHyWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato 2 badge ieri con il tuo Smartphone. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/1bqxtc
+2013-09-21 10:31:14,320 INFO job.UnlockedAchievementProcessorJob - SMS to: uwX2b4D4wQap56XfhAh5ySWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato 3 badge ieri con il tuo Smartphone. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/p81ujx
+2013-09-21 10:31:14,926 INFO job.UnlockedAchievementProcessorJob - SMS to: SeCfHEAwPas8OGRQXOaQlyWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato 2 badge ieri con il tuo Smartphone. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/5qkod1
+2013-09-21 10:31:15,487 INFO job.UnlockedAchievementProcessorJob - SMS to: 1kx7FmY5pgCLoLLYE6FClCWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge STARTER. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/fwowp
+2013-09-21 10:31:16,283 INFO job.UnlockedAchievementProcessorJob - SMS to: ny7utCBNWUJU8piLztDFVyWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge WRITER I. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/oe01se
+2013-09-21 10:31:16,902 INFO job.UnlockedAchievementProcessorJob - SMS to: NhCE7UaLpjU/ZCHcHl9CuiWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato 2 badge ieri con il tuo Smartphone. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/8aaws3
+2013-09-21 10:31:17,596 INFO job.UnlockedAchievementProcessorJob - SMS to: XD3UypjzfkpCZYIGzYinJCWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato 2 badge ieri con il tuo Smartphone. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/yjrij2
+2013-09-21 10:31:18,241 INFO job.UnlockedAchievementProcessorJob - SMS to: gp4fPHLiahbc2cxLUZGV3yWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato 4 badge ieri con il tuo Smartphone. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/efjybu
+2013-09-21 10:31:18,909 INFO job.UnlockedAchievementProcessorJob - SMS to: vgAvAz2w0+USilBMDEZGpyWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge STARTER. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/sw5mzd
+2013-09-21 10:31:36,122 INFO job.UnlockedAchievementProcessorJob - SMS to: iZYup6ur9ATZZBYSLVI0FSWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge STARTER. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/ldaj57
+2013-09-21 10:31:36,945 INFO job.UnlockedAchievementProcessorJob - SMS to: NcF94HtvgAasCl1K0yJ6piWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge STARTER. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/4lzfa0
+2013-09-21 10:31:37,572 INFO job.UnlockedAchievementProcessorJob - SMS to: 2OZWVHOvaEVLIUIyClpGBiWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato 6 badge ieri con il tuo Smartphone. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/qx7qgr
+2013-09-21 10:31:38,301 INFO job.UnlockedAchievementProcessorJob - SMS to: s9JEu/tQuhtOvSb4/CGSkiWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato 5 badge ieri con il tuo Smartphone. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/p95ii7
+2013-09-21 10:31:38,947 INFO job.UnlockedAchievementProcessorJob - SMS to: 9seTHTbpaoMUQf6tsDWyMyWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato 2 badge ieri con il tuo Smartphone. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/9q8tnh
+2013-09-21 10:31:39,780 INFO job.UnlockedAchievementProcessorJob - SMS to: USaPpGH5sVo1wXhyRWm5sSWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato 13 badge ieri con il tuo Smartphone. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/8n5oqs
+2013-09-21 10:31:40,494 INFO job.UnlockedAchievementProcessorJob - SMS to: 7N26ow06m7/t91Cx6h4cUSWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato 2 badge ieri con il tuo Smartphone. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/e3vpsg
+2013-09-21 10:31:41,145 INFO job.UnlockedAchievementProcessorJob - SMS to: Qgci52hstBnz+JHgE6vPjSWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge STARTER. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/xhbtgt
+2013-09-21 10:31:41,869 INFO job.UnlockedAchievementProcessorJob - SMS to: mjNr1R5TsY7+BphuSL5HBSWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge WRITER I. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/erggk1
+2013-09-21 10:31:42,692 INFO job.UnlockedAchievementProcessorJob - SMS to: oSgl+hZwsdKBKwuvPKfwKiWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato 3 badge ieri con il tuo Smartphone. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/qhpksx
+2013-09-21 10:31:43,376 INFO job.UnlockedAchievementProcessorJob - SMS to: RpkbDQL8bpuCnA/6Z1SsxSWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato 7 badge ieri con il tuo Smartphone. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/9usmu6
+2013-09-21 10:31:44,378 INFO job.UnlockedAchievementProcessorJob - SMS to: CXRjKXV2frWYwM+kfhvdcyWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato 2 badge ieri con il tuo Smartphone. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/wukrox
+2013-09-21 10:31:45,028 INFO job.UnlockedAchievementProcessorJob - SMS to: oz74/hIRQuEAdpMCWRXE2yWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge STARTER. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/f8jp2v
+2013-09-21 10:31:45,653 INFO job.UnlockedAchievementProcessorJob - SMS to: OCMEMOsuJ5RXkYAiY+nDnCWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato 3 badge ieri con il tuo Smartphone. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/8thvg7
+2013-09-21 10:31:46,401 INFO job.UnlockedAchievementProcessorJob - SMS to: mqMIZfFKC1NSNZKCRSczuiWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge STARTER. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/ce2xq1
+2013-09-21 10:31:47,206 INFO job.UnlockedAchievementProcessorJob - SMS to: A7vojKPy5Beq6jNBGurPMSWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato 7 badge ieri con il tuo Smartphone. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/u7q9t
+2013-09-21 10:31:47,967 INFO job.UnlockedAchievementProcessorJob - SMS to: YfxTnN9tfzYy5YupRKwXSyWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato 2 badge ieri con il tuo Smartphone. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/7yqp0b
+2013-09-21 10:31:48,744 INFO job.UnlockedAchievementProcessorJob - SMS to: LL2qVzydjXHBNt2ph14G9yWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato 2 badge ieri con il tuo Smartphone. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/8ch02g
+2013-09-21 10:31:49,517 INFO job.UnlockedAchievementProcessorJob - SMS to: yGeWdMJhwbKW/9hs4FUcZSWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge WRITER I. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/vbbj55
+2013-09-21 10:31:50,435 INFO job.UnlockedAchievementProcessorJob - SMS to: Byins0Vu8wQFKafQacQo3yWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge WRITER I. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/9wo586
+2013-09-21 10:31:51,109 INFO job.UnlockedAchievementProcessorJob - SMS to: kgCF9SuY452KEyJ3sfI6LCWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato 2 badge ieri con il tuo Smartphone. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/xuahrd
+2013-09-21 10:31:51,709 INFO job.UnlockedAchievementProcessorJob - SMS to: fTVNxgGPZNB57qABgPOhUCWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato 4 badge ieri con il tuo Smartphone. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/4c35rv
+2013-09-21 10:31:52,611 INFO job.UnlockedAchievementProcessorJob - SMS to: LQ1imIA6/o6UUTBHdf49tyWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge WRITER I. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/fq273o
+2013-09-21 10:31:53,358 INFO job.UnlockedAchievementProcessorJob - SMS to: TbEi/mMt9/mM4umUmY6PIiWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato 6 badge ieri con il tuo Smartphone. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/gyhgii
+2013-09-21 10:31:54,211 INFO job.UnlockedAchievementProcessorJob - SMS to: g4dGcLGGWuXHtTN37lgvFyWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato 2 badge ieri con il tuo Smartphone. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/nep6sr
+2013-09-21 10:31:54,937 INFO job.UnlockedAchievementProcessorJob - SMS to: 8talc8p10U0aIqTg0tGi1CWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato 4 badge ieri con il tuo Smartphone. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/t1ggqj
+2013-09-21 10:31:56,496 INFO job.UnlockedAchievementProcessorJob - SMS to: Ch2b/BQNEwZ86N8F0INYzSWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato 9 badge ieri con il tuo Smartphone. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/p9t2wf
+2013-09-21 10:31:56,497 INFO job.UnlockedAchievementProcessorJob - took: 116460
+2013-09-21 10:35:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 10:35:30,021 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 10:35:30,021 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 10:36:00,010 INFO job.CallBeanProcessorJob - Reading CallBean: 14
+2013-09-21 10:36:00,047 INFO job.CallBeanProcessorJob - took: 37
+2013-09-21 10:36:00,047 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 10:36:00,126 INFO job.CallBeanProcessorJob - Writing in mongo took: 79
+2013-09-21 10:40:00,051 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 10:40:30,057 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 10:40:30,058 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 10:45:00,013 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 10:45:30,020 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 10:45:30,020 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 10:48:00,012 INFO job.CallBeanProcessorJob - Reading CallBean: 21
+2013-09-21 10:48:00,084 INFO job.CallBeanProcessorJob - took: 72
+2013-09-21 10:48:00,085 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 10:48:00,221 INFO job.CallBeanProcessorJob - Writing in mongo took: 137
+2013-09-21 10:50:00,018 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 10:50:30,023 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 10:50:30,023 INFO job.NewbieUnlockedProcessorJob - took: 30005
+2013-09-21 10:55:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 10:55:30,022 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 10:55:30,022 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 11:00:00,011 INFO job.CallBeanProcessorJob - Reading CallBean: 0
+2013-09-21 11:00:00,011 INFO job.CallBeanProcessorJob - took: 0
+2013-09-21 11:00:00,011 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 11:00:00,012 INFO job.CallBeanProcessorJob - Writing in mongo took: 1
+2013-09-21 11:00:00,019 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 11:00:30,026 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 11:00:30,026 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 11:05:00,014 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 11:05:30,021 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 11:05:30,021 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 11:10:00,019 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 11:10:30,025 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 11:10:30,025 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 11:12:00,015 INFO job.CallBeanProcessorJob - Reading CallBean: 30
+2013-09-21 11:12:00,106 INFO job.CallBeanProcessorJob - took: 90
+2013-09-21 11:12:00,106 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 11:12:00,181 INFO job.CallBeanProcessorJob - Writing in mongo took: 75
+2013-09-21 11:15:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 11:15:30,021 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 11:15:30,022 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 11:20:00,021 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 11:20:30,027 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 11:20:30,027 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 11:24:00,012 INFO job.CallBeanProcessorJob - Reading CallBean: 20
+2013-09-21 11:24:00,081 INFO job.CallBeanProcessorJob - took: 69
+2013-09-21 11:24:00,081 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 11:24:00,182 INFO job.CallBeanProcessorJob - Writing in mongo took: 83
+2013-09-21 11:25:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 11:25:30,022 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 11:25:30,022 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 11:30:00,014 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 11:30:30,020 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 11:30:30,021 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 11:35:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 11:35:30,020 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 11:35:30,020 INFO job.NewbieUnlockedProcessorJob - took: 30005
+2013-09-21 11:36:00,014 INFO job.CallBeanProcessorJob - Reading CallBean: 27
+2013-09-21 11:36:00,090 INFO job.CallBeanProcessorJob - took: 76
+2013-09-21 11:36:00,090 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 11:36:00,209 INFO job.CallBeanProcessorJob - Writing in mongo took: 119
+2013-09-21 11:40:00,016 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 11:40:30,023 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 11:40:30,023 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 11:45:00,013 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 2
+2013-09-21 11:45:01,356 INFO job.NewbieUnlockedProcessorJob - SMS to: xr4Xy1jNsTkVuShexsmldyWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge NEWBIE. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/ffc5q8
+2013-09-21 11:45:02,172 INFO job.NewbieUnlockedProcessorJob - SMS to: D1A3WeF/4Q+r/eRgKzWppCWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge NEWBIE. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/qj5f03
+2013-09-21 11:45:32,178 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 11:45:32,179 INFO job.NewbieUnlockedProcessorJob - took: 32166
+2013-09-21 11:48:00,020 INFO job.CallBeanProcessorJob - Reading CallBean: 27
+2013-09-21 11:48:00,145 INFO job.CallBeanProcessorJob - took: 124
+2013-09-21 11:48:00,145 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 11:48:00,302 INFO job.CallBeanProcessorJob - Writing in mongo took: 157
+2013-09-21 11:50:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 11:50:30,022 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 11:50:30,023 INFO job.NewbieUnlockedProcessorJob - took: 30008
+2013-09-21 11:55:00,014 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 11:55:30,019 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 11:55:30,019 INFO job.NewbieUnlockedProcessorJob - took: 30005
+2013-09-21 12:00:00,008 INFO job.CallBeanProcessorJob - Reading CallBean: 0
+2013-09-21 12:00:00,008 INFO job.CallBeanProcessorJob - took: 0
+2013-09-21 12:00:00,008 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 12:00:00,008 INFO job.CallBeanProcessorJob - Writing in mongo took: 0
+2013-09-21 12:00:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 12:00:30,022 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 12:00:30,022 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 12:05:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 12:05:30,022 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 12:05:30,022 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 12:10:00,017 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 12:10:30,024 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 12:10:30,025 INFO job.NewbieUnlockedProcessorJob - took: 30008
+2013-09-21 12:12:00,011 INFO job.CallBeanProcessorJob - Reading CallBean: 19
+2013-09-21 12:12:00,062 INFO job.CallBeanProcessorJob - took: 51
+2013-09-21 12:12:00,062 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 12:12:00,173 INFO job.CallBeanProcessorJob - Writing in mongo took: 82
+2013-09-21 12:15:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 12:15:30,021 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 12:15:30,021 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 12:20:00,018 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 12:20:30,023 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 12:20:30,023 INFO job.NewbieUnlockedProcessorJob - took: 30005
+2013-09-21 12:24:00,012 INFO job.CallBeanProcessorJob - Reading CallBean: 25
+2013-09-21 12:24:00,097 INFO job.CallBeanProcessorJob - took: 85
+2013-09-21 12:24:00,097 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 12:24:00,273 INFO job.CallBeanProcessorJob - Writing in mongo took: 158
+2013-09-21 12:25:00,016 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 12:25:30,023 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 12:25:30,023 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 12:30:00,017 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 12:30:30,024 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 12:30:30,025 INFO job.NewbieUnlockedProcessorJob - took: 30008
+2013-09-21 12:35:00,014 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 12:35:30,020 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 12:35:30,020 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 12:36:00,017 INFO job.CallBeanProcessorJob - Reading CallBean: 44
+2013-09-21 12:36:00,119 INFO job.CallBeanProcessorJob - took: 102
+2013-09-21 12:36:00,119 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 12:36:00,280 INFO job.CallBeanProcessorJob - Writing in mongo took: 161
+2013-09-21 12:40:00,048 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 12:40:30,054 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 12:40:30,054 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 12:45:00,014 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 12:45:30,020 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 12:45:30,020 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 12:48:00,020 INFO job.CallBeanProcessorJob - Reading CallBean: 44
+2013-09-21 12:48:00,172 INFO job.CallBeanProcessorJob - took: 152
+2013-09-21 12:48:00,172 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 12:48:00,424 INFO job.CallBeanProcessorJob - Writing in mongo took: 252
+2013-09-21 12:50:00,014 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 12:50:30,020 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 12:50:30,020 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 12:55:00,014 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 12:55:30,022 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 12:55:30,022 INFO job.NewbieUnlockedProcessorJob - took: 30008
+2013-09-21 13:00:00,007 INFO job.CallBeanProcessorJob - Reading CallBean: 0
+2013-09-21 13:00:00,008 INFO job.CallBeanProcessorJob - took: 1
+2013-09-21 13:00:00,008 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 13:00:00,008 INFO job.CallBeanProcessorJob - Writing in mongo took: 0
+2013-09-21 13:00:00,018 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 13:00:30,023 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 13:00:30,024 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 13:05:00,014 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 13:05:30,020 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 13:05:30,020 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 13:10:00,018 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 13:10:30,024 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 13:10:30,024 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 13:12:00,017 INFO job.CallBeanProcessorJob - Reading CallBean: 45
+2013-09-21 13:12:00,150 INFO job.CallBeanProcessorJob - took: 133
+2013-09-21 13:12:00,150 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 13:12:00,403 INFO job.CallBeanProcessorJob - Writing in mongo took: 253
+2013-09-21 13:15:00,016 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 13:15:30,023 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 13:15:30,024 INFO job.NewbieUnlockedProcessorJob - took: 30008
+2013-09-21 13:20:00,014 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 13:20:30,020 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 13:20:30,020 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 13:24:00,014 INFO job.CallBeanProcessorJob - Reading CallBean: 28
+2013-09-21 13:24:03,276 INFO job.CallBeanProcessorJob - took: 3261
+2013-09-21 13:24:03,276 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 13:24:03,381 INFO job.CallBeanProcessorJob - Writing in mongo took: 105
+2013-09-21 13:25:00,013 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 13:25:30,019 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 13:25:30,019 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 13:30:00,016 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 13:30:30,021 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 13:30:30,022 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 13:35:00,013 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 13:35:30,020 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 13:35:30,020 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 13:36:00,013 INFO job.CallBeanProcessorJob - Reading CallBean: 34
+2013-09-21 13:36:00,084 INFO job.CallBeanProcessorJob - took: 71
+2013-09-21 13:36:00,084 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 13:36:00,185 INFO job.CallBeanProcessorJob - Writing in mongo took: 101
+2013-09-21 13:40:00,016 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 13:40:30,023 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 13:40:30,023 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 13:45:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 3
+2013-09-21 13:45:05,198 INFO job.NewbieUnlockedProcessorJob - SMS to: zy3ub7/LVEWFh7i0/+iF0CWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge NEWBIE. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/12bwlq
+2013-09-21 13:45:06,020 INFO job.NewbieUnlockedProcessorJob - SMS to: OjwXt1RTqGustHy/JlMhsyWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge NEWBIE. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/tvoqbh
+2013-09-21 13:45:06,868 INFO job.NewbieUnlockedProcessorJob - SMS to: 6soSr/WvIkYW+V60FkRVDiWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge NEWBIE. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/tv77fa
+2013-09-21 13:45:36,873 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 13:45:36,874 INFO job.NewbieUnlockedProcessorJob - took: 36859
+2013-09-21 13:48:00,017 INFO job.CallBeanProcessorJob - Reading CallBean: 34
+2013-09-21 13:48:00,101 INFO job.CallBeanProcessorJob - took: 84
+2013-09-21 13:48:00,101 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 13:48:00,260 INFO job.CallBeanProcessorJob - Writing in mongo took: 159
+2013-09-21 13:50:00,019 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 13:50:30,025 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 13:50:30,025 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 13:55:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 13:55:30,022 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 13:55:30,022 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 14:00:00,007 INFO job.CallBeanProcessorJob - Reading CallBean: 0
+2013-09-21 14:00:00,007 INFO job.CallBeanProcessorJob - took: 0
+2013-09-21 14:00:00,007 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 14:00:00,007 INFO job.CallBeanProcessorJob - Writing in mongo took: 0
+2013-09-21 14:00:00,014 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 14:00:30,022 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 14:00:30,022 INFO job.NewbieUnlockedProcessorJob - took: 30008
+2013-09-21 14:05:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 14:05:30,021 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 14:05:30,021 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 14:10:00,014 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 14:10:30,021 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 14:10:30,021 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 14:12:00,014 INFO job.CallBeanProcessorJob - Reading CallBean: 40
+2013-09-21 14:12:00,120 INFO job.CallBeanProcessorJob - took: 105
+2013-09-21 14:12:00,120 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 14:12:00,267 INFO job.CallBeanProcessorJob - Writing in mongo took: 147
+2013-09-21 14:15:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 14:15:30,022 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 14:15:30,022 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 14:20:00,014 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 14:20:30,021 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 14:20:30,022 INFO job.NewbieUnlockedProcessorJob - took: 30008
+2013-09-21 14:24:00,015 INFO job.CallBeanProcessorJob - Reading CallBean: 36
+2013-09-21 14:24:00,088 INFO job.CallBeanProcessorJob - took: 73
+2013-09-21 14:24:00,088 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 14:24:00,191 INFO job.CallBeanProcessorJob - Writing in mongo took: 103
+2013-09-21 14:25:00,014 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 14:25:30,020 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 14:25:30,020 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 14:30:00,014 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 14:30:30,021 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 14:30:30,021 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 14:35:00,017 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 14:35:30,023 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 14:35:30,023 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 14:36:00,013 INFO job.CallBeanProcessorJob - Reading CallBean: 34
+2013-09-21 14:36:00,085 INFO job.CallBeanProcessorJob - took: 72
+2013-09-21 14:36:00,085 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 14:36:00,216 INFO job.CallBeanProcessorJob - Writing in mongo took: 131
+2013-09-21 14:40:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 14:40:30,022 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 14:40:30,022 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 14:45:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 14:45:30,022 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 14:45:30,022 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 14:48:00,019 INFO job.CallBeanProcessorJob - Reading CallBean: 36
+2013-09-21 14:48:00,126 INFO job.CallBeanProcessorJob - took: 106
+2013-09-21 14:48:00,126 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 14:48:00,370 INFO job.CallBeanProcessorJob - Writing in mongo took: 243
+2013-09-21 14:50:00,019 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 14:50:30,024 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 14:50:30,025 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 14:55:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 14:55:30,021 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 14:55:30,021 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 15:00:00,011 INFO job.CallBeanProcessorJob - Reading CallBean: 0
+2013-09-21 15:00:00,011 INFO job.CallBeanProcessorJob - took: 0
+2013-09-21 15:00:00,011 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 15:00:00,011 INFO job.CallBeanProcessorJob - Writing in mongo took: 0
+2013-09-21 15:00:00,019 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 15:00:30,027 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 15:00:30,027 INFO job.NewbieUnlockedProcessorJob - took: 30008
+2013-09-21 15:05:00,018 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 15:05:30,025 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 15:05:30,025 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 15:10:00,016 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 15:10:30,022 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 15:10:30,022 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 15:12:00,015 INFO job.CallBeanProcessorJob - Reading CallBean: 27
+2013-09-21 15:12:00,092 INFO job.CallBeanProcessorJob - took: 77
+2013-09-21 15:12:00,092 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 15:12:00,264 INFO job.CallBeanProcessorJob - Writing in mongo took: 172
+2013-09-21 15:15:00,016 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 15:15:30,023 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 15:15:30,023 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 15:20:00,017 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 15:20:30,022 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 15:20:30,023 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 15:24:00,011 INFO job.CallBeanProcessorJob - Reading CallBean: 19
+2013-09-21 15:24:00,092 INFO job.CallBeanProcessorJob - took: 81
+2013-09-21 15:24:00,092 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 15:24:00,195 INFO job.CallBeanProcessorJob - Writing in mongo took: 103
+2013-09-21 15:25:00,016 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 15:25:30,023 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 15:25:30,023 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 15:30:00,017 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 15:30:30,024 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 15:30:30,024 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 15:35:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 15:35:30,022 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 15:35:30,022 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 15:36:00,015 INFO job.CallBeanProcessorJob - Reading CallBean: 29
+2013-09-21 15:36:00,072 INFO job.CallBeanProcessorJob - took: 57
+2013-09-21 15:36:00,072 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 15:36:00,232 INFO job.CallBeanProcessorJob - Writing in mongo took: 160
+2013-09-21 15:40:00,016 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 15:40:30,022 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 15:40:30,023 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 15:45:00,020 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 2
+2013-09-21 15:45:05,666 INFO job.NewbieUnlockedProcessorJob - SMS to: zy7XmuF2WlWkiWNI3lbdFyWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge NEWBIE. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/tfx8g7
+2013-09-21 15:45:06,633 INFO job.NewbieUnlockedProcessorJob - SMS to: YdhZw2Bqs2P1KKYQdkCagSWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge NEWBIE. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/515db8
+2013-09-21 15:45:36,639 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 15:45:36,639 INFO job.NewbieUnlockedProcessorJob - took: 36619
+2013-09-21 15:48:00,019 INFO job.CallBeanProcessorJob - Reading CallBean: 36
+2013-09-21 15:48:00,131 INFO job.CallBeanProcessorJob - took: 112
+2013-09-21 15:48:00,131 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 15:48:00,161 INFO job.CallBeanProcessorJob - Writing in mongo took: 30
+2013-09-21 15:50:00,017 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 15:50:30,024 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 15:50:30,024 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 15:55:00,016 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 15:55:30,022 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 15:55:30,023 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 16:00:00,008 INFO job.CallBeanProcessorJob - Reading CallBean: 0
+2013-09-21 16:00:00,008 INFO job.CallBeanProcessorJob - took: 0
+2013-09-21 16:00:00,008 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 16:00:00,008 INFO job.CallBeanProcessorJob - Writing in mongo took: 0
+2013-09-21 16:00:00,018 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 16:00:30,025 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 16:00:30,025 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 16:05:00,020 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 16:05:30,027 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 16:05:30,027 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 16:10:00,020 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 16:10:30,028 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 16:10:30,028 INFO job.NewbieUnlockedProcessorJob - took: 30008
+2013-09-21 16:12:00,013 INFO job.CallBeanProcessorJob - Reading CallBean: 24
+2013-09-21 16:12:00,077 INFO job.CallBeanProcessorJob - took: 64
+2013-09-21 16:12:00,077 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 16:12:00,114 INFO job.CallBeanProcessorJob - Writing in mongo took: 37
+2013-09-21 16:15:00,019 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 16:15:30,025 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 16:15:30,026 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 16:20:00,021 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 16:20:30,027 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 16:20:30,027 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 16:24:00,016 INFO job.CallBeanProcessorJob - Reading CallBean: 22
+2013-09-21 16:24:00,067 INFO job.CallBeanProcessorJob - took: 50
+2013-09-21 16:24:00,067 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 16:24:00,098 INFO job.CallBeanProcessorJob - Writing in mongo took: 31
+2013-09-21 16:25:00,018 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 16:25:30,024 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 16:25:30,024 INFO job.NewbieUnlockedProcessorJob - took: 30005
+2013-09-21 16:30:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 16:30:30,023 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 16:30:30,023 INFO job.NewbieUnlockedProcessorJob - took: 30008
+2013-09-21 16:35:00,016 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 16:35:30,023 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 16:35:30,024 INFO job.NewbieUnlockedProcessorJob - took: 30008
+2013-09-21 16:36:00,012 INFO job.CallBeanProcessorJob - Reading CallBean: 16
+2013-09-21 16:36:03,530 INFO job.CallBeanProcessorJob - took: 3518
+2013-09-21 16:36:03,530 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 16:36:03,546 INFO job.CallBeanProcessorJob - Writing in mongo took: 16
+2013-09-21 16:40:00,017 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 16:40:30,023 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 16:40:30,023 INFO job.NewbieUnlockedProcessorJob - took: 30005
+2013-09-21 16:45:00,017 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 16:45:30,023 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 16:45:30,023 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 16:48:00,013 INFO job.CallBeanProcessorJob - Reading CallBean: 20
+2013-09-21 16:48:00,079 INFO job.CallBeanProcessorJob - took: 66
+2013-09-21 16:48:00,079 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 16:48:00,116 INFO job.CallBeanProcessorJob - Writing in mongo took: 37
+2013-09-21 16:50:00,016 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 16:50:30,023 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 16:50:30,023 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 16:55:00,016 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 16:55:30,021 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 16:55:30,022 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 17:00:00,008 INFO job.CallBeanProcessorJob - Reading CallBean: 0
+2013-09-21 17:00:00,008 INFO job.CallBeanProcessorJob - took: 0
+2013-09-21 17:00:00,008 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 17:00:00,008 INFO job.CallBeanProcessorJob - Writing in mongo took: 0
+2013-09-21 17:00:00,018 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 17:00:30,024 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 17:00:30,025 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 17:05:00,012 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 17:05:30,018 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 17:05:30,018 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 17:10:00,018 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 17:10:30,023 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 17:10:30,023 INFO job.NewbieUnlockedProcessorJob - took: 30005
+2013-09-21 17:12:00,013 INFO job.CallBeanProcessorJob - Reading CallBean: 24
+2013-09-21 17:12:00,078 INFO job.CallBeanProcessorJob - took: 65
+2013-09-21 17:12:00,078 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 17:12:00,097 INFO job.CallBeanProcessorJob - Writing in mongo took: 19
+2013-09-21 17:15:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 17:15:30,023 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 17:15:30,023 INFO job.NewbieUnlockedProcessorJob - took: 30008
+2013-09-21 17:20:00,017 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 17:20:30,023 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 17:20:30,024 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 17:24:00,015 INFO job.CallBeanProcessorJob - Reading CallBean: 28
+2013-09-21 17:24:00,103 INFO job.CallBeanProcessorJob - took: 88
+2013-09-21 17:24:00,103 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 17:24:00,137 INFO job.CallBeanProcessorJob - Writing in mongo took: 34
+2013-09-21 17:25:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 17:25:30,020 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 17:25:30,020 INFO job.NewbieUnlockedProcessorJob - took: 30005
+2013-09-21 17:30:00,020 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 17:30:30,026 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 17:30:30,026 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 17:35:00,017 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 17:35:30,025 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 17:35:30,025 INFO job.NewbieUnlockedProcessorJob - took: 30008
+2013-09-21 17:36:00,013 INFO job.CallBeanProcessorJob - Reading CallBean: 21
+2013-09-21 17:36:00,063 INFO job.CallBeanProcessorJob - took: 50
+2013-09-21 17:36:00,063 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 17:36:00,082 INFO job.CallBeanProcessorJob - Writing in mongo took: 19
+2013-09-21 17:40:00,022 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 17:40:30,029 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 17:40:30,029 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 17:45:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 7
+2013-09-21 17:45:05,165 INFO job.NewbieUnlockedProcessorJob - SMS to: vGat2KaZ/veH+FH1zVrIiSWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge NEWBIE. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/684l42
+2013-09-21 17:45:06,076 INFO job.NewbieUnlockedProcessorJob - SMS to: J3EPrOVf16VkWv7DnL3UMyWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge NEWBIE. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/arsoml
+2013-09-21 17:45:07,157 INFO job.NewbieUnlockedProcessorJob - SMS to: 4Rg3pnyRS4kvgT1CFYve+iWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge NEWBIE. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/oiyeag
+2013-09-21 17:45:08,093 INFO job.NewbieUnlockedProcessorJob - SMS to: JJokbTQAz7OLP0foej9fFSWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge NEWBIE. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/jrx6a8
+2013-09-21 17:45:08,989 INFO job.NewbieUnlockedProcessorJob - SMS to: Gzi3XIohMS6gnrjMaE8zjCWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge NEWBIE. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/ay4ayg
+2013-09-21 17:45:10,005 INFO job.NewbieUnlockedProcessorJob - SMS to: i8nP5mkhIZh3rpyd3twbRiWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge NEWBIE. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/9ljs86
+2013-09-21 17:45:11,271 INFO job.NewbieUnlockedProcessorJob - SMS to: r/1PFSyMte+vT2Jx6tsMryWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge NEWBIE. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/rn5fcz
+2013-09-21 17:45:41,277 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 17:45:41,277 INFO job.NewbieUnlockedProcessorJob - took: 41262
+2013-09-21 17:48:00,018 INFO job.CallBeanProcessorJob - Reading CallBean: 37
+2013-09-21 17:48:00,136 INFO job.CallBeanProcessorJob - took: 117
+2013-09-21 17:48:00,136 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 17:48:00,168 INFO job.CallBeanProcessorJob - Writing in mongo took: 32
+2013-09-21 17:50:00,018 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 17:50:30,024 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 17:50:30,024 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 17:55:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 17:55:30,021 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 17:55:30,021 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 18:00:00,008 INFO job.CallBeanProcessorJob - Reading CallBean: 0
+2013-09-21 18:00:00,008 INFO job.CallBeanProcessorJob - took: 0
+2013-09-21 18:00:00,008 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 18:00:00,008 INFO job.CallBeanProcessorJob - Writing in mongo took: 0
+2013-09-21 18:00:00,018 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 18:00:30,025 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 18:00:30,025 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 18:05:00,017 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 18:05:30,023 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 18:05:30,024 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 18:10:00,020 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 18:10:30,026 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 18:10:30,027 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 18:12:00,014 INFO job.CallBeanProcessorJob - Reading CallBean: 30
+2013-09-21 18:12:00,088 INFO job.CallBeanProcessorJob - took: 74
+2013-09-21 18:12:00,088 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 18:12:00,116 INFO job.CallBeanProcessorJob - Writing in mongo took: 28
+2013-09-21 18:15:00,017 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 18:15:30,024 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 18:15:30,024 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 18:20:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 18:20:30,022 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 18:20:30,022 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 18:24:00,015 INFO job.CallBeanProcessorJob - Reading CallBean: 36
+2013-09-21 18:24:00,108 INFO job.CallBeanProcessorJob - took: 93
+2013-09-21 18:24:00,108 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 18:24:00,134 INFO job.CallBeanProcessorJob - Writing in mongo took: 26
+2013-09-21 18:25:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 18:25:30,021 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 18:25:30,022 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 18:30:00,016 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 18:30:30,022 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 18:30:30,022 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 18:35:00,020 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 18:35:30,026 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 18:35:30,026 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 18:36:00,019 INFO job.CallBeanProcessorJob - Reading CallBean: 39
+2013-09-21 18:36:00,110 INFO job.CallBeanProcessorJob - took: 91
+2013-09-21 18:36:00,110 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 18:36:00,137 INFO job.CallBeanProcessorJob - Writing in mongo took: 27
+2013-09-21 18:40:00,019 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 18:40:30,026 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 18:40:30,026 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 18:45:00,021 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 18:45:30,028 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 18:45:30,029 INFO job.NewbieUnlockedProcessorJob - took: 30008
+2013-09-21 18:48:00,016 INFO job.CallBeanProcessorJob - Reading CallBean: 37
+2013-09-21 18:48:00,128 INFO job.CallBeanProcessorJob - took: 111
+2013-09-21 18:48:00,128 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 18:48:00,159 INFO job.CallBeanProcessorJob - Writing in mongo took: 31
+2013-09-21 18:50:00,014 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 18:50:30,021 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 18:50:30,021 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 18:55:00,019 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 18:55:30,025 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 18:55:30,025 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 19:00:00,008 INFO job.CallBeanProcessorJob - Reading CallBean: 0
+2013-09-21 19:00:00,008 INFO job.CallBeanProcessorJob - took: 0
+2013-09-21 19:00:00,008 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 19:00:00,008 INFO job.CallBeanProcessorJob - Writing in mongo took: 0
+2013-09-21 19:00:00,017 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 19:00:30,024 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 19:00:30,024 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 19:05:00,016 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 19:05:30,024 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 19:05:30,024 INFO job.NewbieUnlockedProcessorJob - took: 30008
+2013-09-21 19:10:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 19:10:30,021 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 19:10:30,021 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 19:12:00,015 INFO job.CallBeanProcessorJob - Reading CallBean: 29
+2013-09-21 19:12:00,117 INFO job.CallBeanProcessorJob - took: 102
+2013-09-21 19:12:00,117 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 19:12:00,146 INFO job.CallBeanProcessorJob - Writing in mongo took: 29
+2013-09-21 19:15:00,018 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 19:15:30,024 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 19:15:30,024 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 19:20:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 19:20:30,020 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 19:20:30,021 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 19:24:00,018 INFO job.CallBeanProcessorJob - Reading CallBean: 40
+2013-09-21 19:24:00,130 INFO job.CallBeanProcessorJob - took: 112
+2013-09-21 19:24:00,131 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 19:24:00,170 INFO job.CallBeanProcessorJob - Writing in mongo took: 40
+2013-09-21 19:25:00,016 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 19:25:30,023 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 19:25:30,023 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 19:30:00,017 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 19:30:30,025 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 19:30:30,025 INFO job.NewbieUnlockedProcessorJob - took: 30008
+2013-09-21 19:35:00,016 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 19:35:30,023 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 19:35:30,023 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 19:36:00,024 INFO job.CallBeanProcessorJob - Reading CallBean: 61
+2013-09-21 19:36:00,188 INFO job.CallBeanProcessorJob - took: 164
+2013-09-21 19:36:00,188 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 19:36:00,227 INFO job.CallBeanProcessorJob - Writing in mongo took: 39
+2013-09-21 19:40:00,016 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 19:40:30,022 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 19:40:30,022 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 19:45:00,017 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 5
+2013-09-21 19:45:02,123 INFO job.NewbieUnlockedProcessorJob - SMS to: JQhgZ1/Iy1WKqZyDPTsrvCWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge NEWBIE. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/idsir0
+2013-09-21 19:45:03,698 INFO job.NewbieUnlockedProcessorJob - SMS to: eK6OmCXkYJ1m7Sy1XmaOoSWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge NEWBIE. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/diggn6
+2013-09-21 19:45:04,662 INFO job.NewbieUnlockedProcessorJob - SMS to: LkRqbEWGktYDHm5zIlx4GiWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge NEWBIE. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/7h2wz5
+2013-09-21 19:45:05,620 INFO job.NewbieUnlockedProcessorJob - SMS to: A2vgvRjwPcb9UCkzvR4G6iWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge NEWBIE. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/4u2d61
+2013-09-21 19:45:06,741 INFO job.NewbieUnlockedProcessorJob - SMS to: bRhEGylJWlUZ0mkxRZQgQSWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge NEWBIE. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/8tjo8v
+2013-09-21 19:45:36,747 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 19:45:36,747 INFO job.NewbieUnlockedProcessorJob - took: 36730
+2013-09-21 19:48:00,017 INFO job.CallBeanProcessorJob - Reading CallBean: 44
+2013-09-21 19:48:03,745 INFO job.CallBeanProcessorJob - took: 3728
+2013-09-21 19:48:03,745 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 19:48:03,771 INFO job.CallBeanProcessorJob - Writing in mongo took: 26
+2013-09-21 19:50:00,016 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 19:50:30,023 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 19:50:30,024 INFO job.NewbieUnlockedProcessorJob - took: 30008
+2013-09-21 19:55:00,020 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 19:55:30,025 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 19:55:30,025 INFO job.NewbieUnlockedProcessorJob - took: 30005
+2013-09-21 20:00:00,012 INFO job.CallBeanProcessorJob - Reading CallBean: 0
+2013-09-21 20:00:00,012 INFO job.CallBeanProcessorJob - took: 0
+2013-09-21 20:00:00,012 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 20:00:00,013 INFO job.CallBeanProcessorJob - Writing in mongo took: 1
+2013-09-21 20:00:00,019 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 20:00:30,025 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 20:00:30,025 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 20:05:00,017 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 20:05:30,023 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 20:05:30,023 INFO job.NewbieUnlockedProcessorJob - took: 30005
+2013-09-21 20:10:00,019 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 20:10:30,026 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 20:10:30,026 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 20:12:00,023 INFO job.CallBeanProcessorJob - Reading CallBean: 52
+2013-09-21 20:12:00,134 INFO job.CallBeanProcessorJob - took: 110
+2013-09-21 20:12:00,134 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 20:12:00,167 INFO job.CallBeanProcessorJob - Writing in mongo took: 33
+2013-09-21 20:15:00,020 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 20:15:30,027 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 20:15:30,027 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 20:20:00,016 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 20:20:30,021 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 20:20:30,021 INFO job.NewbieUnlockedProcessorJob - took: 30005
+2013-09-21 20:24:00,016 INFO job.CallBeanProcessorJob - Reading CallBean: 38
+2013-09-21 20:24:00,097 INFO job.CallBeanProcessorJob - took: 81
+2013-09-21 20:24:00,097 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 20:24:00,151 INFO job.CallBeanProcessorJob - Writing in mongo took: 54
+2013-09-21 20:25:00,017 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 20:25:30,023 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 20:25:30,024 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 20:30:00,014 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 20:30:30,022 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 20:30:30,022 INFO job.NewbieUnlockedProcessorJob - took: 30008
+2013-09-21 20:35:00,016 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 20:35:30,023 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 20:35:30,023 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 20:36:00,020 INFO job.CallBeanProcessorJob - Reading CallBean: 50
+2013-09-21 20:36:00,139 INFO job.CallBeanProcessorJob - took: 119
+2013-09-21 20:36:00,139 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 20:36:00,163 INFO job.CallBeanProcessorJob - Writing in mongo took: 24
+2013-09-21 20:40:00,146 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 20:40:30,151 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 20:40:30,152 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 20:45:00,017 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 20:45:30,023 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 20:45:30,023 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 20:48:00,015 INFO job.CallBeanProcessorJob - Reading CallBean: 32
+2013-09-21 20:48:00,101 INFO job.CallBeanProcessorJob - took: 86
+2013-09-21 20:48:00,101 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 20:48:00,133 INFO job.CallBeanProcessorJob - Writing in mongo took: 32
+2013-09-21 20:50:00,016 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 20:50:30,023 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 20:50:30,023 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 20:55:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 20:55:30,022 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 20:55:30,023 INFO job.NewbieUnlockedProcessorJob - took: 30008
+2013-09-21 21:00:00,006 INFO job.CallBeanProcessorJob - Reading CallBean: 0
+2013-09-21 21:00:00,006 INFO job.CallBeanProcessorJob - took: 0
+2013-09-21 21:00:00,007 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 21:00:00,007 INFO job.CallBeanProcessorJob - Writing in mongo took: 1
+2013-09-21 21:00:00,016 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 21:00:30,022 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 21:00:30,022 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 21:05:00,014 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 21:05:30,020 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 21:05:30,020 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 21:10:00,016 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 21:10:30,023 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 21:10:30,023 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 21:12:00,017 INFO job.CallBeanProcessorJob - Reading CallBean: 41
+2013-09-21 21:12:00,115 INFO job.CallBeanProcessorJob - took: 98
+2013-09-21 21:12:00,115 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 21:12:00,151 INFO job.CallBeanProcessorJob - Writing in mongo took: 36
+2013-09-21 21:15:00,020 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 21:15:30,027 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 21:15:30,027 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 21:20:00,018 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 21:20:30,025 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 21:20:30,025 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 21:24:00,018 INFO job.CallBeanProcessorJob - Reading CallBean: 47
+2013-09-21 21:24:00,122 INFO job.CallBeanProcessorJob - took: 104
+2013-09-21 21:24:00,122 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 21:24:00,150 INFO job.CallBeanProcessorJob - Writing in mongo took: 28
+2013-09-21 21:25:00,017 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 21:25:30,023 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 21:25:30,023 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 21:30:00,023 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 21:30:30,029 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 21:30:30,030 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 21:35:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 21:35:30,023 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 21:35:30,024 INFO job.NewbieUnlockedProcessorJob - took: 30009
+2013-09-21 21:36:00,016 INFO job.CallBeanProcessorJob - Reading CallBean: 31
+2013-09-21 21:36:00,080 INFO job.CallBeanProcessorJob - took: 64
+2013-09-21 21:36:00,080 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 21:36:00,110 INFO job.CallBeanProcessorJob - Writing in mongo took: 30
+2013-09-21 21:40:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 21:40:30,023 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 21:40:30,023 INFO job.NewbieUnlockedProcessorJob - took: 30008
+2013-09-21 21:45:00,016 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 2
+2013-09-21 21:45:04,901 INFO job.NewbieUnlockedProcessorJob - SMS to: AfUPNL/A1dIEy9YU2RH7USWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge NEWBIE. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/r2vc5k
+2013-09-21 21:45:06,220 INFO job.NewbieUnlockedProcessorJob - SMS to: h5FhMLyRnc8y/OUxp80UASWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge NEWBIE. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/tyfnsn
+2013-09-21 21:45:36,225 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 21:45:36,226 INFO job.NewbieUnlockedProcessorJob - took: 36210
+2013-09-21 21:48:00,013 INFO job.CallBeanProcessorJob - Reading CallBean: 29
+2013-09-21 21:48:00,094 INFO job.CallBeanProcessorJob - took: 81
+2013-09-21 21:48:00,094 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 21:48:00,115 INFO job.CallBeanProcessorJob - Writing in mongo took: 21
+2013-09-21 21:50:00,014 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 21:50:30,020 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 21:50:30,020 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 21:55:00,017 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 21:55:30,022 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 21:55:30,022 INFO job.NewbieUnlockedProcessorJob - took: 30005
+2013-09-21 22:00:00,007 INFO job.CallBeanProcessorJob - Reading CallBean: 0
+2013-09-21 22:00:00,007 INFO job.CallBeanProcessorJob - took: 0
+2013-09-21 22:00:00,007 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 22:00:00,007 INFO job.CallBeanProcessorJob - Writing in mongo took: 0
+2013-09-21 22:00:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 22:00:30,021 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 22:00:30,022 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 22:05:00,016 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 22:05:30,022 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 22:05:30,023 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 22:10:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 22:10:30,022 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 22:10:30,022 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 22:12:00,015 INFO job.CallBeanProcessorJob - Reading CallBean: 32
+2013-09-21 22:12:00,075 INFO job.CallBeanProcessorJob - took: 59
+2013-09-21 22:12:00,075 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 22:12:00,106 INFO job.CallBeanProcessorJob - Writing in mongo took: 31
+2013-09-21 22:15:00,016 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 22:15:30,021 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 22:15:30,022 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 22:20:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 22:20:30,021 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 22:20:30,021 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 22:24:00,014 INFO job.CallBeanProcessorJob - Reading CallBean: 26
+2013-09-21 22:24:00,078 INFO job.CallBeanProcessorJob - took: 64
+2013-09-21 22:24:00,078 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 22:24:00,105 INFO job.CallBeanProcessorJob - Writing in mongo took: 27
+2013-09-21 22:25:00,014 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 22:25:30,021 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 22:25:30,021 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 22:30:00,014 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 22:30:30,018 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 22:30:30,019 INFO job.NewbieUnlockedProcessorJob - took: 30005
+2013-09-21 22:35:00,017 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 22:35:30,023 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 22:35:30,023 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 22:36:00,012 INFO job.CallBeanProcessorJob - Reading CallBean: 26
+2013-09-21 22:36:00,073 INFO job.CallBeanProcessorJob - took: 61
+2013-09-21 22:36:00,073 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 22:36:00,102 INFO job.CallBeanProcessorJob - Writing in mongo took: 29
+2013-09-21 22:40:00,021 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 22:40:30,028 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 22:40:30,028 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 22:45:00,029 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 22:45:30,036 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 22:45:30,037 INFO job.NewbieUnlockedProcessorJob - took: 30008
+2013-09-21 22:48:00,013 INFO job.CallBeanProcessorJob - Reading CallBean: 21
+2013-09-21 22:48:00,091 INFO job.CallBeanProcessorJob - took: 77
+2013-09-21 22:48:00,091 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 22:48:00,116 INFO job.CallBeanProcessorJob - Writing in mongo took: 25
+2013-09-21 22:50:00,014 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 22:50:30,020 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 22:50:30,020 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 22:55:00,014 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 22:55:30,021 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 22:55:30,021 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 23:00:00,007 INFO job.CallBeanProcessorJob - Reading CallBean: 0
+2013-09-21 23:00:00,007 INFO job.CallBeanProcessorJob - took: 0
+2013-09-21 23:00:00,007 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 23:00:00,008 INFO job.CallBeanProcessorJob - Writing in mongo took: 1
+2013-09-21 23:00:00,018 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 23:00:30,024 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 23:00:30,024 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 23:05:00,016 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 23:05:30,023 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 23:05:30,023 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 23:10:00,016 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 23:10:30,023 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 23:10:30,023 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 23:12:00,014 INFO job.CallBeanProcessorJob - Reading CallBean: 25
+2013-09-21 23:12:03,707 INFO job.CallBeanProcessorJob - took: 3693
+2013-09-21 23:12:03,707 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 23:12:03,727 INFO job.CallBeanProcessorJob - Writing in mongo took: 20
+2013-09-21 23:15:00,018 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 23:15:30,024 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 23:15:30,025 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 23:20:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 23:20:30,021 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 23:20:30,021 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 23:24:00,010 INFO job.CallBeanProcessorJob - Reading CallBean: 12
+2013-09-21 23:24:00,035 INFO job.CallBeanProcessorJob - took: 24
+2013-09-21 23:24:00,036 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 23:24:00,055 INFO job.CallBeanProcessorJob - Writing in mongo took: 20
+2013-09-21 23:25:00,013 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 23:25:30,020 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 23:25:30,020 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 23:30:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 23:30:30,022 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 23:30:30,023 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 23:35:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 23:35:30,020 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 23:35:30,020 INFO job.NewbieUnlockedProcessorJob - took: 30005
+2013-09-21 23:36:00,011 INFO job.CallBeanProcessorJob - Reading CallBean: 18
+2013-09-21 23:36:00,053 INFO job.CallBeanProcessorJob - took: 41
+2013-09-21 23:36:00,053 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 23:36:00,078 INFO job.CallBeanProcessorJob - Writing in mongo took: 25
+2013-09-21 23:40:00,015 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 23:40:30,021 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 23:40:30,022 INFO job.NewbieUnlockedProcessorJob - took: 30006
+2013-09-21 23:45:00,017 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 6
+2013-09-21 23:45:01,643 INFO job.NewbieUnlockedProcessorJob - SMS to: u4hwFXfX+83SKdAW/qa/NCWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge NEWBIE. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/v584i2
+2013-09-21 23:45:02,842 INFO job.NewbieUnlockedProcessorJob - SMS to: rdLVcShbF6z/XyXQFlFwjCWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge NEWBIE. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/nmi8xr
+2013-09-21 23:45:03,934 INFO job.NewbieUnlockedProcessorJob - SMS to: WjyAFrDpseirJfVjF93ffiWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge NEWBIE. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/hyiwlx
+2013-09-21 23:45:04,845 INFO job.NewbieUnlockedProcessorJob - SMS to: 1033d2OqFf0+1Akd2ssi4yWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge NEWBIE. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/b9gvnk
+2013-09-21 23:45:05,737 INFO job.NewbieUnlockedProcessorJob - SMS to: udIDmB3Aa8+GX6C76SzptyWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge NEWBIE. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/banyc4
+2013-09-21 23:45:06,978 INFO job.NewbieUnlockedProcessorJob - SMS to: mpj+Zr6hhl2Eab+ccpVrKSWNjoQU7dDZmlcMTJ4WeJ8= - Vodafone Be! Hai sbloccato il badge NEWBIE. Scopri subito quanti Bedollars hai guadagnato! http://voda.it/kvjj1i
+2013-09-21 23:45:36,984 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 23:45:36,984 INFO job.NewbieUnlockedProcessorJob - took: 36967
+2013-09-21 23:48:00,010 INFO job.CallBeanProcessorJob - Reading CallBean: 11
+2013-09-21 23:48:00,057 INFO job.CallBeanProcessorJob - took: 47
+2013-09-21 23:48:00,058 INFO job.CallBeanProcessorJob - Flush cache in mongo
+2013-09-21 23:48:00,066 INFO job.CallBeanProcessorJob - Writing in mongo took: 9
+2013-09-21 23:50:00,020 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 23:50:30,027 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 23:50:30,027 INFO job.NewbieUnlockedProcessorJob - took: 30007
+2013-09-21 23:55:00,014 INFO job.NewbieUnlockedProcessorJob - Reading UnlockedAchievementBean: NEWBIE 0
+2013-09-21 23:55:30,020 INFO job.NewbieUnlockedProcessorJob - awaiting termination, false
+2013-09-21 23:55:30,020 INFO job.NewbieUnlockedProcessorJob - took: 30006
