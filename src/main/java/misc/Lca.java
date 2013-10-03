@@ -13,6 +13,13 @@ package misc;
 
 public class Lca {
 
+    public static void main(String[] args){
+        
+        
+        
+    }
+    
+    
     float AdjustmentFactor = 0.05f;
     float liquidityWeight ;
     float liquidityFloor = 10f;

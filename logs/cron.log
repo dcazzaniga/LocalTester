@@ -1,4 +1,0 @@
-130319094857 2013-03-19 09:48:57,004 INFO CRON - java.lang.ArrayIndexOutOfBoundsException: 3
-130319094857 2013-03-19 09:48:57,047 INFO CRON - java.lang.NullPointerException
-130319095555 2013-03-19 09:55:55,108 INFO CRON - java.lang.ArrayIndexOutOfBoundsException: 3
-130319100012 2013-03-19 10:00:12,820 INFO CRON - java.lang.NullPointerException

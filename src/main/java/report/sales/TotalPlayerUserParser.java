@@ -39,7 +39,7 @@ public class TotalPlayerUserParser implements Serializable {
     private int totPlayers;
     private int totMaus=0;
     private int totUsers;
-    private int activePlayers = 74701983;
+    private int activePlayers = 79475365;
     private int activeUsers;
     private int dailyActivePlayers;
     private int dailyActiveUsers;

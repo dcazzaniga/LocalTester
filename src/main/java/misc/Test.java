@@ -1,21 +1,9 @@
 package misc;
 
-import com.amazonaws.http.HttpResponse;
-import com.beintoo.commons.bean.RankingBean;
 import com.beintoo.commons.bean.UserLevelBean;
-import com.beintoo.commons.database.AdminReportEngine;
-import com.beintoo.commons.enums.AppTypeEnum;
 import com.beintoo.commons.enums.GoogleAnalyticsTrackerEnum;
-import com.beintoo.commons.enums.RankingDirectionEnum;
-import com.beintoo.commons.enums.RankingMethodEnum;
 import com.beintoo.commons.enums.UserLevelEnum;
-import com.beintoo.commons.enums.VgoodExternalProviderType;
-import com.beintoo.commons.helper.AppHelper;
-import com.beintoo.commons.helper.VgoodHelper;
-import com.beintoo.commons.util.ConfigPath;
 import com.beintoo.commons.util.GeoCountries;
-import com.beintoo.commons.util.RankingUtil;
-import com.beintoo.entities.App;
 import com.beintoo.entities.User;
 import java.io.*;
 import java.net.MalformedURLException;
@@ -32,10 +20,7 @@ import javax.persistence.Persistence;
 import javax.persistence.Query;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
-import locator.CountryMap;
 import locator.WorldMap;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.impl.client.DefaultHttpClient;
 
 
 
@@ -276,7 +261,7 @@ public class Test {
 
     }
 
-    
+
     private static void correctorISOCOUNTRY_2() {
 
 
