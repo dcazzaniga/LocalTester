@@ -26,14 +26,13 @@ public class Tester {
         System.out.println(
         UUID.randomUUID().toString());
         
+        for(int i = 0; i<5; i++){
+            System.out.println(""+RandomStringUtils.randomAlphanumeric(40));
+        }
         
-        System.out.println(""+RandomStringUtils.randomAlphanumeric(40));
         
-        int[] test = {0,0};
         
-        test[0] ++;
         
-        System.out.println(""+ ++test[0] );
         
 //        Lca lca = new Lca();
 //
