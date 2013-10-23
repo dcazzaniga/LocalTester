@@ -64,8 +64,8 @@ public class TotalPlayerUserParser implements Serializable {
         
         TotalPlayerUserParser tpup = null;
         try {
-            Date from = sdf.parse("2013-06-30");
-            Date to = sdf.parse("2013-07-31");
+            Date from = sdf.parse("2013-08-01");
+            Date to = sdf.parse("2013-08-31");
             try{
                 FileInputStream fis = new FileInputStream(ConfigPath.getConfigPath() +
                         "/TotalPlayerUserParser"+sdf.format(new Date()));
