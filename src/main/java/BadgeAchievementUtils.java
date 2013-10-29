@@ -29,13 +29,12 @@ public class BadgeAchievementUtils {
 
     public static void main(String[] args) throws Exception {
 
-        //corrector();
+       corrector("20131024");
         
-       computeAverage(Calendar.DAY_OF_YEAR);
+       //computeAverage(Calendar.DAY_OF_YEAR);
         
         
     }
-
     
     public static void computeAverage(int calendarInt) throws FileNotFoundException, UnsupportedEncodingException, IOException{
         EntityManager em = Persistence.createEntityManagerFactory("BeintooEntitiesPU_LOCAL_LOCALHOST").createEntityManager();
@@ -110,22 +109,23 @@ public class BadgeAchievementUtils {
         
     }
     
-    public static void corrector() throws FileNotFoundException, UnsupportedEncodingException, IOException{
+    public static void corrector(String data) throws FileNotFoundException, UnsupportedEncodingException, IOException{
         EntityManager em = Persistence.createEntityManagerFactory("BeintooEntitiesPU_LOCAL_LOCALHOST").createEntityManager();
          
         Map<String, String> guidAidext = getVodaPlayer();
         Map<String, String> guid5guid = getVodaPlayerSubstring();
         System.out.println("---------------------------------- "+guid5guid.size()+" PLAYERS");
-        HashMap<String, ArrayList<String>> unlocked = getUnlocked();
+        HashMap<String, ArrayList<String>> unlocked = getUnlocked(data);
         System.out.println("---------------------------------- "+unlocked.size()+" GUIDs");
         
         
-        FileOutputStream fos = new FileOutputStream("parsedGuid",true);
+        FileOutputStream fos = new FileOutputStream("parsedGuid."+data,true);
         OutputStreamWriter out = new OutputStreamWriter(fos, "UTF-8");
         
-        List<String> parsed = getAlreadyParsed("parsedGuid");
+        List<String> parsed = getAlreadyParsed("parsedGuid."+data);
         int i = 0;
         for (String guid5 : unlocked.keySet()) {
+            System.out.println("NUMBER:"+i);
             if(parsed.contains(guid5)){
                 continue;
             }
@@ -159,10 +159,10 @@ public class BadgeAchievementUtils {
                         ApiConnector.getInstance().doUpdateAchievement(guid, extId);
                     }
                 }
-                
+                i++;
                 out.write(guid5+"\n");
-                if(i++ == 200)
-                    break;
+                out.flush();
+                
             } catch (Exception e) {
                 e.printStackTrace();
             }
@@ -172,7 +172,7 @@ public class BadgeAchievementUtils {
         out.close();
     }
     
-    public static HashMap<String, ArrayList<String>> getUnlocked() {
+    public static HashMap<String, ArrayList<String>> getUnlocked(String data) {
         HashMap<String, ArrayList<String>> guidBadge = new HashMap<String, ArrayList<String>>();
         try {
             FileInputStream fis = null;
@@ -180,7 +180,7 @@ public class BadgeAchievementUtils {
             BufferedReader buf = null;
             String line = "";
             try {
-                fis = new FileInputStream("SAILOR_I");
+                fis = new FileInputStream("unlocked."+data);
                 isr = new InputStreamReader(fis);
                 buf = new BufferedReader(isr);
                 while ((line = buf.readLine()) != null) {
